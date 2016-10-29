@@ -1,0 +1,32 @@
+The previous subsection demonstrated that operating in a derated state can significantly reduce the structural loading and rotor overspeeds experienced by a turbine. However, the control scheme proposed in this chapter uses selective derating. In this control scheme the turbine will be derated when reductions in loading and rotor speed are necessary, but the turbine will operate normally when those reductions are not needed. To implement this control scheme we must understand how the turbine behaves while it is transitioning into and out of derated operation. This subsection examines the transient behavior of the turbine during these transitions and how undesireable transient behavior can be mitigated.
+
+ When the rating of a turbine is abruptly changed the turbine exhibits undesireable transient behavior. This transient behavior is illustrated by Figures \ref{fig4-10} through \ref{fig4-12}. The figures show a test case in shich the turbine operates in a steady, uniform 16 m/s wind. At 100 seconds the turbine is abruptly derated by 20/%, then at 200 seconds the turbine is abruptly returned to it's full rating. A 20/% derating corresponds to a rotor speed reduction from 12.1 RPM to 9.68 RPM. In Figure \ref{fig4-10} we see that when the turbine is abruptly derated the rotor undershoots the desired rotor speed by 0.94 RPM then oscillates before settling to within 2/% of the the desired rotor speed at approximately 130 seconds. When the turbine is abruptly returned to full rating it exhibits similar behavior, overshooting the desired rotor speed by 1.62 RPM (a 13.4/% overshoot) before oscillating and settling to within 2/% of the desired rotor speed at aproximately 230 seconds. 
+ 
+ The tower fore-aft bending moment also exhibits undesireable oscillations with settling times of approximately 30 seconds (Figure \ref{fig4-11 }). These oscillations apear to have both a higher frequency component and a lower frequency component. The higher frequency oscillation (~2 rad/s) corresponds to the first natural frequency of the tower. The lower frequency oscillation is caused by oscillations in the collective blade pitch. When the turbine's collective pitch controller reduces the blade pitch, in order to increase aerodynamic rotor torque and increase the rotor speed, it also increases the aerodynamic thrust on the rotor, which increases the fore-aft tower moment. Similarly, when the collective pitch controller increases blade pitch it reduces the fore-aft tower moment. 
+ 
+ As Figure \ref{fig4-12} shows, the blade root bending moment also exhibits undesireable transient behavior when the turbine abruptly transitions into or out of derated operation. However, the cyclic nature of the blade root loading makes it difficult to discern the frequency or settling time of the transient behavior. Undesireable oscillations, like those shown in figures \ref{fig4-10} through \ref{fig4-12}, were seen at all wind speeds.
+ 
+We can reduce the excitation of undesireable oscillations by using a smoother transition into and out of derated operation. One was to smooth the transition is to pass derating commands through a low pass filter like the one described by the transfer function shown below (Equation \ref{eq4-??}). This low pass filter behaves dnamically like a critically damped second order system with two poles at -P_{DRFilt}. This filter turns an abrupt derating comand into a smoother transition, as seen in Figure \ref{fig4-13}. The 98/% settling time of the filtered command is determined by the value of P_{DRFilt} and is given by T_s = 5.8/*P_{DRFilt}.
+
+Choosing P_{DRFilt} = 0.2 gives filtered command settling time of 29.5 seconds, which is approximately equal to the settling time of the transient oscillations caused by abrupt changes in turbine rating. As Figures \ref{fig4-14} through \ref{fig4-16} show, using this filtered command to transition into and out of derated operation results in improved transient behavior while maintaining the same settling time. In figure \ref{fig4-14} we see that the filter eliminates the oscillations, overshoots, and undershoots in rotor speed. In Figure \ref{fig4-15} we see that the filter eliminates the higher frequency oscillation. The lower frequency oscillation, caused by variations in the collective pitch angle, are still present but have reduced in magnitude. In figure \ref{fig4-16} we see that the filter also improves transient behavior in the blade root bending moment.
+
+
+In general, lengthening the settling time of the filter reduces undesireable transient oscillations and reduces the magnitude of any overshoots or peak loads associated with transitioning into or out of derated operation. Figures \ref{fig4-17} through \ref{fig4-19} show the relationship between filter settling time and the maximum overshoots observed in the derating transition simulations. In practice the settling time length would be limited by the time it takes a gust of wind to travel from the upwind turbine to the downwind turbine. This time will depend on both the wind speed and the layout of the wind farm, however, some simple calculations can be made to help choose a reasonable filter settling time. The NREL 5MW turbine has a rotor diameter of 126 meters. If the turbines are spaced 10 rotor diameters appart then in 12 m/s wind, the wind speed at which loads are highes and this control scheme would likely be most benneficial, a gust would travel between turbines in approximately 105 seconds. In 25 m/s wind, the highest wind speed in which the NREL 5MW turbine will operate at all, the gust would travel between turbines in approximately 50 seconds. If the turbines are spaced 5 rotor diameters appart then a gust would travel between turbines in approximately 53 seconds for 12 m/s wind and in approximately 25 seconds for 25 m/s wind. 
+
+A low pass filter, given by equation \ref{eq4_1} with P_{filter} = 0.2, will be used to smooth the turbine transitions into and out of derated operation.  P_{DRFilt} = 0.2 corresponds to a filter settling time of 29.5 seconds. Though this filter could potentially cause problems for tightly packed turbines in very high wind speeds a filter settling time of 29.5 seconds would be practical for almost all operating conditions of the NREL 5MW turbine. As seen above, this filter also gives very good transient behavior when the turbine transitions into and out of derated operation. 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 

@@ -1,0 +1,354 @@
+\begin{thebibliography}{55}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Sawyer and Rave(2012)]{sawyer2012}
+Steve Sawyer and Klaus Rave.
+\newblock Global wind report--annual market update 2012.
+\newblock \emph{GWEC, Global Wind Energy Council}, 2012.
+
+\bibitem[Jonkman et~al.(2009)Jonkman, Butterfield, Musial, and
+  Scott]{jonkman2009}
+J.M. Jonkman, S.~Butterfield, W.~Musial, and G.~Scott.
+\newblock Definition of a 5-mw reference wind turbine for offshore system
+  development.
+\newblock Technical report, National Renewable Energy Laboratory, 2009.
+
+\bibitem[Berg et~al.(2012)Berg, Berg, and White]{berg2012}
+Jonathan Berg, Dale Berg, and Jon White.
+\newblock Fabrication, integration and initial testing of a smart rotor.
+\newblock In \emph{Proceedings of the 50th AIAA Aerospace Sciences Meeting,
+  Nashville, Tennessee}, 2012.
+
+\bibitem[Schlipf et~al.(2011{\natexlab{a}})Schlipf, Bossanyi, Carcangiu,
+  Fischer, Maul, and Rossetti]{schlipf2011}
+David Schlipf, Ervin Bossanyi, Carlo~Enrico Carcangiu, Tim Fischer, Timo Maul,
+  and Michele Rossetti.
+\newblock Lidar assisted collective pitch control.
+\newblock Technical report, ProjectUpwind, 2011{\natexlab{a}}.
+
+\bibitem[B.J.Jonkman and Buhl(2012)]{jonkman2012}
+B.J.Jonkman and M.~Buhl.
+\newblock Turbsim user's guide.
+\newblock Technical report, National Renewable Energy Laboratory, 2012.
+
+\bibitem[NWT(2013)]{NWTC2013}
+2013.
+
+\bibitem[Williams et~al.(2012)Williams, Hensley, and Salerno]{williams2012}
+E~Williams, J~Hensley, and E~Salerno.
+\newblock Awea us wind industry annual market report year ending 2012.
+\newblock \emph{AWEA, Washington, DC}, 2012.
+
+\bibitem[ren(2011)]{ren212011}
+Renewables 2011 global status report.
+\newblock Technical report, REN21, 2011.
+
+\bibitem[Burton et~al.(2011)Burton, Jenkins, Sharpe, and Bossanyi]{burton2011}
+T.~Burton, N.~Jenkins, D.~Sharpe, and E.~Bossanyi.
+\newblock \emph{Wind Energy Handbook, Second Edition}.
+\newblock John Wiley and Sons, 2011.
+
+\bibitem[Larsen et~al.(2005)Larsen, Madsen, and Thomsen]{larsen2005}
+Torben~Juul Larsen, Helge~A Madsen, and Kenneth Thomsen.
+\newblock Active load reduction using individual pitch, based on local blade
+  flow measurements.
+\newblock \emph{Wind Energy}, 8\penalty0 (1):\penalty0 67--80, 2005.
+
+\bibitem[Bossanyi(2004)]{bossanyi2004}
+EA~Bossanyi.
+\newblock Developments in individual blade pitch control.
+\newblock In \emph{Proceedings of ``the Science of Making Torque from Wind''
+  Conference}, pages 486--497, 2004.
+
+\bibitem[Van~Dam et~al.(2008)Van~Dam, Berg, and Johnson]{vandam2008}
+CP~Van~Dam, Dale~E Berg, and Scott~J Johnson.
+\newblock Active load control techniques for wind turbines.
+\newblock Technical report, Sandia National Laboratories, 2008.
+
+\bibitem[GE2(2009)]{GE2009}
+\emph{GE Energy 1.5 MW Wind Turbine Brochure}, 2009.
+
+\bibitem[Manjock(2005)]{manjock2005}
+A.~Manjock.
+\newblock Evaluation report, design codes fast and adams for load calculation
+  of onshore wind turbines.
+\newblock *, Germanischer Lloyd WindEnergie GmbH, 2005.
+
+\bibitem[{\O}stergaard et~al.(2007){\O}stergaard, Brath, and
+  Stoustrup]{ostergaard2007}
+K.~Z. {\O}stergaard, P.~Brath, and J.~Stoustrup.
+\newblock Estimation of effective wind speed.
+\newblock \emph{Journal of Physics: Conference Series 75}, 2007.
+
+\bibitem[Van~der Hooft and Van~Engelen(2004)]{vanderhooft2004}
+EL~Van~der Hooft and TG~Van~Engelen.
+\newblock Estimated wind speed feed forward control for wind turbine operation
+  optimisation.
+\newblock In \emph{Proceedings of European Wind Energy Conference in London,
+  UK}, 2004.
+
+\bibitem[Schlipf(2014)]{schlipf2014}
+David Schlipf.
+\newblock Lidar assisted control of wind turbines.
+\newblock \emph{Struttgart Wind Energy. Universitat Stuttgart}, 2014.
+
+\bibitem[Platt and Buhl~Jr(2012)]{platt2012}
+AD~Platt and ML~Buhl~Jr.
+\newblock Wt \_ perf user guide for version 3. 05. 00.
+\newblock Technical report, National Renewable Energy Laboratory, 2012.
+
+\bibitem[Taylor(1938)]{taylor1938}
+Geoffrey~Ingram Taylor.
+\newblock The spectrum of turbulence.
+\newblock In \emph{Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, volume 164, pages 476--490. The Royal
+  Society, 1938.
+
+\bibitem[Dennis and Nickels(2008)]{dennis2008}
+David~JC Dennis and Timothy~B Nickels.
+\newblock On the limitations of taylor's hypothesis in constructing long
+  structures in a turbulent boundary layer.
+\newblock \emph{Journal of Fluid Mechanics}, 614:\penalty0 197--206, 2008.
+
+\bibitem[Goldschmidt et~al.(1981)Goldschmidt, Young, and Ott]{goldschmidt1981}
+VW~Goldschmidt, MF~Young, and ES~Ott.
+\newblock Turbulent convective velocities (broadband and wavenumber dependent)
+  in a plane jet.
+\newblock \emph{Journal of Fluid Mechanics}, 105:\penalty0 327--345, 1981.
+
+\bibitem[Del~Alamo and Jim{\'e}nez(2009)]{delalamo2009}
+Juan~C Del~Alamo and Javier Jim{\'e}nez.
+\newblock Estimation of turbulent convection velocities and corrections to
+  taylor's approximation.
+\newblock \emph{Journal of Fluid Mechanics}, 640:\penalty0 5--26, 2009.
+
+\bibitem[Atkinson et~al.(2015)Atkinson, Buchmann, and Soria]{atkinson2015}
+Callum Atkinson, Nicolas~Alexander Buchmann, and Julio Soria.
+\newblock An experimental investigation of turbulent convection velocities in a
+  turbulent boundary layer.
+\newblock \emph{Flow, Turbulence and Combustion}, 94\penalty0 (1):\penalty0
+  79--95, 2015.
+
+\bibitem[Van~der Hoven(1957)]{vanderhoven1957}
+Isaac Van~der Hoven.
+\newblock Power spectrum of horizontal wind speed in the frequency range from
+  0.0007 to 900 cycles per hour.
+\newblock \emph{Journal of Meteorology}, 14\penalty0 (2):\penalty0 160--164,
+  1957.
+
+\bibitem[Higgins et~al.(2012)Higgins, Froidevaux, Simeonov, Vercauteren, Barry,
+  and Parlange]{higgins2012}
+Chad~W Higgins, Martin Froidevaux, Valentin Simeonov, Nikki Vercauteren,
+  Caitlin Barry, and Marc~B Parlange.
+\newblock The effect of scale on the applicability of taylor’s frozen
+  turbulence hypothesis in the atmospheric boundary layer.
+\newblock \emph{Boundary-layer meteorology}, 143\penalty0 (2):\penalty0
+  379--391, 2012.
+
+\bibitem[Schlipf et~al.(2010)Schlipf, Fischer, Carcangiu, Rossetti, and
+  Bossanyi]{schlipf2010}
+David Schlipf, Tim Fischer, Carlo~Enrico Carcangiu, Michele Rossetti, and Ervin
+  Bossanyi.
+\newblock Load analysis of look-ahead collective pitch control using lidar.
+\newblock In \emph{Proceedings of the 10th German Wind Energy Conference
+  DEWEK}, 2010.
+
+\bibitem[Ozdemir et~al.(2013)Ozdemir, Seiler, and Balas]{ozdemir2013}
+Ahmet~Arda Ozdemir, Peter Seiler, and Gary~J Balas.
+\newblock Benefits of preview wind information for region 2 wind turbine
+  control.
+\newblock In \emph{51st AIAA Aerospace Sciences Meeting including the New
+  Horizons Forum and Aerospace Exposition}, page 317, 2013.
+
+\bibitem[Dunne et~al.(2011)Dunne, Pao, Wright, Jonkman, Kelley, and
+  Simley]{dunne2011}
+Fiona Dunne, Lucy~Y Pao, Alan~D Wright, Bonnie Jonkman, Neil Kelley, and Eric
+  Simley.
+\newblock Adding feedforward blade pitch control for load mitigation in wind
+  turbines: Non-causal series expansion, preview control, and optimized fir
+  filter methods.
+\newblock In \emph{Proc. 49th AIAA Aerospace Sciences Meeting, Orlando, FL},
+  2011.
+
+\bibitem[Schlipf and K{\"u}hn(2008)]{schlipf2008}
+David Schlipf and Martin K{\"u}hn.
+\newblock Prospects of a collective pitch control by means of predictive
+  disturbance compensation assisted by wind speed measurements.
+\newblock In \emph{Proceedings of the 9th German Wind Energy Conference DEWEK
+  2008}, 2008.
+
+\bibitem[Schlipf et~al.(2011{\natexlab{b}})Schlipf, Kapp, Anger, Bischoff,
+  Hofs{\"a}{\ss}, Rettenmeier, and K{\"u}hn]{schlipf2011a}
+David Schlipf, Stefan Kapp, Jan Anger, Oliver Bischoff, Martin Hofs{\"a}{\ss},
+  Andreas Rettenmeier, and Martin K{\"u}hn.
+\newblock Prospects of optimization of energy production by lidar assisted
+  control of wind turbines.
+\newblock In \emph{EWEA 2011 conference proceedings}, 2011{\natexlab{b}}.
+
+\bibitem[Schlipf et~al.(2013)Schlipf, Schlipf, and K{\"u}hn]{schlipf2013}
+David Schlipf, Dominik~Johannes Schlipf, and Martin K{\"u}hn.
+\newblock Nonlinear model predictive control of wind turbines using lidar.
+\newblock \emph{Wind Energy}, 16\penalty0 (7):\penalty0 1107--1129, 2013.
+
+\bibitem[Scholbrock et~al.(2013)Scholbrock, Fleming, Fingersh, Wright, Schlipf,
+  Haizmann, Belen, et~al.]{scholbrock2013}
+Andrew Scholbrock, Paul Fleming, Lee Fingersh, Alan Wright, David Schlipf,
+  Florian Haizmann, Fred Belen, et~al.
+\newblock Field testing lidar based feed-forward controls on the nrel controls
+  advanced research turbine.
+\newblock In \emph{51th AIAA Aerospace Sciences Meeting Including the New
+  Horizons Forum and Aerospace Exposition}, 2013.
+
+\bibitem[Jonkman and Buhl~Jr(2005)]{jonkman2005}
+Jason~M Jonkman and Marshall~L Buhl~Jr.
+\newblock Fast user's guide.
+\newblock \emph{National Renewable Energy Laboratory, Golden, CO, Technical
+  Report No. NREL/EL-500-38230}, 2005.
+
+\bibitem[Jonkman(2014)]{jonkman2014}
+Jason Jonkman.
+\newblock Nrel national wind technology center forum: Blade pitch control.
+\newblock \url{https://wind.nrel.gov/forum/wind/viewtopic.php?f=30&t=1048},
+  2014.
+
+\bibitem[Dunne et~al.(2012)Dunne, Schlipf, Pao, Wright, Jonkman, Kelley, and
+  Simley]{dunne2012}
+Fiona Dunne, David Schlipf, Lucy~Y Pao, Alan~D Wright, Bonnie Jonkman, Neil
+  Kelley, and Eric Simley.
+\newblock \emph{Comparison of two independent lidar-based pitch control
+  designs}.
+\newblock National Renewable Energy Laboratory, 2012.
+
+\bibitem[Commission et~al.(2005)]{IEC2005}
+International~Electrotechnical Commission et~al.
+\newblock Wind turbine---part 1: Design requirements, iec 61400-1, ed. 3.
+\newblock \emph{International Electrotechnical Commission, Geneva,
+  Switzerland}, 2005.
+
+\bibitem[Deshpande and Peters(2012)]{deshpande2012}
+Ameet~S Deshpande and Rhonda~R Peters.
+\newblock Wind turbine controller design considerations for improved wind farm
+  level curtailment tracking.
+\newblock In \emph{2012 IEEE Power and Energy Society General Meeting}, 2012.
+
+\bibitem[Fink et~al.(2009)Fink, Mudd, Porter, and Morgenstern]{fink2009}
+Sari Fink, C~Mudd, K~Porter, and Brett Morgenstern.
+\newblock Wind energy curtailment case studies.
+\newblock \emph{NREL subcontract report, NREL/SR-550}, 46716, 2009.
+
+\bibitem[Aho et~al.(2012)Aho, Buckspan, Laks, Fleming, Jeong, Dunne,
+  Churchfield, Pao, and Johnson]{aho2012}
+Jarmo Aho, Andrew Buckspan, Jason Laks, Paul Fleming, Yunho Jeong, Fiona Dunne,
+  Matthew Churchfield, Lucy Pao, and Kenneth Johnson.
+\newblock A tutorial of wind turbine control for supporting grid frequency
+  through active power control.
+\newblock In \emph{American Control Conference (ACC), 2012}, pages 3120--3131.
+  IEEE, 2012.
+
+\bibitem[Aho et~al.(2013)Aho, Buckspan, Pao, Fleming, et~al.]{aho2013}
+Jacob Aho, Andrew Buckspan, Lucy Pao, Paul Fleming, et~al.
+\newblock An active power control system for wind turbines capable of primary
+  and secondary frequency control for supporting grid reliability.
+\newblock In \emph{Proc. 51st AIAA Aerospace Sciences Meeting Including the New
+  Horizons Forum and Aerospace Exposition}, 2013.
+
+\bibitem[Biegel et~al.(2013)Biegel, Madjidian, Spudic, Rantzer, and
+  Stoustrup]{biegel2013}
+Benjamin Biegel, Daria Madjidian, Vedrana Spudic, Anders Rantzer, and Jakob
+  Stoustrup.
+\newblock Distributed low-complexity controller for wind power plant in derated
+  operation.
+\newblock In \emph{Control Applications (CCA), 2013 IEEE International
+  Conference on}, pages 146--151. IEEE, 2013.
+
+\bibitem[Richards et~al.(2014)Richards, Griffith, and Hodges]{richards2014}
+Phillip~W Richards, D~Todd Griffith, and Dewey~H Hodges.
+\newblock Operating strategies and design recommendations for mitigating local
+  damage effects in offshore turbine blades.
+\newblock Technical report, Sandia National Laboratories (SNL-NM), Albuquerque,
+  NM (United States), 2014.
+
+\bibitem[Griffith(2015)]{griffith2015}
+Daniel~Todd Griffith.
+\newblock Structural health and prognostics management for offshore wind
+  plants; final report of sandia r\&d activities.
+\newblock Technical report, Sandia National Laboratories (SNL-NM), Albuquerque,
+  NM (United States), 2015.
+
+\bibitem[Jelavi{\'c} et~al.(2013)Jelavi{\'c}, Petrovi{\'c}, Bari{\v{s}}i{\'c},
+  and Ivanovi{\'c}]{jelavic2013}
+Mate Jelavi{\'c}, Vlaho Petrovi{\'c}, Mario Bari{\v{s}}i{\'c}, and Ivana
+  Ivanovi{\'c}.
+\newblock Wind turbine control beyond the cut-out wind speed.
+\newblock In \emph{Annual Conference and Exhibition of European Wind Energy
+  Association (EWEA2013)}, 2013.
+
+\bibitem[Petrovi{\'c} and Bottasso(2014)]{petrovic2014}
+Vlaho Petrovi{\'c} and Carlo~Luigi Bottasso.
+\newblock Wind turbine optimal control during storms.
+\newblock In \emph{Journal of Physics: Conference Series}, volume 524, page
+  012052. IOP Publishing, 2014.
+
+\bibitem[Petrovi{\'c} and Bottasso(2015)]{petrovic2015}
+Vlaho Petrovi{\'c} and Carlo~Luigi Bottasso.
+\newblock Wind turbine envelope riding.
+\newblock In \emph{33rd Wind Energy Symposium-AIAA SciTech 2015}, 2015.
+
+\bibitem[Carl{\'e}n(2010)]{carlen2010}
+I~Carl{\'e}n.
+\newblock Some simple concepts for dynamic wind sector management of wind
+  farms.
+\newblock Technical report, Teknikgruppen report TG, 2010.
+
+\bibitem[Frost et~al.(2013)Frost, Goebel, and Obrecht]{frost2013}
+Susan~A Frost, Kai Goebel, and L{\'e}o Obrecht.
+\newblock Integrating structural health management with contingency control for
+  wind turbines.
+\newblock \emph{IJPHM Special Issue on Wind Turbine PHM (Color)}, page~11,
+  2013.
+
+\bibitem[ves(2015)]{vestas2015}
+Vestas power plus.
+\newblock Brochure, 2015.
+
+\bibitem[Steen()]{steen2014}
+Stephen Steen.
+\newblock The impacts of uprating and derating on turbine reliability.
+\newblock Online seminar:
+  http://www.slideshare.net/Sentientscience/the-impacts-of-uprating-and-derating-on-turbine-reliability.
+
+\bibitem[Hayman(2012)]{hayman2012}
+G~Hayman.
+\newblock Mlife theory manual for version 1.00.
+\newblock \emph{National Renewable Energy Laboratory, Golden, CO}, 2012.
+
+\bibitem[Hayman and Buhl~Jr(2012)]{hayman2012a}
+GJ~Hayman and ML~Buhl~Jr.
+\newblock Mlife users guide for version 1.00.
+\newblock \emph{National Renewable Energy Laboratory, Golden, CO}, 2012.
+
+\bibitem[Palmgren(1924)]{palmgren1924}
+Arvid Palmgren.
+\newblock Die lebensdauer von kugellagern.
+\newblock \emph{Zeitschrift des Vereins Deutscher Ingenieure}, 68\penalty0
+  (14):\penalty0 339--341, 1924.
+
+\bibitem[Miner and ohers(1945)]{miner1945}
+Milton~A Miner and ohers.
+\newblock Cumulative damage in fatigue.
+\newblock \emph{Journal of applied mechanics}, 12\penalty0 (3):\penalty0
+  159--164, 1945.
+
+\bibitem[Stewart et~al.(2013)Stewart, Lackner, Haid, Matha, Jonkman, and
+  Robertson]{stewart2013}
+G~Stewart, M~Lackner, L~Haid, D~Matha, J~Jonkman, and A~Robertson.
+\newblock Assessing fatigue and ultimate load uncertainty in floating offshore
+  wind turbines due to varying simulation length.
+\newblock \emph{Safety, Reliability, Risk and Life-Cycle Performance of
+  Structures and Infrastructures}, page 239, 2013.
+
+\end{thebibliography}

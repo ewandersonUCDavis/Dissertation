@@ -1,0 +1,58 @@
+The following sections examine the performance of the selective derating feed forward control system. A two turbine system is simulated using FAST using the method described in Section \ref{section3-2}. The upwind turbine, with a conventional closed loop turbine controller,  is simulated first. The dynamic response of that turbine is recorded and post processed to generate feed forward control signals. This post processing simulates the plant level controller. Finally the downwind turbine, with feed forward control, is simulated. By comparing the dynamic behavior of both simulations we can see the effect of the feed forward control system.
+
+
+
+The first simulation case is a uniform wind field with an extreme operating gust (EOG). The extreme operating gust has been defined according to IEC 61400-1 \cite{IEC2005} for an NREL 5MW turbine operating in 16 m/s wind. This is the same test case used to analyze the performance of feed forward optimal pitch control in Sections \ref{section3-4-1} and \ref{section3-5-1}, however the EOG has been shifted to occur 200 seconds after the start of the simulation, as shown in Figure \ref{fig4-22}. This shift will ensure that transient derating behavior will not overlap with any of the transient turbine startup  behavior at the beginning of the simulation.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-22.png}
+		\rule{35em}{0.5pt}
+	\caption{Extreme operating gust.}
+	\label{fig4-22}
+\end{figure}
+
+Figures \ref{fig4-23} through \ref{fig4-26} show how feed forward selective derating control affects the rotor speed, tower base fore-aft bending moment, blade root moment, and power generation of the downwind turbine. Table \ref{table4-3} quantifies and summarizes several important performance metrics. Two methods were used to time the derating of the downwind turbine. As discussed in Section \ref{section4-5}, the first method uses an estimate of the gust confection speed to determine when to derate the turbine. The second, more conservative,  method derates the downwind turbine over a longer period of time, but does not require an estimate of the convection speed. Both methods have an identical effect on rotor speed and peak structural loads, but they affect power generation differently. 
+
+Figure \ref{fig4-23} shows that the upwind turbine experiences an 18.76 \% rotor overspeed due to the EOG, potentially enough to cause an emergency shutdown of the turbine, but the feed forward controller completely eliminates the rotor overspeed in the downwind turbine. In Figures \ref{fig4-24} and \ref{fig4-25} we see that both the upwind and downwind turbines experience large structural loads due to the EOG, but the loads experienced by the downwind turbine are smaller. The feed forward controller has reduced the maximum tower base fore-aft bending moment by 21.9\% and the maximum blade root bending moment by 14.7%. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-23.png}
+		\rule{35em}{0.5pt}
+	\caption{Rotor speed for turbine subjected to extreme operating gust.}
+	\label{fig4-23}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-24.png}
+		\rule{35em}{0.5pt}
+	\caption{Tower base fore-aft moment for turbine subjected to extreme operating gust.}
+	\label{fig4-24}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-25.png}
+		\rule{35em}{0.5pt}
+	\caption{Blade root bending moment for turbine subjected to extreme operating gust.}
+	\label{fig4-25}
+\end{figure}
+
+
+
+These figures also illustrate that the system is robust to differences the convection speed or errors in convection speed estimates. As discussed in section \ref{section3-2}, the simulation method used here assumes Taylor's frozen turbulence hypothesis, which implies that the true convection speed is equal to the mean wind speed. This assumption causes the EOG to reach the downwind turbine at exactly 200 seconds. However, if the EOG convects faster or slower than the mean wind speed then the arrival time will shift. Similarly, if a convection velocity estimate is used to determine when to derate the downwind turbine then an error in the convection velocity estimate will cause that window of derated operation to shift. As we can see from Figures \ref{fig4-23} through \ref{fig4-25} small shifts (less than ????seconds) will not affect the performance of the feed forward controller because the downwind turbine will still be in derated operation when the EOG arrives.
+
+Figure \ref(fig4-25) shows power generation. As expected, derating the downwind turbine results in reduced power generation. When the derate timing is based on a convection velocity estimate it results in a loss of 11.5KWhr. If energy is sold at 10 cents per kWhr that results in $1.16 of lost revenue. When a convection velocity estimate is not used for derate timing the downwind turbine remains derated longer. This results in a loss of 26.48 kWhr and lost revenue of approximately $2.65. These simulations appear to show that turbines with feed forward selective derating control will generate less energy, however in real world operation this derating strategy may result in a significant increase in energy generation. It is important to note that these simulations do not model emergency rotor overspeed shutdowns. The turbine without feed forward control experiences a rotor overspeed of 18.76\%. If this caused a 10 minute emergency shutdown it would result in a loss of approximately 833 kWhr and lost revenue of approximately $83, significantly more than the lost revenue cased by briefly derating the turbine.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-19.png}
+		\rule{35em}{0.5pt}
+	\caption{Power generation for turbine subjected to extreme operating gust.}
+	\label{fig4-26}
+\end{figure}
+
+
+

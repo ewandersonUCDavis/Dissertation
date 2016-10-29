@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ChapterTest.aux
+The style file: unsrtnat.bst
+Database file #1: Bibliography.bib
+Warning--I didn't find a database entry for "higgins2012"
+Warning--empty institution in ren212011
+Warning--empty author and editor in burton2011
+Warning--empty journal in schlipf2011
+Warning--empty year in GE2009
+Warning--empty journal in ostergaard2007
+Warning--empty year in vanderhooft2004
+Warning--empty year in vanderhooft2004
+Warning--can't use both volume and number fields in taylor1938
+Warning--empty journal in schlipf2010
+Warning--empty journal in schlipf2008
+Warning--empty journal in schlipf2011a
+Warning--empty year in jonkman2014
+You've used 40 entries,
+            2481 wiz_defined-function locations,
+            743 strings with 10767 characters,
+and the built_in function-call counts, 13725 in all, are:
+= -- 1103
+> -- 735
+< -- 25
++ -- 295
+- -- 214
+* -- 962
+:= -- 2208
+add.period$ -- 116
+call.type$ -- 40
+change.case$ -- 82
+chr.to.int$ -- 39
+cite$ -- 55
+duplicate$ -- 760
+empty$ -- 1281
+format.name$ -- 271
+if$ -- 2908
+int.to.chr$ -- 2
+int.to.str$ -- 41
+missing$ -- 32
+newline$ -- 203
+num.names$ -- 111
+pop$ -- 382
+preamble$ -- 1
+purify$ -- 40
+quote$ -- 0
+skip$ -- 458
+stack$ -- 0
+substring$ -- 369
+swap$ -- 113
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 274
+warning$ -- 12
+while$ -- 100
+width$ -- 0
+write$ -- 488
+(There were 13 warnings)

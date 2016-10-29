@@ -1,0 +1,435 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for Eric Anderson at 2016-01-17 18:22:08 -0800 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{stewart2013,
+	Author = {Stewart, G and Lackner, M and Haid, L and Matha, D and Jonkman, J and Robertson, A},
+	Date-Added = {2016-01-17 21:49:56 +0000},
+	Date-Modified = {2016-01-17 21:50:31 +0000},
+	Journal = {Safety, Reliability, Risk and Life-Cycle Performance of Structures and Infrastructures},
+	Pages = {239},
+	Publisher = {CRC Press},
+	Title = {Assessing fatigue and ultimate load uncertainty in floating offshore wind turbines due to varying simulation length},
+	Year = {2013}}
+
+@article{miner1945,
+	Author = {Miner, Milton A},
+	Date-Added = {2016-01-17 07:21:01 +0000},
+	Date-Modified = {2016-01-17 07:21:13 +0000},
+	Journal = {Journal of applied mechanics},
+	Number = {3},
+	Pages = {159--164},
+	Title = {Cumulative damage in fatigue},
+	Volume = {12},
+	Year = {1945}}
+
+@article{palmgren1924,
+	Author = {Palmgren, Arvid},
+	Date-Added = {2016-01-17 07:18:30 +0000},
+	Date-Modified = {2016-01-17 07:18:40 +0000},
+	Journal = {Zeitschrift des Vereins Deutscher Ingenieure},
+	Number = {14},
+	Pages = {339--341},
+	Title = {Die lebensdauer von kugellagern},
+	Volume = {68},
+	Year = {1924}}
+
+@article{hayman2012a,
+	Author = {Hayman, GJ and Buhl Jr, ML},
+	Date-Added = {2016-01-17 07:10:39 +0000},
+	Date-Modified = {2016-01-17 07:11:17 +0000},
+	Journal = {National Renewable Energy Laboratory, Golden, CO},
+	Title = {Mlife users guide for version 1.00},
+	Year = {2012}}
+
+@article{hayman2012,
+	Author = {Hayman, G},
+	Date-Added = {2016-01-17 07:09:08 +0000},
+	Date-Modified = {2016-01-17 07:10:31 +0000},
+	Journal = {National Renewable Energy Laboratory, Golden, CO},
+	Title = {MLife theory manual for version 1.00},
+	Year = {2012}}
+
+@article{williams2012,
+	Author = {Williams, E and Hensley, J and Salerno, E},
+	Journal = {AWEA, Washington, DC},
+	Title = {AWEA US wind industry annual market report year ending 2012},
+	Year = {2012}}
+
+@article{sawyer2012,
+	Author = {Sawyer, Steve and Rave, Klaus},
+	Journal = {GWEC, Global Wind Energy Council},
+	Title = {Global Wind Report--Annual Market Update 2012},
+	Year = {2012}}
+
+@techreport{ren212011,
+	Institution = {REN21},
+	Publisher = {REN21 Secretariat Paris, France},
+	Title = {Renewables 2011 global status report},
+	Year = {2011}}
+
+@book{burton2011,
+	Author = {Burton, T. and Jenkins, N. and Sharpe, D. and Bossanyi, E.},
+	Publisher = {John Wiley and Sons},
+	Title = {Wind Energy Handbook, Second Edition},
+	Year = {2011}}
+	
+@article{higgins2012,
+  title={The effect of scale on the applicability of Taylor’s frozen turbulence hypothesis in the atmospheric boundary layer},
+  author={Higgins, Chad W and Froidevaux, Martin and Simeonov, Valentin and Vercauteren, Nikki and Barry, Caitlin and Parlange, Marc B},
+  journal={Boundary-layer meteorology},
+  volume={143},
+  number={2},
+  pages={379--391},
+  year={2012},
+  publisher={Springer}
+}
+
+@techreport{jonkman2009,
+	Author = {J.M. Jonkman and S. Butterfield and W. Musial and G. Scott},
+	Institution = {National Renewable Energy Laboratory},
+	Title = {Definition of a 5-MW Reference Wind Turbine for Offshore System Development},
+	Type = {Technical Report},
+	Year = {2009}}
+
+@article{larsen2005,
+	Author = {Larsen, Torben Juul and Madsen, Helge A and Thomsen, Kenneth},
+	Journal = {Wind Energy},
+	Number = {1},
+	Pages = {67--80},
+	Publisher = {Wiley Online Library},
+	Title = {Active load reduction using individual pitch, based on local blade flow measurements},
+	Volume = {8},
+	Year = {2005}}
+
+@inproceedings{bossanyi2004,
+	Author = {Bossanyi, EA},
+	Booktitle = {Proceedings of ``the Science of Making Torque from Wind'' Conference},
+	Pages = {486--497},
+	Title = {Developments in individual blade pitch control},
+	Year = {2004}}
+
+@techreport{vandam2008,
+	Author = {Van Dam, CP and Berg, Dale E and Johnson, Scott J},
+	Institution = {Sandia National Laboratories},
+	Title = {Active load control techniques for wind turbines.},
+	Year = {2008}}
+
+@inproceedings{berg2012,
+	Author = {Berg, Jonathan and Berg, Dale and White, Jon},
+	Booktitle = {Proceedings of the 50th AIAA Aerospace Sciences Meeting, Nashville, Tennessee},
+	Title = {Fabrication, Integration and Initial Testing of a SMART Rotor},
+	Year = {2012}}
+
+@TechReport{schlipf2011,
+author = {Schlipf, David and Bossanyi, Ervin and Carcangiu, Carlo Enrico and Fischer, Tim and Maul, Timo and Rossetti, Michele},
+title = {LIDAR assisted collective pitch control},
+institution = {ProjectUpwind},
+year = {2011}}
+
+
+@manual{GE2009,
+	Optorganization = {General Electric},
+	year = {2009},
+	Title = {GE Energy 1.5 MW Wind Turbine Brochure}}
+
+@techreport{jonkman2012,
+	Author = {B.J.Jonkman and M. Buhl},
+	Institution = {National Renewable Energy Laboratory},
+	Title = {Turbsim User's Guide},
+	Type = {Technical Report},
+	Year = {2012}}
+
+@article{ostergaard2007,
+	Author = {K. Z. {\O}stergaard and P. Brath and J. Stoustrup},
+	Journal = {Journal of Physics: Conference Series 75},
+	Title = {Estimation of effective wind speed},
+	Year = {2007}}
+
+@techreport{manjock2005,
+	Author = {A. Manjock},
+	Institution = {Germanischer Lloyd WindEnergie GmbH},
+	Title = {Evaluation Report, Design Codes FAST and ADAMS for Load Calculation of Onshore Wind Turbines},
+	Type = {*},
+	Year = {2005}}
+
+@inproceedings{vanderhooft2004,
+	Author = {Van der Hooft, EL and Van Engelen, TG},
+	Booktitle = {Proceedings of European Wind Energy Conference in London, UK},
+	Title = {Estimated wind speed feed forward control for wind turbine operation optimisation},
+	Year = {2004}}}
+
+@article{schlipf2014,
+	Author = {Schlipf, David},
+	Journal = {Struttgart Wind Energy. Universitat Stuttgart},
+	Title = {Lidar Assisted Control of Wind Turbines},
+	Year = {2014}}
+
+@techreport{platt2012,
+	Author = {Platt, AD and Buhl Jr, ML},
+	Institution = {National Renewable Energy Laboratory},
+	Title = {WT \_ Perf User Guide for Version 3. 05. 00},
+	Type = {Technical Report},
+	Year = {2012}}
+
+@inproceedings{taylor1938,
+	Author = {Taylor, Geoffrey Ingram},
+	Booktitle = {Proceedings of the Royal Society of London A: Mathematical, Physical and Engineering Sciences},
+	Organization = {The Royal Society},
+	Pages = {476--490},
+	Title = {The spectrum of turbulence},
+	Volume = {164},
+	Year = {1938}}
+
+@article{dennis2008,
+	Author = {Dennis, David JC and Nickels, Timothy B},
+	Journal = {Journal of Fluid Mechanics},
+	Pages = {197--206},
+	Publisher = {Cambridge Univ Press},
+	Title = {On the limitations of Taylor's hypothesis in constructing long structures in a turbulent boundary layer},
+	Volume = {614},
+	Year = {2008}}
+
+@article{goldschmidt1981,
+	Author = {Goldschmidt, VW and Young, MF and Ott, ES},
+	Journal = {Journal of Fluid Mechanics},
+	Pages = {327--345},
+	Publisher = {Cambridge Univ Press},
+	Title = {Turbulent convective velocities (broadband and wavenumber dependent) in a plane jet},
+	Volume = {105},
+	Year = {1981}}
+
+@article{delalamo2009,
+	Author = {Del Alamo, Juan C and Jim{\'e}nez, Javier},
+	Journal = {Journal of Fluid Mechanics},
+	Pages = {5--26},
+	Publisher = {Cambridge Univ Press},
+	Title = {Estimation of turbulent convection velocities and corrections to Taylor's approximation},
+	Volume = {640},
+	Year = {2009}}
+
+@article{atkinson2015,
+	Author = {Atkinson, Callum and Buchmann, Nicolas Alexander and Soria, Julio},
+	Journal = {Flow, Turbulence and Combustion},
+	Number = {1},
+	Pages = {79--95},
+	Publisher = {Springer},
+	Title = {An experimental investigation of turbulent convection velocities in a turbulent boundary layer},
+	Volume = {94},
+	Year = {2015}}
+
+@article{vanderhoven1957,
+	Author = {Van der Hoven, Isaac},
+	Journal = {Journal of Meteorology},
+	Number = {2},
+	Pages = {160--164},
+	Title = {Power spectrum of horizontal wind speed in the frequency range from 0.0007 to 900 cycles per hour},
+	Volume = {14},
+	Year = {1957}}
+
+@misc{NWTC2013,
+	Optauthor = {National Renewable Energy Laboratory},
+	Opthowpublished = {Available: http://www.nrel.gov/midc/nwtc_m2/},
+	Opttitle = {National Wind Technology Center, M2 Tower Data, April 25, 2013},
+	Year = {2013}}
+
+@inproceedings{ozdemir2013,
+	Author = {Ozdemir, Ahmet Arda and Seiler, Peter and Balas, Gary J},
+	Booktitle = {51st AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition},
+	Pages = {317},
+	Title = {Benefits of Preview Wind Information for Region 2 Wind Turbine Control},
+	Year = {2013}}
+
+@inproceedings{dunne2011,
+	Author = {Dunne, Fiona and Pao, Lucy Y and Wright, Alan D and Jonkman, Bonnie and Kelley, Neil and Simley, Eric},
+	Booktitle = {Proc. 49th AIAA Aerospace Sciences Meeting, Orlando, FL},
+	Title = {Adding feedforward blade pitch control for load mitigation in wind turbines: Non-causal series expansion, preview control, and optimized FIR filter methods},
+	Year = {2011}}
+
+@article{schlipf2013,
+	Author = {Schlipf, David and Schlipf, Dominik Johannes and K{\"u}hn, Martin},
+	Journal = {Wind Energy},
+	Number = {7},
+	Pages = {1107--1129},
+	Publisher = {Wiley Online Library},
+	Title = {Nonlinear model predictive control of wind turbines using LIDAR},
+	Volume = {16},
+	Year = {2013}}
+
+@InProceedings{schlipf2008,
+author = {Schlipf, David and K{\"u}hn, Martin},
+title = {Prospects of a collective pitch control by means of predictive disturbance compensation assisted by wind speed measurements},
+booktitle = {Proceedings of the 9th German Wind Energy Conference DEWEK 2008},
+year = {2008}}
+
+@InProceedings{schlipf2010,
+author = {Schlipf, David and Fischer, Tim and Carcangiu, Carlo Enrico and Rossetti, Michele and Bossanyi, Ervin},
+title = {Load analysis of look-ahead collective pitch control using LIDAR},
+booktitle = {Proceedings of the 10th German Wind Energy Conference DEWEK},
+year = {2010},}
+
+@InProceedings{schlipf2011a,
+author = {Schlipf, David and Kapp, Stefan and Anger, Jan and Bischoff, Oliver and Hofs{\"a}{\ss}, Martin and Rettenmeier, Andreas and K{\"u}hn, Martin},
+title = {Prospects of optimization of energy production by lidar assisted control of wind turbines},
+booktitle = {EWEA 2011 conference proceedings},
+year = {2011}}
+
+@inproceedings{scholbrock2013,
+	Author = {Scholbrock, Andrew and Fleming, Paul and Fingersh, Lee and Wright, Alan and Schlipf, David and Haizmann, Florian and Belen, Fred and others},
+	Booktitle = {51th AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition},
+	Title = {Field testing LIDAR based feed-forward controls on the NREL controls advanced research turbine},
+	Year = {2013}}
+
+@article{jonkman2005,
+	Author = {Jonkman, Jason M and Buhl Jr, Marshall L},
+	Journal = {National Renewable Energy Laboratory, Golden, CO, Technical Report No. NREL/EL-500-38230},
+	Title = {FAST user's guide},
+	Year = {2005}}
+
+@conference{grunnet2010,
+	Author = {Grunnet, Jacob Deleuran and Soltani, Mohsen and Knudsen, Torben and Kragelund, Martin and Bak, Thomas},
+	Booktitle = {Proc. of the 2010 European Wind Energy Conference},
+	Title = {Aeolus Toolbox for Dynamic Wind Farm Model, Simulation and Control},
+	Year = {2010}}
+
+@misc{jonkman2014,
+	Author = {Jonkman, Jason},
+	Howpublished = {\url{https://wind.nrel.gov/forum/wind/viewtopic.php?f=30&t=1048}},
+	Title = {NREL National Wind Technology Center Forum: Blade Pitch Control},
+	year = {2014}}
+
+@book{dunne2012,
+	Author = {Dunne, Fiona and Schlipf, David and Pao, Lucy Y and Wright, Alan D and Jonkman, Bonnie and Kelley, Neil and Simley, Eric},
+	Publisher = {National Renewable Energy Laboratory},
+	Title = {Comparison of two independent lidar-based pitch control designs},
+	Year = {2012}}
+
+@article{IEC2005,
+	Author = {International Electrotechnical Commission and others},
+	Journal = {International Electrotechnical Commission, Geneva, Switzerland},
+	Title = {Wind Turbine---Part 1: Design Requirements, IEC 61400-1, Ed. 3},
+	Year = {2005}}
+
+
+%chapter 4 stuff
+
+@TechReport{eldridge2013,
+author = {Eldridge, David and Gregg, Peter},
+title = {GE Wind Services PowerUp Platform},
+institution = {General Electric},
+year = {2013},
+}
+
+
+@Booklet{vestas2015,
+title = {Vestas Power Plus},
+howpublished = {Brochure},
+year = {2015}}
+
+@Misc{steen2014,
+OPTkey = {•},
+author = {Steen, Stephen},
+title = {The Impacts of Uprating and Derating on Turbine Reliability},
+howpublished = {Online seminar: http://www.slideshare.net/Sentientscience/the-impacts-of-uprating-and-derating-on-turbine-reliability},
+OPTyear = {2014}}
+
+@inproceedings{petrovic2015,
+  title={Wind Turbine Envelope Riding},
+  author={Petrovi{\'c}, Vlaho and Bottasso, Carlo Luigi},
+  booktitle={33rd Wind Energy Symposium-AIAA SciTech 2015},
+  year={2015}
+}
+
+@inproceedings{jelavic2013,
+  title={Wind turbine control beyond the cut-out wind speed},
+  author={Jelavi{\'c}, Mate and Petrovi{\'c}, Vlaho and Bari{\v{s}}i{\'c}, Mario and Ivanovi{\'c}, Ivana},
+  booktitle={Annual Conference and Exhibition of European Wind Energy Association (EWEA2013)},
+  year={2013}
+}
+
+@inproceedings{petrovic2014,
+  title={Wind turbine optimal control during storms},
+  author={Petrovi{\'c}, Vlaho and Bottasso, Carlo Luigi},
+  booktitle={Journal of Physics: Conference Series},
+  volume={524},
+  pages={012052},
+  year={2014},
+  organization={IOP Publishing}
+}
+
+@article{fink2009,
+  title={Wind energy curtailment case studies},
+  author={Fink, Sari and Mudd, C and Porter, K and Morgenstern, Brett},
+  journal={NREL subcontract report, NREL/SR-550},
+  volume={46716},
+  year={2009}
+}
+
+@inproceedings{deshpande2012,
+  title={Wind turbine controller design considerations for improved wind farm level curtailment tracking},
+  author={Deshpande, Ameet S and Peters, Rhonda R},
+  booktitle={2012 IEEE Power and Energy Society General Meeting},
+  year={2012}
+}
+
+@inproceedings{aho2012,
+  title={A tutorial of wind turbine control for supporting grid frequency through active power control},
+  author={Aho, Jarmo and Buckspan, Andrew and Laks, Jason and Fleming, Paul and Jeong, Yunho and Dunne, Fiona and Churchfield, Matthew and Pao, Lucy and Johnson, Kenneth},
+  booktitle={American Control Conference (ACC), 2012},
+  pages={3120--3131},
+  year={2012},
+  organization={IEEE}
+}
+
+@inproceedings{aho2013,
+  title={An active power control system for wind turbines capable of primary and secondary frequency control for supporting grid reliability},
+  author={Aho, Jacob and Buckspan, Andrew and Pao, Lucy and Fleming, Paul and others},
+  booktitle={Proc. 51st AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition},
+  year={2013}
+}
+
+@inproceedings{biegel2013,
+  title={Distributed low-complexity controller for wind power plant in derated operation},
+  author={Biegel, Benjamin and Madjidian, Daria and Spudic, Vedrana and Rantzer, Anders and Stoustrup, Jakob},
+  booktitle={Control Applications (CCA), 2013 IEEE International Conference on},
+  pages={146--151},
+  year={2013},
+  organization={IEEE}
+}
+
+@techreport{richards2014,
+  title={Operating Strategies and Design Recommendations for Mitigating Local Damage Effects in Offshore Turbine Blades},
+  author={Richards, Phillip W and Griffith, D Todd and Hodges, Dewey H},
+  year={2014},
+  institution={Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)}
+}
+
+@techreport{griffith2015,
+  title={Structural Health and Prognostics Management for Offshore Wind Plants; Final Report of Sandia R\&D Activities.},
+  author={Griffith, Daniel Todd},
+  year={2015},
+  institution={Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)}
+}
+
+@techreport{carlen2010,
+  title={Some simple concepts for dynamic Wind Sector Management of wind farms},
+  author={Carl{\'e}n, I},
+  year={2010},
+  institution={Teknikgruppen report TG}
+}
+
+@article{frost2013,
+  title={Integrating Structural Health Management with Contingency Control for Wind Turbines},
+  author={Frost, Susan A and Goebel, Kai and Obrecht, L{\'e}o},
+  journal={IJPHM Special Issue on Wind Turbine PHM (Color)},
+  pages={11},
+  year={2013},
+  publisher={Lulu. com}
+}

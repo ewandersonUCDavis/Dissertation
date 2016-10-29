@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: Bibliography.bib
+Warning--I didn't find a database entry for "eldridge2005"
+Warning--empty author in ren212011
+Warning--empty year in steen2014
+You've used 55 entries,
+            2481 wiz_defined-function locations,
+            816 strings with 13932 characters,
+and the built_in function-call counts, 19572 in all, are:
+= -- 1578
+> -- 1079
+< -- 35
++ -- 427
+- -- 316
+* -- 1364
+:= -- 3131
+add.period$ -- 163
+call.type$ -- 55
+change.case$ -- 116
+chr.to.int$ -- 54
+cite$ -- 61
+duplicate$ -- 1086
+empty$ -- 1821
+format.name$ -- 394
+if$ -- 4198
+int.to.chr$ -- 2
+int.to.str$ -- 56
+missing$ -- 42
+newline$ -- 277
+num.names$ -- 153
+pop$ -- 527
+preamble$ -- 1
+purify$ -- 55
+quote$ -- 0
+skip$ -- 659
+stack$ -- 0
+substring$ -- 513
+swap$ -- 192
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 379
+warning$ -- 2
+while$ -- 138
+width$ -- 0
+write$ -- 688
+(There were 3 warnings)

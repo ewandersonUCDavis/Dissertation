@@ -1,0 +1,55 @@
+As figure \ref{fig4-20} illustrates, a plant level controller will monitor the behavior of the upwind turbine and derate the downwind turbine when necessary. To determine when derating is necessary, the plant level controller will monitor the rotor speed of the upwind turbine. If the upwind turbine rotor speed exceeds some pre-defined threshold the plant level controller will interpret that as an extreme gust event and derate the downwind turbine. This threshold should be chosen based on the range of rotor speeds a turbine experiences durring nominal operation, and how aggressive a plant operator chooses to be with this selective derating strategy. Therefore, in practice this threshold is likely to be cite specific. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[trim = {3cm 0 2.5cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-20.jpg}
+		\rule{35em}{0.5pt}
+	\caption{Control system overview.}
+	\label{fig2-21}
+\end{figure}
+
+
+For the simulations carried out in the following sections the threshold to initiate derating is set to 13.31 RPM (a 10\% overshoot). Section \ref{section2-2} describes a set of 66 simulations of the NREL 5MW turbine in turbulent wind. That data set contains 7 hours of simulated turbine operation in wind speeds between 12 m/s and 22 m/s, wind speeds for which the turbine is operating in region 3 control and attempting to track the rated rotro speed of 12.1 RPM. In that 7 hours of data the rotor speed exceeds 5\% overshoot only 0.44\% of the time and never exceeds 6.76\% overshoot. a 10\% threshold to initiate derating should be sufficient to identify extreme gust events and roughly splits the difference between what the turbine sees during normal operation and a 15\% overspeed, which could potentially cause a overspeed shutdown. When derating is initiated, the downwind turbine will be derated by an amount equal to the rotor overspeed obvserved in the extreme gust event. 
+
+As shown in section \ref{section4-3}, derating the downwind turbine will reduce the structural loads and rotor overspeed caused by the extreme gust event. As a result the downwind turbine will experience reduced structural damage and avoid a possible overspeed shutdown when the extreme gust arrives. Once the extreme gust has passed the downwind turbine the downwind turbine will be returned to full rated operation. Several methods can be used to determine when the downwind turbine should be derated ($T_{startDerate}$) and when it is safe for the downwind turbine to return to full rated operation ($T_{endDerate}$) . Two of those methods are examined in the following paragraphs.
+
+One method of determining when to derate the downwind turbine is to use an estimate of the gust's convection speed. The time it takes for a gust of wind to travel from the upwind turbine to the downwind turbine is given by $t_{conv} = D/U_{conv}$, where $D$ is the downwind distance between the turbines and the convection speed $U_{conv}$ is the the rate at which wind speed fluctuations propogate downwind. Section \ref{section2-4} examined a method for estimating wind speed using blade pitch, rotor speed, generator torque, and known dynamics of the turbine. Section \ref{section2-5} examined using that wind speed estimation technique to estimate the convection speed. 
+
+Large rotor overspeeds occur when the turbine is operating at or above the rated wind speed. For the NREL 5MW turbine that means that large overspeeds will occur when the wind speed is between 12 and 25 m/s. Section \ref{section2-5} analyzed 7 hours of simulated turbine operation in those wind conditions. With a 60 second averaging time, the mean error in convection speed estimates was approximately 3.2\% and the largest error seen in a convection velocity estimate was approximately 5.6\%. To improve this control scheme's robustness to errors in convection velocity estimation we can base our derate timing on a larger error than was seen in those results. If the plant level controller begins and ends the derate signal based on Equations \ref{eq4-2} and \ref{eq4-3} then the control system will accomodate extreme wind events traveling up to 20\% faster or 20\% slower than the convection velocity estimate. $t_{Event}$ is the time at which the upwind turbine experiences an unacceptably large overspeed. Recall that $t_{conv}$ is the estimated time it will take for the gust of wind to travel from the upwind turbine to the downwind turbine and $t_s$ is the time required for the turbine to smoothly transition into derated operation. This system could experience problems if the upwind turbine experienced an overspeed shutdown, as convection velocity estimates would no longer be available.
+
+
+\begin{equation}
+	t_{DR_start} = t_{Event} + 0.8 \times t_{conv} - t_s \label{eq4-2}
+\end{equation}
+
+\begin{equation}
+	t_{DR_end} = t_{Event} + 1.2 \times t_{conv} \label{eq4-3}
+\end{equation}
+
+
+
+Another method of determining when to derate the downwind turbine is to develop worst case scenarios based on the operating conditions of the turbine. For the NREL 5MW turbine we have determined that large rotor overspeeds will occur when in wind speeds between 12 m/s and 25 m/s. If the downwind turbine is 10 rotor diameters (1260 m) behind the upwind turbine and the convection speed is somewhere between 12 and 25 m/s it would take a gust of wind between 105 and 50.4 seconds to travel from the upwind turbine to the downwind turbine. Therefore, if the turbine is derated from 50.4 seconds to 105 seconds after the upwind turbine experiences an unacceptable overspeed the downwind turbine should be in derated operation when the gust arrives no matter what the wind speed is. To add more safety margin we can base our worst case scenario on an even wider range of convection velocities. If the transition to derated operation is based on a 30 m/s convection time and the transition out of derated operation is based on an 8 m/s wind the derate signal will be based on equations \ref{eq4-4} and \ref{eq4-5}, where 42 seconds is the time required for a gust traveling 30 m/s to reach the downwind turbine and 157.5 is the tie required for a gust traveling 8 m/s to reach the downwind turbine.  A similar calculation can be doe for other turbines and/or other turbine to turbine spacing. Though this method derates the downwind turbine for longer than is strictly necessary it is simple, robust, and does not require an estimate of the convection velocity.
+
+\begin{equation}
+	t_{DR_start} = t_{Event} + 42 seconds - t_s \label{eq4-4}
+\end{equation}
+
+\begin{equation}
+	t_{DR_end} = t_{Event} + 157.5 seconds \label{eq4-5}
+\end{equation}
+
+
+
+
+
+
+**Explain how derating signal is processed.?????**
+
+
+
+
+
+
+
+
+
