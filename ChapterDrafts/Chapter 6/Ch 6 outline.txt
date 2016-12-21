@@ -1,0 +1,24 @@
+Chapter 6 outline
+-Introduction
+-controller
+-gust modeling
+-tuning and validation of simulation parameters
+-Offset turbine case
+-In line turbine case
+-Conclusions.
+
+Outline:
+6.1 Introduction
+6.2 experimental setup
+6.2.1 Controller implementation
+6.2.4 SOWFA Computational Domain (grid and turbine layout) or Grid Resolution
+6.2.2 Tuning and Validation of SOWFA Turbine Model
+6.2.3 Gust Modeling in SOWFA
+
+
+6.3 Turbine in wake case
+
+6.4 Small offset case
+6.5 Using the downwind turbine as a sensor.
+6.6 conclusions
+

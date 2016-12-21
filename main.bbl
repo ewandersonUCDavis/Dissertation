@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{61}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -311,6 +311,11 @@ Susan~A Frost, Kai Goebel, and L{\'e}o Obrecht.
 \newblock \emph{IJPHM Special Issue on Wind Turbine PHM (Color)}, page~11,
   2013.
 
+\bibitem[Eldridge and Gregg(2013)]{eldridge2013}
+David Eldridge and Peter Gregg.
+\newblock Ge wind services powerup platform.
+\newblock Technical report, General Electric, 2013.
+
 \bibitem[ves(2015)]{vestas2015}
 Vestas power plus.
 \newblock Brochure, 2015.
@@ -320,6 +325,41 @@ Stephen Steen.
 \newblock The impacts of uprating and derating on turbine reliability.
 \newblock Online seminar:
   http://www.slideshare.net/Sentientscience/the-impacts-of-uprating-and-derating-on-turbine-reliability.
+
+\bibitem[Pedersen and Steiniche(2012)]{pedersen2012}
+Andreas~S{\o}ndergaard Pedersen and Christian~Sigge Steiniche.
+\newblock Safe operation and emergency shutdown of wind turbines.
+\newblock \emph{Aalborg University}, 2012.
+
+\bibitem[Fleming et~al.(2013{\natexlab{a}})Fleming, Gebraad, van Wingerden,
+  Lee, Churchfield, Scholbrock, Michalakes, Johnson, and Moriarty]{fleming2013}
+Paul Fleming, Pieter Gebraad, Jan-Willem van Wingerden, Sang Lee, Matt
+  Churchfield, Andrew Scholbrock, John Michalakes, Kathryn Johnson, and Pat
+  Moriarty.
+\newblock The sowfa super-controller: A high-fidelity tool for evaluating wind
+  plant control approaches.
+\newblock In \emph{Proceedings of the EWEA Annual Meeting, Vienna, Austria},
+  2013{\natexlab{a}}.
+
+\bibitem[Fleming et~al.(2013{\natexlab{b}})Fleming, Gebraad, Churchfield, Lee,
+  Johnson, Michalakes, van Wingerden, and Moriarty]{fleming2013a}
+Paul Fleming, Pieter Gebraad, Matt Churchfield, Sang Lee, Kathryn Johnson, John
+  Michalakes, Jan-Willem van Wingerden, and Patrick Moriarty.
+\newblock Sowfa+ super controller user’s manual.
+\newblock \emph{National Renewable Energy Laboratory, Golden, CO},
+  2013{\natexlab{b}}.
+
+\bibitem[Churchfield et~al.(2012)Churchfield, Lee, and
+  Moriarty]{churchfield2012}
+MJ~Churchfield, S~Lee, and P~Moriarty.
+\newblock Overview of the simulator for offshore wind farm application (sowfa)
+  national renewable energy laboratory.
+\newblock \emph{Golden, CO, USA}, 3, 2012.
+
+\bibitem[Troldborg(2009)]{troldborg2009}
+Niels Troldborg.
+\newblock Actuator line modeling of wind turbine wakes.
+\newblock 2009.
 
 \bibitem[Hayman(2012)]{hayman2012}
 G~Hayman.
@@ -337,8 +377,8 @@ Arvid Palmgren.
 \newblock \emph{Zeitschrift des Vereins Deutscher Ingenieure}, 68\penalty0
   (14):\penalty0 339--341, 1924.
 
-\bibitem[Miner and ohers(1945)]{miner1945}
-Milton~A Miner and ohers.
+\bibitem[Miner(1945)]{miner1945}
+Milton~A Miner.
 \newblock Cumulative damage in fatigue.
 \newblock \emph{Journal of applied mechanics}, 12\penalty0 (3):\penalty0
   159--164, 1945.

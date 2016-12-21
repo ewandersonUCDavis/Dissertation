@@ -1,0 +1,23 @@
+
+
+6.1 Introduction
+Chapter \ref{Chapter4} investigated the benefits and feasibility of derating a downwind turbine based on a feed forward signal from an upwind turbine. The feed forward derating control scheme developed in chapter 4 monitors the rotor speed of the upwind turbine for large rotor overspeeds, which are indicative of large wind gusts. When those large rotor overspeeds are detected, the downwind turbine is smoothly transitioned to derated operation until the gust passes. Derating a turbine reduces power generation, but also decreases both structural loads and rotor speed, making that turbine less sensitive to the detrimental effects of a large wind gust. By derating the downwind turbine only when the upwind turbine detects a large wind gust, the downwind turbine gains the benefits of derating (reduced loads and overspeeds) when they are needed most while keeping the cost of derating (reduced energy generation) in check.
+
+The control scheme was evaluated using a series of FAST simulations, which showed promising results (Section \ref{section4-6}). The control scheme reduced peak structural loads and damage equivalent loads (DEL) while decreasing rotor overspeeds enough to avoid emergency shutdowns of the downwind turbine. The control scheme did reduce electricity generation, but the reduction was small and would likely be much less than the power lost in an emergency turbine shutdown. Though these results are promising, the simulation methodology used to generate them has several noteworthy limitations. First, these simulations did not model emergency turbine shutdowns due to rotor overspeeds. Second, to simulate this system in FAST we had to assume Taylor's frozen turbulence hypothesis, which provides a very simplistic model of wind speed fluctuations passing through the wind farm. As a result, the simulations did not capture the evolution of the gust as it passes from the upwind turbine to the downwind turbine, it did not capture turbine wake effects, and it did not accurately capture the time it takes for the gust to travel from the upwind turbine to the downwind turbine. In this chapter we will evaluate the control scheme developed in Chapter \ref{Chapter4} using a simulation tool that does not have these limitations.
+
+As discussed in Chapter \ref{Chapter5}, the Simulator fOr Wind Farm Applications (SOWFA) is  wind farm simulation tool. SOWFA uses FAST to model the dynamics of one or more turbines, a Large Eddy Simulation (LES) to model atmospheric airflow, and actuator line models to enable interaction of the LES and FAST models. Because SOWFA models atmospheric airflow, we can use it to design a simulation that will capture the evolution of a gust over time, wake effects, and the time it takes a gust to reach the downwind turbine. We can also add control logic that will capture the effects of emergency turbine shutdowns due to rotor overspeed. In Chapter \ref{Chapter5} SOWFA simulations of the NREL 5MW rotor were compared to Reynolds Averaged Navier Stokes (RANS) simulaions of the same rotor and were found to yield similar results. In addition, several SOWFA simulation parameters were varied to investigate the tradeoffs between simulation accuracy and computational cost. Because of the work documented in Chapter \ref{Chapter5} we have confidence in the accuracy of SOWFA simulations and a good understanding of how to achieve accurate results at an acceptable computational cost.
+
+The following section (Section \ref{section6-2}) will describe much of the background work that had to be done before SOWFA simulations of the feed forward selective derating scheme could be carried out. It will discuss topics such as implementation of the turbine controller, tuning and validation of the SOWFA turbine model, modeling gusts in SOWFA, and choosing an appropriate LES grid resolution. Section \ref{section6-3} presents the first simulation case, in which the downwind turbine is directly behind the upwind turbine and in it's wake. Section \ref{section6-4} presents the second simulation case, in which the turbines are offset slightly so that the downwind turbine isn't in the wake of the upwind turbine. Section \ref{section6-5} summarizes this chapter and it's findings.
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+

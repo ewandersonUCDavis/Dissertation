@@ -1,0 +1,53 @@
+% Chapter Template
+
+\chapter{A Comparison of the NREL 5-MW Wake Characteristics Using Both SOWFA and OVERFLOW2} % Main chapter title
+
+\label{Chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter X. \emph{A Comparison of the NREL 5-MW Wake Characteristics Using Both SOWFA and OVERFLOW2}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Main Section 1}
+
+AIAA conference paper I wrote with Ray and Case goes here.
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Subsection 1}
+
+
+%-----------------------------------
+%	SUBSECTION 2
+%-----------------------------------
+
+\subsection{Subsection 2}
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Main Section 2}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
+
+\section{Experimental results}
+
+
+%-----------------------------------
+%	SUBSECTION 4-1
+%-----------------------------------
+
+\subsection{Comparison of SOWFA and OVERFLOW2 Results}\label{section5-4-1}
+
+%-----------------------------------
+%	SUBSECTION 4-3
+%-----------------------------------
+
+\subsection{Effects of Near-Wake Grid Resolution}\label{section5-4-3}
+
