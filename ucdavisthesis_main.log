@@ -1,0 +1,524 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 APR 2017 16:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ucdavisthesis_main.tex
+(./ucdavisthesis_main.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls
+Document Class: ucdavisthesis 2013/08/18 v1.2 UCDavis thesis class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ucdavisthesis/ucdthesis12.clo
+File: ucdthesis12.clo 2009/02/22 v1.0 ucdavisthesis class 12pt size option
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\bibindent=\dimen102
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count86
+\c@table=\count87
+\UMIfoliosep=\skip43
+\c@UMIpagetemp=\count88
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count89
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2015/05/05 v3.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count90
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count91
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen103
+)
+\c@padzeroesN=\count92
+\fc@tmpcatcode=\count93
+\@DT@modctr=\count94
+\@ordinalctr=\count95
+\@orgargctr=\count96
+\@strctr=\count97
+\@tmpstrctr=\count98
+\@DT@loopN=\count99
+\@DT@X=\count100
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2013/08/17
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count101
+\@month=\count102
+\@year=\count103
+\c@HOUR=\count104
+\c@HOURXII=\count105
+\c@MINUTE=\count106
+\c@TOHOUR=\count107
+\c@TOMINUTE=\count108
+\c@SECOND=\count109
+\currenthour=\count110
+\currentminute=\count111
+\currentsecond=\count112
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count113
+\dayofyear=\count114
+\dayofweek=\count115
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks17
+\dt@b=\toks18
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count116
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count117
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count118
+\leftroot@=\count119
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count120
+\DOTSCASE@=\count121
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count122
+\c@MaxMatrixCols=\count123
+\dotsspace@=\muskip10
+\c@parentequation=\count124
+\dspbrk@lvl=\count125
+\tag@help=\toks19
+\row@=\count126
+\column@=\count127
+\maxfields@=\count128
+\andhelp@=\toks20
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks21
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(./ucdavisthesis_main.aux (./Chapters/Chapter6.aux))
+\openout1 = `ucdavisthesis_main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen115
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \celsius on input line 101.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 101
+.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 101.
+Package gensymb Info: Using \Omega for \ohm on input line 101.
+
+Package gensymb Warning: Not defining \micro.
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 109.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
+ [1
+
+] [2
+
+]
+(./ucdavisthesis_main.toc)
+\tf@toc=\write3
+\openout3 = `ucdavisthesis_main.toc'.
+
+ [3
+
+] (./ucdavisthesis_main.lof)
+\tf@lof=\write4
+\openout4 = `ucdavisthesis_main.lof'.
+
+ [4
+
+]
+(./ucdavisthesis_main.lot)
+\tf@lot=\write5
+\openout5 = `ucdavisthesis_main.lot'.
+
+ [5
+
+] [6
+
+] [7]
+\openout2 = `Chapters/Chapter6.aux'.
+
+ (./Chapters/Chapter6.tex
+Chapter 1.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <29.86> not available
+(Font)              size <24.88> substituted on input line 3.
+
+
+LaTeX Warning: Reference `Chapter4' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Reference `section4-6' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Reference `Chapter4' on page 1 undefined on input line 16.
+
+[1
+
+
+]
+
+LaTeX Warning: Reference `Chapter5' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `Chapter5' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `Chapter5' on page 2 undefined on input line 18.
+
+[2]
+
+LaTeX Warning: Reference `Chapter4' on page 3 undefined on input line 30.
+
+
+LaTeX Warning: Reference `Chapter4' on page 3 undefined on input line 32.
+
+[3]
+
+LaTeX Warning: Reference `Chapter4' on page 4 undefined on input line 36.
+
+
+LaTeX Warning: Citation `jonkman2009' on page 4 undefined on input line 36.
+
+
+LaTeX Warning: Citation `pedersen2012' on page 4 undefined on input line 36.
+
+
+LaTeX Warning: Citation `fleming2013' on page 4 undefined on input line 38.
+
+
+LaTeX Warning: Citation `fleming2013a' on page 4 undefined on input line 38.
+
+[4]
+
+LaTeX Warning: Reference `Chapter5' on page 5 undefined on input line 46.
+
+<Figures/ch6Figures/fig6-1.png, id=47, 696.201pt x 458.1918pt>
+File: Figures/ch6Figures/fig6-1.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-1.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-1.png used on input line 50.
+(pdftex.def)             Requested size: 455.30121pt x 299.6529pt.
+ [5 <./Figures/ch6Figures/fig6-1.png>]
+
+LaTeX Warning: Reference `section5-4-1' on page 6 undefined on input line 57.
+
+
+LaTeX Warning: Reference `section5-4-3' on page 6 undefined on input line 59.
+
+
+LaTeX Warning: Citation `churchfield2012' on page 6 undefined on input line 67.
+
+
+
+LaTeX Warning: Citation `troldborg2009' on page 6 undefined on input line 67.
+
+
+LaTeX Warning: Reference `Chapter5' on page 6 undefined on input line 67.
+
+
+LaTeX Warning: Reference `Chapter5' on page 6 undefined on input line 67.
+
+[6] <Figures/ch6Figures/fig6-2.png, id=58, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-2.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-2.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-2.png used on input line 73.
+(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+
+<Figures/ch6Figures/fig6-3.png, id=60, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-3.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-3.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-3.png used on input line 80.
+(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+
+<Figures/ch6Figures/fig6-4.png, id=62, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-4.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-4.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-4.png used on input line 87.
+(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+
+<Figures/ch6Figures/fig6-5.png, id=64, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-5.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-5.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-5.png used on input line 94.
+(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+
+<Figures/ch6Figures/fig6-6.png, id=66, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-6.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-6.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 101.
+(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+
+<Figures/ch6Figures/fig6-7.png, id=68, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-7.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-7.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-7.png used on input line 117.
+(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+
+<Figures/ch6Figures/fig6-p.png, id=70, 821.0675pt x 424.58624pt>
+File: Figures/ch6Figures/fig6-p.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-p.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-p.png used on input line 124.
+(pdftex.def)             Requested size: 455.30121pt x 262.76132pt.
+
+
+LaTeX Warning: Reference `Chapter4' on page 7 undefined on input line 135.
+
+[7] [8 <./Figures/ch6Figures/fig6-2.png (PNG copy)> <./Figures/ch6Figures/fig6-
+3.png (PNG copy)>] [9 <./Figures/ch6Figures/fig6-4.png (PNG copy)> <./Figures/c
+h6Figures/fig6-5.png (PNG copy)>] [10 <./Figures/ch6Figures/fig6-6.png (PNG cop
+y)> <./Figures/ch6Figures/fig6-7.png (PNG copy)>] [11 <./Figures/ch6Figures/fig
+6-p.png>]
+
+LaTeX Warning: Reference `Chapter4' on page 12 undefined on input line 143.
+
+
+LaTeX Warning: Citation `IEC2005' on page 12 undefined on input line 143.
+
+[12] <Figures/ch6Figures/fig6-11.png, id=98, 1093.2042pt x 384.9582pt>
+File: Figures/ch6Figures/fig6-11.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-11.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-11.png used on input line 151.
+
+(pdftex.def)             Requested size: 455.30121pt x 173.91096pt.
+
+<Figures/ch6Figures/fig6-12.png, id=100, 1002.74625pt x 400.49625pt>
+File: Figures/ch6Figures/fig6-12.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-12.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-12.png used on input line 167.
+
+(pdftex.def)             Requested size: 455.30121pt x 198.76875pt.
+
+Overfull \hbox (6.10641pt too wide) in paragraph at lines 183--196
+ [][] |
+ []
+
+) [13 <./Figures/ch6Figures/fig6-11.png>] [14 <./Figures/ch6Figures/fig6-12.png
+ (PNG copy)>]
+No file ucdavisthesis_main.bbl.
+(./ucdavisthesis_main.aux (./Chapters/Chapter6.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.98pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3637 strings out of 493089
+ 50778 string characters out of 6134842
+ 133740 words of memory out of 5000000
+ 7031 multiletter control sequences out of 15000+600000
+ 11011 words of font info for 39 fonts, out of 8000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 38i,8n,36p,1394b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on ucdavisthesis_main.pdf (22 pages, 712981 bytes).
+PDF statistics:
+ 150 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+

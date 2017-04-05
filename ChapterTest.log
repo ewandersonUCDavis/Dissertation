@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 DEC 2016 23:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 JAN 2017 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -750,19 +750,14 @@ LaTeX Info: Redefining \nameref on input line 20.
 \@outlinefile=\write3
 \openout3 = `ChapterTest.out'.
 
- (./Chapters/Chapter6.tex
+ (./Chapters/Chapter4.tex
 Chapter 1.
 ------------------------------------------------------------------------------
- 1 Analysis of Feed Forward Derating Control Scheme With SOWFA.
+ 1 Turbine Derating Based on Feed Forward Signal From Upwind Turbine
 ------------------------------------------------------------------------------
 
-LaTeX Warning: Reference `Chapter4' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Reference `section4-6' on page 1 undefined on input line 17.
-
-
-LaTeX Warning: Reference `Chapter4' on page 1 undefined on input line 17.
+Package natbib Warning: Citation `deshpande2012' on page 1 undefined on input l
+ine 19.
 
 [1
 
@@ -771,52 +766,638 @@ LaTeX Warning: Reference `Chapter4' on page 1 undefined on input line 17.
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `Chapter5' on page 2 undefined on input line 19.
+Package natbib Warning: Citation `fink2009' on page 2 undefined on input line 2
+1.
 
 
-LaTeX Warning: Reference `Chapter5' on page 2 undefined on input line 19.
+Package natbib Warning: Citation `aho2012' on page 2 undefined on input line 21
+.
 
 
-LaTeX Warning: Reference `Chapter5' on page 2 undefined on input line 19.
+Package natbib Warning: Citation `aho2013' on page 2 undefined on input line 21
+.
 
 
-LaTeX Warning: Reference `Chapter4' on page 2 undefined on input line 31.
-
-[2]
-
-LaTeX Warning: Reference `Chapter4' on page 3 undefined on input line 33.
+Package natbib Warning: Citation `biegel2013' on page 2 undefined on input line
+ 21.
 
 
-LaTeX Warning: Reference `chapter4' on page 3 undefined on input line 37.
+Package natbib Warning: Citation `richards2014' on page 2 undefined on input li
+ne 21.
 
 
-Package natbib Warning: Citation `pedersen2012' on page 3 undefined on input li
-ne 37.
+Package natbib Warning: Citation `griffith2015' on page 2 undefined on input li
+ne 21.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+
+Package natbib Warning: Citation `jelavic2013' on page 2 undefined on input lin
+e 21.
+
+
+Package natbib Warning: Citation `petrovic2014' on page 2 undefined on input li
+ne 21.
+
+
+Package natbib Warning: Citation `petrovic2015' on page 2 undefined on input li
+ne 21.
+
+
+Package natbib Warning: Citation `jelavic2013' on page 2 undefined on input lin
+e 21.
+
+
+Package natbib Warning: Citation `carlen2010' on page 2 undefined on input line
+ 21.
+
+
+LaTeX Warning: Reference `section4-3' on page 2 undefined on input line 23.
+
+
+LaTeX Warning: Reference `section4-4' on page 2 undefined on input line 23.
+
+
+LaTeX Warning: Reference `section4-5' on page 2 undefined on input line 23.
+
+
+LaTeX Warning: Reference `section4-6' on page 2 undefined on input line 23.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3]
+) [2]
 
-Package natbib Warning: Citation `fleming2013' on page 4 undefined on input lin
-e 39.
+Package natbib Warning: Citation `deshpande2012' on page 3 undefined on input l
+ine 34.
 
 
-Package natbib Warning: Citation `fleming2013a' on page 4 undefined on input li
+Package natbib Warning: Citation `frost2013' on page 3 undefined on input line 
+34.
+
+
+Package natbib Warning: Citation `petrovic2015' on page 3 undefined on input li
+ne 34.
+
+
+LaTeX Warning: Reference `fig4-1' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig4-4' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig4-2' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig4-3' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig4-4' on page 3 undefined on input line 37.
+
+[3] <Figures/ch4Figures/fig4-1.png, id=65, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-1.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-1.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-1.png used on input line 42.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-2.png, id=67, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-2.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-2.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-2.png used on input line 50.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-3.png, id=69, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-3.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-3.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-3.png used on input line 58.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-4.png, id=71, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-4.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-4.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-4.png used on input line 66.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `table4-1' on page 4 undefined on input line 73.
+
+
+LaTeX Warning: Reference `table4-2' on page 4 undefined on input line 73.
+
+
+LaTeX Warning: Reference `section4-5' on page 4 undefined on input line 73.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 79.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 101.
+
+[4] [5 <./Figures/ch4Figures/fig4-1.png (PNG copy)> <./Figures/ch4Figures/fig4-
+2.png (PNG copy)>] [6 <./Figures/ch4Figures/fig4-3.png (PNG copy)> <./Figures/c
+h4Figures/fig4-4.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig4-5' on page 7 undefined on input line 132.
+
+<Figures/ch4Figures/fig4-5.png, id=97, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-5.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-5.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-5.png used on input line 136.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-6' on page 7 undefined on input line 142.
+
+[7 <./Figures/ch4Figures/fig4-5.png (PNG copy)>]
+<Figures/ch4Figures/fig4-6.png, id=107, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-6.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-6.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-6.png used on input line 146.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-7' on page 8 undefined on input line 152.
+
+<Figures/ch4Figures/fig4-7.png, id=109, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-7.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-7.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-7.png used on input line 156.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-8' on page 8 undefined on input line 162.
+
+
+LaTeX Warning: Reference `fig4-9' on page 8 undefined on input line 162.
+
+<Figures/ch4Figures/fig4-8.png, id=111, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-8.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-8.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-8.png used on input line 166.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-9.png, id=113, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-9.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-9.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-9.png used on input line 174.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [8 <./Figures/ch4Figures/fig4-6.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig4-10' on page 9 undefined on input line 190.
+
+
+LaTeX Warning: Reference `fig4-12' on page 9 undefined on input line 190.
+
+
+LaTeX Warning: Reference `fig4-10' on page 9 undefined on input line 190.
+
+[9 <./Figures/ch4Figures/fig4-7.png (PNG copy)> <./Figures/ch4Figures/fig4-8.pn
+g (PNG copy)>]
+<Figures/ch4Figures/fig4-10.png, id=129, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-10.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-10.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-10.png used on input line 194.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-11' on page 10 undefined on input line 200.
+
+<Figures/ch4Figures/fig4-11.png, id=131, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-11.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-11.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-11.png used on input line 204.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-12' on page 10 undefined on input line 210.
+
+
+LaTeX Warning: Reference `fig4-10' on page 10 undefined on input line 210.
+
+
+LaTeX Warning: Reference `fig4-12' on page 10 undefined on input line 210.
+
+[10 <./Figures/ch4Figures/fig4-9.png (PNG copy)>]
+<Figures/ch4Figures/fig4-12.png, id=139, 753.5653pt x 301.125pt>
+File: Figures/ch4Figures/fig4-12.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-12.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-12.png used on input line 214.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.13373pt.
+
+
+LaTeX Warning: Reference `eq4-1' on page 11 undefined on input line 220.
+
+
+LaTeX Warning: Reference `fig4-13' on page 11 undefined on input line 220.
+
+[11 <./Figures/ch4Figures/fig4-10.png (PNG copy)> <./Figures/ch4Figures/fig4-11
+.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig4-14' on page 12 undefined on input line 234.
+
+
+LaTeX Warning: Reference `fig4-16' on page 12 undefined on input line 234.
+
+
+LaTeX Warning: Reference `fig4-14' on page 12 undefined on input line 234.
+
+
+LaTeX Warning: Reference `fig4-15' on page 12 undefined on input line 234.
+
+
+LaTeX Warning: Reference `fig4-16' on page 12 undefined on input line 234.
+
+<Figures/ch4Figures/fig4-14.png, id=150, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-14.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-14.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-14.png used on input line 238.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-15.png, id=152, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-15.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-15.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-15.png used on input line 246.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-16.png, id=154, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-16.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-16.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-16.png used on input line 255.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-17' on page 12 undefined on input line 262.
+
+
+LaTeX Warning: Reference `fig4-19' on page 12 undefined on input line 262.
+
+[12 <./Figures/ch4Figures/fig4-12.png (PNG copy)>]
+<Figures/ch4Figures/fig4-17.png, id=163, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-17.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-17.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-17.png used on input line 267.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-18.png, id=165, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-18.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-18.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-18.png used on input line 275.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-19.png, id=167, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-19.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-19.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-19.png used on input line 283.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `eq4-1' on page 13 undefined on input line 289.
+
+[13 <./Figures/ch4Figures/fig4-14.png (PNG copy)> <./Figures/ch4Figures/fig4-15
+.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig4-20' on page 14 undefined on input line 297.
+
+[14 <./Figures/ch4Figures/fig4-16.png (PNG copy)> <./Figures/ch4Figures/fig4-17
+.png (PNG copy)>]
+<Figures/ch4Figures/fig4-20.png, id=188, 595.9866pt x 299.1978pt>
+File: Figures/ch4Figures/fig4-20.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-20.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-20.png used on input line 301.
+
+(pdftex.def)             Requested size: 417.47307pt x 209.58311pt.
+
+
+LaTeX Warning: Reference `section2-2' on page 15 undefined on input line 308.
+
+[15 <./Figures/ch4Figures/fig4-18.png (PNG copy)> <./Figures/ch4Figures/fig4-19
+.png (PNG copy)>]
+
+LaTeX Warning: Reference `section4-3' on page 16 undefined on input line 310.
+
+
+LaTeX Warning: Reference `section2-4' on page 16 undefined on input line 312.
+
+
+LaTeX Warning: Reference `section2-5' on page 16 undefined on input line 312.
+
+
+LaTeX Warning: Reference `section2-5' on page 16 undefined on input line 314.
+
+
+LaTeX Warning: Reference `eq4-2' on page 16 undefined on input line 314.
+
+
+LaTeX Warning: Reference `eq4-3' on page 16 undefined on input line 314.
+
+[16 <./Figures/ch4Figures/fig4-20.png>]
+
+LaTeX Warning: Reference `eq4-4' on page 17 undefined on input line 327.
+
+
+LaTeX Warning: Reference `eq4-5' on page 17 undefined on input line 327.
+
+[17]
+
+LaTeX Warning: Reference `section3-2' on page 18 undefined on input line 351.
+
+
+LaTeX Warning: Reference `section3-4-1' on page 18 undefined on input line 358.
+
+
+
+LaTeX Warning: Reference `section3-5-1' on page 18 undefined on input line 358.
+
+
+
+LaTeX Warning: Reference `fig4-22' on page 18 undefined on input line 358.
+
+<Figures/ch4Figures/fig4-22.png, id=212, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-22.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-22.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-22.png used on input line 362.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-23' on page 18 undefined on input line 368.
+
+
+LaTeX Warning: Reference `fig4-26' on page 18 undefined on input line 368.
+
+
+LaTeX Warning: Reference `table4-3' on page 18 undefined on input line 368.
+
+
+LaTeX Warning: Reference `section4-5' on page 18 undefined on input line 368.
+
+
+LaTeX Warning: Reference `fig4-23' on page 18 undefined on input line 370.
+
+
+LaTeX Warning: Reference `fig4-24' on page 18 undefined on input line 370.
+
+
+LaTeX Warning: Reference `fig4-25' on page 18 undefined on input line 370.
+
+[18] <Figures/ch4Figures/fig4-23.png, id=222, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-23.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-23.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-23.png used on input line 374.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-24.png, id=224, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-24.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-24.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-24.png used on input line 382.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-25.png, id=226, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-25.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-25.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-25.png used on input line 390.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `section3-2' on page 19 undefined on input line 398.
+
+
+LaTeX Warning: Reference `fig4-23' on page 19 undefined on input line 398.
+
+
+LaTeX Warning: Reference `fig4-25' on page 19 undefined on input line 398.
+
+[19 <./Figures/ch4Figures/fig4-22.png (PNG copy)> <./Figures/ch4Figures/fig4-23
+.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig4-25' on page 20 undefined on input line 400.
+
+[20 <./Figures/ch4Figures/fig4-24.png (PNG copy)> <./Figures/ch4Figures/fig4-25
+.png (PNG copy)>]
+<Figures/ch4Figures/fig4-26.png, id=245, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-26.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-26.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-26.png used on input line 404.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 411.
+
+
+LaTeX Warning: Reference `section4-5' on page 21 undefined on input line 441.
+
+
+LaTeX Warning: Reference `section4-3' on page 21 undefined on input line 441.
+
+
+LaTeX Warning: Reference `fig4-27' on page 21 undefined on input line 441.
+
+
+LaTeX Warning: Reference `fig4-31' on page 21 undefined on input line 441.
+
+
+LaTeX Warning: Reference `table4-4' on page 21 undefined on input line 441.
+
+
+LaTeX Warning: Reference `table4-6' on page 21 undefined on input line 441.
+
+[21 <./Figures/ch4Figures/fig4-26.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig4-27' on page 22 undefined on input line 444.
+
+<Figures/ch4Figures/fig4-27.png, id=254, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-27.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-27.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-27.png used on input line 448.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-28' on page 22 undefined on input line 454.
+
+
+LaTeX Warning: Reference `fig4-31' on page 22 undefined on input line 454.
+
+
+LaTeX Warning: Reference `section4-6-1' on page 22 undefined on input line 454.
+
+
+[22 <./Figures/ch4Figures/fig4-27.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig4-28' on page 23 undefined on input line 456.
+
+
+LaTeX Warning: Reference `fig4-29' on page 23 undefined on input line 456.
+
+<Figures/ch4Figures/fig4-28.png, id=263, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-28.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-28.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-28.png used on input line 460.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-29.png, id=265, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-29.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-29.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-29.png used on input line 468.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-30' on page 23 undefined on input line 474.
+
+
+LaTeX Warning: Reference `fig4-30' on page 23 undefined on input line 474.
+
+
+LaTeX Warning: Reference `section4-3' on page 23 undefined on input line 474.
+
+
+LaTeX Warning: Reference `fig4-30' on page 23 undefined on input line 474.
+
+[23 <./Figures/ch4Figures/fig4-28.png (PNG copy)>]
+<Figures/ch4Figures/fig4-30.png, id=273, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-30.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-30.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-30.png used on input line 478.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `fig4-31' on page 24 undefined on input line 484.
+
+[24 <./Figures/ch4Figures/fig4-29.png (PNG copy)> <./Figures/ch4Figures/fig4-30
+.png (PNG copy)>]
+<Figures/ch4Figures/fig4-31.png, id=283, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-31.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-31.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-31.png used on input line 488.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: Reference `table4-4' on page 25 undefined on input line 494.
+
+
+LaTeX Warning: Reference `table4-6' on page 25 undefined on input line 494.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 497.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 519.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 540.
+
+[25 <./Figures/ch4Figures/fig4-31.png (PNG copy)>] [26])
+(./Chapters/Chapter6.tex [27]
+Chapter 2.
+------------------------------------------------------------------------------
+ 2 Analysis of Feed Forward Derating Control Scheme With SOWFA.
+------------------------------------------------------------------------------
+
+LaTeX Warning: Reference `Chapter4' on page 28 undefined on input line 15.
+
+
+LaTeX Warning: Reference `section4-6' on page 28 undefined on input line 17.
+
+
+LaTeX Warning: Reference `Chapter4' on page 28 undefined on input line 17.
+
+[28
+
+]
+
+LaTeX Warning: Reference `Chapter5' on page 29 undefined on input line 19.
+
+
+LaTeX Warning: Reference `Chapter5' on page 29 undefined on input line 19.
+
+
+LaTeX Warning: Reference `Chapter5' on page 29 undefined on input line 19.
+
+
+LaTeX Warning: Reference `Chapter4' on page 29 undefined on input line 31.
+
+[29]
+
+LaTeX Warning: Reference `Chapter4' on page 30 undefined on input line 33.
+
+
+LaTeX Warning: Reference `Chapter4' on page 30 undefined on input line 37.
+
+
+Package natbib Warning: Citation `pedersen2012' on page 30 undefined on input l
+ine 37.
+
+[30]
+
+Package natbib Warning: Citation `fleming2013' on page 31 undefined on input li
 ne 39.
 
 
-LaTeX Warning: Reference `chapter5' on page 4 undefined on input line 47.
+Package natbib Warning: Citation `fleming2013a' on page 31 undefined on input l
+ine 39.
 
 
-LaTeX Warning: Reference `chapter5' on page 4 undefined on input line 47.
+LaTeX Warning: Reference `Chapter5' on page 31 undefined on input line 47.
 
-<Figures/ch6Figures/fig6-1.png, id=70, 696.201pt x 458.1918pt>
+
+LaTeX Warning: Reference `Chapter5' on page 31 undefined on input line 47.
+
+<Figures/ch6Figures/fig6-1.png, id=329, 696.201pt x 458.1918pt>
 File: Figures/ch6Figures/fig6-1.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-1.png>
@@ -824,26 +1405,25 @@ Package pdftex.def Info: Figures/ch6Figures/fig6-1.png used on input line 51.
 (pdftex.def)             Requested size: 417.47307pt x 274.7564pt.
 
 
-LaTeX Warning: Reference `section5-4-1' on page 4 undefined on input line 59.
+LaTeX Warning: Reference `section5-4-1' on page 31 undefined on input line 59.
 
-[4]
+[31]
 
-LaTeX Warning: Reference `subsection5-4-3' on page 5 undefined on input line 61
-.
-
-
-Package natbib Warning: Citation `churchfield2012' on page 5 undefined on input
- line 69.
+LaTeX Warning: Reference `section5-4-3' on page 32 undefined on input line 61.
 
 
-Package natbib Warning: Citation `troldborg2009' on page 5 undefined on input l
-ine 69.
+Package natbib Warning: Citation `churchfield2012' on page 32 undefined on inpu
+t line 69.
 
 
-LaTeX Warning: Reference `chapter5' on page 5 undefined on input line 69.
+Package natbib Warning: Citation `troldborg2009' on page 32 undefined on input 
+line 69.
 
 
-LaTeX Warning: Reference `chapter5' on page 5 undefined on input line 69.
+LaTeX Warning: Reference `Chapter5' on page 32 undefined on input line 69.
+
+
+LaTeX Warning: Reference `Chapter5' on page 32 undefined on input line 69.
 
 
 Overfull \hbox (3.69571pt too wide) in paragraph at lines 69--70
@@ -851,36 +1431,36 @@ Overfull \hbox (3.69571pt too wide) in paragraph at lines 69--70
 bine per-for-mance from SOWFA,
  []
 
-[5 <./Figures/ch6Figures/fig6-1.png>]
-<Figures/ch6Figures/fig6-2.png, id=87, 1001.7425pt x 400.49625pt>
+[32 <./Figures/ch6Figures/fig6-1.png>]
+<Figures/ch6Figures/fig6-2.png, id=346, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-2.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-2.png>
 Package pdftex.def Info: Figures/ch6Figures/fig6-2.png used on input line 75.
-(pdftex.def)             Requested size: 417.47307pt x 182.45218pt.
+(pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-3.png, id=89, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-3.png, id=348, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-3.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-3.png>
 Package pdftex.def Info: Figures/ch6Figures/fig6-3.png used on input line 83.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-4.png, id=91, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-4.png, id=350, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-4.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-4.png>
 Package pdftex.def Info: Figures/ch6Figures/fig6-4.png used on input line 91.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-5.png, id=93, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-5.png, id=352, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-5.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-5.png>
 Package pdftex.def Info: Figures/ch6Figures/fig6-5.png used on input line 99.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-6.png, id=95, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-6.png, id=354, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-6.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-6.png>
@@ -888,74 +1468,105 @@ Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 107.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
 
-LaTeX Warning: Reference `chapter4' on page 6 undefined on input line 119.
+LaTeX Warning: Reference `Chapter4' on page 33 undefined on input line 119.
 
-[6 <./Figures/ch6Figures/fig6-2.png (PNG copy)>] [7 <./Figures/ch6Figures/fig6-
-3.png (PNG copy)> <./Figures/ch6Figures/fig6-4.png (PNG copy)> <./Figures/ch6Fi
-gures/fig6-5.png (PNG copy)>] [8 <./Figures/ch6Figures/fig6-6.png (PNG copy)>]
+[33 <./Figures/ch6Figures/fig6-2.png (PNG copy)>] [34 <./Figures/ch6Figures/fig
+6-3.png (PNG copy)> <./Figures/ch6Figures/fig6-4.png (PNG copy)> <./Figures/ch6
+Figures/fig6-5.png (PNG copy)>] [35 <./Figures/ch6Figures/fig6-6.png (PNG copy)
+>]
 
-LaTeX Warning: Reference `chapter4' on page 9 undefined on input line 127.
-
-
-LaTeX Warning: Reference `fig-8' on page 9 undefined on input line 129.
+LaTeX Warning: Reference `Chapter4' on page 36 undefined on input line 127.
 
 File: Figures/ch6Figures/fig6-6.png Graphic file (type png)
 <use Figures/ch6Figures/fig6-6.png>
 Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 133.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
-File: Figures/ch6Figures/fig6-6.png Graphic file (type png)
- <use Figures/ch6Figures/fig6-6.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 149.
+
+<Figures/ch6Figures/fig6-8.png, id=384, 1002.74625pt x 400.49625pt>
+File: Figures/ch6Figures/fig6-8.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-8.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-8.png used on input line 149.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
-)
-[9] [10]
+) [36] [37 <./Figures/ch6Figures/fig6-8.png (PNG copy)>]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(./ChapterTest.bbl [11
+(./ChapterTest.bbl [38
 
 
-] [12] [13])
+] [39] [40])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-[14]
+[41]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./ChapterTest.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `ChapterTest.out' has not changed.
-(rerunfilecheck)             Checksum: EF54977E5FA6BFA5CE202A2BD4FFFC40;2170.
 
+
+Package rerunfilecheck Warning: File `ChapterTest.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ChapterTest.out':
+(rerunfilecheck)             Before: EF54977E5FA6BFA5CE202A2BD4FFFC40;2170
+(rerunfilecheck)             After:  513E189221C6BE0982447A501ADA577B;4659.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 13178 strings out of 493089
- 186139 string characters out of 6134842
- 259399 words of memory out of 5000000
- 16413 multiletter control sequences out of 15000+600000
- 11228 words of font info for 42 fonts, out of 8000000 for 9000
+ 13483 strings out of 493089
+ 192361 string characters out of 6134842
+ 270400 words of memory out of 5000000
+ 16600 multiletter control sequences out of 15000+600000
+ 11833 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,1388b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ChapterTest.pdf (14 pages, 278057 bytes).
+ 49i,14n,45p,3244b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{equation.14} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.19} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{section.18} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.17} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.12} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ChapterTest.pdf (41 pages, 673510 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
+ 159 named destinations out of 1000 (max. 500000)
+ 471 words of extra memory for PDF output out of 10000 (max. 10000000)
 

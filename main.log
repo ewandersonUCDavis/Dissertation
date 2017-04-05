@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 DEC 2016 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 APR 2017 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,7 +872,7 @@ Chapter 1.
 File: Figures/ch1Figures/fig1-1.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-1.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-1.png used on input line 19.
+Package pdftex.def Info: Figures/ch1Figures/fig1-1.png used on input line 17.
 (pdftex.def)             Requested size: 417.47307pt x 158.22597pt.
  [1
 
@@ -883,35 +883,35 @@ Package pdftex.def Info: Figures/ch1Figures/fig1-1.png used on input line 19.
 File: Figures/ch1Figures/fig1-2.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-2.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-2.png used on input line 46.
+Package pdftex.def Info: Figures/ch1Figures/fig1-2.png used on input line 44.
 (pdftex.def)             Requested size: 310.15799pt x 190.71202pt.
 
 <Figures/ch1Figures/fig1-3.png, id=783, 298.11375pt x 179.67125pt>
 File: Figures/ch1Figures/fig1-3.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-3.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-3.png used on input line 54.
+Package pdftex.def Info: Figures/ch1Figures/fig1-3.png used on input line 52.
 (pdftex.def)             Requested size: 298.11302pt x 179.67079pt.
  [3 <./Figures/ch1Figures/fig1-2.png> <./Figures/ch1Figures/fig1-3.png>]
 <Figures/ch1Figures/fig1-4.png, id=794, 262.9825pt x 159.59625pt>
 File: Figures/ch1Figures/fig1-4.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-4.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-4.png used on input line 78.
+Package pdftex.def Info: Figures/ch1Figures/fig1-4.png used on input line 76.
 (pdftex.def)             Requested size: 262.98184pt x 159.59584pt.
  [4]
 <Figures/ch1Figures/fig1-5.png, id=805, 232.87pt x 195.73125pt>
 File: Figures/ch1Figures/fig1-5.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-5.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-5.png used on input line 88.
+Package pdftex.def Info: Figures/ch1Figures/fig1-5.png used on input line 86.
 (pdftex.def)             Requested size: 232.86942pt x 195.73076pt.
  [5 <./Figures/ch1Figures/fig1-4.png> <./Figures/ch1Figures/fig1-5.png>]
 <Figures/ch1Figures/fig1-6.png, id=816, 469.755pt x 213.79875pt>
 File: Figures/ch1Figures/fig1-6.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-6.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-6.png used on input line 107.
+Package pdftex.def Info: Figures/ch1Figures/fig1-6.png used on input line 105.
 (pdftex.def)             Requested size: 417.47307pt x 190.00298pt.
  [6 <./Figures/ch1Figures/fig1-6.png>])
 (./Chapters/Chapter2.tex [7]
@@ -923,10 +923,10 @@ Chapter 2.
 File: Figures/ch2Figures/fig2-1.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-1.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-1.png used on input line 22.
+Package pdftex.def Info: Figures/ch2Figures/fig2-1.png used on input line 21.
 (pdftex.def)             Requested size: 433.61894pt x 221.14565pt.
 
-Overfull \hbox (16.14587pt too wide) in paragraph at lines 22--24
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 21--23
  [][] 
  []
 
@@ -936,7 +936,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 22--24
 File: Figures/ch2Figures/fig2-2.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-2.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-2.png used on input line 42.
+Package pdftex.def Info: Figures/ch2Figures/fig2-2.png used on input line 41.
 (pdftex.def)             Requested size: 139.72165pt x 134.42186pt.
  [9 <./Figures/ch2Figures/fig2-1.png>]
 [10 <./Figures/ch2Figures/fig2-2.png>]
@@ -944,28 +944,28 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-2.png used on input line 42.
 File: Figures/ch2Figures/fig2-3.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-3.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-3.jpg used on input line 72.
+Package pdftex.def Info: Figures/ch2Figures/fig2-3.jpg used on input line 71.
 (pdftex.def)             Requested size: 417.47307pt x 163.0612pt.
 
 <Figures/ch2Figures/fig2-4.jpg, id=863, 565.11125pt x 273.02pt>
 File: Figures/ch2Figures/fig2-4.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-4.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-4.jpg used on input line 91.
+Package pdftex.def Info: Figures/ch2Figures/fig2-4.jpg used on input line 90.
 (pdftex.def)             Requested size: 417.47307pt x 201.6942pt.
 
 <Figures/ch2Figures/fig2-6.jpg, id=866, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-6.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-6.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-6.jpg used on input line 101.
+Package pdftex.def Info: Figures/ch2Figures/fig2-6.jpg used on input line 100.
 (pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
 
 <Figures/ch2Figures/fig2-7.jpg, id=868, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-7.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-7.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-7.jpg used on input line 110.
+Package pdftex.def Info: Figures/ch2Figures/fig2-7.jpg used on input line 109.
 (pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
  [11 <./Figures/ch2Figures/fig2-3.jpg>]
 [12 <./Figures/ch2Figures/fig2-6.jpg> <./Figures/ch2Figures/fig2-4.jpg>]
@@ -973,21 +973,21 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-7.jpg used on input line 110.
 File: Figures/ch2Figures/fig2-8.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-8.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-8.jpg used on input line 122.
+Package pdftex.def Info: Figures/ch2Figures/fig2-8.jpg used on input line 121.
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
  [13 <./Figures/ch2Figures/fig2-7.jpg> <./Figures/ch2Figures/fig2-8.jpg>]
 <Figures/ch2Figures/fig2-9.jpg, id=891, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-9.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-9.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-9.jpg used on input line 132.
+Package pdftex.def Info: Figures/ch2Figures/fig2-9.jpg used on input line 131.
 (pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
 
 <Figures/ch2Figures/fig2-10.jpg, id=893, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-10.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-10.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-10.jpg used on input line 140.
+Package pdftex.def Info: Figures/ch2Figures/fig2-10.jpg used on input line 139.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
  [14 <./Figures/ch2Figures/fig2-9.jpg> <./Figures/ch2Figures/fig2-10.jpg>]
@@ -995,7 +995,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-10.jpg used on input line 140.
 File: Figures/ch2Figures/fig2-11.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-11.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-11.jpg used on input line 151.
+Package pdftex.def Info: Figures/ch2Figures/fig2-11.jpg used on input line 150.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
 
@@ -1003,7 +1003,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-11.jpg used on input line 151.
 File: Figures/ch2Figures/fig2-12.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-12.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-12.jpg used on input line 159.
+Package pdftex.def Info: Figures/ch2Figures/fig2-12.jpg used on input line 158.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
  [15 <./Figures/ch2Figures/fig2-11.jpg> <./Figures/ch2Figures/fig2-12.jpg>] [16
@@ -1012,7 +1012,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-12.jpg used on input line 159.
 File: Figures/ch2Figures/fig2-13.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-13.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-13.png used on input line 210.
+Package pdftex.def Info: Figures/ch2Figures/fig2-13.png used on input line 209.
 
 (pdftex.def)             Requested size: 417.47307pt x 200.81442pt.
 
@@ -1020,7 +1020,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-13.png used on input line 210.
 File: Figures/ch2Figures/fig2-14.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-14.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-14.png used on input line 220.
+Package pdftex.def Info: Figures/ch2Figures/fig2-14.png used on input line 219.
 
 (pdftex.def)             Requested size: 417.47307pt x 202.09895pt.
  [17 <./Figures/ch2Figures/fig2-13.png>]
@@ -1028,7 +1028,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-14.png used on input line 220.
 File: Figures/ch2Figures/fig2-15.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-15.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-15.jpg used on input line 240.
+Package pdftex.def Info: Figures/ch2Figures/fig2-15.jpg used on input line 239.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
  [18 <./Figures/ch2Figures/fig2-14.png>]
@@ -1036,7 +1036,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-15.jpg used on input line 240.
 File: Figures/ch2Figures/fig2-16.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-16.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-16.jpg used on input line 251.
+Package pdftex.def Info: Figures/ch2Figures/fig2-16.jpg used on input line 250.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
 
@@ -1044,7 +1044,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-16.jpg used on input line 251.
 File: Figures/ch2Figures/fig2-17.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-17.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-17.jpg used on input line 261.
+Package pdftex.def Info: Figures/ch2Figures/fig2-17.jpg used on input line 260.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
  [19 <./Figures/ch2Figures/fig2-15.jpg> <./Figures/ch2Figures/fig2-16.jpg>]
@@ -1052,7 +1052,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-17.jpg used on input line 261.
 File: Figures/ch2Figures/fig2-18.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-18.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-18.jpg used on input line 272.
+Package pdftex.def Info: Figures/ch2Figures/fig2-18.jpg used on input line 271.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
 
@@ -1060,7 +1060,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-18.jpg used on input line 272.
 File: Figures/ch2Figures/fig2-19.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-19.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-19.jpg used on input line 282.
+Package pdftex.def Info: Figures/ch2Figures/fig2-19.jpg used on input line 281.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
  [20 <./Figures/ch2Figures/fig2-17.jpg> <./Figures/ch2Figures/fig2-18.jpg>] [21
@@ -1069,7 +1069,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-19.jpg used on input line 282.
 File: Figures/ch2Figures/fig2-20.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-20.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-20.jpg used on input line 305.
+Package pdftex.def Info: Figures/ch2Figures/fig2-20.jpg used on input line 304.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
 
@@ -1077,7 +1077,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-20.jpg used on input line 305.
 File: Figures/ch2Figures/fig2-21.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-21.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-21.jpg used on input line 315.
+Package pdftex.def Info: Figures/ch2Figures/fig2-21.jpg used on input line 314.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
 
@@ -1085,7 +1085,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-21.jpg used on input line 315.
 File: Figures/ch2Figures/fig2-22.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-22.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-22.png used on input line 326.
+Package pdftex.def Info: Figures/ch2Figures/fig2-22.png used on input line 325.
 
 (pdftex.def)             Requested size: 417.47307pt x 174.67863pt.
  [22 <./Figures/ch2Figures/fig2-20.jpg>]
@@ -1093,7 +1093,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-22.png used on input line 326.
 File: Figures/ch2Figures/fig2-23.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-23.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-23.jpg used on input line 337.
+Package pdftex.def Info: Figures/ch2Figures/fig2-23.jpg used on input line 336.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
 
@@ -1101,7 +1101,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-23.jpg used on input line 337.
 File: Figures/ch2Figures/fig2-24.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-24.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-24.jpg used on input line 349.
+Package pdftex.def Info: Figures/ch2Figures/fig2-24.jpg used on input line 348.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
  [23 <./Figures/ch2Figures/fig2-21.jpg> <./Figures/ch2Figures/fig2-22.png>] [24
@@ -1110,7 +1110,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-24.jpg used on input line 349.
 File: Figures/ch2Figures/fig2-25.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-25.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-25.jpg used on input line 387.
+Package pdftex.def Info: Figures/ch2Figures/fig2-25.jpg used on input line 386.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
  [26 <./Figures/ch2Figures/fig2-25.jpg>]
@@ -1118,7 +1118,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-25.jpg used on input line 387.
 File: Figures/ch2Figures/fig2-26.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-26.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-26.jpg used on input line 401.
+Package pdftex.def Info: Figures/ch2Figures/fig2-26.jpg used on input line 400.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
 
@@ -1126,7 +1126,7 @@ Package pdftex.def Info: Figures/ch2Figures/fig2-26.jpg used on input line 401.
 File: Figures/ch2Figures/fig2-27.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-27.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-27.jpg used on input line 409.
+Package pdftex.def Info: Figures/ch2Figures/fig2-27.jpg used on input line 408.
 
 (pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
  [27 <./Figures/ch2Figures/fig2-26.jpg>])
@@ -1137,14 +1137,14 @@ Chapter 3.
 ------------------------------------------------------------------------------
 File: Figures/ch2Figures/fig2-1.png Graphic file (type png)
 <use Figures/ch2Figures/fig2-1.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-1.png used on input line 18.
+Package pdftex.def Info: Figures/ch2Figures/fig2-1.png used on input line 17.
 (pdftex.def)             Requested size: 417.47307pt x 212.9222pt.
 
 <Figures/ch3Figures/fig3-2.png, id=1109, 634.0488pt x 225.0006pt>
 File: Figures/ch3Figures/fig3-2.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-2.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-2.png used on input line 26.
+Package pdftex.def Info: Figures/ch3Figures/fig3-2.png used on input line 25.
 (pdftex.def)             Requested size: 417.47307pt x 148.14722pt.
  [29
 
@@ -1153,68 +1153,68 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-2.png used on input line 26.
 File: Figures/ch3Figures/fig3-3.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-3.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-3.png used on input line 38.
+Package pdftex.def Info: Figures/ch3Figures/fig3-3.png used on input line 37.
 (pdftex.def)             Requested size: 417.47307pt x 213.11604pt.
  [30 <./Figures/ch3Figures/fig3-2.png>]
 <Figures/ch3Figures/fig3-4.png, id=1130, 1097.09875pt x 559.08875pt>
 File: Figures/ch3Figures/fig3-4.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-4.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-4.png used on input line 48.
+Package pdftex.def Info: Figures/ch3Figures/fig3-4.png used on input line 47.
 (pdftex.def)             Requested size: 417.47307pt x 212.74597pt.
  [31 <./Figures/ch3Figures/fig3-3.png> <./Figures/ch3Figures/fig3-4.png>] [32]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
 
 <Figures/ch3Figures/fig3-5.png, id=1157, 606.5862pt x 178.266pt>
 File: Figures/ch3Figures/fig3-5.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-5.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-5.png used on input line 78.
+Package pdftex.def Info: Figures/ch3Figures/fig3-5.png used on input line 77.
 (pdftex.def)             Requested size: 417.47307pt x 122.69084pt.
  [33 <./Figures/ch3Figures/fig3-5.png>]
 <Figures/ch3Figures/fig3-6.png, id=1166, 740.0448pt x 392.1852pt>
 File: Figures/ch3Figures/fig3-6.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-6.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-6.png used on input line 88.
+Package pdftex.def Info: Figures/ch3Figures/fig3-6.png used on input line 87.
 (pdftex.def)             Requested size: 417.47307pt x 221.23796pt.
  [34 <./Figures/ch3Figures/fig3-6.png>]
 <Figures/ch3Figures/fig3-7.png, id=1173, 495.2904pt x 209.1012pt>
 File: Figures/ch3Figures/fig3-7.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-7.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-7.png used on input line 108.
+Package pdftex.def Info: Figures/ch3Figures/fig3-7.png used on input line 107.
 (pdftex.def)             Requested size: 250.48637pt x 105.75pt.
 
 <Figures/ch3Figures/fig3-8.png, id=1178, 722.7pt x 198.9834pt>
 File: Figures/ch3Figures/fig3-8.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-8.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-8.png used on input line 118.
+Package pdftex.def Info: Figures/ch3Figures/fig3-8.png used on input line 117.
 (pdftex.def)             Requested size: 417.47307pt x 114.9459pt.
 
 
-LaTeX Warning: Reference `AppendixB' on page 35 undefined on input line 126.
+LaTeX Warning: Reference `AppendixB' on page 35 undefined on input line 125.
 
 [35 <./Figures/ch3Figures/fig3-7.png>]
 <Figures/ch3Figures/fig3-9.png, id=1190, 820.0236pt x 418.6842pt>
 File: Figures/ch3Figures/fig3-9.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-9.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-9.png used on input line 134.
+Package pdftex.def Info: Figures/ch3Figures/fig3-9.png used on input line 133.
 (pdftex.def)             Requested size: 417.47307pt x 213.15558pt.
  [36 <./Figures/ch3Figures/fig3-8.png>]
 <Figures/ch3Figures/fig3-10.png, id=1208, 820.0236pt x 476.5002pt>
 File: Figures/ch3Figures/fig3-10.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-10.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-10.png used on input line 155.
+Package pdftex.def Info: Figures/ch3Figures/fig3-10.png used on input line 154.
 
 (pdftex.def)             Requested size: 417.47307pt x 242.59016pt.
  [37 <./Figures/ch3Figures/fig3-9.png>]
@@ -1222,7 +1222,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-10.png used on input line 155.
 File: Figures/ch3Figures/fig3-11.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-11.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-11.png used on input line 165.
+Package pdftex.def Info: Figures/ch3Figures/fig3-11.png used on input line 164.
 
 (pdftex.def)             Requested size: 417.47307pt x 191.53024pt.
  [38 <./Figures/ch3Figures/fig3-10.png> <./Figures/ch3Figures/fig3-11.png>] [39
@@ -1231,7 +1231,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-11.png used on input line 165.
 File: Figures/ch3Figures/fig3-12.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-12.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-12.png used on input line 202.
+Package pdftex.def Info: Figures/ch3Figures/fig3-12.png used on input line 201.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [40 <./Figures/ch3Figures/fig3-12.png (PNG copy)>] <Figures/ch3Figures/fig3-13
@@ -1239,7 +1239,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-12.png used on input line 202.
 File: Figures/ch3Figures/fig3-13.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-13.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-13.png used on input line 215.
+Package pdftex.def Info: Figures/ch3Figures/fig3-13.png used on input line 214.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1247,7 +1247,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-13.png used on input line 215.
 File: Figures/ch3Figures/fig3-14.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-14.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-14.png used on input line 225.
+Package pdftex.def Info: Figures/ch3Figures/fig3-14.png used on input line 224.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [41 <./Figures/ch3Figures/fig3-13.png (PNG copy)>] <Figures/ch3Figures/fig3-15
@@ -1255,7 +1255,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-14.png used on input line 225.
 File: Figures/ch3Figures/fig3-15.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-15.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-15.png used on input line 236.
+Package pdftex.def Info: Figures/ch3Figures/fig3-15.png used on input line 235.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [42 <./Figures/ch3Figures/fig3-14.png (PNG copy)> <./Figures/ch3Figures/fig3-1
@@ -1264,7 +1264,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-15.png used on input line 236.
 File: Figures/ch3Figures/fig3-16.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-16.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-16.png used on input line 246.
+Package pdftex.def Info: Figures/ch3Figures/fig3-16.png used on input line 245.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1272,7 +1272,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-16.png used on input line 246.
 File: Figures/ch3Figures/fig3-17.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-17.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-17.png used on input line 254.
+Package pdftex.def Info: Figures/ch3Figures/fig3-17.png used on input line 253.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [43 <./Figures/ch3Figures/fig3-16.png (PNG copy)> <./Figures/ch3Figures/fig3-1
@@ -1281,7 +1281,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-17.png used on input line 254.
 File: Figures/ch3Figures/fig3-18.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-18.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-18.png used on input line 295.
+Package pdftex.def Info: Figures/ch3Figures/fig3-18.png used on input line 294.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1289,7 +1289,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-18.png used on input line 295.
 File: Figures/ch3Figures/fig3-19.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-19.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-19.png used on input line 305.
+Package pdftex.def Info: Figures/ch3Figures/fig3-19.png used on input line 304.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1297,7 +1297,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-19.png used on input line 305.
 File: Figures/ch3Figures/fig3-20.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-20.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-20.png used on input line 315.
+Package pdftex.def Info: Figures/ch3Figures/fig3-20.png used on input line 314.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1305,7 +1305,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-20.png used on input line 315.
 File: Figures/ch3Figures/fig3-21.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-21.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-21.png used on input line 323.
+Package pdftex.def Info: Figures/ch3Figures/fig3-21.png used on input line 322.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [45 <./Figures/ch3Figures/fig3-18.png (PNG copy)>] <Figures/ch3Figures/fig3-22
@@ -1313,7 +1313,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-21.png used on input line 323.
 File: Figures/ch3Figures/fig3-22.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-22.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-22.png used on input line 336.
+Package pdftex.def Info: Figures/ch3Figures/fig3-22.png used on input line 335.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1321,7 +1321,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-22.png used on input line 336.
 File: Figures/ch3Figures/fig3-23.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-23.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-23.png used on input line 344.
+Package pdftex.def Info: Figures/ch3Figures/fig3-23.png used on input line 343.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [46 <./Figures/ch3Figures/fig3-19.png (PNG copy)> <./Figures/ch3Figures/fig3-2
@@ -1332,7 +1332,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-23.png used on input line 344.
 File: Figures/ch3Figures/fig3-24.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-24.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-24.png used on input line 426.
+Package pdftex.def Info: Figures/ch3Figures/fig3-24.png used on input line 425.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.13373pt.
  [49]
@@ -1340,7 +1340,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-24.png used on input line 426.
 File: Figures/ch3Figures/fig3-25.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-25.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-25.png used on input line 436.
+Package pdftex.def Info: Figures/ch3Figures/fig3-25.png used on input line 435.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [50 <./Figures/ch3Figures/fig3-24.png (PNG copy)> <./Figures/ch3Figures/fig3-2
@@ -1349,7 +1349,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-25.png used on input line 436.
 File: Figures/ch3Figures/fig3-26.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-26.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-26.png used on input line 446.
+Package pdftex.def Info: Figures/ch3Figures/fig3-26.png used on input line 445.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1357,7 +1357,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-26.png used on input line 446.
 File: Figures/ch3Figures/fig3-27.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-27.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-27.png used on input line 456.
+Package pdftex.def Info: Figures/ch3Figures/fig3-27.png used on input line 455.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1365,7 +1365,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-27.png used on input line 456.
 File: Figures/ch3Figures/fig3-28.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-28.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-28.png used on input line 464.
+Package pdftex.def Info: Figures/ch3Figures/fig3-28.png used on input line 463.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1373,7 +1373,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-28.png used on input line 464.
 File: Figures/ch3Figures/fig3-29.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-29.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-29.png used on input line 472.
+Package pdftex.def Info: Figures/ch3Figures/fig3-29.png used on input line 471.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [51 <./Figures/ch3Figures/fig3-26.png (PNG copy)>] [52 <./Figures/ch3Figures/f
@@ -1382,7 +1382,7 @@ ig3-27.png (PNG copy)> <./Figures/ch3Figures/fig3-28.png (PNG copy)>]
 File: Figures/ch3Figures/fig3-30.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-30.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-30.png used on input line 511.
+Package pdftex.def Info: Figures/ch3Figures/fig3-30.png used on input line 510.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [53 <./Figures/ch3Figures/fig3-29.png (PNG copy)> <./Figures/ch3Figures/fig3-3
@@ -1391,7 +1391,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-30.png used on input line 511.
 File: Figures/ch3Figures/fig3-31.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-31.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-31.png used on input line 521.
+Package pdftex.def Info: Figures/ch3Figures/fig3-31.png used on input line 520.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1399,7 +1399,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-31.png used on input line 521.
 File: Figures/ch3Figures/fig3-32.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-32.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-32.png used on input line 529.
+Package pdftex.def Info: Figures/ch3Figures/fig3-32.png used on input line 528.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1407,7 +1407,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-32.png used on input line 529.
 File: Figures/ch3Figures/fig3-33.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-33.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-33.png used on input line 537.
+Package pdftex.def Info: Figures/ch3Figures/fig3-33.png used on input line 536.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1415,7 +1415,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-33.png used on input line 537.
 File: Figures/ch3Figures/fig3-34.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-34.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-34.png used on input line 547.
+Package pdftex.def Info: Figures/ch3Figures/fig3-34.png used on input line 546.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1423,7 +1423,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-34.png used on input line 547.
 File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-35.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 555.
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 554.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [54 <./Figures/ch3Figures/fig3-31.png (PNG copy)> <./Figures/ch3Figures/fig3-3
@@ -1433,20 +1433,20 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 555.
 File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-35.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 630.
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 629.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [57]
 File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
  <use Figures/ch3Figures/fig3-35.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 641.
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 640.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 [58]
 File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
  <use Figures/ch3Figures/fig3-35.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 651.
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 650.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [59]) (./Chapters/Chapter4.tex
@@ -1462,37 +1462,37 @@ Chapter 4.
 File: Figures/ch4Figures/fig4-1.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-1.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-1.png used on input line 42.
+Package pdftex.def Info: Figures/ch4Figures/fig4-1.png used on input line 41.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 <Figures/ch4Figures/fig4-2.png, id=1530, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-2.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-2.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-2.png used on input line 50.
+Package pdftex.def Info: Figures/ch4Figures/fig4-2.png used on input line 49.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 <Figures/ch4Figures/fig4-3.png, id=1532, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-3.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-3.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-3.png used on input line 58.
+Package pdftex.def Info: Figures/ch4Figures/fig4-3.png used on input line 57.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 <Figures/ch4Figures/fig4-4.png, id=1534, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-4.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-4.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-4.png used on input line 66.
+Package pdftex.def Info: Figures/ch4Figures/fig4-4.png used on input line 65.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 79.
+               Default added (so using `tbp') on input line 78.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 101.
+               Default added (so using `tbp') on input line 100.
 
 [65] [66 <./Figures/ch4Figures/fig4-1.png (PNG copy)> <./Figures/ch4Figures/fig
 4-2.png (PNG copy)>] [67 <./Figures/ch4Figures/fig4-3.png (PNG copy)> <./Figure
@@ -1501,35 +1501,35 @@ s/ch4Figures/fig4-4.png (PNG copy)>]
 File: Figures/ch4Figures/fig4-5.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-5.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-5.png used on input line 136.
+Package pdftex.def Info: Figures/ch4Figures/fig4-5.png used on input line 135.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [68 <./Figures/ch4Figures/fig4-5.png (PNG copy)>] <Figures/ch4Figures/fig4-6.p
 ng, id=1567, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-6.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-6.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-6.png used on input line 146.
+Package pdftex.def Info: Figures/ch4Figures/fig4-6.png used on input line 145.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 <Figures/ch4Figures/fig4-7.png, id=1570, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-7.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-7.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-7.png used on input line 156.
+Package pdftex.def Info: Figures/ch4Figures/fig4-7.png used on input line 155.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 <Figures/ch4Figures/fig4-8.png, id=1574, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-8.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-8.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-8.png used on input line 166.
+Package pdftex.def Info: Figures/ch4Figures/fig4-8.png used on input line 165.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 <Figures/ch4Figures/fig4-9.png, id=1576, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-9.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-9.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-9.png used on input line 174.
+Package pdftex.def Info: Figures/ch4Figures/fig4-9.png used on input line 173.
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [69 <./Figures/ch4Figures/fig4-6.png (PNG copy)>] [70 <./Figures/ch4Figures/fi
 g4-7.png (PNG copy)> <./Figures/ch4Figures/fig4-8.png (PNG copy)>]
@@ -1537,7 +1537,7 @@ g4-7.png (PNG copy)> <./Figures/ch4Figures/fig4-8.png (PNG copy)>]
 File: Figures/ch4Figures/fig4-10.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-10.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-10.png used on input line 194.
+Package pdftex.def Info: Figures/ch4Figures/fig4-10.png used on input line 193.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1545,7 +1545,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-10.png used on input line 194.
 File: Figures/ch4Figures/fig4-11.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-11.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-11.png used on input line 204.
+Package pdftex.def Info: Figures/ch4Figures/fig4-11.png used on input line 203.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [71 <./Figures/ch4Figures/fig4-9.png (PNG copy)>] <Figures/ch4Figures/fig4-12.
@@ -1553,12 +1553,12 @@ png, id=1605, 753.5653pt x 301.125pt>
 File: Figures/ch4Figures/fig4-12.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-12.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-12.png used on input line 214.
+Package pdftex.def Info: Figures/ch4Figures/fig4-12.png used on input line 213.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.13373pt.
 
 
-LaTeX Warning: Reference `fig4-13' on page 72 undefined on input line 220.
+LaTeX Warning: Reference `fig4-13' on page 72 undefined on input line 219.
 
 [72 <./Figures/ch4Figures/fig4-10.png (PNG copy)> <./Figures/ch4Figures/fig4-11
 .png (PNG copy)>]
@@ -1566,7 +1566,7 @@ LaTeX Warning: Reference `fig4-13' on page 72 undefined on input line 220.
 File: Figures/ch4Figures/fig4-14.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-14.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-14.png used on input line 238.
+Package pdftex.def Info: Figures/ch4Figures/fig4-14.png used on input line 237.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1574,7 +1574,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-14.png used on input line 238.
 File: Figures/ch4Figures/fig4-15.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-15.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-15.png used on input line 246.
+Package pdftex.def Info: Figures/ch4Figures/fig4-15.png used on input line 245.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1582,7 +1582,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-15.png used on input line 246.
 File: Figures/ch4Figures/fig4-16.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-16.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-16.png used on input line 255.
+Package pdftex.def Info: Figures/ch4Figures/fig4-16.png used on input line 254.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [73 <./Figures/ch4Figures/fig4-12.png (PNG copy)>] <Figures/ch4Figures/fig4-17
@@ -1590,7 +1590,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-16.png used on input line 255.
 File: Figures/ch4Figures/fig4-17.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-17.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-17.png used on input line 267.
+Package pdftex.def Info: Figures/ch4Figures/fig4-17.png used on input line 266.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1598,7 +1598,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-17.png used on input line 267.
 File: Figures/ch4Figures/fig4-18.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-18.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-18.png used on input line 275.
+Package pdftex.def Info: Figures/ch4Figures/fig4-18.png used on input line 274.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1606,7 +1606,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-18.png used on input line 275.
 File: Figures/ch4Figures/fig4-19.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-19.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-19.png used on input line 283.
+Package pdftex.def Info: Figures/ch4Figures/fig4-19.png used on input line 282.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [74 <./Figures/ch4Figures/fig4-14.png (PNG copy)> <./Figures/ch4Figures/fig4-1
@@ -1616,7 +1616,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-19.png used on input line 283.
 File: Figures/ch4Figures/fig4-20.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-20.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-20.png used on input line 301.
+Package pdftex.def Info: Figures/ch4Figures/fig4-20.png used on input line 300.
 
 (pdftex.def)             Requested size: 417.47307pt x 209.58311pt.
  [76 <./Figures/ch4Figures/fig4-18.png (PNG copy)> <./Figures/ch4Figures/fig4-1
@@ -1625,7 +1625,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-20.png used on input line 301.
 File: Figures/ch4Figures/fig4-22.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-22.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-22.png used on input line 362.
+Package pdftex.def Info: Figures/ch4Figures/fig4-22.png used on input line 361.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [79]
@@ -1633,7 +1633,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-22.png used on input line 362.
 File: Figures/ch4Figures/fig4-23.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-23.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-23.png used on input line 374.
+Package pdftex.def Info: Figures/ch4Figures/fig4-23.png used on input line 373.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1641,7 +1641,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-23.png used on input line 374.
 File: Figures/ch4Figures/fig4-24.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-24.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-24.png used on input line 382.
+Package pdftex.def Info: Figures/ch4Figures/fig4-24.png used on input line 381.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1649,7 +1649,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-24.png used on input line 382.
 File: Figures/ch4Figures/fig4-25.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-25.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-25.png used on input line 390.
+Package pdftex.def Info: Figures/ch4Figures/fig4-25.png used on input line 389.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [80 <./Figures/ch4Figures/fig4-22.png (PNG copy)> <./Figures/ch4Figures/fig4-2
@@ -1659,20 +1659,20 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-25.png used on input line 390.
 File: Figures/ch4Figures/fig4-26.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-26.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-26.png used on input line 404.
+Package pdftex.def Info: Figures/ch4Figures/fig4-26.png used on input line 403.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 411.
+               Default added (so using `tbp') on input line 410.
 
 [82 <./Figures/ch4Figures/fig4-26.png (PNG copy)>]
 <Figures/ch4Figures/fig4-27.png, id=1740, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-27.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-27.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-27.png used on input line 448.
+Package pdftex.def Info: Figures/ch4Figures/fig4-27.png used on input line 447.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [83 <./Figures/ch4Figures/fig4-27.png (PNG copy)>] <Figures/ch4Figures/fig4-28
@@ -1680,7 +1680,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-27.png used on input line 448.
 File: Figures/ch4Figures/fig4-28.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-28.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-28.png used on input line 460.
+Package pdftex.def Info: Figures/ch4Figures/fig4-28.png used on input line 459.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
@@ -1688,7 +1688,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-28.png used on input line 460.
 File: Figures/ch4Figures/fig4-29.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-29.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-29.png used on input line 468.
+Package pdftex.def Info: Figures/ch4Figures/fig4-29.png used on input line 467.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [84 <./Figures/ch4Figures/fig4-28.png (PNG copy)>] <Figures/ch4Figures/fig4-30
@@ -1696,7 +1696,7 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-29.png used on input line 468.
 File: Figures/ch4Figures/fig4-30.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-30.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-30.png used on input line 478.
+Package pdftex.def Info: Figures/ch4Figures/fig4-30.png used on input line 477.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
  [85 <./Figures/ch4Figures/fig4-29.png (PNG copy)> <./Figures/ch4Figures/fig4-3
@@ -1705,21 +1705,21 @@ Package pdftex.def Info: Figures/ch4Figures/fig4-30.png used on input line 478.
 File: Figures/ch4Figures/fig4-31.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-31.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-31.png used on input line 488.
+Package pdftex.def Info: Figures/ch4Figures/fig4-31.png used on input line 487.
 
 (pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 497.
+               Default added (so using `tbp') on input line 496.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 519.
+               Default added (so using `tbp') on input line 518.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 540.
+               Default added (so using `tbp') on input line 539.
 
 [86 <./Figures/ch4Figures/fig4-31.png (PNG copy)>] [87])
 (./Chapters/Chapter5.tex [88]
@@ -1738,52 +1738,52 @@ Chapter 6.
 [90
 
 ] [91] [92]
-<Figures/ch6Figures/fig6-1.png, id=1832, 696.201pt x 458.1918pt>
+<Figures/ch6Figures/fig6-1.png, id=1831, 696.201pt x 458.1918pt>
 File: Figures/ch6Figures/fig6-1.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-1.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-1.png used on input line 51.
+Package pdftex.def Info: Figures/ch6Figures/fig6-1.png used on input line 50.
 (pdftex.def)             Requested size: 417.47307pt x 274.7564pt.
  [93]
-Overfull \hbox (3.69571pt too wide) in paragraph at lines 69--70
+Overfull \hbox (3.69571pt too wide) in paragraph at lines 68--69
 \OT1/cmr/m/n/10.95 FAST based tur-bine dy-nam-ics model. To get ac-cu-rate tur-
 bine per-for-mance from SOWFA,
  []
 
 [94 <./Figures/ch6Figures/fig6-1.png>]
-<Figures/ch6Figures/fig6-2.png, id=1853, 1001.7425pt x 400.49625pt>
+<Figures/ch6Figures/fig6-2.png, id=1852, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-2.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-2.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-2.png used on input line 75.
-(pdftex.def)             Requested size: 417.47307pt x 182.45218pt.
+Package pdftex.def Info: Figures/ch6Figures/fig6-2.png used on input line 74.
+(pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-3.png, id=1855, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-3.png, id=1854, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-3.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-3.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-3.png used on input line 83.
+Package pdftex.def Info: Figures/ch6Figures/fig6-3.png used on input line 82.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-4.png, id=1857, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-4.png, id=1856, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-4.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-4.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-4.png used on input line 91.
+Package pdftex.def Info: Figures/ch6Figures/fig6-4.png used on input line 90.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-5.png, id=1859, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-5.png, id=1858, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-5.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-5.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-5.png used on input line 99.
+Package pdftex.def Info: Figures/ch6Figures/fig6-5.png used on input line 98.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-6.png, id=1861, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-6.png, id=1860, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-6.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-6.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 107.
+Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 106.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
  [95 <./Figures/ch6Figures/fig6-2.png (PNG copy)>] [96 <./Figures/ch6Figures/fi
 g6-3.png (PNG copy)> <./Figures/ch6Figures/fig6-4.png (PNG copy)> <./Figures/ch
@@ -1791,14 +1791,14 @@ g6-3.png (PNG copy)> <./Figures/ch6Figures/fig6-4.png (PNG copy)> <./Figures/ch
 )>]
 File: Figures/ch6Figures/fig6-6.png Graphic file (type png)
  <use Figures/ch6Figures/fig6-6.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 133.
+Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 132.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 
-<Figures/ch6Figures/fig6-8.png, id=1890, 1002.74625pt x 400.49625pt>
+<Figures/ch6Figures/fig6-8.png, id=1889, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-8.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-8.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-8.png used on input line 149.
+Package pdftex.def Info: Figures/ch6Figures/fig6-8.png used on input line 148.
 (pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
 ) (./Appendices/AppendixA.tex [98] [99 <./Figures/ch6Figures/fig6-8.png (PNG co
 py)>]
@@ -1871,10 +1871,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (127 pages, 3382574 bytes).
+Output written on main.pdf (127 pages, 3374524 bytes).
 PDF statistics:
- 2139 PDF objects out of 2487 (max. 8388607)
- 1759 compressed objects within 18 object streams
+ 2138 PDF objects out of 2487 (max. 8388607)
+ 1758 compressed objects within 18 object streams
  411 named destinations out of 1000 (max. 500000)
  1557 words of extra memory for PDF output out of 10000 (max. 10000000)
 

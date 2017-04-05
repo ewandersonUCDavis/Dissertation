@@ -4,7 +4,6 @@
 
 \label{Chapter6} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-\lhead{Chapter 6. \emph{Analysis of Feed Forward Derating Control Scheme With SOWFA.}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
@@ -44,14 +43,13 @@ Plant level control can not be modeled in SOWFA at this time. Though NREL did de
 
 \section{Computational Domain and Grid Resolution} \label{section6-3}
 
-The LES computational domain used in this chapter is 3780 meters $\times$ 2520 meters $\times$ 2520 meters, the same dimensions used for SOWFA simulations in Chapter \ref{Chapter5}. As in chapter \ref{Chapter5} this rectangular grid is initially composed of 32 m $\times$ 32 m $\times$ 32m cells, but portions of the domain are refined to decrease cell size near the turbine rotors and their wakes. Two configurations will be simulated, as illustrated in figure \ref{fig6-1}. In the first configuration the upwind turbine will be 10 rotor diameters (1260 meters) downstream of the center of the inlet while the downwind turbine is 10 rotor diameters further downstream. In this configuration the downwind turbine will be in the wake of the upwind turbine. The second configuration is similar, but each turbine is offset horizontally by 1 rotor diameter so the downwind turbine is not in the wake of the upwind turbine. 
+The LES computational domain used in this chapter is 5040 meters $\times$ 2520 meters $\times$ 2520 meters. As in chapter \ref{Chapter5} this rectangular grid is initially composed of 32 m $\times$ 32 m $\times$ 32m cells, but portions of the domain are refined to decrease cell size near the turbine rotors and their wakes. Two configurations will be simulated, as illustrated in figure \ref{fig6-1}. In the first configuration the upwind turbine will be 10 rotor diameters (1260 meters) downstream of the center of the inlet while the downwind turbine is 10 rotor diameters further downstream. In this configuration the downwind turbine will be in the wake of the upwind turbine. The second configuration is similar, but each turbine is offset horizontally by 0.75 rotor diameter so the downwind turbine is not in the wake of the upwind turbine. 
 
-\begin{figure}[htbp]
+\begin{figure}[htbp]	\label{fig6-1}
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-1.png}
 		\rule{35em}{0.5pt}
 	\caption{Configurations for SOWFA simulations of feed forward derating control.}
-	\label{fig6-1}
 \end{figure}
 
 Choosing a grid resolution is a compromise. A fine grid captures flow behavior that coarse grids doesn't capture. However, using a fine grid has a higher computational cost than a coarse grid, requiring more cores and/or more time to run a simulation. One way to balance simulation detail and computational cost is to make the grid resolution finer in the areas you are most interested in (such as near the turbine rotor) and coarser in areas that are of less interest (such as far from the turbine). Another way is to make the grid resolution as fine as it needs to be, but not making it any finer. 
@@ -66,48 +64,66 @@ To make the computational cost more manageable a 2 meter near-rotor grid resolut
 
 \section{Tuning and Validation of SOWFA Turbine Model} \label{section6-4}
 
-An actuator line model couples SOWFA's LES based atmosphere model to SOWFA's FAST based turbine dynamics model. To get accurate turbine performance from SOWFA, the actuator line model must be tuned. A series of simulations revealed that an actuator line model with 62 elements per blade and a Gausian projection width of 7.5 meters yields good agreement between SOWFA and FAST simulations. These actuator line parameters comply with the best practices recommended by Churchfield, Lee, and Moriarty \cite{churchfield2012} as well as those recommended by Troldborg \cite{troldborg2009}. It is worth noting that the Gausian projection width chosen here is different than the one chosen for SOWFA simulations in Chapter \ref{Chapter5}. This difference is partially due to the use of a 2 meter near-rotor grid resolution, but it is also caused by a difference in tuning requirements. The SOWFA simulations carried out in Chapter \ref{Chapter5} did not model turbine control, so the actuator line was only tuned to produce good agreement on turbine loads and power generation. The Gausian projection width chosen here produces good agreement on controller behavior as well as loading and power generation.
+An actuator line model couples SOWFA's LES based atmosphere model to SOWFA's FAST based turbine dynamics model. To get accurate turbine performance from SOWFA, the actuator line model must be tuned. A series of simulations revealed that an actuator line model with 62 elements per blade and a Gausian projection width of 7.5 meters yields good agreement between SOWFA and FAST simulations. These actuator line parameters comply with the best practices recommended by Churchfield, Lee, and Moriarty \cite{churchfield2012} as well as those recommended by Troldborg \cite{troldborg2009}. It is worth noting that the Gausian projection width chosen here is different than the one chosen for SOWFA simulations in Chapter \ref{Chapter5}. This difference is partially due to the use of a 2 meter near-rotor grid resolution, but it is also caused by a difference in tuning requirements. The SOWFA simulations carried out in Chapter \ref{Chapter5} did not model turbine control, so the actuator line was only tuned to produce good agreement on turbine loads and power generation. The Gausian projection width chosen here produces good agreement on controller behavior as well as loading and power generation for wind speeds between 12 and 25 m/s (the range of wind speeds for which the turbine is operating in region 3 control).
 
-To illustrate the close agreement between SOWFA and FAST simulations a simple test case from chapter 4 was simulated in SOWFA. In that test case the turbine is subjected to a constant 16 m/s wind. At 100 seconds the turbine is derated by 20\%. At 200 seconds the turbine is returned to full rated operation. Figures \ref{fig6-2} through \ref{fig6-6} show FAST and SOWFA simulation results for this test case. We see in the figures that FAST and SOWFA produce nearly identical results for rotor speed, power, and blade root bending moments. There is also good agreement on blade pitch and tower base bending moment. The blade pitch predicted by SOWFA is typically within 1\% of the blade pitch predicted by FAST, but does briefly exceed 1\% when the turbine is returning to full rated operation. The maximum discrepancy is almost 4\% and occurs at a simulation time of 210 second. SOWFA predicts more high frequency oscillations in tower base bending moment than FAST. However, there is close agreement on the magnitudes of the predicted loads. If we disregard the high frequency components of the SOWFA results the tower base bending loads are typically within 1.5\% of the loads predicted y FAST. However, there are larger differences while the turbine is transitioning from derated operation to full rated operation.  
+To illustrate the close agreement between SOWFA and FAST simulations three simple test cases from chapter 4 are simulated in SOWFA. In these test cases the turbine is subjected to a constant, uniform wind. At 100 seconds the turbine is derated by 20\%. At 200 seconds the turbine is returned to full rated operation. Incoming wind speeds of 12 m/s, 16 m/s, and 20 m/s are simulated. Figures \ref{fig6-2} through \ref{fig6-6} show FAST and SOWFA simulation results for the 16 m/s test case. We see in the figures that FAST and SOWFA produce nearly identical results for rotor speed, power, and blade root bending moments. There is also good agreement on blade pitch and tower base bending moment. SOWFA predicts slightly lower blade pitch angels for this case with a maximum discrepancy of 2.0\% (or 0.25\degree) at 217 seconds. As shown in Figure \ref{fig6-6}, SOWFA predicts more high frequency oscillations in tower base bending moment than FAST. However, there is close agreement on the magnitudes of the predicted loads. 
 
-\begin{figure}[htbp]
+\begin{figure}[htbp]	\label{fig6-2}
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-2.png}
 		\rule{35em}{0.5pt}
 	\caption{Comparison of rotor speed predicted by FAST and SOWFA.}
-	\label{fig6-2}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[htbp]	\label{fig6-3}
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-3.png}
 		\rule{35em}{0.5pt}
 	\caption{Comparison of power predicted by FAST and SOWFA.}
-	\label{fig6-3}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[htbp]	\label{fig6-4}
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-4.png}
 		\rule{35em}{0.5pt}
 	\caption{Comparison of blade pitch predicted by FAST and SOWFA.}
-	\label{fig6-4}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[htbp]	\label{fig6-5}
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-5.png}
 		\rule{35em}{0.5pt}
 	\caption{Comparison of blade blade root bending moment predicted by FAST and SOWFA.}
-	\label{fig6-5}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[htbp]	\label{fig6-6}
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-6.png}
 		\rule{35em}{0.5pt}
 	\caption{Comparison of tower base bending moment predicted by FAST and SOWFA.}
-	\label{fig6-6}
+\end{figure}
+
+
+
+Figures \ref{fig6-7} and \ref{fig6-8} show the blade pitch predicted by FAST and SOWFA for the  12 m/s and 20 m/s test cases. For these cases, like the 16 m/s case, FAST and SOWFA had nearly identical predictions for rotor speed, power, and blade root bending moments. We see in Figure \ref{fig6-7} that SOWFA predicts a slightly larger blade pitch when the turbine is operating at full rated capacity in 12 m/s wind. The discrepancy is approximately 0.25\degree . SOWFA also predicts less oscillation in blade pitch following transitions into and out of derated operation. The Despite these discrepancies I still consider this good agreement and evidence of a well tuned SOWFA actuator line model.   
+
+
+??????? ADD TEXT AND FIGURES ABOUT TWR MOMENT TOO   ?????? 
+
+
+
+\begin{figure}[htbp] \label{fig6-7}
+	\centering
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-7.png}
+		\rule{35em}{0.5pt}
+	\caption{Comparison of blade pitch predicted by FAST and SOWFA for a turbine in 12 m/s winds that is derated by 20\%.}
+\end{figure}
+
+\begin{figure}[htbp]	\label{fig6-8}
+	\centering
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-p.png}
+		\rule{35em}{0.5pt}
+	\caption{Comparison of blade pitch predicted by FAST and SOWFA for a turbine in 20 m/s winds that is derated by 20\%}
 \end{figure}
 
 %----------------------------------------------------------------------------------------
@@ -126,30 +142,31 @@ Several inlet velocity profiles were investigated in a series of preliminary SOW
 
 In chapter \ref{Chapter4} the turbines were subjected to a hat shaped Extreme Operating Gust as defined in section 6.3.2.2 of IEC61400-1\cite{IEC2005}. Preliminary SOWFA simulations found that it is not possible to simulate a hat shaped gust that will propagate through the SOWFA simulations domain. A hat shaped fluctuation of the inlet velocity begins as a hat shaped gust near the inlet. However, the gust decreased in magnitude and changed shape as it moved through the simulation domain. Instead, simulations in the following sections will model an Extreme Coherent Gust similar to the one defined in section 6.3.2.5 of IEC61400-1. 
 
-Figure \ref{fig6-7} illustrates the difference between an Extreme Operating Gust (EOG) and an Extreme Coherent Gust (ECG). The EOG is a brief fluctuation in wind speed, while the ECG is a sustained increase. IEC1400-1 defines the ECG as a 15 m/s increase in wind speed described by equation \ref{eq6-1}. For simulations in this chapter, the 15 m/s ECG magnitude specified by IEC1400-1 is interpreted to be a maximum coherent gust magnitude, not a required magnitude. If a 15 m/s coherent gust is possible then smaller magnitude coherent gusts are also possible. Coherent gusts were found to propagate through the SOWFA simulation domain with only small changes to the magnitude and shape of the gust, as illustrated in figure \ref{fig6-8}
+Figure \ref{fig6-11} illustrates the difference between an Extreme Operating Gust (EOG) and an Extreme Coherent Gust (ECG). The EOG is a brief fluctuation in wind speed, while the ECG is a sustained increase. IEC1400-1 defines the ECG as a 15 m/s increase in wind speed described by equation \ref{eq6-1}. For simulations in this chapter, the 15 m/s ECG magnitude specified by IEC1400-1 is interpreted to be a maximum coherent gust magnitude, not a required magnitude. If a 15 m/s coherent gust is possible then smaller magnitude coherent gusts are also possible. Coherent gusts were found to propagate through the SOWFA simulation domain with only small changes to the magnitude and shape of the gust, as illustrated in figure \ref{fig6-12}
 
-\begin{figure}[htbp]
+
+
+\begin{figure}[htbp] \label{fig6-11} 
 	\centering
-		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-6.png}
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-11.png}
 		\rule{35em}{0.5pt}
 	\caption{Velocity profiles for EOG and ECG.}
-	\label{fig6-7}
+%	\label{fig6-11}
 \end{figure}
 
-\begin{equation}
+\begin{equation} \label{eq6-1}
 	U_{gust}=\left\{\begin{matrix}
 0 & for  & t<t_{gust}\\ 
  7.5(1-cos(\pi t/10)) m/s & for  & t_{gust} \leq t<(t_{gust}+10)\\ 
  15 m/s &  for & \leq (t_{gust} +10)
-\end{matrix}\right. \label{eq6-1}
+\end{matrix}\right. 
 \end{equation}
 
-\begin{figure}[htbp]
+\begin{figure}[htbp] \label{fig6-12}
 	\centering
-		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-8.png}
+		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch6Figures/fig6-12.png}
 		\rule{35em}{0.5pt}
 	\caption{Center line velocity as ECG propagates through computational domain.}
-	\label{fig6-8}
 \end{figure}
 
 
@@ -157,14 +174,46 @@ Figure \ref{fig6-7} illustrates the difference between an Extreme Operating Gust
 %----------------------------------------------------------------------------------------
 %	SECTION 6
 %----------------------------------------------------------------------------------------
+\section{Offset Turbines Test Case} \label{section6-6}
 
-\section{Turbine in Wake Test Case} \label{section6-6}
+
+\begin{table} \label{Table6-1}
+\centering
+\caption{ Dimensions and resolutions of the SOWFA grid refinement regions.}
+\begin{tabular}{c c c c c}
+\hline
+Refinement & Streamwise  & Width & Height & Max Cell Size\\
+Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
+\hline
+1 & 68.5\emph{R} (4316 m)  & 20.2\emph{R} (1272 m) & 17.2\emph{R} (1084 m) & 16 m $\times$ 16 m $\times$ 16 m\\
+2 & 64.5\emph{R} (4064 m)  & 12.2\emph{R} (768 m) & 8.2\emph{R} (516 m)  & 8 m $\times$ 8 m $\times$ 8 m\\
+3 & 46.5\emph{R} (2930 m)  & 8.2\emph{R} (516 m) & 5.2\emph{R} (328 m)  & 4 m $\times$ 4 m $\times$ 4 m\\
+\\
+4 \& 5 & 13.5\emph{R} (851 m)    & \multicolumn{2}{c}{Radius = 1.6\emph{R} (101 m)}   & 2 m $\times$ 2 m $\times$ 2 m\\
+\hline
+\end{tabular}
+\end{table}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 7
 %----------------------------------------------------------------------------------------
+\section{Turbine in Wake Test Case} \label{section6-7}
 
-\section{Offset Turbines Test Case} \label{section6-7}
+\begin{table} \label{Table6-2}
+\centering
+\caption{ Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}
+\begin{tabular}{c c c c c}
+\hline
+Refinement & Streamwise       & Radius     & Max Cell Size\\
+Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
+\hline
+1          & 68.5\emph{R} (4316 m)  & 8.6\emph{R} (542 m) & 16 m $\times$ 16 m $\times$ 16 m\\
+2          & 64.5\emph{R} (4064 m   & 4.6\emph{R} (290 m) & 8 m $\times$ 8 m $\times$ 8 m\\
+3          & 46.5\emph{R} (2390 m)  & 2.6\emph{R} (164 m) & 4 m $\times$ 4 m $\times$ 4 m\\
+4          & 33.5\emph{R} (2111 m)  & 1.6\emph{R} (101 m) & 2 m $\times$ 2 m $\times$ 2 m\\
+\hline
+\end{tabular}
+\end{table}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 8

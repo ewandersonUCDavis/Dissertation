@@ -1,0 +1,11 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Configurations for SOWFA simulations of feed forward derating control.}}{5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Comparison of rotor speed predicted by FAST and SOWFA.}}{8}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Comparison of power predicted by FAST and SOWFA.}}{8}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Comparison of blade pitch predicted by FAST and SOWFA.}}{9}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Comparison of blade blade root bending moment predicted by FAST and SOWFA.}}{9}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Comparison of tower base bending moment predicted by FAST and SOWFA.}}{10}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Comparison of blade pitch predicted by FAST and SOWFA for a turbine in 12 m/s winds that is derated by 20\%.}}{10}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Comparison of blade pitch predicted by FAST and SOWFA for a turbine in 20 m/s winds that is derated by 20\%}}{11}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Velocity profiles for EOG and ECG.}}{13}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Center line velocity as ECG propagates through computational domain.}}{14}

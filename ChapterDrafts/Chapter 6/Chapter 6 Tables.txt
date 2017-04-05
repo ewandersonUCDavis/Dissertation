@@ -1,0 +1,42 @@
+*********************Subsection 6-6*********************
+
+\begin{table}
+\centering
+\caption{ Dimensions and resolutions of the SOWFA grid refinement regions.}
+\begin{tabular}{c c c c c}
+\hline
+Refinement & Streamwise  & Width & Height & Max Cell Size\\
+Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
+\hline
+1 & 68.5\emph{R} (4316 m)  & 20.2\emph{R} (1272 m) & 17.2\emph{R} (1084 m) & 16 m $\times$ 16 m $\times$ 16 m\\
+2 & 64.5\emph{R} (4064 m)  & 12.2\emph{R} (768 m) & 8.2\emph{R} (516 m)  & 8 m $\times$ 8 m $\times$ 8 m\\
+3 & 46.5\emph{R} (2930 m)  & 8.2\emph{R} (516 m) & 5.2\emph{R} (328 m)  & 4 m $\times$ 4 m $\times$ 4 m\\
+\\
+4 \& 5 & 13.5\emph{R} (851 m)    & \multicolumn{2}{c}{Radius = 1.6\emph{R} (101 m)}   & 2 m $\times$ 2 m $\times$ 2 m\\
+\hline
+\end{tabular}
+\label{Table6-1}
+\end{table}
+
+
+
+
+
+*********************Subsection 6-7*********************
+
+\begin{table}
+\centering
+\caption{ Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}
+\begin{tabular}{c c c c c}
+\hline
+Refinement & Streamwise       & Radius     & Max Cell Size\\
+Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
+\hline
+1          & 68.5\emph{R} (4316 m)  & 8.6\emph{R} (542 m) & 16 m $\times$ 16 m $\times$ 16 m\\
+2          & 64.5\emph{R} (4064 m   & 4.6\emph{R} (290 m) & 8 m $\times$ 8 m $\times$ 8 m\\
+3          & 46.5\emph{R} (2390 m)  & 2.6\emph{R} (164 m) & 4 m $\times$ 4 m $\times$ 4 m\\
+4          & 33.5\emph{R} (2111 m)  & 1.6\emph{R} (101 m) & 2 m $\times$ 2 m $\times$ 2 m\\
+\hline
+\end{tabular}
+\label{Table1}
+\end{table}
