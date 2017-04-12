@@ -1,9 +1,10 @@
 *********************Subsection 6-6*********************
 
-\begin{table}
+\begin{table} \label{Table6-1}
 \centering
-\caption{ Dimensions and resolutions of the SOWFA grid refinement regions.}
+\caption{ Dimensions and resolutions of the SOWFA grid refinement regions used for the offset turbine test cases.}
 \begin{tabular}{c c c c c}
+\hline
 \hline
 Refinement & Streamwise  & Width & Height & Max Cell Size\\
 Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
@@ -14,20 +15,79 @@ Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
 \\
 4 \& 5 & 13.5\emph{R} (851 m)    & \multicolumn{2}{c}{Radius = 1.6\emph{R} (101 m)}   & 2 m $\times$ 2 m $\times$ 2 m\\
 \hline
+\hline
 \end{tabular}
-\label{Table6-1}
 \end{table}
 
 
+*********************Subsection 6-6-1*********************
+
+\begin{table} \label{Table6-3}
+\centering
+\caption{Turbine performance metrics for the offset turbine test case without feed forward control.}
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}      &  & 76.4                                                          & & 7.60                                                          &  & 15.37                                 				      &  &  237.54                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \end{tabular}    &  & 75.2                                                          & & 9.15                                                          &  & 15.04                                                       &  &  334.00                                                     \\
+\\
+\hline
+\hline                             
+\end{tabular}
+\end{table}
+
+*********************Subsection 6-6-2*********************
+
+
+
+\begin{table} \label{Table6-4}
+\centering
+\caption{Turbine performance metrics for the offset turbine test case with selective derating feed forward control.}
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}      &  & 76.4                                                          & & 7.60                                                          &  & 15.37                                 				      &  &  237.54                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \end{tabular}    &  & 31.0                                                          & & 7.82                                                          &  &  6.90                                                       &  &  535.27                                                     \\
+\\
+\hline
+\hline                             
+\end{tabular}
+\end{table}
+
+\begin{table} \label{Table6-5}
+\centering
+\caption{Effect of selective feed forward derating control on downwind turbine performance for the offset turbine test case.}
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                 &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}Without FF \\ Control \end{tabular}   &  & 75.2                                                          & & 9.15                                                          &  & 15.04                                 				       &  &  334.00                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}With FF \\ Control \end{tabular}      &  & 31.0                                                          & & 7.82                                                          &  &  6.90                                                       &  &  535.27                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}Change in\\Performance\end{tabular}   &  & -44.2 (-58.8\%)                                               & & -1.33 (-14.5%)                                                &  &  -8.14                                                      &  &  +201.27 (+60.2\%)                                                    \\
+\\
+\hline
+\hline                             
+\end{tabular}
+\end{table}
 
 
 
 *********************Subsection 6-7*********************
 
-\begin{table}
+\begin{table} \label{Table6-6}
 \centering
-\caption{ Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}
+\caption{ Dimensions and resolutions of the SOWFA grid refinement regions used for the turbine in wake test cases.}
 \begin{tabular}{c c c c c}
+\hline
 \hline
 Refinement & Streamwise       & Radius     & Max Cell Size\\
 Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
@@ -37,6 +97,66 @@ Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
 3          & 46.5\emph{R} (2390 m)  & 2.6\emph{R} (164 m) & 4 m $\times$ 4 m $\times$ 4 m\\
 4          & 33.5\emph{R} (2111 m)  & 1.6\emph{R} (101 m) & 2 m $\times$ 2 m $\times$ 2 m\\
 \hline
+\hline
 \end{tabular}
-\label{Table1}
+\end{table}
+
+
+*********************Subsection 6-7-1*********************
+
+\begin{table} \label{Table6-7}
+\centering
+\caption{Turbine performance metrics for the turbine in wake test case without feed forward control.}
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}      &  & 76.8                                                          & & 6.92                                                          &  & 16.12                                 				      &  &  233.39                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \end{tabular}    &  & 104.0                                                         & & 9.49                                                          &  & 16.03                                                       &  &  194.51                                                     \\
+\\
+\hline
+\hline                             
+\end{tabular}
+\end{table}
+
+*********************Subsection 6-6-2*********************
+
+
+
+\begin{table} \label{Table6-8}
+\centering
+\caption{Turbine performance metrics for the turbine in wake test case with selective derating feed forward control.}
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}      &  & 76.8                                                          & & 6.92                                                          &  & 16.12                                 				      &  &  233.39                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \end{tabular}    &  & 45.9                                                          & & 8.03                                                          &  & 11.70                                                       &  &  395.65                                                     \\
+\\
+\hline
+\hline                             
+\end{tabular}
+\end{table}
+
+\begin{table} \label{Table6-9}
+\centering
+\caption{Effect of selective feed forward derating control on downwind turbine performance for the turbine in wake test case.}
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                 &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}Without FF \\ Control \end{tabular}   &  & 104.0                                                         & & 9.49                                                          &  & 16.03                                 				       &  &  194.51                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}With FF \\ Control \end{tabular}      &  & 45.9                                                          & & 8.03                                                          &  &  11.70                                                      &  &  395.65                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}Change in\\Performance\end{tabular}   &  & -58.1 (-55.8\%)                                               & & -1.46 (-15.4%)                                                &  &  -4.33                                                      &  &  +201.14 (+103.4\%)                                          \\
+\\
+\hline
+\hline                             
+\end{tabular}
 \end{table}

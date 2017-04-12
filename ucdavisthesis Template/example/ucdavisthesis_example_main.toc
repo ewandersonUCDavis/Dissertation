@@ -1,0 +1,32 @@
+\contentsline {section}{List of Figures}{iv}
+\contentsline {section}{List of Tables}{v}
+\contentsline {section}{Abstract}{vi}
+\contentsline {section}{Acknowledgments}{vii}
+\contentsline {chapter}{\numberline {1}Information on Preparation of a Dissertation or Thesis}{1}
+\contentsline {section}{\numberline {1.1}Specifications}{2}
+\contentsline {subsection}{\numberline {1.1.1}Style and Format}{2}
+\contentsline {subsection}{\numberline {1.1.2}Title/Signature Page}{2}
+\contentsline {subsection}{\numberline {1.1.3}Margins}{3}
+\contentsline {subsection}{\numberline {1.1.4}Spacing}{3}
+\contentsline {subsection}{\numberline {1.1.5}Pagination}{3}
+\contentsline {subsection}{\numberline {1.1.6}Typeface}{4}
+\contentsline {subsection}{\numberline {1.1.7}Paper}{4}
+\contentsline {chapter}{\numberline {2}The Second Chapter}{5}
+\contentsline {section}{\numberline {2.1}Overall Appearance}{5}
+\contentsline {subsection}{\numberline {2.1.1}Tables, Graphs and Captions}{5}
+\contentsline {subsection}{\numberline {2.1.2}Photographs, Illustrations and Maps}{5}
+\contentsline {subsection}{\numberline {2.1.3}Oversized Material}{6}
+\contentsline {subsection}{\numberline {2.1.4}Using Published Material}{6}
+\contentsline {subsection}{\numberline {2.1.5}Copyrighted Material Use}{6}
+\contentsline {subsection}{\numberline {2.1.6}Dates of Filing}{7}
+\contentsline {subsection}{\numberline {2.1.7}Title Page}{7}
+\contentsline {subsection}{\numberline {2.1.8}Dissertation Abstracts}{7}
+\contentsline {subsection}{\numberline {2.1.9}Diploma}{8}
+\contentsline {subsection}{\numberline {2.1.10}Copyright and Publication}{8}
+\contentsline {subsection}{\numberline {2.1.11}Filing Fee}{9}
+\contentsline {chapter}{\numberline {3}Examples of Formatting and Commands}{10}
+\contentsline {section}{\numberline {3.1}TOC Section Title}{10}
+\contentsline {subsection}{\numberline {3.1.1}A Very Long Subsection Title to Test the TOC Wrapping Ability}{10}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Subsubsection Title}{11}
+\contentsline {paragraph}{Paragraph Title}{11}
+\contentsline {section}{\numberline {3.2}Some Examples of Figures and Tables}{11}

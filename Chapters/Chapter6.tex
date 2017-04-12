@@ -169,8 +169,6 @@ Figure \ref{fig6-11} illustrates the difference between an Extreme Operating Gus
 	\caption{Center line velocity as ECG propagates through computational domain.}
 \end{figure}
 
-
-
 %----------------------------------------------------------------------------------------
 %	SECTION 6
 %----------------------------------------------------------------------------------------
@@ -194,12 +192,34 @@ Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
 \end{tabular}
 \end{table}
 
+\begin{equation} \label{eq6-2}
+	U_{gust}=\left\{\begin{matrix}
+\left [15.6312 +10.5248Cos\left ( \frac{h_g}{252 }\pi  \right )  \right ]m/s & for  & h_g<252\\ 
+ \left [8.5532 -3.4468Cos\left ( \frac{h_g-252}{31.5}\pi  \right )  \right ]m/s & for  & 252 \leq h_g <283.5\\ 
+ 12 m/s &  for & 283.5 \leq h_g
+\end{matrix}\right. 
+\end{equation}
+\begin{equation} \label{eq6-3}
+	U_{gust}=\left\{\begin{matrix}
+\left [15.6312 +10.5248Cos\left ( \frac{r_g}{252 }\pi  \right )  \right ]m/s & for  & r_g<252\\ 
+ \left [8.5532 -3.4468Cos\left ( \frac{r_g-252}{31.5}\pi  \right )  \right ]m/s & for  & 252 \leq r_g <283.5\\ 
+ 12 m/s &  for & 283.5 \leq r_g
+\end{matrix}\right. 
+\end{equation}
 %----------------------------------------------------------------------------------------
 %	SECTION 7
 %----------------------------------------------------------------------------------------
 \section{Turbine in Wake Test Case} \label{section6-7}
 
 \begin{table} \label{Table6-2}
+
+\begin{equation} \label{eq6-4}
+	U_{gust}=\left\{\begin{matrix}
+\left [16.9991 +9.4109Cos\left ( \frac{r_g}{252 }\pi  \right )  \right ]m/s & for  & r_g<252\\ 
+ \left [9.794 -2.2060Cos\left ( \frac{r_g-252}{63}\pi  \right )  \right ]m/s & for  & 252 \leq r_g <315\\ 
+ 12 m/s &  for & 315 \leq r_g
+\end{matrix}\right. 
+\end{equation}
 \centering
 \caption{ Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}
 \begin{tabular}{c c c c c}
