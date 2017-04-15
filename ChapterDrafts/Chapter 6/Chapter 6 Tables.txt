@@ -22,7 +22,7 @@ Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
 
 *********************Subsection 6-6-1*********************
 
-\begin{table} \label{Table6-3}
+\begin{table} \label{Table6-2}
 \centering
 \caption{Turbine performance metrics for the offset turbine test case without feed forward control.}
 \begin{tabular}{c|cccccccccc}
@@ -43,7 +43,7 @@ Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
 
 
 
-\begin{table} \label{Table6-4}
+\begin{table} \label{Table6-3}
 \centering
 \caption{Turbine performance metrics for the offset turbine test case with selective derating feed forward control.}
 \begin{tabular}{c|cccccccccc}
@@ -60,7 +60,7 @@ Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
 \end{tabular}
 \end{table}
 
-\begin{table} \label{Table6-5}
+\begin{table} \label{Table6-4}
 \centering
 \caption{Effect of selective feed forward derating control on downwind turbine performance for the offset turbine test case.}
 \begin{tabular}{c|cccccccccc}
@@ -83,7 +83,7 @@ Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
 
 *********************Subsection 6-7*********************
 
-\begin{table} \label{Table6-6}
+\begin{table} \label{Table6-5}
 \centering
 \caption{ Dimensions and resolutions of the SOWFA grid refinement regions used for the turbine in wake test cases.}
 \begin{tabular}{c c c c c}

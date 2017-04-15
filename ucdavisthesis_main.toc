@@ -1,7 +1,7 @@
 \contentsline {section}{List of Figures}{iv}
-\contentsline {section}{List of Tables}{v}
-\contentsline {section}{Abstract}{vi}
-\contentsline {section}{Acknowledgments}{vii}
+\contentsline {section}{List of Tables}{vi}
+\contentsline {section}{Abstract}{vii}
+\contentsline {section}{Acknowledgments}{viii}
 \contentsline {chapter}{\numberline {1}Analysis of Feed Forward Derating Control Scheme With SOWFA.}{1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}
 \contentsline {section}{\numberline {1.2}Controller Implementation}{3}
@@ -9,5 +9,8 @@
 \contentsline {section}{\numberline {1.4}Tuning and Validation of SOWFA Turbine Model}{6}
 \contentsline {section}{\numberline {1.5}Gust Modeling in SOWFA}{11}
 \contentsline {section}{\numberline {1.6}Offset Turbines Test Case}{13}
-\contentsline {section}{\numberline {1.7}Turbine in Wake Test Case}{13}
-\contentsline {section}{\numberline {1.8}Conclusions}{13}
+\contentsline {subsection}{\numberline {1.6.1}Simulation Setup}{13}
+\contentsline {subsection}{\numberline {1.6.2}Performance Without Feed Forward Derating Control}{16}
+\contentsline {subsection}{\numberline {1.6.3}Performance With Feed Forward Derating Control}{23}
+\contentsline {section}{\numberline {1.7}Turbine in Wake Test Case}{30}
+\contentsline {section}{\numberline {1.8}Conclusions}{30}
