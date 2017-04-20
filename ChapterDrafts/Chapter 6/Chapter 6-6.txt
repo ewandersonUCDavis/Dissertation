@@ -55,7 +55,7 @@ Table \ref{table6-2} summarizes several important performance metrics for the tu
 
 
   
- 6.6.3 Performance Without Feed Forward Derating Control *********************
+ 6.6.3 Performance With Feed Forward Derating Control *********************
   
 Figure \ref{fig6-20} shows wind speed in the computational domain at several key moments when feed forward derating control is enabled. The first few images in Figure \ref{fig6-20} look very similar to Figure \ref{fif6-14}. We see both turbines in a steady 12 m/s wind then we see the extreme coherent gust propagating through the computational domain and arriving at the upwind turbine. At t = 540 s we see the gust arriving at the downwind turbine and we see that the upwind turbine is no longer producing a wake, which indicates it has stopped operating. At t = 600 s we see a noteworthy difference between these simulation results and the results discussed in Subsection \ref{section6-6-2}. We see a wake trailing the downwind turbine. This indicates that it has not shut down in response to the extreme coherent gust.
 
