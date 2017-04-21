@@ -104,9 +104,10 @@ Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
 
 *********************Subsection 6-7-1*********************
 
-\begin{table} \label{Table6-7}
+
+\begin{table} \label{Table6-6}
 \centering
-\caption{Turbine performance metrics for the turbine in wake test case without feed forward control.}
+\caption{Turbine performance metrics for the Turbine in Wake test case without feed forward control.}
 \begin{tabular}{c|cccccccccc}
 \hline
 \hline
@@ -125,9 +126,9 @@ Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
 
 
 
-\begin{table} \label{Table6-8}
+\begin{table} \label{Table6-7}
 \centering
-\caption{Turbine performance metrics for the turbine in wake test case with selective derating feed forward control.}
+\caption{Turbine performance metrics for the Turbine in Wake test case with feed forward derating control.}
 \begin{tabular}{c|cccccccccc}
 \hline
 \hline
@@ -142,9 +143,9 @@ Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
 \end{tabular}
 \end{table}
 
-\begin{table} \label{Table6-9}
+\begin{table} \label{Table6-8}
 \centering
-\caption{Effect of selective feed forward derating control on downwind turbine performance for the turbine in wake test case.}
+\caption{Effect of feed forward derating control on downwind turbine performance for the Turbine in Wake test case.}
 \begin{tabular}{c|cccccccccc}
 \hline
 \hline
