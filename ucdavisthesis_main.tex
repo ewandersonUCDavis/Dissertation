@@ -11,18 +11,19 @@
 %\usepackage{bookmark}
 \usepackage[us,nodayofweek,12hr]{datetime}
 \usepackage{graphicx}
-%\usepackage[square,comma,numbers,sort&compress]{natbib}
+\usepackage[square,comma,numbers,sort&compress]{natbib}
 \usepackage{gensymb}
 %\usepackage{hypernat}
 % Other useful packages to try
 \usepackage{amsmath}
 %\usepackage{amssymb}
+\usepackage{textcomp}
 %
 % Different fonts to try (uncomment only fontenc and one font at a time)
 % (you may need to install these first)
-%\usepackage[T1]{fontenc} %enable fontenc package if using one of the fonts below
+\usepackage[T1]{fontenc} %enable fontenc package if using one of the fonts below
 %\usepackage[adobe-utopia]{mathdesign}
-%\usepackage{tgschola}
+\usepackage{tgschola}
 %\usepackage{tgbonum}
 %\usepackage{tgpagella}
 %\usepackage{tgtermes}
@@ -39,7 +40,7 @@
 \hyphenation{dis-ser-ta-tion blue-print man-u-script pre-par-ing} %add hyphenation rules for words TeX doesn't know
 
 
-%\renewcommand{\rightmark}{\scriptsize A University of California Davis\ldots \hfill Rev.~\#1.0 \quad Compiled: \currenttime, \today}
+\renewcommand{\rightmark}{\scriptsize A University of California Davis\ldots \hfill Rev.~\#1.0 \quad Compiled: \currenttime, \today}
 % a fancier running header that can be used with draftcls options
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -48,27 +49,27 @@
 %                                                                      %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title          {A University of California Davis\\
-                 Dissertation/Thesis LaTeX Class File}
+\title          {Feed Forward Wind Turbine Control \\
+				Using Upwind Turbines as Sensors}
 %Exact title of your thesis. Indicate italics where necessary by underlining or using italics. Please capitalize the first letter of each word that would normally be capitalized in a title.
 
-\author         {First Middle Last}
+\author         {Eric William Anderson}
 %Your full name as it appears on University records. Do not use initials.
 
-\authordegrees  {B.S. (First Institution) 2010 \\
-                 M.S. (Second Institution) 2012}
+\authordegrees  {B.S. (University of California, Berkeley) 2000 \\
+                 M.S. (Georgia Institute of Technology) 2004}
 %Indicate your previous degrees conferred.
 
-\officialmajor  {Official Name of Major}
+\officialmajor  {Mechanical and Aerospace Engineering}
 %This is your official major as it appears on your University records.
 
-\graduateprogram{Graduate Program Name}
+\graduateprogram{Mechanical and Aerospace Engineering}
 %This is your official graduate program name. Used for UMI abstract.
 
-\degreeyear     {2020}
+\degreeyear     {2017}
 % Indicate the year in which your degree will be officially conferred.
 
-\degreemonth    {June}
+\degreemonth    {September}
 % Indicate the month in which your degree will be officially conferred. Used for UMI abstract.
 
 \committee{Committee Chair Name}{Committee Member Name}{Committee Member Name}{}{}
@@ -81,8 +82,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\dedication{\textsl{To someone very important \ldots \\
-            a nice dedication.}}
+%\dedication{\textsl{To someone very important \ldots \\
+%            a nice dedication.}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -90,7 +91,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\acknowledgments{Acknowledgements to those who helped you get to this point. They should be listed by chapter when appropriate.}
+%\acknowledgments{Acknowledgements to those who helped you get to this point. They should be listed by chapter when appropriate.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -98,12 +99,15 @@
 % Then use the \includeonly command to speed compilation when working on a particular chapter.
 %%% \includeonly{ucdavisthesis_example_Chap1}
 
+\AtBeginEnvironment{table}{\singlespacing}
+
 \begin{document}
 
-\newcommand{\bibfont}{\singlespacing}
+
+\renewcommand{\bibfont}{\singlespacing}
 % need this command to keep single spacing in the bibliography when using natbib
 
-\bibliographystyle{unsrtnat}
+%\bibliographystyle{unsrtnat}
 %many other bibliography styles are available (IEEEtran, mla, etc.). Use one appropriate for your field.
 
 \makeintropages %Processes/produces the preliminary pages
@@ -119,13 +123,36 @@
 \include{Chapters/Chapter5}
 \include{Chapters/Chapter6}
 
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+%\backmatter
 
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
+\label{Bibliography}
 
-\bibliography{Bibliography}
+%\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
 
 % The UMI abstract uses square brackets!
 % \UMIabstract[The UMI abstract is submitted online as plain text. It no longer has a word limit or specific formatting. Therefore, the UMIabstract command is now deprecated.]

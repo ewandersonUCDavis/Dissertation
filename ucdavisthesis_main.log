@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 APR 2017 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 APR 2017 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -131,12 +131,19 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count117
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -149,13 +156,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count117
+\inf@bad=\count118
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count118
-\leftroot@=\count119
+\uproot@=\count119
+\leftroot@=\count120
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count120
-\DOTSCASE@=\count121
+\classnum@=\count121
+\DOTSCASE@=\count122
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -164,15 +171,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen107
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count122
-\c@MaxMatrixCols=\count123
+\macc@depth=\count123
+\c@MaxMatrixCols=\count124
 \dotsspace@=\muskip10
-\c@parentequation=\count124
-\dspbrk@lvl=\count125
+\c@parentequation=\count125
+\dspbrk@lvl=\count126
 \tag@help=\toks19
-\row@=\count126
-\column@=\count127
-\maxfields@=\count128
+\row@=\count127
+\column@=\count128
+\maxfields@=\count129
 \andhelp@=\toks20
 \eqnshift@=\dimen108
 \alignsep@=\dimen109
@@ -181,51 +188,169 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen112
 \lineht@=\dimen113
 \@envbody=\toks21
-\multlinegap=\skip45
-\multlinetaggap=\skip46
+\multlinegap=\skip47
+\multlinetaggap=\skip48
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(./ucdavisthesis_main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
-(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
-(./Chapters/Chapter6.aux))
-\openout1 = `ucdavisthesis_main.aux'.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen114
-\scratchbox=\box28
-\nofMPsegments=\count130
-\nofMParguments=\count131
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen115
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks24
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/tgschola.sty
+Package: tgschola 2009/09/27 v1.2 TeX Gyre Schola as default roman family
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+(./ucdavisthesis_main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
+(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
+(./Chapters/Chapter6.aux))
+\openout1 = `ucdavisthesis_main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Try loading font information for T1+qcs on input line 104.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/t1qcs.fd
+File: t1qcs.fd 2009/09/25 v1.2 font definition file for T1/qcs
+)
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count130
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen115
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
@@ -244,19 +369,6 @@ Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -266,548 +378,319 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \celsius on input line 101.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 101
-.
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 101.
-Package gensymb Info: Using \Omega for \ohm on input line 101.
-
-Package gensymb Warning: Not defining \micro.
+\symgns@font=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/qcs/m/n --> TS1/qcs/b/n on input line 104.
+Package gensymb Info: Math companion symbols declared on input line 104.
+LaTeX Info: Redefining \degree on input line 104.
+LaTeX Info: Redefining \celsius on input line 104.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 104.
+LaTeX Info: Redefining \ohm on input line 104.
+Package gensymb Info: Using \textohm for \ohm on input line 104.
+Package gensymb Info: Using \textmu for \micro on input line 104.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 109.
+LaTeX Font Info:    Try loading font information for TS1+qcs on input line 113.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
- [1
-
-] [2
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/ts1qcs.fd
+File: ts1qcs.fd 2009/09/25 v1.2 font definition file for TS1/qcs
+) [1
 
 ]
-(./ucdavisthesis_main.toc [3
+(./ucdavisthesis_main.toc [2
 
-] [4])
+] [3] [4])
 \tf@toc=\write3
 \openout3 = `ucdavisthesis_main.toc'.
 
- [5] (./ucdavisthesis_main.lof
-
-LaTeX Warning: Citation `sawyer2012' on page vi undefined on input line 2.
-
-
-LaTeX Warning: Citation `jonkman2009' on page vi undefined on input line 3.
-
-
-LaTeX Warning: Citation `berg2012' on page vi undefined on input line 5.
-
-
-LaTeX Warning: Citation `schlipf2011' on page vi undefined on input line 6.
-
-
-LaTeX Warning: Citation `jonkman2009' on page vi undefined on input line 7.
-
-
-LaTeX Warning: Citation `jonkman2009' on page vi undefined on input line 9.
-
-
-LaTeX Warning: Citation `jonkman2012' on page vi undefined on input line 10.
-
-[6
+ [5] (./ucdavisthesis_main.lof [6
 
 ]
-
-LaTeX Warning: Citation `jonkman2009' on page vii undefined on input line 36.
-
-
-LaTeX Warning: Citation `NWTC2013' on page vii undefined on input line 37.
-
-[7] [8] [9]
-Overfull \hbox (2.9914pt too wide) in paragraph at lines 111--111
- [][] []\OT1/cmr/m/n/12 Comparison of tower base bend-ing mo-ment pre-dicted by
- FAST and SOWFA |
- []
-
-[10] [11])
+[7] [8] [9] [10] [11] [12])
 \tf@lof=\write4
 \openout4 = `ucdavisthesis_main.lof'.
 
- [12] (./ucdavisthesis_main.lot [13
+ [13] [14] (./ucdavisthesis_main.lot [15
 
 ])
 \tf@lot=\write5
 \openout5 = `ucdavisthesis_main.lot'.
 
- [14] [15
+ [16]
+[17
 
-] [16]
+]
 \openout2 = `Chapters/Chapter1.aux'.
 
-
-(./Chapters/Chapter1.tex
+ (./Chapters/Chapter1.tex
 Chapter 1.
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 3.
-
-
-LaTeX Warning: Citation `williams2012' on page 1 undefined on input line 13.
-
-<Figures/ch1Figures/fig1-1.png, id=65, 468.75125pt x 177.66376pt>
+<Figures/ch1Figures/fig1-1.png, id=68, 510.708pt x 182.6022pt>
 File: Figures/ch1Figures/fig1-1.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-1.png>
 Package pdftex.def Info: Figures/ch1Figures/fig1-1.png used on input line 17.
-(pdftex.def)             Requested size: 455.30121pt x 172.56406pt.
-
-
-LaTeX Warning: Citation `sawyer2012' on page 1 undefined on input line 19.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-LaTeX Warning: Citation `ren212011' on page 1 undefined on input line 23.
-
-[1
+(pdftex.def)             Requested size: 455.30121pt x 162.79684pt.
+ [1
 
 
  <./Figures/ch1Figures/fig1-1.png>]
-
-LaTeX Warning: Citation `burton2011' on page 2 undefined on input line 34.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-[2] <Figures/ch1Figures/fig1-2.png, id=77, 310.15875pt x 190.7125pt>
+[2] <Figures/ch1Figures/fig1-2.png, id=78, 430.4883pt x 261.6174pt>
 File: Figures/ch1Figures/fig1-2.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-2.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-2.png used on input line 44.
-(pdftex.def)             Requested size: 310.15799pt x 190.71202pt.
+Package pdftex.def Info: Figures/ch1Figures/fig1-2.png used on input line 43.
+(pdftex.def)             Requested size: 341.4759pt x 207.52974pt.
 
-
-LaTeX Warning: Citation `jonkman2009' on page 3 undefined on input line 46.
-
-<Figures/ch1Figures/fig1-3.png, id=78, 298.11375pt x 179.67125pt>
+<Figures/ch1Figures/fig1-3.png, id=79, 297.0297pt x 185.9748pt>
 File: Figures/ch1Figures/fig1-3.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-3.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-3.png used on input line 52.
-(pdftex.def)             Requested size: 298.11302pt x 179.67079pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
+Package pdftex.def Info: Figures/ch1Figures/fig1-3.png used on input line 50.
+(pdftex.def)             Requested size: 341.4759pt x 213.82394pt.
  [3 <./Figures/ch1Figures/fig1-2.png>]
-
-LaTeX Warning: Citation `larsen2005' on page 4 undefined on input line 68.
-
-
-LaTeX Warning: Citation `bossanyi2004' on page 4 undefined on input line 68.
-
-
-LaTeX Warning: Citation `vandam2008' on page 4 undefined on input line 68.
-
 [4 <./Figures/ch1Figures/fig1-3.png>]
-<Figures/ch1Figures/fig1-4.png, id=87, 262.9825pt x 159.59625pt>
+<Figures/ch1Figures/fig1-4.png, id=88, 414.1071pt x 248.8497pt>
 File: Figures/ch1Figures/fig1-4.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-4.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-4.png used on input line 76.
-(pdftex.def)             Requested size: 262.98184pt x 159.59584pt.
+Package pdftex.def Info: Figures/ch1Figures/fig1-4.png used on input line 73.
+(pdftex.def)             Requested size: 341.4759pt x 205.20859pt.
 
-
-LaTeX Warning: Citation `berg2012' on page 5 undefined on input line 78.
-
-[5 <./Figures/ch1Figures/fig1-4.png>]
-<Figures/ch1Figures/fig1-5.png, id=92, 232.87pt x 195.73125pt>
+<Figures/ch1Figures/fig1-5.png, id=89, 231.264pt x 175.857pt>
 File: Figures/ch1Figures/fig1-5.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-5.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-5.png used on input line 86.
-(pdftex.def)             Requested size: 232.86942pt x 195.73076pt.
-
-
-LaTeX Warning: Citation `schlipf2011' on page 6 undefined on input line 88.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-[6 <./Figures/ch1Figures/fig1-5.png>]
-<Figures/ch1Figures/fig1-6.png, id=97, 469.755pt x 213.79875pt>
+Package pdftex.def Info: Figures/ch1Figures/fig1-5.png used on input line 82.
+(pdftex.def)             Requested size: 341.4759pt x 259.67662pt.
+ [5] [6 <./Figures/ch1Figures/fig1-4.png> <./Figures/ch1Figures/fig1-5.png>]
+<Figures/ch1Figures/fig1-6.png, id=98, 462.528pt x 208.8603pt>
 File: Figures/ch1Figures/fig1-6.png Graphic file (type png)
 
 <use Figures/ch1Figures/fig1-6.png>
-Package pdftex.def Info: Figures/ch1Figures/fig1-6.png used on input line 105.
-(pdftex.def)             Requested size: 455.30121pt x 207.2214pt.
-
-
-LaTeX Warning: Citation `jonkman2009' on page 7 undefined on input line 107.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-LaTeX Warning: Citation `GE2009' on page 7 undefined on input line 115.
-
-[7 <./Figures/ch1Figures/fig1-6.png>]) [8]
+Package pdftex.def Info: Figures/ch1Figures/fig1-6.png used on input line 100.
+(pdftex.def)             Requested size: 455.30121pt x 205.60591pt.
+ [7 <./Figures/ch1Figures/fig1-6.png>])
+[8]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
 Chapter 2.
-<Figures/ch2Figures/fig2-1.png, id=106, 433.62pt x 221.1462pt>
+<Figures/ch2Figures/fig2-1.png, id=107, 433.62pt x 221.1462pt>
 File: Figures/ch2Figures/fig2-1.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-1.png>
 Package pdftex.def Info: Figures/ch2Figures/fig2-1.png used on input line 21.
-(pdftex.def)             Requested size: 433.61894pt x 221.14565pt.
-
-
-LaTeX Warning: Citation `jonkman2009' on page 9 undefined on input line 23.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-LaTeX Warning: Citation `manjock2005' on page 9 undefined on input line 37.
-
-
-LaTeX Warning: Citation `jonkman2012' on page 9 undefined on input line 37.
-
-[9
+(pdftex.def)             Requested size: 455.30121pt x 232.21371pt.
+ [9
 
 
 
-] <Figures/ch2Figures/fig2-2.png, id=110, 139.722pt x 134.4222pt>
+]
+<Figures/ch2Figures/fig2-2.png, id=111, 139.722pt x 134.4222pt>
 File: Figures/ch2Figures/fig2-2.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-2.png>
 Package pdftex.def Info: Figures/ch2Figures/fig2-2.png used on input line 41.
-(pdftex.def)             Requested size: 139.72165pt x 134.42186pt.
-
-
-LaTeX Warning: Citation `jonkman2012' on page 10 undefined on input line 43.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-LaTeX Warning: Reference `AppendixA' on page 10 undefined on input line 47.
-
-[10 <./Figures/ch2Figures/fig2-1.png>]
-Overfull \hbox (25.63257pt too wide) in paragraph at lines 57--57
-[]\OT1/cmr/bx/n/17.28 Wind speed es-ti-mate based on na-celle top anemome-|
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
+(pdftex.def)             Requested size: 227.6506pt x 219.02008pt.
+ [10 <./Figures/ch2Figures/fig2-1.png>]
 [11 <./Figures/ch2Figures/fig2-2.png>]
-<Figures/ch2Figures/fig2-3.jpg, id=119, 660.4675pt x 257.96375pt>
+<Figures/ch2Figures/fig2-3.jpg, id=120, 660.4675pt x 257.96375pt>
 File: Figures/ch2Figures/fig2-3.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-3.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-3.jpg used on input line 71.
+Package pdftex.def Info: Figures/ch2Figures/fig2-3.jpg used on input line 72.
 (pdftex.def)             Requested size: 455.30121pt x 177.83772pt.
- [12 <./Figures/ch2Figures/fig2-3.jpg>]
-<Figures/ch2Figures/fig2-4.jpg, id=123, 565.11125pt x 273.02pt>
+ [12]
+<Figures/ch2Figures/fig2-4.jpg, id=124, 565.11125pt x 273.02pt>
 File: Figures/ch2Figures/fig2-4.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-4.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-4.jpg used on input line 90.
+Package pdftex.def Info: Figures/ch2Figures/fig2-4.jpg used on input line 91.
 (pdftex.def)             Requested size: 455.30121pt x 219.97018pt.
-
-<Figures/ch2Figures/fig2-6.jpg, id=124, 1001.7425pt x 400.49625pt>
+ [13 <./Figures/ch2Figures/fig2-3.jpg> <./Figures/ch2Figures/fig2-4.jpg>]
+<Figures/ch2Figures/fig2-6.jpg, id=129, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-6.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-6.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-6.jpg used on input line 100.
-(pdftex.def)             Requested size: 455.30121pt x 215.72697pt.
+Package pdftex.def Info: Figures/ch2Figures/fig2-6.jpg used on input line 101.
+(pdftex.def)             Requested size: 432.53474pt x 201.54929pt.
 
-<Figures/ch2Figures/fig2-7.jpg, id=126, 1001.7425pt x 400.49625pt>
+<Figures/ch2Figures/fig2-7.jpg, id=131, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-7.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-7.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-7.jpg used on input line 109.
-(pdftex.def)             Requested size: 455.30121pt x 215.72697pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [13 <./Figures/ch2Figures/fig2-4.jpg>]
-[14 <./Figures/ch2Figures/fig2-6.jpg> <./Figures/ch2Figures/fig2-7.jpg>]
+Package pdftex.def Info: Figures/ch2Figures/fig2-7.jpg used on input line 110.
+(pdftex.def)             Requested size: 432.53474pt x 201.54929pt.
+ [14 <./Figures/ch2Figures/fig2-6.jpg>]
 <Figures/ch2Figures/fig2-8.jpg, id=137, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-8.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-8.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-8.jpg used on input line 121.
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
- [15 <./Figures/ch2Figures/fig2-8.jpg>]
-<Figures/ch2Figures/fig2-9.jpg, id=143, 1001.7425pt x 400.49625pt>
+Package pdftex.def Info: Figures/ch2Figures/fig2-8.jpg used on input line 122.
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [15 <./Figures/ch2Figures/fig2-7.jpg> <./Figures/ch2Figures/fig2-8.jpg>]
+<Figures/ch2Figures/fig2-9.jpg, id=144, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-9.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-9.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-9.jpg used on input line 131.
-(pdftex.def)             Requested size: 455.30121pt x 215.72697pt.
+Package pdftex.def Info: Figures/ch2Figures/fig2-9.jpg used on input line 132.
+(pdftex.def)             Requested size: 432.53474pt x 201.54929pt.
 
-<Figures/ch2Figures/fig2-10.jpg, id=145, 1002.74625pt x 400.49625pt>
+<Figures/ch2Figures/fig2-10.jpg, id=146, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-10.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-10.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-10.jpg used on input line 139.
+Package pdftex.def Info: Figures/ch2Figures/fig2-10.jpg used on input line 140.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
-
-<Figures/ch2Figures/fig2-11.jpg, id=147, 1001.7425pt x 400.49625pt>
+(pdftex.def)             Requested size: 432.53474pt x 187.3777pt.
+ [16 <./Figures/ch2Figures/fig2-9.jpg> <./Figures/ch2Figures/fig2-10.jpg>]
+<Figures/ch2Figures/fig2-11.jpg, id=153, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-11.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-11.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-11.jpg used on input line 150.
+Package pdftex.def Info: Figures/ch2Figures/fig2-11.jpg used on input line 151.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.72697pt.
+(pdftex.def)             Requested size: 432.53474pt x 201.54929pt.
 
-<Figures/ch2Figures/fig2-12.jpg, id=149, 1002.74625pt x 400.49625pt>
+<Figures/ch2Figures/fig2-12.jpg, id=155, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-12.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-12.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-12.jpg used on input line 158.
+Package pdftex.def Info: Figures/ch2Figures/fig2-12.jpg used on input line 159.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
-
-
-LaTeX Warning: Citation `ostergaard2007' on page 16 undefined on input line 172
-.
-
-
-LaTeX Warning: Citation `vanderhooft2004' on page 16 undefined on input line 17
-2.
-
-
-LaTeX Warning: Citation `schlipf2014' on page 16 undefined on input line 172.
-
-[16 <./Figures/ch2Figures/fig2-9.jpg>] [17 <./Figures/ch2Figures/fig2-10.jpg> <
-./Figures/ch2Figures/fig2-11.jpg>] [18 <./Figures/ch2Figures/fig2-12.jpg>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-
-LaTeX Warning: Citation `platt2012' on page 19 undefined on input line 205.
-
-[19] <Figures/ch2Figures/fig2-13.png, id=168, 469.755pt x 225.9642pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [17 <./Figures/ch2Figures/fig2-11.jpg>]
+[18 <./Figures/ch2Figures/fig2-12.jpg>]
+<Figures/ch2Figures/fig2-13.png, id=167, 469.755pt x 225.9642pt>
 File: Figures/ch2Figures/fig2-13.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-13.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-13.png used on input line 209.
+Package pdftex.def Info: Figures/ch2Figures/fig2-13.png used on input line 210.
 
 (pdftex.def)             Requested size: 455.30121pt x 219.0126pt.
-
-<Figures/ch2Figures/fig2-14.png, id=169, 469.755pt x 227.4096pt>
+ [19]
+<Figures/ch2Figures/fig2-14.png, id=173, 469.755pt x 227.4096pt>
 File: Figures/ch2Figures/fig2-14.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-14.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-14.png used on input line 219.
+Package pdftex.def Info: Figures/ch2Figures/fig2-14.png used on input line 220.
 
 (pdftex.def)             Requested size: 455.30121pt x 220.41354pt.
-
-
-LaTeX Warning: Reference `AppendixA' on page 20 undefined on input line 225.
-
-[20 <./Figures/ch2Figures/fig2-13.png>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-<Figures/ch2Figures/fig2-15.jpg, id=177, 1001.7425pt x 400.49625pt>
+ [20 <./Figures/ch2Figures/fig2-13.png> <./Figures/ch2Figures/fig2-14.png>]
+<Figures/ch2Figures/fig2-15.jpg, id=180, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-15.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-15.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-15.jpg used on input line 239.
+Package pdftex.def Info: Figures/ch2Figures/fig2-15.jpg used on input line 240.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.72697pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [21 <./Figures/ch2Figures/fig2-14.png>]
-<Figures/ch2Figures/fig2-16.jpg, id=183, 1002.74625pt x 400.49625pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.54929pt.
+
+<Figures/ch2Figures/fig2-16.jpg, id=182, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-16.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-16.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-16.jpg used on input line 250.
+Package pdftex.def Info: Figures/ch2Figures/fig2-16.jpg used on input line 251.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
 
-<Figures/ch2Figures/fig2-17.jpg, id=185, 1002.74625pt x 400.49625pt>
+<Figures/ch2Figures/fig2-17.jpg, id=184, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-17.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-17.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-17.jpg used on input line 260.
+Package pdftex.def Info: Figures/ch2Figures/fig2-17.jpg used on input line 261.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
- [22 <./Figures/ch2Figures/fig2-15.jpg> <./Figures/ch2Figures/fig2-16.jpg>]
-<Figures/ch2Figures/fig2-18.jpg, id=192, 1002.74625pt x 400.49625pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [21] [22 <./Figures/ch2Figures/fig2-15.jpg> <./Figures/ch2Figures/fig2-16.jpg>
+]
+<Figures/ch2Figures/fig2-18.jpg, id=194, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-18.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-18.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-18.jpg used on input line 271.
+Package pdftex.def Info: Figures/ch2Figures/fig2-18.jpg used on input line 272.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
 
-<Figures/ch2Figures/fig2-19.jpg, id=194, 1002.74625pt x 400.49625pt>
+<Figures/ch2Figures/fig2-19.jpg, id=196, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-19.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-19.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-19.jpg used on input line 281.
+Package pdftex.def Info: Figures/ch2Figures/fig2-19.jpg used on input line 282.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
-
-
-LaTeX Warning: Citation `burton2011' on page 23 undefined on input line 293.
-
-[23 <./Figures/ch2Figures/fig2-17.jpg>] [24 <./Figures/ch2Figures/fig2-18.jpg> 
-<./Figures/ch2Figures/fig2-19.jpg>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-<Figures/ch2Figures/fig2-20.jpg, id=205, 1002.74625pt x 400.49625pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [23 <./Figures/ch2Figures/fig2-17.jpg> <./Figures/ch2Figures/fig2-18.jpg>] [24
+ <./Figures/ch2Figures/fig2-19.jpg>]
+<Figures/ch2Figures/fig2-20.jpg, id=207, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-20.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-20.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-20.jpg used on input line 304.
+Package pdftex.def Info: Figures/ch2Figures/fig2-20.jpg used on input line 305.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
-
-<Figures/ch2Figures/fig2-21.jpg, id=207, 1002.74625pt x 400.49625pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [25 <./Figures/ch2Figures/fig2-20.jpg>]
+<Figures/ch2Figures/fig2-21.jpg, id=214, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-21.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-21.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-21.jpg used on input line 314.
+Package pdftex.def Info: Figures/ch2Figures/fig2-21.jpg used on input line 315.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
- [25] [26 <./Figures/ch2Figures/fig2-20.jpg> <./Figures/ch2Figures/fig2-21.jpg>
-]
-<Figures/ch2Figures/fig2-22.png, id=219, 413.3844pt x 172.9662pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+
+<Figures/ch2Figures/fig2-22.png, id=216, 413.3844pt x 172.9662pt>
 File: Figures/ch2Figures/fig2-22.png Graphic file (type png)
 
 <use Figures/ch2Figures/fig2-22.png>
-Package pdftex.def Info: Figures/ch2Figures/fig2-22.png used on input line 325.
+Package pdftex.def Info: Figures/ch2Figures/fig2-22.png used on input line 326.
 
 (pdftex.def)             Requested size: 455.30121pt x 190.50621pt.
 
-<Figures/ch2Figures/fig2-23.jpg, id=220, 1002.74625pt x 400.49625pt>
+<Figures/ch2Figures/fig2-23.jpg, id=217, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-23.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-23.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-23.jpg used on input line 336.
+Package pdftex.def Info: Figures/ch2Figures/fig2-23.jpg used on input line 337.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
-
-<Figures/ch2Figures/fig2-24.jpg, id=222, 1002.74625pt x 400.49625pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [26 <./Figures/ch2Figures/fig2-21.jpg>]
+[27 <./Figures/ch2Figures/fig2-23.jpg> <./Figures/ch2Figures/fig2-22.png>]
+<Figures/ch2Figures/fig2-24.jpg, id=229, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-24.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-24.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-24.jpg used on input line 348.
+Package pdftex.def Info: Figures/ch2Figures/fig2-24.jpg used on input line 349.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [27 <./Figures/ch2Figures/fig2-22.png>]
-[28 <./Figures/ch2Figures/fig2-23.jpg> <./Figures/ch2Figures/fig2-24.jpg>]
-
-LaTeX Warning: Citation `taylor1938' on page 29 undefined on input line 371.
-
-[29]
-
-LaTeX Warning: Citation `dennis2008' on page 30 undefined on input line 373.
-
-
-LaTeX Warning: Citation `goldschmidt1981' on page 30 undefined on input line 37
-3.
-
-
-LaTeX Warning: Citation `delalamo2009' on page 30 undefined on input line 373.
-
-
-LaTeX Warning: Citation `atkinson2015' on page 30 undefined on input line 373.
-
-[30] <Figures/ch2Figures/fig2-25.jpg, id=239, 1002.74625pt x 400.49625pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [28 <./Figures/ch2Figures/fig2-24.jpg>]
+[29] <Figures/ch2Figures/fig2-25.jpg, id=238, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-25.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-25.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-25.jpg used on input line 386.
+Package pdftex.def Info: Figures/ch2Figures/fig2-25.jpg used on input line 387.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
- [31 <./Figures/ch2Figures/fig2-25.jpg>]
-<Figures/ch2Figures/fig2-26.jpg, id=245, 1001.7425pt x 400.49625pt>
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [30]
+<Figures/ch2Figures/fig2-26.jpg, id=243, 1001.7425pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-26.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-26.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-26.jpg used on input line 400.
+Package pdftex.def Info: Figures/ch2Figures/fig2-26.jpg used on input line 401.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.72697pt.
+(pdftex.def)             Requested size: 432.53474pt x 201.54929pt.
 
-<Figures/ch2Figures/fig2-27.jpg, id=247, 1002.74625pt x 400.49625pt>
+<Figures/ch2Figures/fig2-27.jpg, id=245, 1002.74625pt x 400.49625pt>
 File: Figures/ch2Figures/fig2-27.jpg Graphic file (type jpg)
 
 <use Figures/ch2Figures/fig2-27.jpg>
-Package pdftex.def Info: Figures/ch2Figures/fig2-27.jpg used on input line 408.
+Package pdftex.def Info: Figures/ch2Figures/fig2-27.jpg used on input line 409.
 
-(pdftex.def)             Requested size: 455.30121pt x 215.4703pt.
-
-
-LaTeX Warning: Citation `vanderhoven1957' on page 32 undefined on input line 41
-4.
-
-[32 <./Figures/ch2Figures/fig2-26.jpg>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-
-LaTeX Warning: Citation `higgins2012' on page 33 undefined on input line 420.
-
-
-LaTeX Warning: Citation `schlipf2010' on page 33 undefined on input line 420.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-) [33 <./Figures/ch2Figures/fig2-27.jpg>]
+(pdftex.def)             Requested size: 432.53474pt x 201.31706pt.
+ [31 <./Figures/ch2Figures/fig2-25.jpg>]
+[32 <./Figures/ch2Figures/fig2-26.jpg> <./Figures/ch2Figures/fig2-27.jpg>])
+[33]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
@@ -817,119 +700,53 @@ File: Figures/ch2Figures/fig2-1.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch2Figures/fig2-1.png used on input line 17.
 (pdftex.def)             Requested size: 455.30121pt x 232.21371pt.
 
-
-LaTeX Warning: Citation `jonkman2009' on page 34 undefined on input line 19.
-
-<Figures/ch3Figures/fig3-2.png, id=258, 634.0488pt x 225.0006pt>
+<Figures/ch3Figures/fig3-2.png, id=260, 634.0488pt x 225.0006pt>
 File: Figures/ch3Figures/fig3-2.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-2.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-2.png used on input line 25.
 (pdftex.def)             Requested size: 455.30121pt x 161.57114pt.
-
-
-LaTeX Warning: Citation `NWTC2013' on page 34 undefined on input line 27.
-
-
-LaTeX Warning: Citation `jonkman2009' on page 34 undefined on input line 31.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-[34
+ [34
 
 
 
-] [35 <./Figures/ch3Figures/fig3-2.png>]
-<Figures/ch3Figures/fig3-3.png, id=266, 1099.10625pt x 561.09625pt>
+] [35 <./Figures/ch3Figures/fig3-2.png>] <Figures/ch3Figures/fig3-3.png, id=268
+, 1099.10625pt x 561.09625pt>
 File: Figures/ch3Figures/fig3-3.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-3.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-3.png used on input line 37.
 (pdftex.def)             Requested size: 455.30121pt x 232.43108pt.
  [36 <./Figures/ch3Figures/fig3-3.png>]
-<Figures/ch3Figures/fig3-4.png, id=270, 1097.09875pt x 559.08875pt>
+<Figures/ch3Figures/fig3-4.png, id=272, 1097.09875pt x 559.08875pt>
 File: Figures/ch3Figures/fig3-4.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-4.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-4.png used on input line 47.
 (pdftex.def)             Requested size: 455.30121pt x 232.0175pt.
-
-
-LaTeX Warning: Citation `ozdemir2013' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `dunne2011' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `schlipf2008' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `schlipf2010' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `schlipf2011' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `schlipf2011a' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `schlipf2013' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `schlipf2013' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `schlipf2011a' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `scholbrock2013' on page 37 undefined on input line 53.
-
-
-[37 <./Figures/ch3Figures/fig3-4.png>] [38]
-<Figures/ch3Figures/fig3-5.png, id=278, 606.5862pt x 178.266pt>
+ [37 <./Figures/ch3Figures/fig3-4.png>]
+[38] <Figures/ch3Figures/fig3-5.png, id=280, 606.5862pt x 178.266pt>
 File: Figures/ch3Figures/fig3-5.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-5.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-5.png used on input line 77.
 (pdftex.def)             Requested size: 455.30121pt x 133.80795pt.
- [39 <./Figures/ch3Figures/fig3-5.png>]
-<Figures/ch3Figures/fig3-6.png, id=283, 740.0448pt x 392.1852pt>
+ [39]
+<Figures/ch3Figures/fig3-6.png, id=284, 740.0448pt x 392.1852pt>
 File: Figures/ch3Figures/fig3-6.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-6.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-6.png used on input line 87.
 (pdftex.def)             Requested size: 455.30121pt x 241.28522pt.
- [40 <./Figures/ch3Figures/fig3-6.png>]
-<Figures/ch3Figures/fig3-7.png, id=288, 495.2904pt x 209.1012pt>
+ [40 <./Figures/ch3Figures/fig3-5.png>]
+<Figures/ch3Figures/fig3-7.png, id=289, 495.2904pt x 209.1012pt>
 File: Figures/ch3Figures/fig3-7.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-7.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-7.png used on input line 107.
 (pdftex.def)             Requested size: 273.1835pt x 115.33145pt.
- [41 <./Figures/ch3Figures/fig3-7.png>]
-<Figures/ch3Figures/fig3-8.png, id=293, 722.7pt x 198.9834pt>
+ [41 <./Figures/ch3Figures/fig3-6.png> <./Figures/ch3Figures/fig3-7.png>]
+<Figures/ch3Figures/fig3-8.png, id=295, 722.7pt x 198.9834pt>
 File: Figures/ch3Figures/fig3-8.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-8.png>
@@ -937,44 +754,17 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-8.png used on input line 117.
 (pdftex.def)             Requested size: 455.30121pt x 125.3602pt.
 
 
-LaTeX Warning: Citation `jonkman2005' on page 42 undefined on input line 125.
-
-
 LaTeX Warning: Reference `AppendixB' on page 42 undefined on input line 125.
 
-
-LaTeX Warning: Citation `jonkman2009' on page 42 undefined on input line 125.
-
-
-LaTeX Warning: Citation `jonkman2009' on page 42 undefined on input line 125.
-
 [42 <./Figures/ch3Figures/fig3-8.png>]
-<Figures/ch3Figures/fig3-9.png, id=298, 820.0236pt x 418.6842pt>
+<Figures/ch3Figures/fig3-9.png, id=300, 820.0236pt x 418.6842pt>
 File: Figures/ch3Figures/fig3-9.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-9.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-9.png used on input line 133.
 (pdftex.def)             Requested size: 455.30121pt x 232.4683pt.
-
-
-LaTeX Warning: Citation `jonkman2009' on page 43 undefined on input line 139.
-
-
-LaTeX Warning: Citation `jonkman2009' on page 43 undefined on input line 139.
-
-
-LaTeX Warning: Citation `jonkman2014' on page 43 undefined on input line 139.
-
-
-LaTeX Warning: Citation `dunne2011' on page 43 undefined on input line 139.
-
-
-LaTeX Warning: Citation `dunne2012' on page 43 undefined on input line 139.
-
-
-LaTeX Warning: Citation `schlipf2010' on page 43 undefined on input line 150.
-
-[43] <Figures/ch3Figures/fig3-10.png, id=302, 820.0236pt x 476.5002pt>
+ [43]
+<Figures/ch3Figures/fig3-10.png, id=305, 820.0236pt x 476.5002pt>
 File: Figures/ch3Figures/fig3-10.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-10.png>
@@ -982,7 +772,7 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-10.png used on input line 154.
 
 (pdftex.def)             Requested size: 455.30121pt x 264.5698pt.
  [44 <./Figures/ch3Figures/fig3-9.png>]
-<Figures/ch3Figures/fig3-11.png, id=308, 754.017pt x 345.9324pt>
+<Figures/ch3Figures/fig3-11.png, id=310, 754.017pt x 345.9324pt>
 File: Figures/ch3Figures/fig3-11.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-11.png>
@@ -990,1211 +780,941 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-11.png used on input line 164.
 
 (pdftex.def)             Requested size: 455.30121pt x 208.88594pt.
  [45 <./Figures/ch3Figures/fig3-10.png>]
-[46 <./Figures/ch3Figures/fig3-11.png>]
-
-LaTeX Warning: Citation `IEC2005' on page 47 undefined on input line 196.
-
-<Figures/ch3Figures/fig3-12.png, id=317, 752.8125pt x 301.125pt>
+[46 <./Figures/ch3Figures/fig3-11.png>] [47]
+<Figures/ch3Figures/fig3-12.png, id=322, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-12.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-12.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-12.png used on input line 201.
+Package pdftex.def Info: Figures/ch3Figures/fig3-12.png used on input line 202.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [47]
-<Figures/ch3Figures/fig3-13.png, id=322, 752.8125pt x 301.125pt>
+ [48 <./Figures/ch3Figures/fig3-12.png (PNG copy)>] <Figures/ch3Figures/fig3-13
+.png, id=328, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-13.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-13.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-13.png used on input line 214.
+Package pdftex.def Info: Figures/ch3Figures/fig3-13.png used on input line 215.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [48 <./Figures/ch3Figures/fig3-12.png (PNG copy)>] <Figures/ch3Figures/fig3-14
-.png, id=328, 752.8125pt x 301.125pt>
+
+<Figures/ch3Figures/fig3-14.png, id=330, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-14.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-14.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-14.png used on input line 224.
+Package pdftex.def Info: Figures/ch3Figures/fig3-14.png used on input line 225.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
  [49 <./Figures/ch3Figures/fig3-13.png (PNG copy)>] <Figures/ch3Figures/fig3-15
-.png, id=334, 752.8125pt x 301.125pt>
+.png, id=337, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-15.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-15.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-15.png used on input line 235.
+Package pdftex.def Info: Figures/ch3Figures/fig3-15.png used on input line 236.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
  [50 <./Figures/ch3Figures/fig3-14.png (PNG copy)> <./Figures/ch3Figures/fig3-1
 5.png (PNG copy)>]
-<Figures/ch3Figures/fig3-16.png, id=342, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-16.png, id=344, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-16.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-16.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-16.png used on input line 245.
+Package pdftex.def Info: Figures/ch3Figures/fig3-16.png used on input line 246.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch3Figures/fig3-17.png, id=344, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-17.png, id=346, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-17.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-17.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-17.png used on input line 253.
+Package pdftex.def Info: Figures/ch3Figures/fig3-17.png used on input line 254.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
  [51 <./Figures/ch3Figures/fig3-16.png (PNG copy)>] [52 <./Figures/ch3Figures/f
 ig3-17.png (PNG copy)>]
-<Figures/ch3Figures/fig3-18.png, id=354, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-18.png, id=356, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-18.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-18.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-18.png used on input line 294.
+Package pdftex.def Info: Figures/ch3Figures/fig3-18.png used on input line 295.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch3Figures/fig3-19.png, id=356, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-19.png, id=358, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-19.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-19.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-19.png used on input line 304.
+Package pdftex.def Info: Figures/ch3Figures/fig3-19.png used on input line 305.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
  [53] [54 <./Figures/ch3Figures/fig3-18.png (PNG copy)> <./Figures/ch3Figures/f
 ig3-19.png (PNG copy)>]
-<Figures/ch3Figures/fig3-20.png, id=366, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-20.png, id=368, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-20.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-20.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-20.png used on input line 314.
+Package pdftex.def Info: Figures/ch3Figures/fig3-20.png used on input line 315.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch3Figures/fig3-21.png, id=368, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-21.png, id=370, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-21.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-21.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-21.png used on input line 322.
+Package pdftex.def Info: Figures/ch3Figures/fig3-21.png used on input line 323.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [55 <./Figures/ch3Figures/fig3-20.png (PNG copy)>] <Figures/ch3Figures/fig3-22
-.png, id=374, 752.8125pt x 301.125pt>
+ [55 <./Figures/ch3Figures/fig3-20.png (PNG copy)> <./Figures/ch3Figures/fig3-2
+1.png (PNG copy)>]
+<Figures/ch3Figures/fig3-22.png, id=378, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-22.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-22.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-22.png used on input line 335.
+Package pdftex.def Info: Figures/ch3Figures/fig3-22.png used on input line 336.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch3Figures/fig3-23.png, id=376, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-23.png, id=380, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-23.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-23.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-23.png used on input line 343.
+Package pdftex.def Info: Figures/ch3Figures/fig3-23.png used on input line 344.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [56 <./Figures/ch3Figures/fig3-21.png (PNG copy)> <./Figures/ch3Figures/fig3-2
-2.png (PNG copy)>]
-
-LaTeX Warning: Reference `AppendixC' on page 57 undefined on input line 379.
-
-[57 <./Figures/ch3Figures/fig3-23.png (PNG copy)>] [58]
-
-LaTeX Warning: Citation `IEC2005' on page 59 undefined on input line 419.
-
-<Figures/ch3Figures/fig3-24.png, id=391, 753.5653pt x 301.125pt>
+ [56 <./Figures/ch3Figures/fig3-22.png (PNG copy)>] [57 <./Figures/ch3Figures/f
+ig3-23.png (PNG copy)>] [58]
+<Figures/ch3Figures/fig3-24.png, id=393, 753.5653pt x 301.125pt>
 File: Figures/ch3Figures/fig3-24.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-24.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-24.png used on input line 425.
+Package pdftex.def Info: Figures/ch3Figures/fig3-24.png used on input line 426.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.185pt.
- [59]
-<Figures/ch3Figures/fig3-25.png, id=396, 752.8125pt x 301.125pt>
+
+<Figures/ch3Figures/fig3-25.png, id=395, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-25.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-25.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-25.png used on input line 435.
+Package pdftex.def Info: Figures/ch3Figures/fig3-25.png used on input line 436.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-<Figures/ch3Figures/fig3-26.png, id=398, 752.8125pt x 301.125pt>
+ [59 <./Figures/ch3Figures/fig3-24.png (PNG copy)>] <Figures/ch3Figures/fig3-26
+.png, id=401, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-26.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-26.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-26.png used on input line 445.
+Package pdftex.def Info: Figures/ch3Figures/fig3-26.png used on input line 446.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [60 <./Figures/ch3Figures/fig3-24.png (PNG copy)>] [61 <./Figures/ch3Figures/f
-ig3-25.png (PNG copy)> <./Figures/ch3Figures/fig3-26.png (PNG copy)>]
-<Figures/ch3Figures/fig3-27.png, id=409, 752.8125pt x 301.125pt>
+ [60 <./Figures/ch3Figures/fig3-25.png (PNG copy)>] <Figures/ch3Figures/fig3-27
+.png, id=407, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-27.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-27.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-27.png used on input line 455.
+Package pdftex.def Info: Figures/ch3Figures/fig3-27.png used on input line 456.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch3Figures/fig3-28.png, id=411, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-28.png, id=409, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-28.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-28.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-28.png used on input line 463.
+Package pdftex.def Info: Figures/ch3Figures/fig3-28.png used on input line 464.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch3Figures/fig3-29.png, id=413, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-29.png, id=411, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-29.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-29.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-29.png used on input line 471.
+Package pdftex.def Info: Figures/ch3Figures/fig3-29.png used on input line 472.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [62 <./Figures/ch3Figures/fig3-27.png (PNG copy)>] [63 <./Figures/ch3Figures/f
-ig3-28.png (PNG copy)> <./Figures/ch3Figures/fig3-29.png (PNG copy)>]
-<Figures/ch3Figures/fig3-30.png, id=425, 752.8125pt x 301.125pt>
+ [61 <./Figures/ch3Figures/fig3-26.png (PNG copy)> <./Figures/ch3Figures/fig3-2
+7.png (PNG copy)>] [62 <./Figures/ch3Figures/fig3-28.png (PNG copy)> <./Figures
+/ch3Figures/fig3-29.png (PNG copy)>]
+<Figures/ch3Figures/fig3-30.png, id=424, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-30.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-30.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-30.png used on input line 510.
+Package pdftex.def Info: Figures/ch3Figures/fig3-30.png used on input line 511.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch3Figures/fig3-31.png, id=427, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-31.png, id=426, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-31.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-31.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-31.png used on input line 520.
+Package pdftex.def Info: Figures/ch3Figures/fig3-31.png used on input line 521.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-<Figures/ch3Figures/fig3-32.png, id=429, 752.8125pt x 301.125pt>
+ [63]
+<Figures/ch3Figures/fig3-32.png, id=431, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-32.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-32.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-32.png used on input line 528.
+Package pdftex.def Info: Figures/ch3Figures/fig3-32.png used on input line 529.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch3Figures/fig3-33.png, id=431, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-33.png, id=433, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-33.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-33.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-33.png used on input line 536.
+Package pdftex.def Info: Figures/ch3Figures/fig3-33.png used on input line 537.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-<Figures/ch3Figures/fig3-34.png, id=433, 752.8125pt x 301.125pt>
+ [64 <./Figures/ch3Figures/fig3-30.png (PNG copy)> <./Figures/ch3Figures/fig3-3
+1.png (PNG copy)>] [65 <./Figures/ch3Figures/fig3-32.png (PNG copy)> <./Figures
+/ch3Figures/fig3-33.png (PNG copy)>]
+<Figures/ch3Figures/fig3-34.png, id=446, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-34.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-34.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-34.png used on input line 546.
+Package pdftex.def Info: Figures/ch3Figures/fig3-34.png used on input line 547.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [64] [65 <./Figures/ch3Figures/fig3-30.png (PNG copy)> <./Figures/ch3Figures/f
-ig3-31.png (PNG copy)>] [66 <./Figures/ch3Figures/fig3-32.png (PNG copy)> <./Fi
-gures/ch3Figures/fig3-33.png (PNG copy)>]
-<Figures/ch3Figures/fig3-35.png, id=449, 752.8125pt x 301.125pt>
+
+<Figures/ch3Figures/fig3-35.png, id=448, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-35.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 554.
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 555.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [67 <./Figures/ch3Figures/fig3-34.png (PNG copy)> <./Figures/ch3Figures/fig3-3
-5.png (PNG copy)>] [68] [69]
+ [66 <./Figures/ch3Figures/fig3-34.png (PNG copy)> <./Figures/ch3Figures/fig3-3
+5.png (PNG copy)>] [67] [68]
 File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-35.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 629.
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 631.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [70]
+ [69]
 File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
  <use Figures/ch3Figures/fig3-35.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 640.
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 642.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-[71]
 File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
- <use Figures/ch3Figures/fig3-35.png>
-Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 650.
+
+<use Figures/ch3Figures/fig3-35.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 652.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
- [72] [73]) [74]
+ [70] [71] [72]) [73]
 \openout2 = `Chapters/Chapter4.aux'.
 
 
 (./Chapters/Chapter4.tex
 Chapter 4.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[75
+[74
 
 
 
-]
-
-LaTeX Warning: Citation `deshpande2012' on page 76 undefined on input line 18.
-
-
-LaTeX Warning: Citation `fink2009' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `aho2012' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `aho2013' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `biegel2013' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `richards2014' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `griffith2015' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `jelavic2013' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `petrovic2014' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `petrovic2015' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `jelavic2013' on page 76 undefined on input line 20.
-
-
-LaTeX Warning: Citation `carlen2010' on page 76 undefined on input line 20.
-
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[76]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-
-LaTeX Warning: Citation `deshpande2012' on page 77 undefined on input line 33.
-
-
-LaTeX Warning: Citation `frost2013' on page 77 undefined on input line 33.
-
-
-LaTeX Warning: Citation `petrovic2015' on page 77 undefined on input line 33.
-
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[77]
-
-LaTeX Warning: Citation `IEC2005' on page 78 undefined on input line 36.
-
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[78] <Figures/ch4Figures/fig4-1.png, id=497, 752.8125pt x 301.125pt>
+] [75] [76] [77]
+<Figures/ch4Figures/fig4-1.png, id=496, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-1.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-1.png>
 Package pdftex.def Info: Figures/ch4Figures/fig4-1.png used on input line 41.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-2.png, id=499, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-2.png, id=498, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-2.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-2.png>
 Package pdftex.def Info: Figures/ch4Figures/fig4-2.png used on input line 49.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-3.png, id=501, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-3.png, id=500, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-3.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-3.png>
 Package pdftex.def Info: Figures/ch4Figures/fig4-3.png used on input line 57.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-4.png, id=503, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-4.png, id=502, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-4.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-4.png>
 Package pdftex.def Info: Figures/ch4Figures/fig4-4.png used on input line 65.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[79 <./Figures/ch4Figures/fig4-1.png (PNG copy)>]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[80 <./Figures/ch4Figures/fig4-2.png (PNG copy)> <./Figures/ch4Figures/fig4-3.p
-ng (PNG copy)>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 78.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 100.
-
-
-LaTeX Warning: Citation `IEC2005' on page 81 undefined on input line 129.
-
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[81 <./Figures/ch4Figures/fig4-4.png (PNG copy)>]
-<Figures/ch4Figures/fig4-5.png, id=519, 752.8125pt x 301.125pt>
+ [78] [79 <./Figures/ch4Figures/fig4-1.png (PNG copy)> <./Figures/ch4Figures/fi
+g4-2.png (PNG copy)>] [80 <./Figures/ch4Figures/fig4-3.png (PNG copy)> <./Figur
+es/ch4Figures/fig4-4.png (PNG copy)>]
+[81] <Figures/ch4Figures/fig4-5.png, id=521, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-5.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-5.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-5.png used on input line 135.
+Package pdftex.def Info: Figures/ch4Figures/fig4-5.png used on input line 136.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[82]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[83 <./Figures/ch4Figures/fig4-5.png (PNG copy)>]
-<Figures/ch4Figures/fig4-6.png, id=528, 752.8125pt x 301.125pt>
+ [82]
+<Figures/ch4Figures/fig4-6.png, id=526, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-6.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-6.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-6.png used on input line 145.
+Package pdftex.def Info: Figures/ch4Figures/fig4-6.png used on input line 146.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-<Figures/ch4Figures/fig4-7.png, id=530, 752.8125pt x 301.125pt>
+ [83 <./Figures/ch4Figures/fig4-5.png (PNG copy)> <./Figures/ch4Figures/fig4-6.
+png (PNG copy)>]
+<Figures/ch4Figures/fig4-7.png, id=533, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-7.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-7.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-7.png used on input line 155.
+Package pdftex.def Info: Figures/ch4Figures/fig4-7.png used on input line 156.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[84 <./Figures/ch4Figures/fig4-6.png (PNG copy)>]
-<Figures/ch4Figures/fig4-8.png, id=536, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-8.png, id=535, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-8.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-8.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-8.png used on input line 165.
+Package pdftex.def Info: Figures/ch4Figures/fig4-8.png used on input line 166.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-9.png, id=538, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-9.png, id=537, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-9.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-9.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-9.png used on input line 173.
+Package pdftex.def Info: Figures/ch4Figures/fig4-9.png used on input line 174.
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[85 <./Figures/ch4Figures/fig4-7.png (PNG copy)> <./Figures/ch4Figures/fig4-8.p
-ng (PNG copy)>]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[86 <./Figures/ch4Figures/fig4-9.png (PNG copy)>]
-<Figures/ch4Figures/fig4-10.png, id=550, 752.8125pt x 301.125pt>
+ [84 <./Figures/ch4Figures/fig4-7.png (PNG copy)>] [85 <./Figures/ch4Figures/fi
+g4-8.png (PNG copy)> <./Figures/ch4Figures/fig4-9.png (PNG copy)>]
+<Figures/ch4Figures/fig4-10.png, id=549, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-10.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-10.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-10.png used on input line 193.
+Package pdftex.def Info: Figures/ch4Figures/fig4-10.png used on input line 195.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-<Figures/ch4Figures/fig4-11.png, id=552, 752.8125pt x 301.125pt>
+ [86]
+<Figures/ch4Figures/fig4-11.png, id=554, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-11.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-11.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-11.png used on input line 203.
+Package pdftex.def Info: Figures/ch4Figures/fig4-11.png used on input line 205.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[87 <./Figures/ch4Figures/fig4-10.png (PNG copy)>]
-<Figures/ch4Figures/fig4-12.png, id=558, 753.5653pt x 301.125pt>
+ [87 <./Figures/ch4Figures/fig4-10.png (PNG copy)> <./Figures/ch4Figures/fig4-1
+1.png (PNG copy)>]
+<Figures/ch4Figures/fig4-12.png, id=561, 753.5653pt x 301.125pt>
 File: Figures/ch4Figures/fig4-12.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-12.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-12.png used on input line 213.
+Package pdftex.def Info: Figures/ch4Figures/fig4-12.png used on input line 215.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.185pt.
 
 
-LaTeX Warning: Reference `fig4-13' on page 88 undefined on input line 219.
+LaTeX Warning: Reference `fig4-13' on page 88 undefined on input line 221.
 
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[88 <./Figures/ch4Figures/fig4-11.png (PNG copy)> <./Figures/ch4Figures/fig4-12
-.png (PNG copy)>]
-<Figures/ch4Figures/fig4-14.png, id=565, 752.8125pt x 301.125pt>
+[88 <./Figures/ch4Figures/fig4-12.png (PNG copy)>]
+<Figures/ch4Figures/fig4-14.png, id=567, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-14.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-14.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-14.png used on input line 237.
+Package pdftex.def Info: Figures/ch4Figures/fig4-14.png used on input line 239.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-15.png, id=567, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-15.png, id=569, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-15.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-15.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-15.png used on input line 245.
+Package pdftex.def Info: Figures/ch4Figures/fig4-15.png used on input line 247.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-16.png, id=569, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-16.png, id=571, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-16.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-16.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-16.png used on input line 254.
+Package pdftex.def Info: Figures/ch4Figures/fig4-16.png used on input line 256.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[89 <./Figures/ch4Figures/fig4-14.png (PNG copy)>]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[90 <./Figures/ch4Figures/fig4-15.png (PNG copy)> <./Figures/ch4Figures/fig4-16
-.png (PNG copy)>]
-<Figures/ch4Figures/fig4-17.png, id=580, 752.8125pt x 301.125pt>
+ [89 <./Figures/ch4Figures/fig4-14.png (PNG copy)> <./Figures/ch4Figures/fig4-1
+5.png (PNG copy)>]
+<Figures/ch4Figures/fig4-17.png, id=578, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-17.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-17.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-17.png used on input line 266.
+Package pdftex.def Info: Figures/ch4Figures/fig4-17.png used on input line 268.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-18.png, id=582, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-18.png, id=580, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-18.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-18.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-18.png used on input line 274.
+Package pdftex.def Info: Figures/ch4Figures/fig4-18.png used on input line 276.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-19.png, id=584, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-19.png, id=582, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-19.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-19.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-19.png used on input line 282.
+Package pdftex.def Info: Figures/ch4Figures/fig4-19.png used on input line 284.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[91 <./Figures/ch4Figures/fig4-17.png (PNG copy)>]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[92 <./Figures/ch4Figures/fig4-18.png (PNG copy)> <./Figures/ch4Figures/fig4-19
-.png (PNG copy)>]
-<Figures/ch4Figures/fig4-20.png, id=596, 595.9866pt x 299.1978pt>
+ [90 <./Figures/ch4Figures/fig4-16.png (PNG copy)>] [91 <./Figures/ch4Figures/f
+ig4-17.png (PNG copy)> <./Figures/ch4Figures/fig4-18.png (PNG copy)>]
+<Figures/ch4Figures/fig4-20.png, id=594, 595.9866pt x 299.1978pt>
 File: Figures/ch4Figures/fig4-20.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-20.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-20.png used on input line 300.
+Package pdftex.def Info: Figures/ch4Figures/fig4-20.png used on input line 302.
 
 (pdftex.def)             Requested size: 455.30121pt x 228.5751pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[93 <./Figures/ch4Figures/fig4-20.png>]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[94]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[95]
-
-LaTeX Warning: Citation `IEC2005' on page 96 undefined on input line 357.
-
-<Figures/ch4Figures/fig4-22.png, id=608, 752.8125pt x 301.125pt>
+ [92 <./Figures/ch4Figures/fig4-19.png (PNG copy)>] [93 <./Figures/ch4Figures/f
+ig4-20.png>] [94] [95]
+<Figures/ch4Figures/fig4-22.png, id=610, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-22.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-22.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-22.png used on input line 361.
+Package pdftex.def Info: Figures/ch4Figures/fig4-22.png used on input line 363.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[96] <Figures/ch4Figures/fig4-23.png, id=613, 752.8125pt x 301.125pt>
+ [96]
+<Figures/ch4Figures/fig4-23.png, id=615, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-23.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-23.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-23.png used on input line 373.
+Package pdftex.def Info: Figures/ch4Figures/fig4-23.png used on input line 375.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[97 <./Figures/ch4Figures/fig4-22.png (PNG copy)>]
-<Figures/ch4Figures/fig4-24.png, id=619, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-24.png, id=617, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-24.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-24.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-24.png used on input line 381.
+Package pdftex.def Info: Figures/ch4Figures/fig4-24.png used on input line 383.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-<Figures/ch4Figures/fig4-25.png, id=621, 752.8125pt x 301.125pt>
+ [97 <./Figures/ch4Figures/fig4-22.png (PNG copy)> <./Figures/ch4Figures/fig4-2
+3.png (PNG copy)>]
+<Figures/ch4Figures/fig4-25.png, id=625, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-25.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-25.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-25.png used on input line 389.
+Package pdftex.def Info: Figures/ch4Figures/fig4-25.png used on input line 391.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[98 <./Figures/ch4Figures/fig4-23.png (PNG copy)> <./Figures/ch4Figures/fig4-24
-.png (PNG copy)>]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[99 <./Figures/ch4Figures/fig4-25.png (PNG copy)>]
-<Figures/ch4Figures/fig4-26.png, id=634, 752.8125pt x 301.125pt>
+ [98 <./Figures/ch4Figures/fig4-24.png (PNG copy)> <./Figures/ch4Figures/fig4-2
+5.png (PNG copy)>]
+<Figures/ch4Figures/fig4-26.png, id=633, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-26.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-26.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-26.png used on input line 403.
+Package pdftex.def Info: Figures/ch4Figures/fig4-26.png used on input line 405.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 410.
-
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
+Overfull \hbox (1.61069pt too wide) in paragraph at lines 415--430
+ [][] |
  []
 
-[100 <./Figures/ch4Figures/fig4-26.png (PNG copy)>]
-<Figures/ch4Figures/fig4-27.png, id=640, 752.8125pt x 301.125pt>
+[99] [100 <./Figures/ch4Figures/fig4-26.png (PNG copy)>]
+<Figures/ch4Figures/fig4-27.png, id=642, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-27.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-27.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-27.png used on input line 447.
+Package pdftex.def Info: Figures/ch4Figures/fig4-27.png used on input line 449.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[101] <Figures/ch4Figures/fig4-28.png, id=645, 752.8125pt x 301.125pt>
+ [101 <./Figures/ch4Figures/fig4-27.png (PNG copy)>] <Figures/ch4Figures/fig4-2
+8.png, id=648, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-28.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-28.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-28.png used on input line 459.
+Package pdftex.def Info: Figures/ch4Figures/fig4-28.png used on input line 461.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-<Figures/ch4Figures/fig4-29.png, id=647, 752.8125pt x 301.125pt>
+<Figures/ch4Figures/fig4-29.png, id=650, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-29.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-29.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-29.png used on input line 467.
+Package pdftex.def Info: Figures/ch4Figures/fig4-29.png used on input line 469.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[102 <./Figures/ch4Figures/fig4-27.png (PNG copy)>]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[103 <./Figures/ch4Figures/fig4-28.png (PNG copy)> <./Figures/ch4Figures/fig4-2
-9.png (PNG copy)>]
-<Figures/ch4Figures/fig4-30.png, id=658, 752.8125pt x 301.125pt>
+ [102 <./Figures/ch4Figures/fig4-28.png (PNG copy)>] <Figures/ch4Figures/fig4-3
+0.png, id=656, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-30.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-30.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-30.png used on input line 477.
+Package pdftex.def Info: Figures/ch4Figures/fig4-30.png used on input line 479.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[104 <./Figures/ch4Figures/fig4-30.png (PNG copy)>]
-<Figures/ch4Figures/fig4-31.png, id=665, 752.8125pt x 301.125pt>
+ [103 <./Figures/ch4Figures/fig4-29.png (PNG copy)>] <Figures/ch4Figures/fig4-3
+1.png, id=663, 752.8125pt x 301.125pt>
 File: Figures/ch4Figures/fig4-31.png Graphic file (type png)
 
 <use Figures/ch4Figures/fig4-31.png>
-Package pdftex.def Info: Figures/ch4Figures/fig4-31.png used on input line 487.
+Package pdftex.def Info: Figures/ch4Figures/fig4-31.png used on input line 489.
 
 (pdftex.def)             Requested size: 455.30121pt x 205.41473pt.
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 496.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 518.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 539.
-
-
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
+Overfull \hbox (1.61069pt too wide) in paragraph at lines 501--516
+ [][] |
  []
 
-[105 <./Figures/ch4Figures/fig4-31.png (PNG copy)>]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
+
+Overfull \hbox (1.61069pt too wide) in paragraph at lines 523--538
+ [][] |
  []
 
-[106]
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
+[104 <./Figures/ch4Figures/fig4-30.png (PNG copy)>] [105 <./Figures/ch4Figures/
+fig4-31.png (PNG copy)>]
+Overfull \hbox (1.61069pt too wide) in paragraph at lines 544--559
+ [][] |
  []
 
-[107])
-Overfull \hbox (19.53915pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 4.  Turbine Derating Based on Feed Forward Sign
-al From Upwind Turbine |
- []
-
-[108]
+[106]) [107] [108]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (./Chapters/Chapter5.tex
 Chapter 5.
-)
-Overfull \hbox (140.95515pt too wide) has occurred while \output is active
-\OT1/cmr/m/sc/10 DRAFT  Chapter 5.  A Comparison of the NREL 5-MW Wake Characte
-ristics Using Both SOWFA and OVERFLOW2 |
- []
-
 [109
 
 
 
-]
+] [110] [111]
+Overfull \hbox (17.79866pt too wide) in paragraph at lines 91--92
+\T1/qcs/m/n/12 OVERFLOW2 is a nu-mer-i-cal sim-u-la-tion method that solves the
+ com-press-ible Reynolds-|
+ []
+
+[112] [113] [114]
+<Figures/ch5Figures/OVERFLOWGrid.pdf, id=701, 428.94012pt x 71.00517pt>
+File: Figures/ch5Figures/OVERFLOWGrid.pdf Graphic file (type pdf)
+
+<use Figures/ch5Figures/OVERFLOWGrid.pdf>
+Package pdftex.def Info: Figures/ch5Figures/OVERFLOWGrid.pdf used on input line
+ 111.
+(pdftex.def)             Requested size: 428.93907pt x 71.00497pt.
+ [115 <./Figures/ch5Figures/OVERFLOWGrid.pdf>] [116] [117]
+<Figures/ch5Figures/isoVorts.jpg, id=754, 667.49374pt x 445.665pt>
+File: Figures/ch5Figures/isoVorts.jpg Graphic file (type jpg)
+
+<use Figures/ch5Figures/isoVorts.jpg>
+Package pdftex.def Info: Figures/ch5Figures/isoVorts.jpg used on input line 184
+.
+(pdftex.def)             Requested size: 455.30121pt x 304.00023pt.
+
+<Figures/ch5Figures/VortMag.pdf, id=755, 439.27786pt x 253.83441pt>
+File: Figures/ch5Figures/VortMag.pdf Graphic file (type pdf)
+
+<use Figures/ch5Figures/VortMag.pdf>
+Package pdftex.def Info: Figures/ch5Figures/VortMag.pdf used on input line 191.
+
+(pdftex.def)             Requested size: 341.4759pt x 197.33159pt.
+
+<Figures/ch5Figures/VortSlice_multSpeed.png, id=756, 706.8006pt x 1051.7694pt>
+File: Figures/ch5Figures/VortSlice_multSpeed.png Graphic file (type png)
+
+<use Figures/ch5Figures/VortSlice_multSpeed.png>
+Package pdftex.def Info: Figures/ch5Figures/VortSlice_multSpeed.png used on inp
+ut line 198.
+(pdftex.def)             Requested size: 387.0088pt x 575.90717pt.
+ [118 <./Figures/ch5Figures/isoVorts.jpg>] [119 <./Figures/ch5Figures/VortMag.p
+df>] [120 <./Figures/ch5Figures/VortSlice_multSpeed.png>]
+<Figures/ch5Figures/VelDef_SowfaOverflow.jpg, id=777, 685.56125pt x 846.16125pt
+>
+File: Figures/ch5Figures/VelDef_SowfaOverflow.jpg Graphic file (type jpg)
+ <use Figures/ch5Figures/VelDef_SowfaOverflow.jpg>
+Package pdftex.def Info: Figures/ch5Figures/VelDef_SowfaOverflow.jpg used on in
+put line 210.
+(pdftex.def)             Requested size: 341.4759pt x 421.47858pt.
+ [121 <./Figures/ch5Figures/VelDef_SowfaOverflow.jpg>] [122]
+<Figures/ch5Figures/VortSlice_Length.png, id=785, 706.3188pt x 1051.7694pt>
+File: Figures/ch5Figures/VortSlice_Length.png Graphic file (type png)
+
+<use Figures/ch5Figures/VortSlice_Length.png>
+Package pdftex.def Info: Figures/ch5Figures/VortSlice_Length.png used on input 
+line 235.
+(pdftex.def)             Requested size: 387.0088pt x 576.29234pt.
+
+<Figures/ch5Figures/velDef_Length.jpg, id=786, 684.5575pt x 361.35pt>
+File: Figures/ch5Figures/velDef_Length.jpg Graphic file (type jpg)
+
+<use Figures/ch5Figures/velDef_Length.jpg>
+Package pdftex.def Info: Figures/ch5Figures/velDef_Length.jpg used on input lin
+e 244.
+(pdftex.def)             Requested size: 341.4759pt x 180.25551pt.
+ [123] [124 <./Figures/ch5Figures/VortSlice_Length.png>]
+<Figures/ch5Figures/VortSlice_Resolution.png, id=794, 1211.727pt x 817.1328pt>
+File: Figures/ch5Figures/VortSlice_Resolution.png Graphic file (type png)
+
+<use Figures/ch5Figures/VortSlice_Resolution.png>
+Package pdftex.def Info: Figures/ch5Figures/VortSlice_Resolution.png used on in
+put line 279.
+(pdftex.def)             Requested size: 387.0088pt x 260.97662pt.
+ [125 <./Figures/ch5Figures/velDef_Length.jpg>]
+<Figures/ch5Figures/VelDef_resolution.jpg, id=798, 685.56125pt x 848.16875pt>
+File: Figures/ch5Figures/VelDef_resolution.jpg Graphic file (type jpg)
+
+<use Figures/ch5Figures/VelDef_resolution.jpg>
+Package pdftex.def Info: Figures/ch5Figures/VelDef_resolution.jpg used on input
+ line 290.
+(pdftex.def)             Requested size: 341.4759pt x 422.47852pt.
+ [126 <./Figures/ch5Figures/VortSlice_Resolution.png>] [127 <./Figures/ch5Figur
+es/VelDef_resolution.jpg>]
+[128]) [129]
 \openout2 = `Chapters/Chapter6.aux'.
 
  (./Chapters/Chapter6.tex
 Chapter 6.
-[110
+[130
 
 
 
-] [111] [112]
+] [131]
+Overfull \hbox (42.1765pt too wide) in paragraph at lines 34--36
+\T1/qcs/m/n/12 the github repos-i-tory: https://github.com/ewandersonUCDavis/SO
+WFA_openFAST_EA.git. |
+ []
 
-LaTeX Warning: Citation `jonkman2009' on page 113 undefined on input line 36.
-
-
-LaTeX Warning: Citation `pedersen2012' on page 113 undefined on input line 36.
-
-
-LaTeX Warning: Citation `fleming2013' on page 113 undefined on input line 38.
-
-
-LaTeX Warning: Citation `fleming2013a' on page 113 undefined on input line 38.
-
-[113] <Figures/ch6Figures/fig6-1.png, id=696, 696.201pt x 458.1918pt>
+[132] [133] <Figures/ch6Figures/fig6-1.png, id=827, 696.201pt x 458.1918pt>
 File: Figures/ch6Figures/fig6-1.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-1.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-1.png used on input line 50.
+Package pdftex.def Info: Figures/ch6Figures/fig6-1.png used on input line 51.
 (pdftex.def)             Requested size: 455.30121pt x 299.6529pt.
- [114 <./Figures/ch6Figures/fig6-1.png>]
-
-LaTeX Warning: Citation `churchfield2012' on page 115 undefined on input line 6
-7.
-
-
-LaTeX Warning: Citation `troldborg2009' on page 115 undefined on input line 67.
-
-
-[115] <Figures/ch6Figures/fig6-2.png, id=704, 1003.75pt x 401.5pt>
+ [134] [135 <./Figures/ch6Figures/fig6-1.png>] [136] <Figures/ch6Figures/fig6-2
+.png, id=838, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-2.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-2.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-2.png used on input line 73.
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+Package pdftex.def Info: Figures/ch6Figures/fig6-2.png used on input line 76.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 
-<Figures/ch6Figures/fig6-3.png, id=706, 1003.75pt x 401.5pt>
+<Figures/ch6Figures/fig6-3.png, id=839, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-3.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-3.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-3.png used on input line 80.
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+Package pdftex.def Info: Figures/ch6Figures/fig6-3.png used on input line 83.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 
-<Figures/ch6Figures/fig6-4.png, id=708, 1003.75pt x 401.5pt>
+<Figures/ch6Figures/fig6-4.png, id=840, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-4.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-4.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-4.png used on input line 87.
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+Package pdftex.def Info: Figures/ch6Figures/fig6-4.png used on input line 90.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 
-<Figures/ch6Figures/fig6-5.png, id=710, 1003.75pt x 401.5pt>
+<Figures/ch6Figures/fig6-5.png, id=841, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-5.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-5.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-5.png used on input line 94.
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+Package pdftex.def Info: Figures/ch6Figures/fig6-5.png used on input line 98.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 
-<Figures/ch6Figures/fig6-6.png, id=712, 1003.75pt x 401.5pt>
+<Figures/ch6Figures/fig6-6.png, id=842, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-6.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-6.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 101.
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
-
-<Figures/ch6Figures/fig6-7.png, id=714, 1003.75pt x 401.5pt>
+Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 106.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [137 <./Figures/ch6Figures/fig6-2.png (PNG copy)> <./Figures/ch6Figures/fig6-3
+.png (PNG copy)>] [138 <./Figures/ch6Figures/fig6-4.png (PNG copy)> <./Figures/
+ch6Figures/fig6-5.png (PNG copy)>]
+<Figures/ch6Figures/fig6-7.png, id=849, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-7.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-7.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-7.png used on input line 114.
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+Package pdftex.def Info: Figures/ch6Figures/fig6-7.png used on input line 120.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 
-<Figures/ch6Figures/fig6-p.png, id=716, 821.0675pt x 424.58624pt>
+<Figures/ch6Figures/fig6-p.png, id=850, 821.0675pt x 424.58624pt>
 File: Figures/ch6Figures/fig6-p.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-p.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-p.png used on input line 121.
-(pdftex.def)             Requested size: 455.30121pt x 262.76132pt.
- [116] [117 <./Figures/ch6Figures/fig6-2.png (PNG copy)> <./Figures/ch6Figures/
-fig6-3.png (PNG copy)>] [118 <./Figures/ch6Figures/fig6-4.png (PNG copy)> <./Fi
-gures/ch6Figures/fig6-5.png (PNG copy)>]
-[119 <./Figures/ch6Figures/fig6-6.png (PNG copy)> <./Figures/ch6Figures/fig6-7.
-png (PNG copy)>] [120 <./Figures/ch6Figures/fig6-p.png>]
+Package pdftex.def Info: Figures/ch6Figures/fig6-p.png used on input line 128.
+(pdftex.def)             Requested size: 455.30121pt x 235.44083pt.
+ [139 <./Figures/ch6Figures/fig6-6.png (PNG copy)> <./Figures/ch6Figures/fig6-7
+.png (PNG copy)>] [140 <./Figures/ch6Figures/fig6-p.png>]
+Overfull \hbox (0.10736pt too wide) in paragraph at lines 146--147
+[]\T1/qcs/m/n/12 Several in-let ve-loc-ity pro-files were in-ves-ti-gated in a 
+se-ries of pre-lim-i-nary SOWFA|
+ []
 
-LaTeX Warning: Citation `IEC2005' on page 121 undefined on input line 140.
-
-[121] <Figures/ch6Figures/fig6-11.png, id=744, 1093.2042pt x 384.9582pt>
+<Figures/ch6Figures/fig6-11.png, id=858, 1093.2042pt x 384.9582pt>
 File: Figures/ch6Figures/fig6-11.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-11.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-11.png used on input line 148.
+Package pdftex.def Info: Figures/ch6Figures/fig6-11.png used on input line 156.
 
-(pdftex.def)             Requested size: 455.30121pt x 173.91096pt.
-
-<Figures/ch6Figures/fig6-12.png, id=746, 1002.74625pt x 400.49625pt>
+(pdftex.def)             Requested size: 455.30121pt x 160.33032pt.
+ [141]
+<Figures/ch6Figures/fig6-12.png, id=862, 1002.74625pt x 400.49625pt>
 File: Figures/ch6Figures/fig6-12.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-12.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-12.png used on input line 164.
+Package pdftex.def Info: Figures/ch6Figures/fig6-12.png used on input line 173.
 
-(pdftex.def)             Requested size: 455.30121pt x 198.76875pt.
-
-
-LaTeX Warning: Reference `chapter4' on page 122 undefined on input line 174.
-
-
-LaTeX Warning: Reference `table6-1' on page 122 undefined on input line 182.
-
-[122 <./Figures/ch6Figures/fig6-11.png>]
-Overfull \hbox (13.93967pt too wide) in paragraph at lines 188--200
+(pdftex.def)             Requested size: 455.30121pt x 181.84718pt.
+ [142 <./Figures/ch6Figures/fig6-11.png> <./Figures/ch6Figures/fig6-12.png (PNG
+ copy)>]
+Overfull \hbox (34.88141pt too wide) in paragraph at lines 197--209
  [][] |
  []
 
-[123 <./Figures/ch6Figures/fig6-12.png (PNG copy)>]
-<Figures/ch6Figures/fig6-13.png, id=758, 743.4174pt x 405.1938pt>
+[143] <Figures/ch6Figures/fig6-13.png, id=870, 743.4174pt x 405.1938pt>
 File: Figures/ch6Figures/fig6-13.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-13.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-13.png used on input line 208.
+Package pdftex.def Info: Figures/ch6Figures/fig6-13.png used on input line 219.
 
 (pdftex.def)             Requested size: 455.30121pt x 248.15709pt.
- [124] [125 <./Figures/ch6Figures/fig6-13.png>] <Figures/ch6Figures/fig6-14.png
-, id=766, 662.475pt x 781.4796pt>
+ [144]
+<Figures/ch6Figures/fig6-14.png, id=874, 662.475pt x 781.4796pt>
 File: Figures/ch6Figures/fig6-14.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-14.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-14.png used on input line 239.
+Package pdftex.def Info: Figures/ch6Figures/fig6-14.png used on input line 252.
 
 (pdftex.def)             Requested size: 455.30121pt x 537.08704pt.
-
-
-LaTeX Warning: Reference `chapter3' on page 126 undefined on input line 244.
-
-
-LaTeX Warning: Reference `chapter4' on page 126 undefined on input line 244.
-
-[126] [127 <./Figures/ch6Figures/fig6-14.png>]
-<Figures/ch6Figures/fig6-15.png, id=774, 1003.75pt x 401.5pt>
+ [145 <./Figures/ch6Figures/fig6-13.png>]
+[146 <./Figures/ch6Figures/fig6-14.png>] [147]
+<Figures/ch6Figures/fig6-15.png, id=887, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-15.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-15.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-15.png used on input line 250.
+Package pdftex.def Info: Figures/ch6Figures/fig6-15.png used on input line 264.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 
-<Figures/ch6Figures/fig6-16.png, id=776, 1003.75pt x 401.5pt>
+<Figures/ch6Figures/fig6-16.png, id=888, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-16.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-16.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-16.png used on input line 256.
+Package pdftex.def Info: Figures/ch6Figures/fig6-16.png used on input line 270.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
-
-<Figures/ch6Figures/fig6-17.png, id=778, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [148 <./Figures/ch6Figures/fig6-15.png (PNG copy)> <./Figures/ch6Figures/fig6-
+16.png (PNG copy)>]
+<Figures/ch6Figures/fig6-17.png, id=892, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-17.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-17.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-17.png used on input line 265.
+Package pdftex.def Info: Figures/ch6Figures/fig6-17.png used on input line 280.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [128 <./Figures/ch6Figures/fig6-15.png (PNG copy)>] [129 <./Figures/ch6Figures
-/fig6-16.png (PNG copy)> <./Figures/ch6Figures/fig6-17.png (PNG copy)>]
-<Figures/ch6Figures/fig6-18.png, id=790, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+
+<Figures/ch6Figures/fig6-18.png, id=893, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-18.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-18.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-18.png used on input line 274.
+Package pdftex.def Info: Figures/ch6Figures/fig6-18.png used on input line 290.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [130 <./Figures/ch6Figures/fig6-18.png (PNG copy)>] <Figures/ch6Figures/fig6-1
-9.png, id=796, 1004.75375pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [149 <./Figures/ch6Figures/fig6-17.png (PNG copy)>] <Figures/ch6Figures/fig6-1
+9.png, id=897, 1004.75375pt x 401.5pt>
 File: Figures/ch6Figures/fig6-19.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-19.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-19.png used on input line 283.
+Package pdftex.def Info: Figures/ch6Figures/fig6-19.png used on input line 300.
 
-(pdftex.def)             Requested size: 455.30121pt x 198.83194pt.
-
-
-LaTeX Warning: Reference `table6-2' on page 131 undefined on input line 288.
-
-
-LaTeX Warning: Reference `AppendixC' on page 131 undefined on input line 288.
-
-[131 <./Figures/ch6Figures/fig6-19.png (PNG copy)>]
-
-LaTeX Warning: Reference `fif6-14' on page 132 undefined on input line 313.
-
-<Figures/ch6Figures/fig6-20.png, id=802, 662.475pt x 781.4796pt>
+(pdftex.def)             Requested size: 455.30121pt x 181.93536pt.
+ [150 <./Figures/ch6Figures/fig6-18.png (PNG copy)>] [151 <./Figures/ch6Figures
+/fig6-19.png (PNG copy)>]
+<Figures/ch6Figures/fig6-20.png, id=905, 662.475pt x 781.4796pt>
 File: Figures/ch6Figures/fig6-20.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-20.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-20.png used on input line 317.
+Package pdftex.def Info: Figures/ch6Figures/fig6-20.png used on input line 336.
 
 (pdftex.def)             Requested size: 455.30121pt x 537.08704pt.
- [132]
-<Figures/ch6Figures/fig6-21.png, id=806, 1003.75pt x 401.5pt>
+
+<Figures/ch6Figures/fig6-21.png, id=906, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-21.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-21.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-21.png used on input line 326.
+Package pdftex.def Info: Figures/ch6Figures/fig6-21.png used on input line 346.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 
-<Figures/ch6Figures/fig6-22.png, id=808, 1003.75pt x 401.5pt>
+<Figures/ch6Figures/fig6-22.png, id=907, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-22.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-22.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-22.png used on input line 332.
+Package pdftex.def Info: Figures/ch6Figures/fig6-22.png used on input line 353.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
-
-<Figures/ch6Figures/fig6-23.png, id=810, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [152] [153 <./Figures/ch6Figures/fig6-20.png>] [154 <./Figures/ch6Figures/fig6
+-21.png (PNG copy)> <./Figures/ch6Figures/fig6-22.png (PNG copy)>]
+<Figures/ch6Figures/fig6-23.png, id=918, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-23.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-23.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-23.png used on input line 341.
+Package pdftex.def Info: Figures/ch6Figures/fig6-23.png used on input line 363.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [133] [134 <./Figures/ch6Figures/fig6-20.png>] [135 <./Figures/ch6Figures/fig6
--21.png (PNG copy)> <./Figures/ch6Figures/fig6-22.png (PNG copy)>]
-<Figures/ch6Figures/fig6-24.png, id=825, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [155 <./Figures/ch6Figures/fig6-23.png (PNG copy)>] <Figures/ch6Figures/fig6-2
+4.png, id=922, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-24.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-24.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-24.png used on input line 350.
+Package pdftex.def Info: Figures/ch6Figures/fig6-24.png used on input line 373.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [136 <./Figures/ch6Figures/fig6-23.png (PNG copy)>]
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 File: Figures/ch6Figures/fig6-16.png Graphic file (type png)
  <use Figures/ch6Figures/fig6-16.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-16.png used on input line 359.
+Package pdftex.def Info: Figures/ch6Figures/fig6-16.png used on input line 383.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
 
+[156 <./Figures/ch6Figures/fig6-24.png (PNG copy)>] [157]
+Overfull \hbox (1.0107pt too wide) in paragraph at lines 413--427
+ [][] |
+ []
 
-LaTeX Warning: Reference `table6-3' on page 137 undefined on input line 364.
-
-[137 <./Figures/ch6Figures/fig6-24.png (PNG copy)>] [138]
-
-LaTeX Warning: Reference `some sowfa studies' on page 139 undefined on input li
-ne 411.
-
-[139]
-
-LaTeX Warning: Reference `table6-1' on page 140 undefined on input line 418.
-
-
-LaTeX Warning: Reference `chapter5' on page 140 undefined on input line 418.
-
-
-LaTeX Warning: Reference `table5-1' on page 140 undefined on input line 418.
-
-[140] <Figures/ch6Figures/fig6-26.png, id=848, 743.4174pt x 405.1938pt>
+[158] [159] <Figures/ch6Figures/fig6-26.png, id=936, 743.4174pt x 405.1938pt>
 File: Figures/ch6Figures/fig6-26.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-26.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-26.png used on input line 442.
+Package pdftex.def Info: Figures/ch6Figures/fig6-26.png used on input line 470.
 
 (pdftex.def)             Requested size: 455.30121pt x 248.15709pt.
- [141 <./Figures/ch6Figures/fig6-26.png>]
-<Figures/ch6Figures/fig6-27.png, id=853, 662.475pt x 781.4796pt>
+ [160]
+<Figures/ch6Figures/fig6-27.png, id=940, 662.475pt x 781.4796pt>
 File: Figures/ch6Figures/fig6-27.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-27.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-27.png used on input line 464.
+Package pdftex.def Info: Figures/ch6Figures/fig6-27.png used on input line 494.
 
 (pdftex.def)             Requested size: 455.30121pt x 537.08704pt.
- [142] [143 <./Figures/ch6Figures/fig6-27.png>] <Figures/ch6Figures/fig6-28.png
-, id=861, 1004.75375pt x 401.5pt>
+ [161 <./Figures/ch6Figures/fig6-26.png>]
+[162 <./Figures/ch6Figures/fig6-27.png>]
+<Figures/ch6Figures/fig6-28.png, id=949, 1004.75375pt x 401.5pt>
 File: Figures/ch6Figures/fig6-28.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-28.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-28.png used on input line 474.
+Package pdftex.def Info: Figures/ch6Figures/fig6-28.png used on input line 505.
 
-(pdftex.def)             Requested size: 455.30121pt x 198.83194pt.
+(pdftex.def)             Requested size: 455.30121pt x 181.93536pt.
 
-<Figures/ch6Figures/fig6-29.png, id=863, 1003.75pt x 401.5pt>
+<Figures/ch6Figures/fig6-29.png, id=950, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-29.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-29.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-29.png used on input line 483.
+Package pdftex.def Info: Figures/ch6Figures/fig6-29.png used on input line 515.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
-
-
-LaTeX Warning: Reference `chapter4' on page 144 undefined on input line 488.
-
-
-LaTeX Warning: Reference `fig5-??velocity deficitfigure??' on page 144 undefine
-d on input line 488.
-
-
-LaTeX Warning: Citation `troldborg2015' on page 144 undefined on input line 488
-.
-
-
-LaTeX Warning: Citation `troldborg2010' on page 144 undefined on input line 488
-.
-
-
-LaTeX Warning: Citation `troldborg2010b' on page 144 undefined on input line 48
-8.
-
-
-LaTeX Warning: Citation `madsen2010' on page 144 undefined on input line 488.
-
-[144 <./Figures/ch6Figures/fig6-28.png (PNG copy)>] [145 <./Figures/ch6Figures/
-fig6-29.png (PNG copy)>]
-<Figures/ch6Figures/fig6-30.png, id=873, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [163 <./Figures/ch6Figures/fig6-28.png (PNG copy)>] [164 <./Figures/ch6Figures
+/fig6-29.png (PNG copy)>]
+<Figures/ch6Figures/fig6-30.png, id=958, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-30.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-30.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-30.png used on input line 495.
+Package pdftex.def Info: Figures/ch6Figures/fig6-30.png used on input line 528.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [146 <./Figures/ch6Figures/fig6-30.png (PNG copy)>] <Figures/ch6Figures/fig6-3
-1.png, id=880, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [165 <./Figures/ch6Figures/fig6-30.png (PNG copy)>] <Figures/ch6Figures/fig6-3
+1.png, id=962, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-31.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-31.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-31.png used on input line 504.
+Package pdftex.def Info: Figures/ch6Figures/fig6-31.png used on input line 538.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [147]
-<Figures/ch6Figures/fig6-32.png, id=885, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [166 <./Figures/ch6Figures/fig6-31.png (PNG copy)>] <Figures/ch6Figures/fig6-3
+2.png, id=966, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-32.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-32.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-32.png used on input line 513.
+Package pdftex.def Info: Figures/ch6Figures/fig6-32.png used on input line 548.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [148 <./Figures/ch6Figures/fig6-31.png (PNG copy)>]
-
-LaTeX Warning: Reference `fif6-27' on page 149 undefined on input line 547.
-
-[149 <./Figures/ch6Figures/fig6-32.png (PNG copy)>]
-<Figures/ch6Figures/fig6-33.png, id=895, 662.475pt x 781.4796pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [167 <./Figures/ch6Figures/fig6-32.png (PNG copy)>] [168]
+<Figures/ch6Figures/fig6-33.png, id=973, 662.475pt x 781.4796pt>
 File: Figures/ch6Figures/fig6-33.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-33.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-33.png used on input line 551.
+Package pdftex.def Info: Figures/ch6Figures/fig6-33.png used on input line 588.
 
 (pdftex.def)             Requested size: 455.30121pt x 537.08704pt.
 
-<Figures/ch6Figures/fig6-34.png, id=896, 1004.75375pt x 401.5pt>
+<Figures/ch6Figures/fig6-34.png, id=974, 1004.75375pt x 401.5pt>
 File: Figures/ch6Figures/fig6-34.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-34.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-34.png used on input line 561.
+Package pdftex.def Info: Figures/ch6Figures/fig6-34.png used on input line 599.
 
-(pdftex.def)             Requested size: 455.30121pt x 198.83194pt.
+(pdftex.def)             Requested size: 455.30121pt x 181.93536pt.
 
-<Figures/ch6Figures/fig6-35.png, id=898, 1003.75pt x 401.5pt>
+<Figures/ch6Figures/fig6-35.png, id=975, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-35.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-35.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-35.png used on input line 568.
+Package pdftex.def Info: Figures/ch6Figures/fig6-35.png used on input line 607.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
-
-
-LaTeX Warning: Reference `section6-7.2' on page 150 undefined on input line 573
-.
-
-[150] [151 <./Figures/ch6Figures/fig6-33.png>] [152 <./Figures/ch6Figures/fig6-
-34.png (PNG copy)> <./Figures/ch6Figures/fig6-35.png (PNG copy)>]
-<Figures/ch6Figures/fig6-36.png, id=913, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [169] [170 <./Figures/ch6Figures/fig6-33.png>] [171 <./Figures/ch6Figures/fig6
+-34.png (PNG copy)> <./Figures/ch6Figures/fig6-35.png (PNG copy)>]
+<Figures/ch6Figures/fig6-36.png, id=987, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-36.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-36.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-36.png used on input line 577.
+Package pdftex.def Info: Figures/ch6Figures/fig6-36.png used on input line 617.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [153 <./Figures/ch6Figures/fig6-36.png (PNG copy)>] <Figures/ch6Figures/fig6-3
-7.png, id=919, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+
+<Figures/ch6Figures/fig6-37.png, id=988, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-37.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-37.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-37.png used on input line 586.
+Package pdftex.def Info: Figures/ch6Figures/fig6-37.png used on input line 627.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
- [154 <./Figures/ch6Figures/fig6-37.png (PNG copy)>] <Figures/ch6Figures/fig6-3
-8.png, id=925, 1003.75pt x 401.5pt>
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [172 <./Figures/ch6Figures/fig6-36.png (PNG copy)>] <Figures/ch6Figures/fig6-3
+8.png, id=992, 1003.75pt x 401.5pt>
 File: Figures/ch6Figures/fig6-38.png Graphic file (type png)
 
 <use Figures/ch6Figures/fig6-38.png>
-Package pdftex.def Info: Figures/ch6Figures/fig6-38.png used on input line 595.
+Package pdftex.def Info: Figures/ch6Figures/fig6-38.png used on input line 637.
 
-(pdftex.def)             Requested size: 455.30121pt x 199.04636pt.
-
-
-LaTeX Warning: Reference `table6-8' on page 155 undefined on input line 619.
-
-[155 <./Figures/ch6Figures/fig6-38.png (PNG copy)>] [156]
-
-LaTeX Warning: Reference `chapter4' on page 157 undefined on input line 652.
+(pdftex.def)             Requested size: 455.30121pt x 182.12527pt.
+ [173 <./Figures/ch6Figures/fig6-37.png (PNG copy)>] [174 <./Figures/ch6Figures
+/fig6-38.png (PNG copy)>] [175] [176]
+[177]) [178] (./Appendices/AppendixA.tex
+Appendix A.
+) (./Appendices/AppendixC.tex [179
 
 
-LaTeX Warning: Reference `chapter5' on page 157 undefined on input line 652.
+]
+Appendix B.
+
+LaTeX Warning: Reference `' on page 180 undefined on input line 8.
 
 
-LaTeX Warning: Reference `chapter4' on page 157 undefined on input line 654.
+LaTeX Warning: Reference `' on page 180 undefined on input line 8.
+
+[180
+
+] [181]) (./ucdavisthesis_main.bbl [182] [183
+
+] [184]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 215.
 
 
-LaTeX Warning: Reference `chapter4' on page 157 undefined on input line 654.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [185] [186]
+Underfull \hbox (badness 2809) in paragraph at lines 398--403
+[]\T1/qcs/m/n/12 Dennis Jes-persen, Thomas Pul-liam, Pieter Bun-ing, Den-nis Je
+s-persen,
+ []
 
-[157] [158]) [159]
-No file ucdavisthesis_main.bbl.
-(./ucdavisthesis_main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
-(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
-(./Chapters/Chapter6.aux))
+[187] [188]
+Underfull \hbox (badness 3168) in paragraph at lines 545--550
+[]\T1/qcs/m/n/12 Niels Trold-borg, Fred-erik Zahle, Pierre-Elouan RÈthorÈ, and 
+Niels N
+ []
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 4.98pt have occurred.
-
+[189]) [190] (./ucdavisthesis_main.aux (./Chapters/Chapter1.aux)
+(./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux)
+(./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2203,32 +1723,35 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4548 strings out of 493089
- 72238 string characters out of 6134842
- 147602 words of memory out of 5000000
- 7781 multiletter control sequences out of 15000+600000
- 11626 words of font info for 41 fonts, out of 8000000 for 9000
+ 5932 strings out of 493089
+ 93227 string characters out of 6134842
+ 157862 words of memory out of 5000000
+ 9116 multiletter control sequences out of 15000+600000
+ 54899 words of font info for 50 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 38i,13n,36p,3250b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ucdavisthesis_main.pdf (176 pages, 6264498 bytes).
+ 37i,13n,36p,3244b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/loc
+al/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texli
+ve/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/tex-gyre/qcsb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/tex-gyre/qcsr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/tex-gyre/qcsri.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sftt1200.pfb>
+Output written on ucdavisthesis_main.pdf (208 pages, 19508755 bytes).
 PDF statistics:
- 998 PDF objects out of 1000 (max. 8388607)
- 538 compressed objects within 6 object streams
+ 1111 PDF objects out of 1200 (max. 8388607)
+ 622 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 1269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

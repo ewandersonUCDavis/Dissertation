@@ -57,17 +57,17 @@
 	Title = {MLife theory manual for version 1.00},
 	Year = {2012}}
 
-@article{williams2012,
+@article{williams2016,
 	Author = {Williams, E and Hensley, J and Salerno, E},
 	Journal = {AWEA, Washington, DC},
-	Title = {AWEA US wind industry annual market report year ending 2012},
-	Year = {2012}}
+	Title = {AWEA US wind industry annual market report year ending 2016},
+	Year = {2016}}
 
-@article{sawyer2012,
+@article{sawyer2015,
 	Author = {Sawyer, Steve and Rave, Klaus},
 	Journal = {GWEC, Global Wind Energy Council},
-	Title = {Global Wind Report--Annual Market Update 2012},
-	Year = {2012}}
+	Title = {Global Wind Report--Annual Market Update 2015},
+	Year = {2015}}
 
 @techreport{ren212011,
 	Institution = {REN21},
@@ -290,7 +290,7 @@ year = {2011}}
 @article{jonkman2005,
 	Author = {Jonkman, Jason M and Buhl Jr, Marshall L},
 	Journal = {National Renewable Energy Laboratory, Golden, CO, Technical Report No. NREL/EL-500-38230},
-	Title = {FAST user's guide},
+	Title = {FAST User's Guide},
 	Year = {2005}}
 
 @conference{grunnet2010,
@@ -301,7 +301,7 @@ year = {2011}}
 
 @misc{jonkman2014,
 	Author = {Jonkman, Jason},
-	Howpublished = {\url{https://wind.nrel.gov/forum/wind/viewtopic.php?f=30&t=1048}},
+	Howpublished = {\url{https://wind.nrel.gov/forum/wind/viewtopic.php?f=30I\&t=1048}},
 	Title = {NREL National Wind Technology Center Forum: Blade Pitch Control},
 	year = {2014}}
 
@@ -470,3 +470,311 @@ OPTyear = {2014}}
 }
 
 
+%chapter 5 stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%chapter 6 stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{troldborg2015,
+  title={Comparison of wind turbine wake properties in non-sheared inflow predicted by different computational fluid dynamics rotor models},
+  author={Troldborg, Niels and Zahle, Frederik and R{\'e}thor{\'e}, Pierre-Elouan and S{\o}rensen, Niels N},
+  journal={Wind Energy},
+  volume={18},
+  number={7},
+  pages={1239--1250},
+  year={2015},
+  publisher={Wiley Online Library}
+}
+
+@article{madsen2010,
+  title={Calibration and validation of the dynamic wake meandering model for implementation in an aeroelastic code},
+  author={Madsen, H Aa and Larsen, Gunner Chr and Larsen, Torben J and Troldborg, Niels and Mikkelsen, R},
+  journal={Journal of Solar Energy Engineering},
+  volume={132},
+  number={4},
+  pages={041014},
+  year={2010},
+  publisher={American Society of Mechanical Engineers}
+}
+
+@article{troldborg2010,
+  title={Numerical simulations of wake characteristics of a wind turbine in uniform inflow},
+  author={Troldborg, Niels and Sorensen, Jens N and Mikkelsen, Robert},
+  journal={Wind Energy},
+  volume={13},
+  number={1},
+  pages={86--99},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
+@article{troldborg2010b,
+  title={Numerical simulations of wake characteristics of a wind turbine in uniform inflow},
+  author={Troldborg, Niels and Sorensen, Jens N and Mikkelsen, Robert},
+  journal={Wind Energy},
+  volume={13},
+  number={1},
+  pages={86--99},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
+@article{fleming2014,
+  title={Evaluating techniques for redirecting turbine wakes using SOWFA},
+  author={Fleming, Paul A and Gebraad, Pieter MO and Lee, Sang and van Wingerden, Jan-Willem and Johnson, Kathryn and Churchfield, Matt and Michalakes, John and Spalart, Philippe and Moriarty, Patrick},
+  journal={Renewable Energy},
+  volume={70},
+  pages={211--218},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@inproceedings{martinez2015,
+  title={Large Eddy Simulation of wind turbine wakes: detailed comparisons of two codes focusing on effects of numerics and subgrid modeling},
+  author={Mart{\'\i}nez-Tossas, Luis A and Churchfield, Matthew J and Meneveau, Charles},
+  booktitle={Journal of Physics: Conference Series},
+  volume={625},
+  number={1},
+  pages={012024},
+  year={2015},
+  organization={IOP Publishing}
+}
+
+@inproceedings{churchfield2015,
+  title={A comparison of the dynamic wake meandering model, large-eddy simulation, and field data at the Egmond aan Zee offshore wind plant},
+  author={Churchfield, Matthew J and Lee, Sang and Moriarty, Patrick J and Hao, Yujia and Lackner, Matthew A and Barthelmie, Rebecca and Lundquist, Julie K and Oxley, Gregory},
+  booktitle={33rd Wind Energy Symposium},
+  pages={0724},
+  year={2015}
+}
+
+@inproceedings{lee2012,
+  title={Atmospheric and wake turbulence impacts on wind turbine fatigue loadings},
+  author={Lee, Sang and Churchfield, Matthew and Moriarty, Patrick and Jonkman, J and Michalakes, J},
+  booktitle={50th AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition},
+  pages={540},
+  year={2012}
+}
+
+
+%chapter 5 stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{chow2012,
+  title={Verification of computational simulations of the NREL 5 MW rotor with a focus on inboard flow separation},
+  author={Chow, Raymond and Dam, C Pv},
+  journal={Wind Energy},
+  volume={15},
+  number={8},
+  pages={967--981},
+  year={2012},
+  publisher={Wiley Online Library}
+}
+
+@article{chow2013,
+  title={Computational investigations of blunt trailing-edge and twist modifications to the inboard region of the NREL 5 MW rotor},
+  author={Chow, Raymond and Dam, van CP},
+  journal={Wind Energy},
+  volume={16},
+  number={3},
+  pages={445--458},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+
+@article{churchfield2013,
+  title={Adding complex terrain and stable atmospheric condition capability to the simulator for on/offshore wind farm applications (SOWFA)},
+  author={Churchfield, Matthew J and Lee, S and Moriarty, PJ},
+  journal={National Renewable Energy Laboratory},
+  year={2013}
+}
+
+@inproceedings{martinez2012,
+  title={A comparison of actuator disk and actuator line wind turbine models and best practices for their use},
+  author={Martinez, Luis and Leonardi, Stefano and Churchfield, Matthew and Moriarty, Patrick},
+  booktitle={50th AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition},
+  pages={900},
+  year={2012}
+}
+
+@article{smagorinsky1963,
+  title={General circulation experiments with the primitive equations: I. The basic experiment},
+  author={Smagorinsky, Joseph},
+  journal={Monthly weather review},
+  volume={91},
+  number={3},
+  pages={99--164},
+  year={1963}
+}
+
+@Misc{jonkman2013,
+author = {Jonkman, J.M.},
+title = {Overview of the FAST Servo-Elastic Module},
+howpublished = {Presented at NREL Wind Turbine Modeling Workshop, August 9, 2013}}
+
+@article{mirocha2014,
+  title={Implementation of a generalized actuator disk wind turbine model into the weather research and forecasting model for large-eddy simulation applications},
+  author={Mirocha, JD and Kosovic, B and Aitken, ML and Lundquist, JK},
+  journal={Journal of Renewable and Sustainable Energy},
+  volume={6},
+  number={1},
+  pages={013104},
+  year={2014},
+  publisher={AIP}
+}
+
+@article{shen2002,
+  title={Numerical modeling of wind turbine wakes},
+  author={Shen, Wen Zhong},
+  journal={J. Fluids Eng},
+  volume={124},
+  number={2},
+  pages={393--399},
+  year={2002}
+}
+
+@article{buning2003,
+  title={Overflow User's Manual, Version 1.8aa},
+  author={Buning, Pieter G and Jespersen, Dennis C and Pulliam, Thomas H and Chan, WM and Slotnick, Jeffrey P and Krist, SE and Renze, Kevin J},
+  journal={NASA Langley Research Center},
+  volume={1},
+  year={2003}
+}
+
+@article{nichols2008,
+  title={User's Manual for OVERFLOW 2.1, Version 2.1t.},
+  author={Nichols, Robert H and Buning, Peter G},
+  journal={University of Alabama and NASA Langley Research Center},
+  year={2008}
+}
+
+@inproceedings{jespersen1997,
+  title={Recent enhancements to OVERFLOW},
+  author={Jespersen, Dennis and Pulliam, Thomas and Buning, Pieter and Jespersen, Dennis and Pulliam, Thomas and Buning, Pieter},
+  booktitle={35th Aerospace Sciences Meeting and Exhibit},
+  pages={644},
+  year={1997}
+}
+
+@inproceedings{nichols2006,
+  title={Solver and turbulence model upgrades to OVERFLOW 2 for unsteady and high-speed applications},
+  author={Nichols, Robert and Tramel, Robert and Buning, Pieter},
+  booktitle={24th AIAA Applied Aerodynamics Conference},
+  pages={2824},
+  year={2006}
+}
+
+@article{beam1979,
+  title={An implicit factored scheme for the compressible Navier-Stokes equations},
+  author={Beam, Richard M and Warming, RoF},
+  journal={AIAA journal},
+  volume={16},
+  number={4},
+  pages={393--402},
+  year={1979}
+}
+
+@article{menter1994,
+  title={Two-equation eddy-viscosity turbulence models for engineering applications},
+  author={Menter, Florian R},
+  journal={AIAA journal},
+  volume={32},
+  number={8},
+  pages={1598--1605},
+  year={1994}
+}
+
+
+@inproceedings{nichols2005,
+  title={Validation of implicit algorithms for unsteady flows including moving and deforming grids},
+  author={Nichols, Robert H and Heikkinen, Bonnie D},
+  booktitle={43rd AIAA Aerospace Sciences Meeting and Exhibit, Reno, NV},
+  year={2005}
+}
+
+
+@article{steger1983,
+  title={A chimera grid scheme.[multiple overset body-conforming mesh system for finite difference adaptation to complex aircraft configurations]},
+  author={Steger, Joseph L and Dougherty, F Carroll and Benek, John A},
+  year={1983}
+}
+
+@article{chan2009,
+  title={Overset grid technology development at NASA Ames Research Center},
+  author={Chan, William M},
+  journal={Computers \& Fluids},
+  volume={38},
+  number={3},
+  pages={496--503},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@misc{chan2002,
+  title={User's Manual for Chimera Grid Tools, version 1.8},
+  author={Chan, William M and Rogers, Stuart E and Nash, Steven M and Buning, Pieter G and Meakin, Robert L},
+  year={2002},
+  publisher={NASA Ames Research Center, Moffett Field, CA}
+}
+
+@inproceedings{chan2002b,
+  title={The OVERGRID interface for computational simulations on overset grids},
+  author={Chan, William},
+  booktitle={32nd AIAA Fluid Dynamics Conference and Exhibit},
+  pages={3188},
+  year={2002}
+}
+
+@inproceedings{meakin2001,
+  title={Object X-rays for cutting holes in composite overset structured grids},
+  author={Meakin, Robert},
+  booktitle={15th AIAA computational fluid dynamics conference},
+  pages={2537},
+  year={2001}
+}
+
+@inproceedings{chan2002c,
+  title={Best practices in overset grid generation},
+  author={Chan, William and Gomez, Reynaldo and Rogers, Stuart and Buning, Pieter},
+  booktitle={32nd AIAA Fluid Dynamics Conference and Exhibit},
+  pages={3191},
+  year={2002}
+}
+
+@inproceedings{bardina1997,
+  title={Turbulence modeling validation},
+  author={Bardina, J and Huang, P and Coakley, T and Bardina, J and Huang, P and Coakley, T},
+  booktitle={28th Fluid dynamics conference},
+  pages={2121},
+  year={1997}
+}
+
+@inproceedings{meakin2001b,
+  title={Automatic off-body grid generation for domains of arbitrary size},
+  author={Meakin, Robert},
+  booktitle={15th AIAA Computational Fluid Dynamics Conference},
+  pages={2536},
+  year={2001}
+}
+
+@article{archer2013,
+  title={Quantifying the sensitivity of wind farm performance to array layout options using large-eddy simulation},
+  author={Archer, Cristina L and Mirzaeisefat, Sina and Lee, Sang},
+  journal={Geophysical Research Letters},
+  volume={40},
+  number={18},
+  pages={4963--4970},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+
+@inproceedings{mache2014,
+  title={From meso-scale to micro scale LES modelling: Application by a wake effect study for an offshore wind farm},
+  author={Mach{\'e}, M and Mouslim, H and Mervoyer, L},
+  booktitle={ITM Web of Conferences},
+  volume={2},
+  year={2014},
+  organization={EDP Sciences}
+}

@@ -75,9 +75,8 @@ Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/
 
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
-\begin{table}[]
+\begin{table}[htbp]
 \centering
-\caption{Effect of derating methods for test case 1: 16 m/s EOG with 30\% derating.}
 \label{table4-1}
 \begin{tabular}{c|ccccccccc}
 \hline
@@ -94,12 +93,12 @@ Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/
 \hline
 \hline                             
 \end{tabular}
+\caption{Effect of derating methods for test case 1: 16 m/s EOG with 30\% derating.}
 \end{table}
 
 
-\begin{table}[]
+\begin{table}[htbp]
 \centering
-\caption{Effect of derating methods for test case 2: 12 m/s EOG with 30\% derating.}
 \label{table4-2}
 \begin{tabular}{c|ccccccccc}
 \hline
@@ -116,6 +115,7 @@ Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/
 \hline
 \hline                             
 \end{tabular}
+\caption{Effect of derating methods for test case 2: 12 m/s EOG with 30\% derating.}
 \end{table}
 
 
@@ -124,7 +124,8 @@ Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/
 %	SECTION 4-3
 %----------------------------------------------------------------------------------------
 
-\section{Effect of Derating on Dynamic Turbine Response} \label{section4-3}
+\section{Effect of Derating on Dynamic Turbine \\
+		Response} \label{section4-3}
 
 This section investigates the relationship between derating and the dynamic turbine response. In particular we are interested in determining how derating affects the structural loading and rotor overspeed a turbine experiences when subjected to a large gust. To study these relationships a series of simulations were run subjecting a derated NREL 5-MW turbine to an extreme operating gust at a variety of mean wind speeds and a variety of derating factors. The series of simulations included mean wind speeds of 6 m/s, 8 m/s, 10 m/s, 12 m/s, 14 m/s, 16 m/s, 18 m/s, and 20 m/s, as well as derating factors of 0\%, 5\%, 10\%, 15\%, 20\%, 25\%, and 30\%. For all simulations the turbine is operating in uniform, constant wind when it experiences an extreme operating gust (as defined by IEC 61400-1 \cite{IEC2005} for a class 1 turbine in category A turbulence).
 
@@ -133,7 +134,7 @@ Figure \ref{fig4-5} shows the relationship between derating factor and average p
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-5.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of derating on avg. power for EOGs at various wind speeds.}
 	\label{fig4-5}
 \end{figure}
@@ -143,7 +144,7 @@ Figure \ref{fig4-6} shows the relationship between derating factor and the maxim
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-6.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of derating on max tower moment for EOGs at various wind speeds.}
 	\label{fig4-6}
 \end{figure}
@@ -153,7 +154,7 @@ Figure \ref{fig4-7} shows the relationship between derating factor and the maxim
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-7.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of derating on max blade root moment for EOGs at various wind speeds.}
 	\label{fig4-7}
 \end{figure}
@@ -163,7 +164,7 @@ Figure \ref{fig4-8} shows the relationship between derating factor and the maxim
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-8.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of derating on max rotor speed for EOGs at various wind speeds.}
 	\label{fig4-8}
 \end{figure}
@@ -171,7 +172,7 @@ Figure \ref{fig4-8} shows the relationship between derating factor and the maxim
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-9.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of derating on max rotor overspeed for EOGs at various wind speeds.}
 	\label{fig4-9}
 \end{figure}
@@ -181,7 +182,8 @@ Figure \ref{fig4-8} shows the relationship between derating factor and the maxim
 %	SECTION 4-4
 %----------------------------------------------------------------------------------------
 
-\section{Transitioning Between Rated and Derated Operation} \label{section4-4}
+\section{Transitioning Between Rated and Derated \\
+		Operation} \label{section4-4}
 
 
 The previous subsection demonstrated that operating in a derated state can significantly reduce the structural loading and rotor overspeeds experienced by a turbine. However, the control scheme proposed in this chapter uses selective derating. In this control scheme the turbine will be derated when reductions in loading and rotor speed are necessary, but the turbine will operate normally when those reductions are not needed. To implement this control scheme we must understand how the turbine behaves while it is transitioning into and out of derated operation. This subsection examines the transient behavior of the turbine during these transitions and how undesireable transient behavior can be mitigated.
@@ -191,7 +193,7 @@ The previous subsection demonstrated that operating in a derated state can signi
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-10.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of sudden rating changes on rotor speed.}
 	\label{fig4-10}
 \end{figure}
@@ -201,7 +203,7 @@ The tower fore-aft bending moment also exhibits undesireable oscillations with s
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-11.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of sudden rating changes on tower bending moment.}
 	\label{fig4-11}
 \end{figure}
@@ -211,7 +213,7 @@ As Figure \ref{fig4-12} shows, the blade root bending moment also exhibits undes
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-12.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of sudden rating changes on blade root bending moment.}
 	\label{fig4-12}
 \end{figure}
@@ -225,7 +227,7 @@ We can reduce the excitation of undesireable oscillations by using a smoother tr
 %\begin{figure}[htbp]
 %	\centering
 %		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-13.png}
-%		\rule{35em}{0.5pt}
+%		
 %	\caption{Smoothing effect of the derating input filter.}
 %	\label{fig4-13}
 %\end{figure}
@@ -235,7 +237,7 @@ Choosing $P_{DRFilt}$ = 0.2 gives filtered command settling time of 29.5 seconds
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-14.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Improvements in rotor behavior from filtered derate commands.}
 	\label{fig4-14}
 \end{figure}
@@ -243,7 +245,7 @@ Choosing $P_{DRFilt}$ = 0.2 gives filtered command settling time of 29.5 seconds
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-15.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Improvements in tower bending moment from filtered derate commands.}
 	\label{fig4-15}
 \end{figure}
@@ -252,7 +254,7 @@ Choosing $P_{DRFilt}$ = 0.2 gives filtered command settling time of 29.5 seconds
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-16.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Improvements in blade root moment from filtered derate commands.}
 	\label{fig4-16}
 \end{figure}
@@ -264,7 +266,7 @@ In general, lengthening the settling time of the filter reduces undesireable tra
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-17.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of input filter settling time on rotor overspeed.}
 	\label{fig4-17}
 \end{figure}
@@ -272,7 +274,7 @@ In general, lengthening the settling time of the filter reduces undesireable tra
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-18.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of input filter settling time on peak tower bending moment.}
 	\label{fig4-18}
 \end{figure}
@@ -280,7 +282,7 @@ In general, lengthening the settling time of the filter reduces undesireable tra
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-19.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Effect of input filter settling time on peak blade root moment.}
 	\label{fig4-19}
 \end{figure}
@@ -298,7 +300,7 @@ As figure \ref{fig4-20} illustrates, a plant level controller will monitor the b
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-20.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Control system overview.}
 	\label{fig4-20}
 \end{figure}
@@ -359,7 +361,7 @@ The first simulation case is a uniform wind field with an extreme operating gust
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-22.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Extreme operating gust.}
 	\label{fig4-22}
 \end{figure}
@@ -371,7 +373,7 @@ Figure \ref{fig4-23} shows that the upwind turbine experiences an 18.76 \% rotor
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-23.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Rotor speed for turbine subjected to extreme operating gust.}
 	\label{fig4-23}
 \end{figure}
@@ -379,7 +381,7 @@ Figure \ref{fig4-23} shows that the upwind turbine experiences an 18.76 \% rotor
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-24.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Tower base fore-aft moment for turbine subjected to extreme operating gust.}
 	\label{fig4-24}
 \end{figure}
@@ -387,7 +389,7 @@ Figure \ref{fig4-23} shows that the upwind turbine experiences an 18.76 \% rotor
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-25.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade root bending moment for turbine subjected to extreme operating gust.}
 	\label{fig4-25}
 \end{figure}
@@ -401,15 +403,14 @@ Figure \ref{fig4-25} shows power generation. As expected, derating the downwind 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-26.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Power generation for turbine subjected to extreme operating gust.}
 	\label{fig4-26}
 \end{figure}
 
 
-\begin{table}[]
+\begin{table}[htbp]
 \centering
-\caption{Effect of FF Control on dynamic response to 16 m/s EOG.}
 \label{table4-3}
 \begin{tabular}{c|cccccccccc}
 \hline
@@ -426,6 +427,7 @@ Figure \ref{fig4-25} shows power generation. As expected, derating the downwind 
 \hline
 \hline                             
 \end{tabular}
+\caption{Effect of FF Control on dynamic response to 16 m/s EOG.}
 \end{table}
 
 
@@ -445,7 +447,7 @@ Figure \ref{fig4-27} shows the wind speed for 200 seconds of the 16 m/s turbulen
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-27.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Turbulent wind with 16 m/s mean wind speed and large gust.}
 	\label{fig4-27}
 \end{figure}
@@ -457,7 +459,7 @@ Figure \ref{fig4-28} shows that the upwind turbine experiences many small oversp
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-28.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Rotor speed for turbine subjected to turbulence w/ large gust.}
 	\label{fig4-28}
 \end{figure}
@@ -465,7 +467,7 @@ Figure \ref{fig4-28} shows that the upwind turbine experiences many small oversp
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-29.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Tower base fore-aft moment for turbine subjected to turbulence w/ large gust.}
 	\label{fig4-29}
 \end{figure}
@@ -475,7 +477,7 @@ Figure \ref{fig4-30} shows that derating the downwind turbine for the 16 m/s tes
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-30.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade root bending moment for turbine subjected to turbulence w/ large gust.}
 	\label{fig4-30}
 \end{figure}
@@ -485,7 +487,7 @@ Figure \ref{fig4-31} shows power generation. As expected, derating results in re
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch4Figures/fig4-31.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Power generation for turbine subjected to turbulence w/ large gust.}
 	\label{fig4-31}
 \end{figure}
@@ -493,9 +495,8 @@ Figure \ref{fig4-31} shows power generation. As expected, derating results in re
 Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance metrics for all three test cases: 12 m/s, 16 m/s, and 20 m/s. In an attempt to capture the overall wear and tear on the tower base and blade root, Damage Equivalent Loads (DEL) are reported instead of peak loads. Though the DEL, overspeed, and energy genration values vary between the test cases, the trends are the same. Selective feed forward derating reduces maximum overspeeds from more than 15\%, which could cause an emergency overspeed shut down, to approximately 5\%. Tower root bending DELs are significantly reduced for all test cases. Blade root moment DELs are reduced in some test cases, but increased in others. Energy production is reduced by tens of kWhr, which is equivalent to a few dollars of production.
 
 
-\begin{table}[]
+\begin{table}[htbp]
 \centering
-\caption{Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 12 m/s mean wind speed.}
 \label{table4-4}
 \begin{tabular}{c|cccccccccc}
 \hline
@@ -512,12 +513,12 @@ Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance 
 \hline
 \hline                             
 \end{tabular}
+\caption{Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 12 m/s mean wind speed.}
 \end{table}
 
 
-\begin{table}[]
+\begin{table}[htbp]
 \centering
-\caption{Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 16 m/s mean wind speed.}
 \label{table4-5}
 \begin{tabular}{c|cccccccccc}
 \hline
@@ -534,11 +535,11 @@ Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance 
 \hline
 \hline                             
 \end{tabular}
+\caption{Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 16 m/s mean wind speed.}
 \end{table}
 
-\begin{table}[]
+\begin{table}[htbp]
 \centering
-\caption{Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 20 m/s mean wind speed.}
 \label{table4-6}
 \begin{tabular}{c|cccccccccc}
 \hline
@@ -555,6 +556,7 @@ Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance 
 \hline
 \hline                             
 \end{tabular}
+\caption{Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 20 m/s mean wind speed.}
 \end{table}
 
 

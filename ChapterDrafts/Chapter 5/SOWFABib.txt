@@ -1,0 +1,101 @@
+\bibitem{6}		jonkman2005
+Jonkman, J.M., and Buhl Jr, M.L., ``FAST User's Guide," NREL/TP-500-34421, 2004.
+
+
+
+
+\bibitem{23}	chow2012
+Chow, R., and van Dam, C.P., ``Verification of Computational Simulations of the NREL 5-MW Rotor with a Focus on Inboard Flow Separation," \emph{Journal of Wind Energy}, vol. 15, no. 8, Nov. 2012, pp. 967-981. [doi: 10.1002/we.529]
+
+
+
+\bibitem{29}	chow2013
+Chow, R., and van Dam, C.P., ``Computational Investigations of Inboard Blunt Trailing Edge Modifications on the NREL 5-MW Rotor," \emph{Journal of Wind Energy}, vol. 16, no. 3, Apr. 2013, pp. 445-458. [doi: 10.1002/we.1505]
+
+\bibitem{25}	platt2012
+Platt, A.D., and Buhl Jr., M.L.,``WT\_Perf User Guide for Version 3.05.00," NREL/TP-XXXXX, 2012.
+
+\bibitem{1}		lee2012
+Lee, S., Churchfield, M., Moriarty, P., Jonkman, J., and Michalakes, J., ``Atmospheric and Wake Turbulence Impacts on Wind Turbine Fatigue Loadings," \emph{50th AIAA Aerospace Science Meeting IN clouding the New Horizons Forum and Aerospace Exposition}, 09-12 January 2012, Nashville, Tennessee.
+
+\bibitem{17}	fleming2013
+Fleming, P, Lee, S, Churchfield, M, Scholbrock, A, Michalakes, J, Johnson, K, Moriarty, P, Gebraad, P, and van Wingerden, J, ``The SOWFA Super-Controller: A High-Fidelity Tool for Evaluating Wind Plant Control Approaches," NREL/CP-5000-57175, January 2013.
+
+\bibitem{27}	churchfield2013
+Churchfield, M.J., ``Adding Complex Terrain and Stable Atmospheric Condition Capability to the Simulator for On/Offshore Wind Farm Applications (SOWFA)," \emph{First Symposium on OpenFOAM in Wind Energy}, Oldenburg, Germany, March 20, 2013.
+
+\bibitem{14}	churchfield2012
+Churchfield, M., Lee, S., and Moriarty, P., ``Overview of the Simulator for Offshore Wind Farm Application (SOWFA)," \emph{NREL}, presented May 5, 2012.
+
+\bibitem{30}	martinez2012
+Martinez, L. A., Leonardi, S., Churchfield, M. J., and Moriarty, P. J., ``A Comparison of Actuator Disk and Actuator Line Wind Turbine Models and Best Practices for Their Use," \emph{50th AIAA Aerospace Science Meeting IN clouding the New Horizons Forum and Aerospace Exposition}, 09-12 January 2012, Nashville, Tennessee.
+
+\bibitem{7}		smagorinsky1963
+Smagorinsky, J., ``General Circulation Experiments With the Primitive Equations," \emph{Monthly Weather Review}, vol. 91, 1963, pp. 99-164.
+
+\bibitem{13}	jonkman2013
+Jonkman, J.M., ``Overview of the FAST Servo-Elastic Module,"Presented at NREL Wind Turbine Modeling Workshop, August 9, 2013.
+
+\bibitem{24}	burton2011
+Burton, T., Jenkins, N., Sharpe, D., and Bossanyi, E., \emph{Wind Energy Handbook}, $2^{nd}$ ed., John Wiley \& Sons, West Sussex, United Kingdom, 2011.
+
+\bibitem{28}	mirocha2014
+Mirocha, J.D., Kosovic, B., Aitken, M.L., and Lundquist, J.K., ``Implementation of a Generalized Actuator Disk Wind Turbine Model Into the Weather Research and Forecasting Model for Large-Eddy Simulation Applications," \emph{Journal of Renewable and Sustainable Energy}, vol. 6, 2014. [doi: 10.1063/1.4861061]
+
+\bibitem{26}	shen2002
+S{\o}rensen, J.N., and Shen, W.Z., ``Numerical Modeling of Wind Turbine Wakes," \emph{Journal of Fluids Engineering}, vol. 124, 2002, pp.393-399.
+
+\bibitem{21}	buning2003
+Buning P.G., Jespersen D.C., Pulliam T.H., Klopfer G.H., Chan W.M., Slotnick J.P., Krist S.E., and Renze K.J., ``Overflow User's Manual, Version 1.8aa," NASA Langley Research Center, Hampton VA, 2003.
+
+\bibitem{10}	nichols2008
+Nichols R.H., and Buning, P.G., ``User's Manual for OVERFLOW 2.1, Version 2.1t." NASA Langley Research Center, Hampton VA, 2008.
+
+\bibitem{15}	jespersen1997
+Jespersen D.C., Pulliam T.H., and Buning P.G., ``Recent Enhancements to Overflow," AIAA-97-0644, \emph{35th AIAA Aerospace Sciences Meeting and Exhibit}, Reno, NV, 1997.
+
+\bibitem{16}	nichols2006
+Nichols R.H., Tramel R.W., and Buning P.G., ``Solver and Turbulence Model Upgrades to OVERFLOW 2 for Unsteady and High-Speed Applications," \emph{AIAA-2006-2824}, 25th AIAA Applied Aerodynamics Conference, San Francisco, CA, 2006.
+
+\bibitem{8}		beam1979
+Beam R., and Warming R., ``An Implicit Factored Scheme for the Compressible Navier-Stokes Equations," \emph{AIAA Journal}  vol. 16, 1979, pp. 393-402.
+
+\bibitem{19}	menter1994
+Menter, F., ``Two-Equation Eddy-Viscosity Turbulence Models for Engineering Applications," \emph{AIAA Journal}  vol. 32, 1994, pp. 1598-1605.
+
+\bibitem{22}	nichols2006
+Nichols R.H., and Heikkinen B.D., ``Validation of Implicit Algorithms for Unsteady Flows Including Moving and Deforming Grids," AIAA-2005-0683, \emph{43rd AIAA Aerospace Sciences Meeting and Exhibit,} Reno, NV, 2005.
+
+\bibitem{4}		steger1983
+Steger J.L., Dougherty F.C., and Benek J.A., ``A Chimera Grid Scheme," In: Ghia KN, Ghia U, editors. \emph{Advances in Grid Generation}, ASME FED-vol. 5, 1983.
+
+\bibitem{12}	chan2009
+Chan W.M., ``Overset Grid Technology Development at NASA Ames Research Center," \emph{Computers \& Fluids} , vol. 38, 2009, pp.496-503.
+
+\bibitem{20}	chan2002
+Chan W.M., Rogers S.E., Nash S.M., Buning P.G., and Meakin R.L., ``User's Manual for Chimera Grid Tools, version 1.8," NASA Ames Research Center, Moffett Field, CA, 2003.
+
+\bibitem{11}	chan2002b
+Chan W.M., ``The Overgrid Interface for Computational Simulations on Overset Grids," AIAA-2002-3188, \emph{40th AIAA Aerospace Sciences Meeting and Exhibit}, Reno, NV, 2002.
+
+\bibitem{9}		meakin2001
+Meakin R.L., ``Object X-Rays for Cutting Holes in Composite Overset Structured Grids," AIAA-2001-2537, \emph{15th AIAA Computational Fluid Dynamics Conference}, Anaheim, CA, 2001.
+
+\bibitem{3}		chan2002c
+Chan W.M., Gomez R.J., Rogers S.E., and Buning P.G., ``Best Practices in Overset Grid Generation," AIAA-2002-3191, \emph{40th AIAA Aerospace Sciences Meeting and Exhibit}, Reno, NV, 2002.
+
+\bibitem{18}	bardina1997
+Bardina J.E., Huang P.G., and Coakley T.J., ``Turbulence Modeling, Validation, Testing and Development," NASA Technical Memorandum 110446, 1997.
+
+\bibitem{2}		meakin2001
+Meakin R.L., ``Automatic Off-Body Grid Generation for Domains of Arbitrary Size," AIAA-2001-2536, \emph{15th AIAA Computational Fluid Dynamics Conference}, Anaheim, CA, 2001.
+
+\bibitem{31}	fleming2014
+Fleming, P., Gebraad, P., Lee, S., van Wingerden, J.W., Johnson, K., Churchfield, M., Michalakes, J., Spalart, P., and Moriarty, P., "Evaluating techniques for redirecting turbine wakes using SOWFA." \emph{Renewable Energy} vol. 70, Oct. 2014, pp. 211-218.
+
+\bibitem{32}	archer2013
+Archer, C.L., Mirzaeisefat, S., and Lee, S., "Quantifying the sensitivity of wind farm performance to array layout options using large eddy simulation." \emph{Geophysical Research Letters}, vol. 40, 2013, pp. 4963-4970. [doi:10.1002/grl.50911]
+
+\bibitem{33}	mache2014
+Maché, M., Mouslim, H., and Mervoyer, L., "From meso-scale to micro scale LES modelling: Application by a wake effect study for an offshore wind farm." \emph{ITM Web of Conferences}, vol. 2, 2014.
+

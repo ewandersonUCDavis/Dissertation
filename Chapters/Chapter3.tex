@@ -15,7 +15,7 @@ As discussed in Section \ref{section1-2}, the closed loop control system of a ty
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch2Figures/fig2-1.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Steady state behavior of the NREL 5-MW.\cite{jonkman2009}}
 	\label{fig3-1}
 \end{figure}
@@ -23,7 +23,7 @@ As discussed in Section \ref{section1-2}, the closed loop control system of a ty
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-2.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{An example of wind speed fluctuations over 24 hours.\cite{NWTC2013}}
 	\label{fig3-2}
 \end{figure}
@@ -35,7 +35,7 @@ In Figure \ref{fig3-3} the turbine is subjected to a uniform incoming wind that 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-3.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{NREL 5-MW response to wind speed fluctuations in control region 2.}
 	\label{fig3-3}
 \end{figure}
@@ -45,7 +45,7 @@ In Figure \ref{fig3-4} the turbine is subjected to a uniform incoming wind that 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-4.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{NREL 5-MW response to wind speed fluctuations in control region 3.}
 	\label{fig3-4}
 \end{figure}
@@ -75,7 +75,7 @@ As discussed in Section \ref{section2-2}, FAST is a medium fidelity wind turbine
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-5.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Illustration of the two turbine system modeled in this chapter.}
 	\label{fig3-5}
 \end{figure}
@@ -85,7 +85,7 @@ Figure \ref{fig3-6} shows how FAST can be used to simulate the two turbine syste
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-6.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{How FAST can be used to simulate a two turbine system.}
 	\label{fig3-6}
 \end{figure}
@@ -105,7 +105,7 @@ Figure \ref{fig3-7} is a simple block diagram illustrating how the control syste
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=.6\linewidth]{Figures/ch3Figures/fig3-7.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Simple block diagram of turbine w/o feed forward control.}
 	\label{fig3-7}
 \end{figure}
@@ -115,7 +115,7 @@ Figure \ref{fig3-8} is a simple block diagram illustrating the method we have ch
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-8.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Simple block diagram of turbine with feed forward control.}
 	\label{fig3-8}
 \end{figure}
@@ -131,7 +131,7 @@ The controller shown in figure \ref{fig3-9} also includes a model of the collect
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-9.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Closed loop control system.}
 	\label{fig3-9}
 \end{figure}
@@ -152,7 +152,7 @@ The feed forward controller is based on the dynamic feed forward pitch controlle
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-10.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Controller with feed forward and closed loop control.}
 	\label{fig3-10}
 \end{figure}
@@ -162,7 +162,7 @@ As discussed in the previous section, the goal of region 3 pitch control is to m
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\linewidth]{Figures/ch3Figures/fig3-11.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Steady state pitch ($\theta_{s}$) as a function of incoming wind speed.}
 	\label{fig3-11}
 \end{figure}
@@ -182,7 +182,8 @@ If the feed forward wind speed estimate $U_{ff}$ is perfectly accurate then the 
 %----------------------------------------------------------------------------------------
 %	SECTION 4
 %----------------------------------------------------------------------------------------
-\section{Performance With Perfect Wind Speed Knowledge} \label{section3-4}
+\section{Performance With Perfect Wind Speed \\
+		Knowledge} \label{section3-4}
 
 Now that the feed forward control system has been defined the performance of this feed forward control system can be examined. In the following sections we examine the performance of the feed forward controller when it has perfect knowledge of the incoming wind speed. Two wind cases are examined. The first case is a large gust. These occur infrequently, but can be very damaging to a turbine. The second case is a turbulent wind inflow, which is typical of what a turbine experiences in day to day operation. in In any real world implementation of this control system the feed forward controller will have imperfect knowledge of the incoming wind. As discussed in Chapter \ref{Chapter2}, a wind speed estimator provides imperfect estimates of both the wind speed (see Section  \ref{section2-4-1}) and convection velocity (see Section \ref{section2-5}). In addition, we know that Taylor's frozen turbulence hypothesis is not entirely accurate in practice and the wind speed fluctuations experienced by the downwind turbine will not be identical to the wind speed fluctuations experienced by the upwind turbine. However, simulating the feed forward control system with perfect knowledge of the incoming wind speed can provide valuable insight into the behavior of the feed forward control system, and can demonstrate the performance improvements that might be possible when the feed forward controller described in Section \ref{section3-3} is operated in ideal conditions. 
 
@@ -199,7 +200,7 @@ Figure \ref{fig3-12} shows an extreme operating gust for an NREL 5-MW turbine op
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-12.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Extreme operating gust.}
 	\label{fig3-12}
 \end{figure}
@@ -212,7 +213,7 @@ In Figure \ref{fig3-13} we see that the turbine with feed forward pitch control 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-13.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade pitch response to extreme operating gust. }
 	\label{fig3-13}
 \end{figure}
@@ -222,7 +223,7 @@ Figure \ref{fig3-14} shows that deviations from the rated rotor speed of 12 RPM 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-14.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Rotor speed for turbine subjected to extreme operating gust. }
 	\label{fig3-14}
 \end{figure}
@@ -233,7 +234,7 @@ Figure \ref{fig3-15} shows that deviations from the rated power are greatly redu
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-15.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Power generation for turbine subjected to extreme operating gust.}
 	\label{fig3-15}
 \end{figure}
@@ -243,7 +244,7 @@ Excessive structural loading can cause turbine components to immediately fail, o
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-16.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Tower base fore-aft moment for turbine subjected to extreme operating gust.}
 	\label{fig3-16}
 \end{figure}
@@ -251,7 +252,7 @@ Excessive structural loading can cause turbine components to immediately fail, o
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-17.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade root bending moment for turbine subjected to extreme operating gust.}
 	\label{fig3-17}
 \end{figure}
@@ -259,7 +260,6 @@ Excessive structural loading can cause turbine components to immediately fail, o
 Table \ref{Table3-1} summarizes the performance metrics that have been discussed in this subsection. We see that feed forward control has significantly reduced structural loading of the turbine without decreasing energy generation. This can potentially lead to a reduction in the repair and maintenance costs of the turbine without a reduction in revenue from the turbine. The turbine without feed forward control experienced a 17.9$\%$ rotor over speed, which may be enough to induce an emergency shutdown of the turbine. Over speed shut down faults are not modeled in theses simulations, but if the turbine without feed forward control experienced an over speed shut down then it would generate significantly less energy than the turbine with feed forward control. In that scenario the turbine with feed forward control would have lower repair and maintenance costs while having higher revenue from energy generation.
 
 \begin{table}
-\caption{Extreme operating gust response with perfect wind speed knowledge.}
 \centering
 \begin{tabular}{ c | c c c c }
 \hline
@@ -277,6 +277,7 @@ forward  &  &   &  &  \\
 \hline
 \hline
 \end{tabular}
+\caption{Extreme operating gust response with perfect wind speed knowledge.}
 \label{Table3-1}
 \end{table}
 
@@ -292,7 +293,7 @@ Figure \ref{fig3-18} shows the rotor average wind speed and feed forward wind sp
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-18.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Rotor average wind speed and feed forward wind speed for 16m/s turbulent wind.}
 	\label{fig3-18}
 \end{figure}
@@ -302,7 +303,7 @@ In Figure \ref{fig3-19} we see the blade pitch response of each turbine. We see 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-19.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade pitch response to 16m/s turbulent wind.}
 	\label{fig3-19}
 \end{figure}
@@ -312,7 +313,7 @@ Figures \ref{fig3-20} and \ref{fig3-21} show that the feed forward controller  r
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-20.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Rotor speed for turbine in 16m/s turbulent wind.}
 	\label{fig3-20}
 \end{figure}
@@ -320,7 +321,7 @@ Figures \ref{fig3-20} and \ref{fig3-21} show that the feed forward controller  r
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-21.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Power generation for turbine in 16m/s turbulent wind.}
 	\label{fig3-21}
 \end{figure}
@@ -333,7 +334,7 @@ In the previous subsection we analyzed loading by measuring and comparing the ma
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-22.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Tower base fore-aft moment for turbine in 16m/s turbulent wind.}
 	\label{fig3-22}
 \end{figure}
@@ -341,7 +342,7 @@ In the previous subsection we analyzed loading by measuring and comparing the ma
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-23.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade root bending moment for turbine in 16m/s turbulent wind.}
 	\label{fig3-23}
 \end{figure}
@@ -351,7 +352,6 @@ Table \ref{Table3-2} shows the mean and standard deviation of several turbine pe
 Reduced variability in power generation can be beneficial for grid integration of wind turbines. The standard deviation of the tower base bending moment and the blade root bending moment are reduces by 26$\%$ and 2$\%$ respectively. 
 
 \begin{table}
-\caption{Statistical summary of turbine performance in 16m/s wind.}
 \centering
 \begin{tabular}{ c | c c c c c c c c c c c c}
 \hline
@@ -372,6 +372,7 @@ forward\\
 \hline
 \hline
 \end{tabular}
+\caption{Statistical summary of turbine performance in 16m/s wind.}
 \label{Table3-2}
 \end{table}
 
@@ -382,7 +383,6 @@ Table shows that for this 10 minute simulation of 16m/s turbulent wind feed forw
 
 
 \begin{table}
-\caption{Short term damage equivalent loads for 570s simulation of turbine  in 16m/s turbulent wind.}
 \centering
 \begin{tabular}{ c | c c c c c c c c c}
 \hline
@@ -402,6 +402,7 @@ forward\\
 \hline
 \hline
 \end{tabular}
+\caption{Short term damage equivalent loads for 570s simulation of turbine  in 16m/s turbulent wind.}
 \label{Table3-3}
 \end{table}
 
@@ -423,7 +424,7 @@ Figure \ref{fig3-24} shows an extreme operating gust for an NREL 5-MW turbine op
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-24.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Extreme operating gust and feed forward wind speed estimate based on gust.}
 	\label{fig3-24}
 \end{figure}
@@ -433,7 +434,7 @@ Figure \ref{fig3-25} shows the pitch response of the turbines. As we saw in prev
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-25.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade pitch response to extreme operating gust. }
 	\label{fig3-25}
 \end{figure}
@@ -443,7 +444,7 @@ Figure \ref{fig3-26} shows that feed forward control significantly reduces devia
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-26.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Rotor speed for turbine subjected to extreme operating gust. }
 	\label{fig3-26}
 \end{figure}
@@ -453,7 +454,7 @@ In the remaining figures we see similar behavior to what we see in Figure \ref{f
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-27.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Power generation for turbine subjected to extreme operating gust.}
 	\label{fig3-27}
 \end{figure}
@@ -461,7 +462,7 @@ In the remaining figures we see similar behavior to what we see in Figure \ref{f
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-28.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Tower base fore-aft moment for turbine subjected to extreme operating gust.}
 	\label{fig3-28}
 \end{figure}
@@ -469,7 +470,7 @@ In the remaining figures we see similar behavior to what we see in Figure \ref{f
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-29.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade root bending moment for turbine subjected to extreme operating gust.}
 	\label{fig3-29}
 \end{figure}
@@ -477,7 +478,6 @@ In the remaining figures we see similar behavior to what we see in Figure \ref{f
 Table \ref{Table3-4} summarizes the performance metrics for this simulation. We see that feed forward pitch control reduces structural loading of the turbine and deviations from the rated rotor speed. The use of feed forward pitch control does decrease power generation by 0.54 kW-hours, but this is a very small decrease. If the wind plant sells energy for 8 cents per kW-hour the use of feed forward pitch control would result in a 4 cent decrease in revenue. Though feed forward pitch control does improve the turbine performance in this simulation, it is also worth noting that the feed forward pitch controller used in this simulation does not perform as well as a feed forward pitch controller with perfect knowledge of incoming wind speed (Table \ref{Table3-1}).
 
 \begin{table}
-\caption{EOG response with feed forward signal based on wind speed estimate.}
 \centering
 \begin{tabular}{ c | c c c c }
 \hline
@@ -496,6 +496,7 @@ forward  &  &   &  &  \\
 \hline
 \hline
 \end{tabular}
+\caption{EOG response with feed forward signal based on wind speed estimate.}
 \label{Table3-4}
 \end{table}
 
@@ -508,7 +509,7 @@ Figure \ref{fig3-30} shows the rotor average wind speed and feed forward wind sp
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-30.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Rotor average wind speed and feed forward wind speed estimate of turbulent 16m/s wind.}
 	\label{fig3-30}
 \end{figure}
@@ -518,7 +519,7 @@ Figures \ref{fig3-31} through \ref{fig3-35} show the dynamic behaviour of a turb
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-31.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade pitch response to 16m/s turbulent wind.}
 	\label{fig3-31}
 \end{figure}
@@ -526,7 +527,7 @@ Figures \ref{fig3-31} through \ref{fig3-35} show the dynamic behaviour of a turb
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-32.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Rotor speed for turbine in 16m/s turbulent wind.}
 	\label{fig3-32}
 \end{figure}
@@ -534,7 +535,7 @@ Figures \ref{fig3-31} through \ref{fig3-35} show the dynamic behaviour of a turb
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-33.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Power generation for turbine in 16m/s turbulent wind.}
 	\label{fig3-33}
 \end{figure}
@@ -544,7 +545,7 @@ In Figures \ref{fig3-34} and \ref{fig3-35} it is difficult to determine how feed
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-34.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Tower base fore-aft moment for turbine in 16m/s turbulent wind.}
 	\label{fig3-34}
 \end{figure}
@@ -552,14 +553,13 @@ In Figures \ref{fig3-34} and \ref{fig3-35} it is difficult to determine how feed
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-35.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade root bending moment for turbine in 16m/s turbulent wind.}
 	\label{fig3-35}
 \end{figure}
 
 
 \begin{table}
-\caption{Statistical summary of turbine performance in 16m/s wind.}
 \centering
 \begin{tabular}{ c | c c c c c c c c c c c c}
 \hline
@@ -580,11 +580,11 @@ forward\\
 \hline
 \hline
 \end{tabular}
+\caption{Statistical summary of turbine performance in 16m/s wind.}
 \label{Table3-5}
 \end{table}
 
 \begin{table}
-\caption{Short term damage equivalent loads for 570s simulation of turbine  in 16m/s turbulent wind.}
 \centering
 \begin{tabular}{ c | c c c c c c c c c}
 \hline
@@ -604,6 +604,7 @@ forward\\
 \hline
 \hline
 \end{tabular}
+\caption{Short term damage equivalent loads for 570s simulation of turbine  in 16m/s turbulent wind.}
 \label{Table3-6}
 \end{table}
 
@@ -611,7 +612,8 @@ forward\\
 %	SECTION 6
 %----------------------------------------------------------------------------------------
 
-\section{Sensitivity to Errors in Feed Forward Data Timing}
+\section{Sensitivity to Errors in Feed Forward Data \\
+		Timing}  \label{section3-6}
 In the previous section we observed that feed forward pitch control based on wind speed estimates from an upwind turbine can improve performance and reduce structural loading provided Taylor's frozen turbulence holds and we are able to perfectly estimate the convection speed of the wind. However, experiments have shown that Taylor's frozen turbulence hypothesis is never completely accurate and it is impossible to perfectly estimate the convection velocity. In this section we bring our system one step closer to reality by considering the effect of errors in the convection velocity estimate.
 
 In Section \ref{section2-5} we discussed a method fo estimating the convection velocity by calculating the mean wind speed estimate over some period of time. For the 66 test cases examined in Section \ref{section2-5} we found that the accuracy of the convection velocity estimate varied with both the true mean wind speed, and the time period over which the wind speed estimates were averaged. For wind speeds above the rated wind speed (the conditions we are considering for feed forward pitch control) the mean discrepancy between the true and estimated convection velocity ranged from ~2$\%$ to ~4$\%$.
@@ -627,7 +629,7 @@ The red line indicates the tower base DEL for the upwind turbine. Since the upwi
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-35.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Tower base DEL for various timing errors in feed forward wind speed estimates.}
 	\label{fig3-36}
 \end{figure}
@@ -638,7 +640,7 @@ Figure \ref{fig3-37} illustrates how timing errors in the feed forward data affe
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-35.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Blade root DEL for various timing errors in feed forward wind speed estimates.}
 	\label{fig3-37}
 \end{figure}
@@ -648,7 +650,7 @@ Timing errors do not affect the average power production. Each simulations simul
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[trim = {1cm 0 2cm 0}, clip, width = \linewidth]{Figures/ch3Figures/fig3-35.png}
-		\rule{35em}{0.5pt}
+		
 	\caption{Standard deviation of power production for various timing errors in feed forward wind speed estimates.}
 	\label{fig3-38}
 \end{figure}

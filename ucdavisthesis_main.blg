@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ucdavisthesis_main.aux
+A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: Chapters/Chapter4.aux
+A level-1 auxiliary file: Chapters/Chapter5.aux
+A level-1 auxiliary file: Chapters/Chapter6.aux
+The style file: unsrtnat.bst
+Database file #1: Bibliography.bib
+Warning--I didn't find a database entry for "sawyer2012"
+Warning--empty author in ren212011
+Warning--empty year in jonkman2013
+Warning--empty journal in steger1983
+Warning--empty journal in troldborg2009
+Warning--can't use both volume and number fields in martinez2015
+You've used 91 entries,
+            2481 wiz_defined-function locations,
+            1001 strings with 20852 characters,
+and the built_in function-call counts, 34443 in all, are:
+= -- 2741
+> -- 1952
+< -- 62
++ -- 763
+- -- 576
+* -- 2499
+:= -- 5472
+add.period$ -- 273
+call.type$ -- 91
+change.case$ -- 188
+chr.to.int$ -- 86
+cite$ -- 99
+duplicate$ -- 1899
+empty$ -- 3164
+format.name$ -- 701
+if$ -- 7402
+int.to.chr$ -- 6
+int.to.str$ -- 92
+missing$ -- 78
+newline$ -- 457
+num.names$ -- 264
+pop$ -- 879
+preamble$ -- 1
+purify$ -- 91
+quote$ -- 0
+skip$ -- 1157
+stack$ -- 0
+substring$ -- 1009
+swap$ -- 384
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 631
+warning$ -- 5
+while$ -- 249
+width$ -- 0
+write$ -- 1149
+(There were 6 warnings)

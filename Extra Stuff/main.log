@@ -1,0 +1,2683 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 APR 2017 12:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./Thesis.cls
+Document Class: Thesis 2007/22/02 v1.0 LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/vmargin/vmargin.sty
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+\PaperWidth=\dimen103
+\PaperHeight=\dimen104
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen105
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 1999/11/29 v2.0
+\athelp@=\toks21
+\minaw@=\dimen114
+\bigaw@=\dimen115
+\minCDarrowwidth=\dimen116
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks27
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@example=\count100
+\c@theorem=\count101
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@tempdima=\dimen120
+\caption@indent=\dimen121
+\caption@parindent=\dimen122
+\caption@hangindent=\dimen123
+)
+\c@ContinuedFloat=\count102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen126
+\lightrulewidth=\dimen127
+\cmidrulewidth=\dimen128
+\belowrulesep=\dimen129
+\belowbottomsep=\dimen130
+\aboverulesep=\dimen131
+\abovetopsep=\dimen132
+\cmidrulesep=\dimen133
+\cmidrulekern=\dimen134
+\defaultaddspace=\dimen135
+\@cmidla=\count104
+\@cmidlb=\count105
+\@aboverulesep=\dimen136
+\@belowrulesep=\dimen137
+\@thisruleclass=\count106
+\@lastruleclass=\count107
+\@thisrulewidth=\dimen138
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count108
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box28
+\rot@mess@toks=\toks29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count109
+\lst@gtempboxa=\box29
+\lst@token=\toks30
+\lst@length=\count110
+\lst@currlwidth=\dimen139
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen140
+\lst@width=\dimen141
+\lst@newlines=\count113
+\lst@lineno=\count114
+\lst@maxwidth=\dimen142
+
+(./lstpatch.sty
+
+***
+*** This is a patch for listings 1.3, but you're using
+*** version 1.5e.
+***
+*** Patch file not loaded.
+***
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count115
+\lst@skipnumbers=\count116
+\lst@framebox=\box30
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(./lstpatch.sty
+
+***
+*** This is a patch for listings 1.3, but you're using
+*** version 1.5e.
+***
+ *** Patch file not loaded.
+***
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count119
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4319
+.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4319.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Option `unicode' set `true' on input line 4319.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count120
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen144
+\Fld@menulength=\count121
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count122
+\c@Item=\count123
+\c@Hfootnote=\count124
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip60
+)
+\c@dummy=\count127
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count128
+\LTcapwidth=\dimen147
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count129
+\LT@rows=\count130
+\c@LT@tables=\count131
+\c@LT@chunks=\count132
+\LT@p@ftn=\toks31
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip65
+\bibsep=\skip66
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count133
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+ (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen148
+\scratchbox=\box35
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen149
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks33
+)
+\c@lstlisting=\count140
+\AtBeginShipoutBox=\box36
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+Package hyperref Info: Link coloring ON on input line 38.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count141
+)
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
+
+(./main.out) (./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+------------------------------------------------------------------------------
+ Declaration of Authorship
+------------------------------------------------------------------------------
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+
+ []
+
+[1] [2
+
+]
+------------------------------------------------------------------------------
+ Abstract Page
+------------------------------------------------------------------------------
+[3
+
+]
+------------------------------------------------------------------------------
+ Acknowledgements
+------------------------------------------------------------------------------
+[4
+
+]
+------------------------------------------------------------------------------
+ Table of Contents
+------------------------------------------------------------------------------
+(./main.toc [5
+
+
+] [6])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [7]
+------------------------------------------------------------------------------
+ List of Figures
+------------------------------------------------------------------------------
+(./main.lof [8
+
+
+] [9] [10]
+Overfull \hbox (7.53844pt too wide) in paragraph at lines 111--111
+ [][] [][][]\OT1/cmr/m/n/10.95 Comparison of tower base bend-ing mo-ment pre-di
+cted by FAST and SOWFA 
+ []
+
+[11])
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [12]
+------------------------------------------------------------------------------
+ List of Tables
+------------------------------------------------------------------------------
+(./main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [13
+
+
+]
+------------------------------------------------------------------------------
+ Abbreviations
+------------------------------------------------------------------------------
+[14
+
+
+
+]
+------------------------------------------------------------------------------
+ Physical Constants
+------------------------------------------------------------------------------
+[15
+
+
+
+]
+------------------------------------------------------------------------------
+ Symbols
+------------------------------------------------------------------------------
+
+Overfull \hbox (40.75104pt too wide) in alignment at lines 281--281
+ [] [] [] 
+ []
+
+
+Overfull \hbox (40.75104pt too wide) in alignment at lines 281--281
+ [] [] [] 
+ []
+
+
+Overfull \hbox (40.75104pt too wide) in alignment at lines 281--281
+ [] [] [] 
+ []
+
+[16
+
+
+
+] [17]
+------------------------------------------------------------------------------
+ Dedicatory
+------------------------------------------------------------------------------
+[18
+
+] (./Chapters/Chapter1.tex
+Chapter 1.
+------------------------------------------------------------------------------
+ 1 Introduction and Background
+------------------------------------------------------------------------------
+<Figures/ch1Figures/fig1-1.png, id=907, 468.75125pt x 177.66376pt>
+File: Figures/ch1Figures/fig1-1.png Graphic file (type png)
+
+<use Figures/ch1Figures/fig1-1.png>
+Package pdftex.def Info: Figures/ch1Figures/fig1-1.png used on input line 17.
+(pdftex.def)             Requested size: 417.47307pt x 158.22597pt.
+ [1
+
+
+
+ <./Figures/ch1Figures/fig1-1.png>]
+[2] <Figures/ch1Figures/fig1-2.png, id=928, 310.15875pt x 190.7125pt>
+File: Figures/ch1Figures/fig1-2.png Graphic file (type png)
+
+<use Figures/ch1Figures/fig1-2.png>
+Package pdftex.def Info: Figures/ch1Figures/fig1-2.png used on input line 44.
+(pdftex.def)             Requested size: 310.15799pt x 190.71202pt.
+
+<Figures/ch1Figures/fig1-3.png, id=931, 298.11375pt x 179.67125pt>
+File: Figures/ch1Figures/fig1-3.png Graphic file (type png)
+
+<use Figures/ch1Figures/fig1-3.png>
+Package pdftex.def Info: Figures/ch1Figures/fig1-3.png used on input line 52.
+(pdftex.def)             Requested size: 298.11302pt x 179.67079pt.
+ [3 <./Figures/ch1Figures/fig1-2.png> <./Figures/ch1Figures/fig1-3.png>]
+<Figures/ch1Figures/fig1-4.png, id=942, 262.9825pt x 159.59625pt>
+File: Figures/ch1Figures/fig1-4.png Graphic file (type png)
+
+<use Figures/ch1Figures/fig1-4.png>
+Package pdftex.def Info: Figures/ch1Figures/fig1-4.png used on input line 76.
+(pdftex.def)             Requested size: 262.98184pt x 159.59584pt.
+ [4]
+<Figures/ch1Figures/fig1-5.png, id=953, 232.87pt x 195.73125pt>
+File: Figures/ch1Figures/fig1-5.png Graphic file (type png)
+
+<use Figures/ch1Figures/fig1-5.png>
+Package pdftex.def Info: Figures/ch1Figures/fig1-5.png used on input line 86.
+(pdftex.def)             Requested size: 232.86942pt x 195.73076pt.
+ [5 <./Figures/ch1Figures/fig1-4.png> <./Figures/ch1Figures/fig1-5.png>]
+<Figures/ch1Figures/fig1-6.png, id=963, 469.755pt x 213.79875pt>
+File: Figures/ch1Figures/fig1-6.png Graphic file (type png)
+
+<use Figures/ch1Figures/fig1-6.png>
+Package pdftex.def Info: Figures/ch1Figures/fig1-6.png used on input line 105.
+(pdftex.def)             Requested size: 417.47307pt x 190.00298pt.
+ [6 <./Figures/ch1Figures/fig1-6.png>])
+(./Chapters/Chapter2.tex [7]
+Chapter 2.
+------------------------------------------------------------------------------
+ 2 Using a Wind Turbine as a Sensor
+------------------------------------------------------------------------------
+<Figures/ch2Figures/fig2-1.png, id=980, 433.62pt x 221.1462pt>
+File: Figures/ch2Figures/fig2-1.png Graphic file (type png)
+
+<use Figures/ch2Figures/fig2-1.png>
+Package pdftex.def Info: Figures/ch2Figures/fig2-1.png used on input line 21.
+(pdftex.def)             Requested size: 433.61894pt x 221.14565pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 21--23
+ [][] 
+ []
+
+[8
+
+] <Figures/ch2Figures/fig2-2.png, id=990, 139.722pt x 134.4222pt>
+File: Figures/ch2Figures/fig2-2.png Graphic file (type png)
+
+<use Figures/ch2Figures/fig2-2.png>
+Package pdftex.def Info: Figures/ch2Figures/fig2-2.png used on input line 41.
+(pdftex.def)             Requested size: 139.72165pt x 134.42186pt.
+ [9 <./Figures/ch2Figures/fig2-1.png>]
+[10 <./Figures/ch2Figures/fig2-2.png>]
+<Figures/ch2Figures/fig2-3.jpg, id=1007, 660.4675pt x 257.96375pt>
+File: Figures/ch2Figures/fig2-3.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-3.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-3.jpg used on input line 71.
+(pdftex.def)             Requested size: 417.47307pt x 163.0612pt.
+
+<Figures/ch2Figures/fig2-4.jpg, id=1011, 565.11125pt x 273.02pt>
+File: Figures/ch2Figures/fig2-4.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-4.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-4.jpg used on input line 90.
+(pdftex.def)             Requested size: 417.47307pt x 201.6942pt.
+
+<Figures/ch2Figures/fig2-6.jpg, id=1014, 1001.7425pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-6.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-6.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-6.jpg used on input line 100.
+(pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
+
+<Figures/ch2Figures/fig2-7.jpg, id=1016, 1001.7425pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-7.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-7.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-7.jpg used on input line 109.
+(pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
+ [11 <./Figures/ch2Figures/fig2-3.jpg>]
+[12 <./Figures/ch2Figures/fig2-6.jpg> <./Figures/ch2Figures/fig2-4.jpg>]
+<Figures/ch2Figures/fig2-8.jpg, id=1029, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-8.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-8.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-8.jpg used on input line 121.
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+ [13 <./Figures/ch2Figures/fig2-7.jpg> <./Figures/ch2Figures/fig2-8.jpg>]
+<Figures/ch2Figures/fig2-9.jpg, id=1039, 1001.7425pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-9.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-9.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-9.jpg used on input line 131.
+(pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
+
+<Figures/ch2Figures/fig2-10.jpg, id=1041, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-10.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-10.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-10.jpg used on input line 139.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+ [14 <./Figures/ch2Figures/fig2-9.jpg> <./Figures/ch2Figures/fig2-10.jpg>]
+<Figures/ch2Figures/fig2-11.jpg, id=1055, 1001.7425pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-11.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-11.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-11.jpg used on input line 150.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
+
+<Figures/ch2Figures/fig2-12.jpg, id=1057, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-12.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-12.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-12.jpg used on input line 158.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+ [15 <./Figures/ch2Figures/fig2-11.jpg> <./Figures/ch2Figures/fig2-12.jpg>] [16
+]
+<Figures/ch2Figures/fig2-13.png, id=1088, 469.755pt x 225.9642pt>
+File: Figures/ch2Figures/fig2-13.png Graphic file (type png)
+
+<use Figures/ch2Figures/fig2-13.png>
+Package pdftex.def Info: Figures/ch2Figures/fig2-13.png used on input line 209.
+
+(pdftex.def)             Requested size: 417.47307pt x 200.81442pt.
+
+<Figures/ch2Figures/fig2-14.png, id=1090, 469.755pt x 227.4096pt>
+File: Figures/ch2Figures/fig2-14.png Graphic file (type png)
+
+<use Figures/ch2Figures/fig2-14.png>
+Package pdftex.def Info: Figures/ch2Figures/fig2-14.png used on input line 219.
+
+(pdftex.def)             Requested size: 417.47307pt x 202.09895pt.
+ [17 <./Figures/ch2Figures/fig2-13.png>]
+<Figures/ch2Figures/fig2-15.jpg, id=1110, 1001.7425pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-15.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-15.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-15.jpg used on input line 239.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
+ [18 <./Figures/ch2Figures/fig2-14.png>]
+<Figures/ch2Figures/fig2-16.jpg, id=1124, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-16.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-16.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-16.jpg used on input line 250.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+
+<Figures/ch2Figures/fig2-17.jpg, id=1126, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-17.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-17.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-17.jpg used on input line 260.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+ [19 <./Figures/ch2Figures/fig2-15.jpg> <./Figures/ch2Figures/fig2-16.jpg>]
+<Figures/ch2Figures/fig2-18.jpg, id=1140, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-18.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-18.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-18.jpg used on input line 271.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+
+<Figures/ch2Figures/fig2-19.jpg, id=1142, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-19.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-19.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-19.jpg used on input line 281.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+ [20 <./Figures/ch2Figures/fig2-17.jpg> <./Figures/ch2Figures/fig2-18.jpg>] [21
+ <./Figures/ch2Figures/fig2-19.jpg>]
+<Figures/ch2Figures/fig2-20.jpg, id=1157, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-20.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-20.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-20.jpg used on input line 304.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+
+<Figures/ch2Figures/fig2-21.jpg, id=1163, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-21.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-21.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-21.jpg used on input line 314.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+
+<Figures/ch2Figures/fig2-22.png, id=1166, 413.3844pt x 172.9662pt>
+File: Figures/ch2Figures/fig2-22.png Graphic file (type png)
+
+<use Figures/ch2Figures/fig2-22.png>
+Package pdftex.def Info: Figures/ch2Figures/fig2-22.png used on input line 325.
+
+(pdftex.def)             Requested size: 417.47307pt x 174.67863pt.
+ [22 <./Figures/ch2Figures/fig2-20.jpg>]
+<Figures/ch2Figures/fig2-23.jpg, id=1174, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-23.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-23.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-23.jpg used on input line 336.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+
+<Figures/ch2Figures/fig2-24.jpg, id=1179, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-24.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-24.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-24.jpg used on input line 348.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+ [23 <./Figures/ch2Figures/fig2-21.jpg> <./Figures/ch2Figures/fig2-22.png>] [24
+ <./Figures/ch2Figures/fig2-23.jpg> <./Figures/ch2Figures/fig2-24.jpg>] [25]
+<Figures/ch2Figures/fig2-25.jpg, id=1212, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-25.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-25.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-25.jpg used on input line 386.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+ [26 <./Figures/ch2Figures/fig2-25.jpg>]
+<Figures/ch2Figures/fig2-26.jpg, id=1229, 1001.7425pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-26.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-26.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-26.jpg used on input line 400.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.80319pt.
+
+<Figures/ch2Figures/fig2-27.jpg, id=1231, 1002.74625pt x 400.49625pt>
+File: Figures/ch2Figures/fig2-27.jpg Graphic file (type jpg)
+
+<use Figures/ch2Figures/fig2-27.jpg>
+Package pdftex.def Info: Figures/ch2Figures/fig2-27.jpg used on input line 408.
+
+(pdftex.def)             Requested size: 417.47307pt x 197.57098pt.
+ [27 <./Figures/ch2Figures/fig2-26.jpg>])
+(./Chapters/Chapter3.tex [28 <./Figures/ch2Figures/fig2-27.jpg>]
+Chapter 3.
+------------------------------------------------------------------------------
+ 3 Feed forward optimum pitch control.
+------------------------------------------------------------------------------
+File: Figures/ch2Figures/fig2-1.png Graphic file (type png)
+<use Figures/ch2Figures/fig2-1.png>
+Package pdftex.def Info: Figures/ch2Figures/fig2-1.png used on input line 17.
+(pdftex.def)             Requested size: 417.47307pt x 212.9222pt.
+
+<Figures/ch3Figures/fig3-2.png, id=1257, 634.0488pt x 225.0006pt>
+File: Figures/ch3Figures/fig3-2.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-2.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-2.png used on input line 25.
+(pdftex.def)             Requested size: 417.47307pt x 148.14722pt.
+ [29
+
+]
+<Figures/ch3Figures/fig3-3.png, id=1271, 1099.10625pt x 561.09625pt>
+File: Figures/ch3Figures/fig3-3.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-3.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-3.png used on input line 37.
+(pdftex.def)             Requested size: 417.47307pt x 213.11604pt.
+ [30 <./Figures/ch3Figures/fig3-2.png>]
+<Figures/ch3Figures/fig3-4.png, id=1279, 1097.09875pt x 559.08875pt>
+File: Figures/ch3Figures/fig3-4.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-4.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-4.png used on input line 47.
+(pdftex.def)             Requested size: 417.47307pt x 212.74597pt.
+ [31 <./Figures/ch3Figures/fig3-3.png> <./Figures/ch3Figures/fig3-4.png>] [32]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
+
+<Figures/ch3Figures/fig3-5.png, id=1305, 606.5862pt x 178.266pt>
+File: Figures/ch3Figures/fig3-5.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-5.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-5.png used on input line 77.
+(pdftex.def)             Requested size: 417.47307pt x 122.69084pt.
+ [33 <./Figures/ch3Figures/fig3-5.png>]
+<Figures/ch3Figures/fig3-6.png, id=1314, 740.0448pt x 392.1852pt>
+File: Figures/ch3Figures/fig3-6.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-6.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-6.png used on input line 87.
+(pdftex.def)             Requested size: 417.47307pt x 221.23796pt.
+ [34 <./Figures/ch3Figures/fig3-6.png>]
+<Figures/ch3Figures/fig3-7.png, id=1321, 495.2904pt x 209.1012pt>
+File: Figures/ch3Figures/fig3-7.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-7.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-7.png used on input line 107.
+(pdftex.def)             Requested size: 250.48637pt x 105.75pt.
+
+<Figures/ch3Figures/fig3-8.png, id=1326, 722.7pt x 198.9834pt>
+File: Figures/ch3Figures/fig3-8.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-8.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-8.png used on input line 117.
+(pdftex.def)             Requested size: 417.47307pt x 114.9459pt.
+
+
+LaTeX Warning: Reference `AppendixB' on page 35 undefined on input line 125.
+
+[35 <./Figures/ch3Figures/fig3-7.png>]
+<Figures/ch3Figures/fig3-9.png, id=1338, 820.0236pt x 418.6842pt>
+File: Figures/ch3Figures/fig3-9.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-9.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-9.png used on input line 133.
+(pdftex.def)             Requested size: 417.47307pt x 213.15558pt.
+ [36 <./Figures/ch3Figures/fig3-8.png>]
+<Figures/ch3Figures/fig3-10.png, id=1357, 820.0236pt x 476.5002pt>
+File: Figures/ch3Figures/fig3-10.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-10.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-10.png used on input line 154.
+
+(pdftex.def)             Requested size: 417.47307pt x 242.59016pt.
+ [37 <./Figures/ch3Figures/fig3-9.png>]
+<Figures/ch3Figures/fig3-11.png, id=1365, 754.017pt x 345.9324pt>
+File: Figures/ch3Figures/fig3-11.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-11.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-11.png used on input line 164.
+
+(pdftex.def)             Requested size: 417.47307pt x 191.53024pt.
+ [38 <./Figures/ch3Figures/fig3-10.png> <./Figures/ch3Figures/fig3-11.png>] [39
+]
+<Figures/ch3Figures/fig3-12.png, id=1391, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-12.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-12.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-12.png used on input line 201.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [40 <./Figures/ch3Figures/fig3-12.png (PNG copy)>] <Figures/ch3Figures/fig3-13
+.png, id=1405, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-13.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-13.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-13.png used on input line 214.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-14.png, id=1408, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-14.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-14.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-14.png used on input line 224.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [41 <./Figures/ch3Figures/fig3-13.png (PNG copy)>] <Figures/ch3Figures/fig3-15
+.png, id=1417, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-15.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-15.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-15.png used on input line 235.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [42 <./Figures/ch3Figures/fig3-14.png (PNG copy)> <./Figures/ch3Figures/fig3-1
+5.png (PNG copy)>]
+<Figures/ch3Figures/fig3-16.png, id=1428, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-16.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-16.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-16.png used on input line 245.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-17.png, id=1430, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-17.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-17.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-17.png used on input line 253.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [43 <./Figures/ch3Figures/fig3-16.png (PNG copy)> <./Figures/ch3Figures/fig3-1
+7.png (PNG copy)>] [44]
+<Figures/ch3Figures/fig3-18.png, id=1450, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-18.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-18.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-18.png used on input line 294.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-19.png, id=1453, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-19.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-19.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-19.png used on input line 304.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-20.png, id=1457, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-20.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-20.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-20.png used on input line 314.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-21.png, id=1459, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-21.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-21.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-21.png used on input line 322.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [45 <./Figures/ch3Figures/fig3-18.png (PNG copy)>] <Figures/ch3Figures/fig3-22
+.png, id=1471, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-22.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-22.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-22.png used on input line 335.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-23.png, id=1473, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-23.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-23.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-23.png used on input line 343.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [46 <./Figures/ch3Figures/fig3-19.png (PNG copy)> <./Figures/ch3Figures/fig3-2
+0.png (PNG copy)>] [47 <./Figures/ch3Figures/fig3-21.png (PNG copy)> <./Figures
+/ch3Figures/fig3-22.png (PNG copy)>]
+[48 <./Figures/ch3Figures/fig3-23.png (PNG copy)>]
+<Figures/ch3Figures/fig3-24.png, id=1499, 753.5653pt x 301.125pt>
+File: Figures/ch3Figures/fig3-24.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-24.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-24.png used on input line 425.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.13373pt.
+ [49]
+<Figures/ch3Figures/fig3-25.png, id=1506, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-25.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-25.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-25.png used on input line 435.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [50 <./Figures/ch3Figures/fig3-24.png (PNG copy)> <./Figures/ch3Figures/fig3-2
+5.png (PNG copy)>]
+<Figures/ch3Figures/fig3-26.png, id=1516, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-26.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-26.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-26.png used on input line 445.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-27.png, id=1523, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-27.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-27.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-27.png used on input line 455.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-28.png, id=1525, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-28.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-28.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-28.png used on input line 463.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-29.png, id=1527, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-29.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-29.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-29.png used on input line 471.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [51 <./Figures/ch3Figures/fig3-26.png (PNG copy)>] [52 <./Figures/ch3Figures/f
+ig3-27.png (PNG copy)> <./Figures/ch3Figures/fig3-28.png (PNG copy)>]
+<Figures/ch3Figures/fig3-30.png, id=1544, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-30.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-30.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-30.png used on input line 510.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [53 <./Figures/ch3Figures/fig3-29.png (PNG copy)> <./Figures/ch3Figures/fig3-3
+0.png (PNG copy)>]
+<Figures/ch3Figures/fig3-31.png, id=1558, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-31.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-31.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-31.png used on input line 520.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-32.png, id=1560, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-32.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-32.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-32.png used on input line 528.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-33.png, id=1562, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-33.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-33.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-33.png used on input line 536.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-34.png, id=1568, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-34.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-34.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-34.png used on input line 546.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch3Figures/fig3-35.png, id=1570, 752.8125pt x 301.125pt>
+File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-35.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 554.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [54 <./Figures/ch3Figures/fig3-31.png (PNG copy)> <./Figures/ch3Figures/fig3-3
+2.png (PNG copy)>] [55 <./Figures/ch3Figures/fig3-33.png (PNG copy)> <./Figures
+/ch3Figures/fig3-34.png (PNG copy)>]
+[56 <./Figures/ch3Figures/fig3-35.png (PNG copy)>]
+File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
+
+<use Figures/ch3Figures/fig3-35.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 629.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [57]
+File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
+ <use Figures/ch3Figures/fig3-35.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 640.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+[58]
+File: Figures/ch3Figures/fig3-35.png Graphic file (type png)
+ <use Figures/ch3Figures/fig3-35.png>
+Package pdftex.def Info: Figures/ch3Figures/fig3-35.png used on input line 650.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [59]) (./Chapters/Chapter4.tex
+[60] [61]
+Chapter 4.
+------------------------------------------------------------------------------
+ 4 Turbine Derating Based on Feed Forward Signal From Upwind Turbine
+------------------------------------------------------------------------------
+[62
+
+] [63] [64]
+<Figures/ch4Figures/fig4-1.png, id=1676, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-1.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-1.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-1.png used on input line 41.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-2.png, id=1678, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-2.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-2.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-2.png used on input line 49.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-3.png, id=1680, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-3.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-3.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-3.png used on input line 57.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-4.png, id=1682, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-4.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-4.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-4.png used on input line 65.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 78.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 100.
+
+[65] [66 <./Figures/ch4Figures/fig4-1.png (PNG copy)> <./Figures/ch4Figures/fig
+4-2.png (PNG copy)>] [67 <./Figures/ch4Figures/fig4-3.png (PNG copy)> <./Figure
+s/ch4Figures/fig4-4.png (PNG copy)>]
+<Figures/ch4Figures/fig4-5.png, id=1706, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-5.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-5.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-5.png used on input line 135.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [68 <./Figures/ch4Figures/fig4-5.png (PNG copy)>] <Figures/ch4Figures/fig4-6.p
+ng, id=1715, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-6.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-6.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-6.png used on input line 145.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-7.png, id=1718, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-7.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-7.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-7.png used on input line 155.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-8.png, id=1722, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-8.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-8.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-8.png used on input line 165.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-9.png, id=1724, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-9.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-9.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-9.png used on input line 173.
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [69 <./Figures/ch4Figures/fig4-6.png (PNG copy)>] [70 <./Figures/ch4Figures/fi
+g4-7.png (PNG copy)> <./Figures/ch4Figures/fig4-8.png (PNG copy)>]
+<Figures/ch4Figures/fig4-10.png, id=1740, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-10.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-10.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-10.png used on input line 193.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-11.png, id=1743, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-11.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-11.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-11.png used on input line 203.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [71 <./Figures/ch4Figures/fig4-9.png (PNG copy)>] <Figures/ch4Figures/fig4-12.
+png, id=1753, 753.5653pt x 301.125pt>
+File: Figures/ch4Figures/fig4-12.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-12.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-12.png used on input line 213.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.13373pt.
+
+
+LaTeX Warning: Reference `fig4-13' on page 72 undefined on input line 219.
+
+[72 <./Figures/ch4Figures/fig4-10.png (PNG copy)> <./Figures/ch4Figures/fig4-11
+.png (PNG copy)>]
+<Figures/ch4Figures/fig4-14.png, id=1769, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-14.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-14.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-14.png used on input line 237.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-15.png, id=1771, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-15.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-15.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-15.png used on input line 245.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-16.png, id=1773, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-16.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-16.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-16.png used on input line 254.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [73 <./Figures/ch4Figures/fig4-12.png (PNG copy)>] <Figures/ch4Figures/fig4-17
+.png, id=1782, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-17.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-17.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-17.png used on input line 266.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-18.png, id=1784, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-18.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-18.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-18.png used on input line 274.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-19.png, id=1786, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-19.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-19.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-19.png used on input line 282.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [74 <./Figures/ch4Figures/fig4-14.png (PNG copy)> <./Figures/ch4Figures/fig4-1
+5.png (PNG copy)>] [75 <./Figures/ch4Figures/fig4-16.png (PNG copy)> <./Figures
+/ch4Figures/fig4-17.png (PNG copy)>]
+<Figures/ch4Figures/fig4-20.png, id=1802, 595.9866pt x 299.1978pt>
+File: Figures/ch4Figures/fig4-20.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-20.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-20.png used on input line 300.
+
+(pdftex.def)             Requested size: 417.47307pt x 209.58311pt.
+ [76 <./Figures/ch4Figures/fig4-18.png (PNG copy)> <./Figures/ch4Figures/fig4-1
+9.png (PNG copy)>] [77 <./Figures/ch4Figures/fig4-20.png>] [78]
+<Figures/ch4Figures/fig4-22.png, id=1838, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-22.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-22.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-22.png used on input line 361.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [79]
+<Figures/ch4Figures/fig4-23.png, id=1852, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-23.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-23.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-23.png used on input line 373.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-24.png, id=1854, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-24.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-24.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-24.png used on input line 381.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-25.png, id=1856, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-25.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-25.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-25.png used on input line 389.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [80 <./Figures/ch4Figures/fig4-22.png (PNG copy)> <./Figures/ch4Figures/fig4-2
+3.png (PNG copy)>] [81 <./Figures/ch4Figures/fig4-24.png (PNG copy)> <./Figures
+/ch4Figures/fig4-25.png (PNG copy)>]
+<Figures/ch4Figures/fig4-26.png, id=1874, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-26.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-26.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-26.png used on input line 403.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 410.
+
+[82 <./Figures/ch4Figures/fig4-26.png (PNG copy)>]
+<Figures/ch4Figures/fig4-27.png, id=1888, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-27.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-27.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-27.png used on input line 447.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [83 <./Figures/ch4Figures/fig4-27.png (PNG copy)>] <Figures/ch4Figures/fig4-28
+.png, id=1900, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-28.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-28.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-28.png used on input line 459.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+<Figures/ch4Figures/fig4-29.png, id=1902, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-29.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-29.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-29.png used on input line 467.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [84 <./Figures/ch4Figures/fig4-28.png (PNG copy)>] <Figures/ch4Figures/fig4-30
+.png, id=1914, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-30.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-30.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-30.png used on input line 477.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+ [85 <./Figures/ch4Figures/fig4-29.png (PNG copy)> <./Figures/ch4Figures/fig4-3
+0.png (PNG copy)>]
+<Figures/ch4Figures/fig4-31.png, id=1923, 752.8125pt x 301.125pt>
+File: Figures/ch4Figures/fig4-31.png Graphic file (type png)
+
+<use Figures/ch4Figures/fig4-31.png>
+Package pdftex.def Info: Figures/ch4Figures/fig4-31.png used on input line 487.
+
+(pdftex.def)             Requested size: 417.47307pt x 188.3451pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 496.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 518.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 539.
+
+[86 <./Figures/ch4Figures/fig4-31.png (PNG copy)>] [87])
+(./Chapters/Chapter5.tex [88]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 A Comparison of the NREL 5-MW Wake Characteristics Using Both SOWFA and OVER
+FLOW2
+------------------------------------------------------------------------------
+) (./Chapters/Chapter6.tex [89
+
+]
+Chapter 6.
+------------------------------------------------------------------------------
+ 6 Analysis of Feed Forward Derating Control Scheme With SOWFA.
+------------------------------------------------------------------------------
+[90
+
+] [91] [92]
+
+Package caption Warning: \label without proper \caption on input line 48.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-1' on page 93 undefined on input line 46.
+
+<Figures/ch6Figures/fig6-1.png, id=1979, 696.201pt x 458.1918pt>
+File: Figures/ch6Figures/fig6-1.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-1.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-1.png used on input line 50.
+(pdftex.def)             Requested size: 417.47307pt x 274.7564pt.
+
+
+Package caption Warning: \label without proper \caption on input line 48.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-1' on page 93 undefined on input line 57.
+
+[93]
+Overfull \hbox (3.69571pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10.95 FAST based tur-bine dy-nam-ics model. To get ac-cu-rate tur-
+bine per-for-mance from SOWFA,
+ []
+
+[94 <./Figures/ch6Figures/fig6-1.png>]
+
+Package caption Warning: \label without proper \caption on input line 71.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-2' on page 95 undefined on input line 69.
+
+
+Package caption Warning: \label without proper \caption on input line 99.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-6' on page 95 undefined on input line 69.
+
+
+Package caption Warning: \label without proper \caption on input line 99.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-6' on page 95 undefined on input line 69.
+
+<Figures/ch6Figures/fig6-2.png, id=2001, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-2.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-2.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-2.png used on input line 73.
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+<Figures/ch6Figures/fig6-3.png, id=2003, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-3.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-3.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-3.png used on input line 80.
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+<Figures/ch6Figures/fig6-4.png, id=2005, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-4.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-4.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-4.png used on input line 87.
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+<Figures/ch6Figures/fig6-5.png, id=2007, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-5.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-5.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-5.png used on input line 94.
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+<Figures/ch6Figures/fig6-6.png, id=2009, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-6.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-6.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-6.png used on input line 101.
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 112.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-7' on page 95 undefined on input line 108.
+
+
+Package caption Warning: \label without proper \caption on input line 119.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-8' on page 95 undefined on input line 108.
+
+
+Package caption Warning: \label without proper \caption on input line 112.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-7' on page 95 undefined on input line 108.
+
+[95 <./Figures/ch6Figures/fig6-2.png (PNG copy)>]
+<Figures/ch6Figures/fig6-7.png, id=2021, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-7.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-7.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-7.png used on input line 114.
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+<Figures/ch6Figures/fig6-p.png, id=2023, 821.0675pt x 424.58624pt>
+File: Figures/ch6Figures/fig6-p.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-p.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-p.png used on input line 121.
+(pdftex.def)             Requested size: 417.47307pt x 240.93474pt.
+ [96 <./Figures/ch6Figures/fig6-3.png (PNG copy)> <./Figures/ch6Figures/fig6-4.
+png (PNG copy)>] [97 <./Figures/ch6Figures/fig6-5.png (PNG copy)> <./Figures/ch
+6Figures/fig6-6.png (PNG copy)>] [98 <./Figures/ch6Figures/fig6-7.png (PNG copy
+)> <./Figures/ch6Figures/fig6-p.png>]
+
+Package caption Warning: \label without proper \caption on input line 146.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-11' on page 99 undefined on input line 142.
+
+
+Package caption Warning: \label without proper \caption on input line 162.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-12' on page 99 undefined on input line 142.
+
+[99] <Figures/ch6Figures/fig6-11.png, id=2055, 1093.2042pt x 384.9582pt>
+File: Figures/ch6Figures/fig6-11.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-11.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-11.png used on input line 148.
+
+(pdftex.def)             Requested size: 417.47307pt x 159.46097pt.
+
+<Figures/ch6Figures/fig6-12.png, id=2057, 1002.74625pt x 400.49625pt>
+File: Figures/ch6Figures/fig6-12.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-12.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-12.png used on input line 164.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.25052pt.
+
+
+Package caption Warning: \label without proper \caption on input line 48.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-1' on page 100 undefined on input line 174.
+
+
+LaTeX Warning: Reference `chapter4' on page 100 undefined on input line 174.
+
+[100 <./Figures/ch6Figures/fig6-11.png> <./Figures/ch6Figures/fig6-12.png (PNG 
+copy)>]
+
+LaTeX Warning: Reference `table6-1' on page 101 undefined on input line 182.
+
+
+Overfull \hbox (23.48299pt too wide) in paragraph at lines 188--200
+ [][] 
+ []
+
+
+Package caption Warning: \label without proper \caption on input line 206.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-13' on page 101 undefined on input line 204.
+
+[101] <Figures/ch6Figures/fig6-13.png, id=2076, 743.4174pt x 405.1938pt>
+File: Figures/ch6Figures/fig6-13.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-13.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-13.png used on input line 208.
+
+(pdftex.def)             Requested size: 417.47307pt x 227.53761pt.
+
+
+Package caption Warning: \label without proper \caption on input line 237.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-14' on page 102 undefined on input line 234.
+
+
+Package caption Warning: \label without proper \caption on input line 237.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-14' on page 102 undefined on input line 234.
+
+[102 <./Figures/ch6Figures/fig6-13.png>]
+<Figures/ch6Figures/fig6-14.png, id=2088, 662.475pt x 781.4796pt>
+File: Figures/ch6Figures/fig6-14.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-14.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-14.png used on input line 239.
+
+(pdftex.def)             Requested size: 417.47307pt x 492.46593pt.
+
+
+LaTeX Warning: Reference `chapter3' on page 103 undefined on input line 244.
+
+
+LaTeX Warning: Reference `chapter4' on page 103 undefined on input line 244.
+
+
+Package caption Warning: \label without proper \caption on input line 248.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-15' on page 103 undefined on input line 246.
+
+
+Package caption Warning: \label without proper \caption on input line 281.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-19' on page 103 undefined on input line 246.
+
+
+Package caption Warning: \label without proper \caption on input line 248.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-15' on page 103 undefined on input line 246.
+
+
+Package caption Warning: \label without proper \caption on input line 254.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-16' on page 103 undefined on input line 246.
+
+[103] [104 <./Figures/ch6Figures/fig6-14.png>]
+<Figures/ch6Figures/fig6-15.png, id=2103, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-15.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-15.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-15.png used on input line 250.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+<Figures/ch6Figures/fig6-16.png, id=2105, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-16.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-16.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-16.png used on input line 256.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 263.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-17' on page 105 undefined on input line 261.
+
+
+Package caption Warning: \label without proper \caption on input line 263.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-17' on page 105 undefined on input line 261.
+
+<Figures/ch6Figures/fig6-17.png, id=2109, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-17.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-17.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-17.png used on input line 265.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 272.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-18' on page 105 undefined on input line 270.
+
+[105 <./Figures/ch6Figures/fig6-15.png (PNG copy)>]
+<Figures/ch6Figures/fig6-18.png, id=2117, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-18.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-18.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-18.png used on input line 274.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 281.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-19' on page 106 undefined on input line 279.
+
+[106 <./Figures/ch6Figures/fig6-16.png (PNG copy)> <./Figures/ch6Figures/fig6-1
+7.png (PNG copy)>]
+<Figures/ch6Figures/fig6-19.png, id=2126, 1004.75375pt x 401.5pt>
+File: Figures/ch6Figures/fig6-19.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-19.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-19.png used on input line 283.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.30907pt.
+
+
+LaTeX Warning: Reference `table6-2' on page 107 undefined on input line 288.
+
+
+Package caption Warning: \label without proper \caption on input line 281.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-19' on page 107 undefined on input line 288.
+
+
+Package caption Warning: \label without proper \caption on input line 272.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-18' on page 107 undefined on input line 288.
+
+[107 <./Figures/ch6Figures/fig6-18.png (PNG copy)> <./Figures/ch6Figures/fig6-1
+9.png (PNG copy)>]
+
+Package caption Warning: \label without proper \caption on input line 315.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-20' on page 108 undefined on input line 313.
+
+
+Package caption Warning: \label without proper \caption on input line 315.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-20' on page 108 undefined on input line 313.
+
+
+LaTeX Warning: Reference `fif6-14' on page 108 undefined on input line 313.
+
+[108] <Figures/ch6Figures/fig6-20.png, id=2145, 662.475pt x 781.4796pt>
+File: Figures/ch6Figures/fig6-20.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-20.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-20.png used on input line 317.
+
+(pdftex.def)             Requested size: 417.47307pt x 492.46593pt.
+
+
+Package caption Warning: \label without proper \caption on input line 324.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-21' on page 109 undefined on input line 322.
+
+
+Package caption Warning: \label without proper \caption on input line 357.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-25' on page 109 undefined on input line 322.
+
+
+Package caption Warning: \label without proper \caption on input line 324.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-21' on page 109 undefined on input line 322.
+
+
+Package caption Warning: \label without proper \caption on input line 330.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-22' on page 109 undefined on input line 322.
+
+[109 <./Figures/ch6Figures/fig6-20.png>]
+<Figures/ch6Figures/fig6-21.png, id=2156, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-21.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-21.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-21.png used on input line 326.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+<Figures/ch6Figures/fig6-22.png, id=2158, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-22.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-22.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-22.png used on input line 332.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 339.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-23' on page 110 undefined on input line 337.
+
+[110 <./Figures/ch6Figures/fig6-21.png (PNG copy)> <./Figures/ch6Figures/fig6-2
+2.png (PNG copy)>]
+<Figures/ch6Figures/fig6-23.png, id=2167, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-23.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-23.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-23.png used on input line 341.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 348.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-24' on page 111 undefined on input line 346.
+
+<Figures/ch6Figures/fig6-24.png, id=2170, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-24.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-24.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-24.png used on input line 350.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 357.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-25' on page 111 undefined on input line 355.
+
+
+Package caption Warning: \label without proper \caption on input line 339.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-23' on page 111 undefined on input line 355.
+
+[111 <./Figures/ch6Figures/fig6-23.png (PNG copy)>]
+File: Figures/ch6Figures/fig6-16.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-16.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-16.png used on input line 359.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+LaTeX Warning: Reference `table6-3' on page 112 undefined on input line 364.
+
+[112 <./Figures/ch6Figures/fig6-24.png (PNG copy)>]
+
+Package caption Warning: \label without proper \caption on input line 385.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `Table6-4' on page 113 undefined on input line 383.
+
+
+LaTeX Warning: Reference `some sowfa studies' on page 113 undefined on input li
+ne 411.
+
+
+Package caption Warning: \label without proper \caption on input line 48.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-1' on page 113 undefined on input line 411.
+
+[113]
+
+LaTeX Warning: Reference `table6-1' on page 114 undefined on input line 418.
+
+
+LaTeX Warning: Reference `chapter5' on page 114 undefined on input line 418.
+
+
+LaTeX Warning: Reference `table5-1' on page 114 undefined on input line 418.
+
+[114]
+
+Package caption Warning: \label without proper \caption on input line 440.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-26' on page 115 undefined on input line 438.
+
+<Figures/ch6Figures/fig6-26.png, id=2201, 743.4174pt x 405.1938pt>
+File: Figures/ch6Figures/fig6-26.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-26.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-26.png used on input line 442.
+
+(pdftex.def)             Requested size: 417.47307pt x 227.53761pt.
+ [115 <./Figures/ch6Figures/fig6-26.png>]
+
+Package caption Warning: \label without proper \caption on input line 462.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-27' on page 116 undefined on input line 460.
+
+
+Package caption Warning: \label without proper \caption on input line 237.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-14' on page 116 undefined on input line 460.
+
+<Figures/ch6Figures/fig6-27.png, id=2210, 662.475pt x 781.4796pt>
+File: Figures/ch6Figures/fig6-27.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-27.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-27.png used on input line 464.
+
+(pdftex.def)             Requested size: 417.47307pt x 492.46593pt.
+
+
+Package caption Warning: \label without proper \caption on input line 472.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-28' on page 116 undefined on input line 469.
+
+
+Package caption Warning: \label without proper \caption on input line 511.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-32' on page 116 undefined on input line 469.
+
+
+Package caption Warning: \label without proper \caption on input line 472.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-28' on page 116 undefined on input line 469.
+
+<Figures/ch6Figures/fig6-28.png, id=2214, 1004.75375pt x 401.5pt>
+File: Figures/ch6Figures/fig6-28.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-28.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-28.png used on input line 474.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.30907pt.
+
+
+Package caption Warning: \label without proper \caption on input line 481.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-29' on page 116 undefined on input line 479.
+
+[116] [117 <./Figures/ch6Figures/fig6-27.png>]
+<Figures/ch6Figures/fig6-29.png, id=2226, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-29.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-29.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-29.png used on input line 483.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 462.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-27' on page 118 undefined on input line 488.
+
+
+Package caption Warning: \label without proper \caption on input line 472.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-28' on page 118 undefined on input line 488.
+
+
+LaTeX Warning: Reference `chapter4' on page 118 undefined on input line 488.
+
+
+LaTeX Warning: Reference `fig5-??velocity deficitfigure??' on page 118 undefine
+d on input line 488.
+
+
+Package natbib Warning: Citation `troldborg2015' on page 118 undefined on input
+ line 488.
+
+
+Package natbib Warning: Citation `troldborg2010' on page 118 undefined on input
+ line 488.
+
+
+Package natbib Warning: Citation `troldborg2010b' on page 118 undefined on inpu
+t line 488.
+
+
+Package natbib Warning: Citation `madsen2010' on page 118 undefined on input li
+ne 488.
+
+[118 <./Figures/ch6Figures/fig6-28.png (PNG copy)> <./Figures/ch6Figures/fig6-2
+9.png (PNG copy)>]
+
+Package caption Warning: \label without proper \caption on input line 493.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-30' on page 119 undefined on input line 491.
+
+<Figures/ch6Figures/fig6-30.png, id=2237, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-30.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-30.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-30.png used on input line 495.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 502.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-31' on page 119 undefined on input line 500.
+
+
+Package caption Warning: \label without proper \caption on input line 272.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-18' on page 119 undefined on input line 500.
+
+
+Package caption Warning: \label without proper \caption on input line 348.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-24' on page 119 undefined on input line 500.
+
+[119] <Figures/ch6Figures/fig6-31.png, id=2246, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-31.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-31.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-31.png used on input line 504.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 511.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-32' on page 120 undefined on input line 509.
+
+[120 <./Figures/ch6Figures/fig6-30.png (PNG copy)>]
+<Figures/ch6Figures/fig6-32.png, id=2255, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-32.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-32.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-32.png used on input line 513.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 523.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `Table6-6' on page 121 undefined on input line 518.
+
+
+Package caption Warning: \label without proper \caption on input line 502.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-31' on page 121 undefined on input line 518.
+
+
+Package caption Warning: \label without proper \caption on input line 511.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-32' on page 121 undefined on input line 518.
+
+[121 <./Figures/ch6Figures/fig6-31.png (PNG copy)> <./Figures/ch6Figures/fig6-3
+2.png (PNG copy)>]
+
+Package caption Warning: \label without proper \caption on input line 523.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `Table6-6' on page 122 undefined on input line 521.
+
+
+Package caption Warning: \label without proper \caption on input line 481.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-29' on page 122 undefined on input line 521.
+
+
+Package caption Warning: \label without proper \caption on input line 549.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-33' on page 122 undefined on input line 547.
+
+
+Package caption Warning: \label without proper \caption on input line 549.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-33' on page 122 undefined on input line 547.
+
+
+LaTeX Warning: Reference `fif6-27' on page 122 undefined on input line 547.
+
+[122] <Figures/ch6Figures/fig6-33.png, id=2276, 662.475pt x 781.4796pt>
+File: Figures/ch6Figures/fig6-33.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-33.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-33.png used on input line 551.
+
+(pdftex.def)             Requested size: 417.47307pt x 492.46593pt.
+
+
+Package caption Warning: \label without proper \caption on input line 559.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-34' on page 123 undefined on input line 556.
+
+
+Package caption Warning: \label without proper \caption on input line 593.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-38' on page 123 undefined on input line 556.
+
+
+Package caption Warning: \label without proper \caption on input line 559.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-34' on page 123 undefined on input line 556.
+
+
+Package caption Warning: \label without proper \caption on input line 566.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-35' on page 123 undefined on input line 556.
+
+[123 <./Figures/ch6Figures/fig6-33.png>]
+<Figures/ch6Figures/fig6-34.png, id=2287, 1004.75375pt x 401.5pt>
+File: Figures/ch6Figures/fig6-34.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-34.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-34.png used on input line 561.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.30907pt.
+
+<Figures/ch6Figures/fig6-35.png, id=2289, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-35.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-35.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-35.png used on input line 568.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 575.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-36' on page 124 undefined on input line 573.
+
+
+LaTeX Warning: Reference `section6-7.2' on page 124 undefined on input line 573
+.
+
+[124 <./Figures/ch6Figures/fig6-34.png (PNG copy)> <./Figures/ch6Figures/fig6-3
+5.png (PNG copy)>]
+<Figures/ch6Figures/fig6-36.png, id=2298, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-36.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-36.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-36.png used on input line 577.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 584.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-37' on page 125 undefined on input line 582.
+
+<Figures/ch6Figures/fig6-37.png, id=2301, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-37.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-37.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-37.png used on input line 586.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 584.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6-37' on page 125 undefined on input line 591.
+
+[125 <./Figures/ch6Figures/fig6-36.png (PNG copy)>]
+<Figures/ch6Figures/fig6-38.png, id=2310, 1003.75pt x 401.5pt>
+File: Figures/ch6Figures/fig6-38.png Graphic file (type png)
+
+<use Figures/ch6Figures/fig6-38.png>
+Package pdftex.def Info: Figures/ch6Figures/fig6-38.png used on input line 595.
+
+(pdftex.def)             Requested size: 417.47307pt x 182.51123pt.
+
+
+Package caption Warning: \label without proper \caption on input line 602.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `Table6-7' on page 126 undefined on input line 600.
+
+
+LaTeX Warning: Reference `table6-8' on page 126 undefined on input line 619.
+
+[126 <./Figures/ch6Figures/fig6-37.png (PNG copy)>] [127 <./Figures/ch6Figures/
+fig6-38.png (PNG copy)>]
+
+LaTeX Warning: Reference `chapter4' on page 128 undefined on input line 652.
+
+
+LaTeX Warning: Reference `chapter5' on page 128 undefined on input line 652.
+
+
+LaTeX Warning: Reference `chapter4' on page 128 undefined on input line 654.
+
+
+LaTeX Warning: Reference `chapter4' on page 128 undefined on input line 654.
+
+[128] [129]) (./Appendices/AppendixA.tex [130]
+Appendix A.
+------------------------------------------------------------------------------
+ A FAST simulation input files
+------------------------------------------------------------------------------
+) (./Appendices/AppendixC.tex [131
+
+]
+Appendix B.
+------------------------------------------------------------------------------
+ B Damage Equivalent Load (DEL) Calculation
+------------------------------------------------------------------------------
+
+LaTeX Warning: Reference `' on page 132 undefined on input line 9.
+
+
+LaTeX Warning: Reference `' on page 132 undefined on input line 9.
+
+[132
+
+] [133]) [134]
+------------------------------------------------------------------------------
+ Bibliography
+------------------------------------------------------------------------------
+(./main.bbl [135
+
+
+] [136] [137] [138] [139])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+[140]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B789C8449D09B738374D79688DD1F4BC;16872.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
+ ) 
+Here is how much of TeX's memory you used:
+ 14639 strings out of 493089
+ 214900 string characters out of 6134842
+ 300689 words of memory out of 5000000
+ 17294 multiletter control sequences out of 15000+600000
+ 15481 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 49i,14n,45p,3237b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on main.pdf (159 pages, 6377314 bytes).
+PDF statistics:
+ 2596 PDF objects out of 2984 (max. 8388607)
+ 2123 compressed objects within 22 object streams
+ 488 named destinations out of 1000 (max. 500000)
+ 1877 words of extra memory for PDF output out of 10000 (max. 10000000)
+

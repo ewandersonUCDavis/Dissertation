@@ -1,0 +1,20 @@
+\begin{table}[]
+\centering
+\caption{Effect of derating methods for test case 1: 16 m/s EOG with 30\% derating.}
+\label{table4-3}
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max tower base\\ bending moment\end{tabular}} &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max blade root\\ bending moment\end{tabular}} &  & \begin{tabular}[c]{@{}c@{}}Max rotor\\ Overspeed\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Generated\end{tabular}\\ 
+                                                                     \cline{3-4}                                                                                    \cline{6-7}                                                                                       \cline{9-9}                                                           \cline{11-11} 
+                                                                &  & (MNm)                                        & reduction                                    &  & (MNm)                                        & reduction                                    &  & (\%)                                                          &  &    (\kWhr)                         \\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}No FF\\ Control\end{tabular}         &  & 102.7                                        & -                                            &  & 10.77                                        & -                                            &  & 18.76                                 						 &  &  831.8                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}FF w/ short \\ derating\end{tabular} &  & 87.46                                        & 14.9\%                                       &  & 9.43                                        & 12.4\%                                        &  & 4.96                                                          &  &  820.2                                 \\
+\\
+\begin{tabular}[c]{@{}c@{}}FF w/ long \\ derating\end{tabular}  &  & 87.34                                        & 15.0\%                                       &  & 10.66                                        & 1.0\%                                        &  & 4.96                                                          &  &  805.3                                 \\
+\hline
+\hline                             
+\end{tabular}
+\end{table}
