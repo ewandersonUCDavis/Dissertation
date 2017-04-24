@@ -1,4 +1,4 @@
-*********************Subsection 6-6*********************
+*********************Subsection 6-6-1*********************
 
 \begin{table} \label{Table6-1}
 \centering
@@ -20,7 +20,7 @@ Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
 \end{table}
 
 
-*********************Subsection 6-6-1*********************
+*********************Subsection 6-6-2*********************
 
 \begin{table} \label{Table6-2}
 \centering
@@ -39,7 +39,30 @@ Region & Length(\emph{R}) & (\emph{R})  &  (\emph{R}) & in Region\\
 \end{tabular}
 \end{table}
 
-*********************Subsection 6-6-2*********************
+*********************Subsection 6-6-2 revised *********************
+
+\begin{table} [!htbp]
+\centering
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                                         &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}                               &  & 76.4                                                          & & 7.60                                                          &  & 15.37                                 				       &  &  237.54                                                    \\
+\\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \\ Without FF \\ Control\end{tabular}     &  & 75.2                                                          & & 9.15                                                          &  & 15.04                                                       &  &  334.00                                                    \\
+\\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \\ With FF \\ Control \end{tabular}       &  & 31.0                                                          & & 7.82                                                          &  & 6.90                                                        &  &  535.27                                                    \\
+\\
+\begin{tabular}[c]{@{}c@{}}Change   \\ Due to FF \\ Control          \end{tabular}       &  & \begin{tabular}[c]{@{}c@{}}-44.2 \\ (-58.8\%)  \end{tabular}   & & \begin{tabular}[c]{@{}c@{}} -1.33 \\ (-14.5\%)  \end{tabular}   &  & \begin{tabular}[c]{@{}c@{}} -8.14 \\    \end{tabular}        &  &  \begin{tabular}[c]{@{}c@{}}+201.27\\(+60.2\%)\end{tabular} \\
+\\
+\hline
+\hline                             
+\end{tabular}
+\caption{Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the offset turbine test case.}
+\label{Table6-2}
+\end{table}
+*********************Subsection 6-6-3*********************
 
 
 
@@ -102,7 +125,7 @@ Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
 \end{table}
 
 
-*********************Subsection 6-7-1*********************
+*********************Subsection 6-7-2*********************
 
 
 \begin{table} \label{Table6-6}
@@ -122,7 +145,32 @@ Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
 \end{tabular}
 \end{table}
 
-*********************Subsection 6-6-2*********************
+*********************Subsection 6-7-2 revised *********************
+
+\begin{table} [!htbp]
+\centering
+\begin{tabular}{c|cccccccccc}
+\hline
+\hline
+                                                                                         &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+\hline
+\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}                               &  & 76.4                                                          & & 6.92                                                          &  & 16.12                                 				       &  &  233.39                                                    \\
+\\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \\ Without FF \\ Control\end{tabular}     &  & 104.0                                                          & & 9.49                                                          &  & 16.03                                                       &  &  194.51                                                    \\
+\\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \\ With FF \\ Control \end{tabular}       &  & 45.9                                                          & & 8.03                                                          &  & 11.70                                                         &  &  395.65                                                     \\
+\\
+\begin{tabular}[c]{@{}c@{}}Change   \\ Due to FF \\ Control          \end{tabular}       &  & \begin{tabular}[c]{@{}c@{}}-58.1 \\ (-55.8\%)  \end{tabular}   & & \begin{tabular}[c]{@{}c@{}} -1.46 \\ (-15.4\%)  \end{tabular}   &  & \begin{tabular}[c]{@{}c@{}} -4.33 \\    \end{tabular}        &  &  \begin{tabular}[c]{@{}c@{}}+201.14\\(+103.4\%)\end{tabular} \\
+\\
+\hline
+\hline                             
+\end{tabular}
+\caption{Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Turbine in Wake test case.}
+\label{Table6-6}
+\end{table}
+
+
+*********************Subsection 6-7-3*********************
 
 
 
@@ -161,3 +209,5 @@ Region     & Length(\emph{R}) & (\emph{R}) &  in Region\\
 \hline                             
 \end{tabular}
 \end{table}
+
+

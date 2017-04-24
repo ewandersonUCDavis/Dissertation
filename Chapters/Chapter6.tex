@@ -46,7 +46,7 @@ Plant level control can not be modeled in SOWFA at this time. Though NREL did de
 
 The LES computational domain used in this chapter is 5040 meters $\times$ 2520 meters $\times$ 2520 meters. As in chapter \ref{Chapter5} this rectangular grid is initially composed of 32 m $\times$ 32 m $\times$ 32m cells, but portions of the domain are refined to decrease cell size near the turbine rotors and their wakes. Two configurations will be simulated, as illustrated in figure \ref{fig6-1}. In the first configuration the upwind turbine will be 10 rotor diameters (1260 meters) downstream of the center of the inlet while the downwind turbine is 10 rotor diameters further downstream. In this configuration the downwind turbine will be in the wake of the upwind turbine. The second configuration is similar, but each turbine is offset horizontally by 0.75 rotor diameter so the downwind turbine is not in the wake of the upwind turbine. 
 
-\begin{figure}[!htbp]	
+\begin{figure}[ht]	
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-1.png}
 		
@@ -71,21 +71,21 @@ An actuator line model couples SOWFA's LES based atmosphere model to SOWFA's FAS
 
 To illustrate the close agreement between SOWFA and FAST simulations three simple test cases from chapter 4 are simulated in SOWFA. In these test cases the turbine is subjected to a constant, uniform wind. At 100 seconds the turbine is derated by 20\%. At 200 seconds the turbine is returned to full rated operation. Incoming wind speeds of 12 m/s, 16 m/s, and 20 m/s are simulated. Figures \ref{fig6-2} through \ref{fig6-6} show FAST and SOWFA simulation results for the 16 m/s test case. We see in the figures that FAST and SOWFA produce nearly identical results for rotor speed, power, and blade root bending moments. There is also good agreement on blade pitch and tower base bending moment. SOWFA predicts slightly lower blade pitch angels for this case with a maximum discrepancy of 2.0\% (or 0.25\degree) at 217 seconds. As shown in Figure \ref{fig6-6}, SOWFA predicts more high frequency oscillations in tower base bending moment than FAST. However, there is close agreement on the magnitudes of the predicted loads. 
 
-\begin{figure}[!htbp]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-2.png}		
 	\caption{Comparison of rotor speed predicted by FAST and SOWFA for a turbine in 16 m/s winds that is derated by 20\%. }
 		\label{fig6-2}
 \end{figure}
 
-\begin{figure}[!htbp]	
+\begin{figure}[ht]	
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-3.png}
 	\caption{Comparison of power predicted by FAST and SOWFA for a turbine in 16 m/s winds that is derated by 20\%.}
 	\label{fig6-3}
 \end{figure}
 
-\begin{figure}[!htbp]	
+\begin{figure}[ht]	
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-4.png}
 
@@ -93,7 +93,7 @@ To illustrate the close agreement between SOWFA and FAST simulations three simpl
 	\label{fig6-4}
 \end{figure}
 
-\begin{figure}[!htbp]	
+\begin{figure}[ht]	
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-5.png}
 
@@ -101,7 +101,7 @@ To illustrate the close agreement between SOWFA and FAST simulations three simpl
 	\label{fig6-5}
 \end{figure}
 
-\begin{figure}[!htbp]	
+\begin{figure}[ht]	
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-6.png}
 
@@ -115,7 +115,7 @@ Figures \ref{fig6-7} and \ref{fig6-8} show the blade pitch predicted by FAST and
 
 
 
-\begin{figure}[!htbp] 
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-7.png}
 
@@ -123,7 +123,7 @@ Figures \ref{fig6-7} and \ref{fig6-8} show the blade pitch predicted by FAST and
 	\label{fig6-7}
 \end{figure}
 
-\begin{figure}[!htbp]	
+\begin{figure}[ht]	
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-p.png}
 
@@ -151,7 +151,7 @@ Figure \ref{fig6-11} illustrates the difference between an Extreme Operating Gus
 
 
 
-\begin{figure}[!htbp] 
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-11.png}
 
@@ -168,7 +168,7 @@ Figure \ref{fig6-11} illustrates the difference between an Extreme Operating Gus
 \label{eq6-1}
 \end{equation}
 
-\begin{figure}[!htbp] 
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-12.png}
 
@@ -192,7 +192,7 @@ This section documents SOWFA simulations of the offset turbine test case illustr
 The computational domain is 80R (5,040 m) long, extending 20R in front of the upwind turbine and 40R behind the downwind turbine. The domain is 40R tall, extending 20R above and below the turbine rotors. The domain is also 40R. Each rotor is 38.5R from one side and 41.5R from the other side due to the offset between the upwind and downwind turbine. Initially the domain is constructed of cube shaped cells approximately 32 m $\times$ 32 m $\times$ 32 m, but portions of the domain go through a series of grid refinements to reduce the size of cells to approximately 2 m $\times$ 2 m $\times$ 2 m near the rotors. Table \ref{Table6-1} describes the dimensions and resolutions of each refinement region. The first three refinement regions are rectangular cuboid shaped regions that encompass both turbines. These refinement regions are centered in the computational domain with respect to width and height. In the streamwise direction refinement regions 1, 2, and 3 begin 8.5R, 4.5R, and 2.5R (respectively) in front of the upwind turbine. Refinement regions 4 and 5 are cylindrical in shape and each encompass one of the two turbines. Each of these cylindrical refinement regions is centered on the rotational axis of a turbine rotor, extending 1.5R in front of and 12R behind the rotor.
 
 
-\begin{table} [!htbp]
+\begin{table} [ht]
 \centering
 \begin{tabular}{c c c c c}
 \hline
@@ -214,7 +214,7 @@ Each simulation is 700 seconds long, but the first 300 seconds are disregarded. 
 
 The coherent gust used in the offset turbine test case is 567 m tall $\times$ 756 m wide and is illustrated in Figure \ref{fig6-13}. This is essentially a round gust that has been elongated by 3R (189 m) to ensure it encompasses both turbines. For the part of the gust between the rotor centerlines,  wind speed is given by equation \ref{eq6-2}, where $h_g$ is the distance above or below the rotor centerlines. For the part of the gust to the left or right of the rotor center lines, wind speed is given by equation \ref{eq6-3}, where $r_g$ is the radial distance from the closest rotor centerline. As discussed in Section \ref{section6-5}, the coherent gust contains both higher speed regions (up to 26.16 m/s) and lower speed regions (as low as 5.11 m/s) so the average wind speed across the computational domain inlet remains 12 m/s. For the regions directly upwind of each rotor the average wind speed durring the extreme operating gust is 25 m/s, which is the upper limit of the NREL 5MW turbine operating range. 
 
-\begin{figure}[!htbp]  
+\begin{figure}[ht]  
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-13.png}
 
@@ -242,12 +242,12 @@ The coherent gust used in the offset turbine test case is 567 m tall $\times$ 75
 %-----------------------------------
 %	SUBSECTION 6-2
 %-----------------------------------
-\subsection{Performance Without Feed Forward Derating Control} \label{section6-6-2}
+This section documents the results of the Offset Turbine test case. This test case was run twice, once without Feed Forward Derating Control enabled and once with Feed forward Derating Control. The following figures and text analyze the behavior of the upwind turbine (which was identical in both runs of the Offset Turbine test case), the behavior of the downwind turbine when Feed Forward Derating Control is not enabled, and the behavior of the downwind turbine when Feed Forward Derating Control is enabled.
 
-Figure \ref{fig6-14} shows wind speed in the computational domain at several key moments. Each image in Figure \ref{fig6-14} was generated by taking a horizontal cross section through the center of the computational domain then trimming the cross section to remove regions that were far from the turbines in the downwind or horizontal directions. White lines have been superimposed on the images to show the locations and approximate sizes of the turbine rotors. At t=300 s we see the turbines operating in a steady, uniform 12 m/s wind. The wakes of each turbine are clearly visible, and we see that the downwind turbine is not in the wake of the upwind turbine. At t = 400 s the Extreme Coherent Gust enters the computational domain. We see at t = 420 s that the gust has begun to propagate through the domain from left to right. Note that the gust has higer wind speeds at it's center and lower wind speeds near it's edges (as discussed in Section \ref{section6-4}). At t = 480 s we see that the gust has recently reached the upwind turbine. At t = 540 s we see the gust arriving at the downwind turbine. In the t = 540 s image we can also see that there is no wake trailing the upwind turbine. This indicates that the upwind turbine has shut down.
- At t = 660 s we see that the gust has continued to propagate downstream and there is no wake trailing the downwind turbine, which indicates that it has also shut down.
+Figure \ref{fig6-14} shows wind speed in the computational domain at several key moments when Feed Forward Derating Control is not enabled. Each image in Figure \ref{fig6-14} was generated by taking a horizontal cross section through the center of the computational domain then trimming the cross section to remove regions that were far from the turbines in the downwind or horizontal directions. White lines have been superimposed on the images to show the locations and approximate sizes of the turbine rotors. At t=300 s we see the turbines operating in a steady, uniform 12 m/s wind. The wakes of each turbine are clearly visible, and we see that the downwind turbine is not in the wake of the upwind turbine. At t = 400 s the Extreme Coherent Gust (ECG) enters the computational domain. We see at t = 420 s that the gust has begun to propagate through the domain from left to right. Note that the gust has higer wind speeds at it's center and lower wind speeds near it's edges (as discussed in Section \ref{section6-4}). At t = 480 s we see that the gust has recently reached the upwind turbine. At t = 540 s we see the gust arriving at the downwind turbine. In the t = 540 s image we can also see that there is no wake trailing the upwind turbine. This indicates that the upwind turbine has shut down. At t = 660 s we see that the gust has continued to propagate downstream and there is no wake trailing the downwind turbine, which indicates that it has also shut down. A similar set of images was generated for the Offset Turbine test case with Feed Forward Derating Control (but is not shown here). Those images look very similar, except at t = 600 s. In the t = 600 s image a wake is visible trailing the downwind turbine, which indicates that Feed Forward Derating Control prevents the downwind turbine from shutting down.
+
  
- \begin{figure}[!htbp]  
+ \begin{figure}[hp]  
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-14.png}
 
@@ -257,15 +257,15 @@ Figure \ref{fig6-14} shows wind speed in the computational domain at several key
 
 It's noteworthy that the gust traveled from the upwind turbine to the downwind turbine in approximately 70 seconds. This corresponds to a convection speed of approximately 18 m/s. For many of the simulations carried out in chapters \ref{Chapter3} and \ref{Chapter4} I assumed Taylor's frozen turbulence hypothesis was valid. I made that assumption because it allowed me to model a two turbine system using FAST, but I noted at the time that the assumption was not expected to be completely valid. If Taylor's frozen turbulence hypothesis was valid for this test case we would expect the gust to propagate downstream at the average domain wind speed of 12 m/s. However, the gust propagates at neither the average wind speed (12 m/s) nor the gust wind speed (~25 m/s), but somewhere in between. This reinforces the importance of using a feed forward control scheme that is tolerant of uncertainty about gust propagation speeds. As discussed in Section \ref{section4-5}, the feed forward selective derating control scheme evaluated in this chapter is highly tolerant of uncertainty in gust propagation speed. The fed forward controller is not required to take any action at the exact moment the gust reaches the downwind turbine. It simply has to derate the turbine some time before the gust arrives and return the turbine to full rated operation some time after the gust has passed.
 
-Figures \ref{fig6-15} through \ref{fig6-19} show the rotor speed, power generation, blade pitch, blade root bending moment, and tower base fore-aft bending moment of the turbines. We see in figures \ref{fig6-15} and \ref{fig6-16} that both turbines have reached steady state operation by t = 300 s. The rotors are turning at a constant rate of 12.1 RPM and both turbines are producing 5 MW. The Extreme Coherent gust reaches the upwind turbine at approximately 450 s, causing both the rotor speed and power generation to increase. At t = 469.7 s the rotor speed exceeds the 15\% overspeed limit and an emergency overspeed shutdown is initiated. The upwind rotor comes to a halt at t = 480.9 s and is stationary for the remaining 219.1 seconds of the simulation. In real world operation this turbine would remain stationary until an operator can verify that is safe to return the turbine to operation. This could potentially be much longer than 219.1 seconds. The Extreme Coherent gust reaches the downwind turbine at approximately 520 s, causing both the rotor speed and power generation to increase. At t = 539.2 s the down wind rotor speed exceeds the 15\% overspeed limit and an emergency overspeed shutdown is initiated. By t = 550.5 seconds both turbines have been shut down and no power is being generated.
+Figures \ref{fig6-15} through \ref{fig6-19} show the rotor speed, power generation, blade pitch, blade root bending moment, and tower base fore-aft bending moment of the turbines. We see in figures \ref{fig6-15} and \ref{fig6-16} that the turbines have reached steady state operation by t = 300 s. The rotors are turning at a constant rate of 12.1 RPM and  producing 5,000 kW of power. The Extreme Coherent gust reaches the upwind turbine at approximately 450 s, causing both the rotor speed and power generation to increase. At t = 469.7 s the rotor speed exceeds the 15\% overspeed limit and an emergency overspeed shutdown is initiated. If Feed Forward Derating Control is enabled, a signal is sent to the downwind turbine instructing it to derate by 10.37\% beginning at t = 481.7 s and return to full rated operation at t = 627.2 s. The upwind rotor comes to a halt at t = 480.9 s and is stationary for the remaining 219.1 seconds of the simulation. In real world operation this turbine would remain stationary until an operator can verify that is safe to return the turbine to operation. This could potentially be much longer than 219.1 seconds. Between t = 481.7 s and t = 511.7 s the downwind turbine with feed forward control smoothly reduces it's rotor speed and power generation, while the turbine without feed forward control continues to operate at a rotor speed of 12.1 RPM and power generation of 5,000 kW. The Extreme Coherent Gust reaches the downwind turbine at approximately 520 s, causing both the rotor speed and power generation to increase. The downwind turbine without feed forward control exceeds the 15\% overspeed limit at t = 539.2 s and an emergency overspeed shutdown is initiated. By t = 550.5 s the downwind turbine without feed forward control is shut down. The downwind turbine with Feed Forward Derating Control experiences a maximum overspeed of 6.9\%, which does not cause an emergency overspeed shutdown. Between t = 627.2 s and t = 657.2 s the turbine transitions back to full rated operation.
 
-\begin{figure}[!htbp] 
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-15.png}
 
 	\caption{Rotor speed during the Offset Turbines test case without feed forward control.}
 \end{figure}
-\begin{figure}[!htbp] \label{fig6-16}
+\begin{figure}[ht] \label{fig6-16}
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-16.png}
 
@@ -273,9 +273,9 @@ Figures \ref{fig6-15} through \ref{fig6-19} show the rotor speed, power generati
 	\label{fig6-15}
 \end{figure}
 
-Figure \ref{fig6-17} shows the blade pitch of the turbines. Initially, when the turbines are operating in uniform 12 m/s wind both turbines have a steady blade pitch of 4.8\degree. As each turbine begins to experience increased wind speed it's blade pitch increases. This is an effort by the turbine pitch controller to maintain a constant rotational speed of 12.1 RPM. We see in Figure \ref{fig6-17} the upwind turbine has a blade pitch of 18.3\degree when the emergency shutdown procedure is initiated at t = 469.7 s. After the emergency shutdown is initiated blade pitch increases to 90\degree at a rate of 8\degree /s. The downwind turbine shows similar behavior, reaching a blade pitch of 20.3\degree before the emergency shutdown is initiated at t = 539.2 s.
+Figure \ref{fig6-17} shows the blade pitch of the turbines. Initially, when the turbines are operating in uniform 12 m/s wind, the turbines have a steady blade pitch of 4.8\degree. As the upwind turbine begins to experience increased wind speed it's blade pitch increases. This is an effort by the turbine pitch controller to maintain a constant rotational speed of 12.1 RPM. We see in Figure \ref{fig6-17} the upwind turbine has a blade pitch of 18.3\degree when the emergency shutdown procedure is initiated at t = 469.7 s. After the emergency shutdown is initiated blade pitch increases to 90\degree at a rate of 8\degree /s. The downwind turbine without feed forward control shows similar behavior, reaching a blade pitch of 20.3\degree before the emergency shutdown is initiated at t = 539.2 s. The downwind turbine with Feed Forward Derating Control increases blade pitch from 4.8\degree to 6.1\degree when the turbine is derated (starting at t = 481.7 s). The gust causes an increase and some oscillation in blade pitch, with the blade pitch eventually settling to approximately 25.5\degree. When the turbine is returned to full rated operation, starting at t = 627.2 s, blade pitch decreases to 23.1\degree.
 
-\begin{figure}[!htbp] 
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-17.png}
 
@@ -283,9 +283,10 @@ Figure \ref{fig6-17} shows the blade pitch of the turbines. Initially, when the 
 	\label{fig6-17}
 \end{figure}
 
-Figures \ref{fig6-18} shows blade root bending moment (BRM). Initially, when the turbines are operating in uniform 12 m/s wind the blade root bending moment is very regular and both turbines experience nearly identical cyclical loading. When the turbines begin to experience higher wind speeds and blade pitch begins to increase, the BRM loading cycle maintains it's shape but begins to decrease in magnitude. This effect is easiest to see in the downwind turbine BRM between t = 500 s and t = 535 s, but it is also present in the upwind turbine BRM from t = 430 s to t = 465 s. Durring the emergency shutdown process the shape of the BRM loading cycle changes and the magnitude of the BRM loading cycle increases. When the rotor comes to a halt the BRM settles to a constant value. Note that BRM is not 0 MNm when the turbine rotor stops. This residual loading is due to gravitational loads. BRM would only be 0 MNm if this blade happened to stop pointing directly up or down.
+Figures \ref{fig6-18} shows blade root bending moment (BRM). Initially, when the turbines are operating in uniform 12 m/s wind the blade root bending moment is very regular. The upwind and downwind turbines experience nearly identical cyclical loading. When the upwind turbine begin to experience higher wind speeds and blade pitch begins to increase, the BRM loading cycle maintains it's shape but begins to decrease in magnitude. This effect can be seen from t = 430 s to t = 465 s. Durring the emergency shutdown process the shape of the BRM loading cycle changes and larger fluctuations in BRM can be seen. When the rotor comes to a halt the BRM settles to a constant value. Note that BRM is not 0 MNm when the turbine rotor stops. This residual loading is due to gravitational loads. BRM would only be 0 MNm if this blade happened to stop pointing directly up or down. The downwind turbine without feed forward control shows similar behavior in response to the Extreme Coherent Gust (EOG) and subsequent shutdown. The BRM loading cycle maintains it's shape but begins to decrease in magnitude between t = 500 s and t = 535 s. The shape of the BRM loading cycle then becomes irregular and there are a few large fluctuations before BRM settles to a constant value. The downwind turbine with Feed Forward Derating Control experiences a 12\% decrease in mean BRM and a 9\% decrease in the magnitude of BRM fluctuations starting at t = 481.7 s. These changes are primarily due to the increase in blade pitch caused by derating. When the Extremem Coherent Gust arrives and blade pitch is increased further, the mean BRM decreases to approximately 3 MNm (~60\% below the initial mean BRM) and the cyclical fluctuations in BRM have increased to approximately 4 MNm (~140\% above the initial magnitude of fluctuations).
 
-\begin{figure}[!htbp] 
+
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-18.png}
 
@@ -293,9 +294,12 @@ Figures \ref{fig6-18} shows blade root bending moment (BRM). Initially, when the
 	\label{fig6-18}
 \end{figure}
 
-In Figure \ref{fig6-19} we see that the tower base fore-aft bending moments is initially constant at approximately 48 MNm. The tower base bending moment is highly dependent on the aerodynamic loading, which is highly dependent on blade pitch. As wind speeds begin to increase and blade pitches begin to increase we see a smooth reduction in tower fore-aft bending moment. The emergency shutdown process introduces a lot more oscillation in the tower base fore-aft bending moment, including one very large loading cycle where loading goes from approximately 35 MNm to approximately -40 MNm. This large spike in negative loading moment corresponds to the tower swinging forward after the aerodynamic loading on the rotor is suddenly reduced to zero when the blades pitch to 90\degree. Eventually all of the high frequency oscillations in loading die out and the tower base fore-aft bending moement settles to 0 MNm.
 
-\begin{figure}[!htbp] 
+In Figure \ref{fig6-19} we see that the upwind turbine and the downwind turbine without feed forward control exhibit similar behavior. Tower base fore-aft bending moments is initially constant at approximately 48 MNm. The tower base bending moment is highly dependent on the aerodynamic loading, which is highly dependent on blade pitch. As wind speeds begin to increase and blade pitches begin to increase we see a smooth reduction in tower fore-aft bending moment. The emergency shutdown process introduces a lot more oscillation in the tower base fore-aft bending moment, including one very large loading cycle where loading goes from approximately 35 MNm to approximately -40 MNm. This large spike in negative loading moment corresponds to the tower swinging forward after the aerodynamic loading on the rotor is suddenly reduced to zero when the blades pitch to 90\degree. Eventually all of the high frequency oscillations in loading die out and the tower base fore-aft bending moement settles to 0 MNm. The downwind turbine with Feed Forward Derating Control also begins with a tower base fore-aft bending moment of 48 MNm, but experiences a reduction in loading when the turbine is derated (starting at t = 481.7 s). This is consistent with a reduction in aerodynamic loading on the turbine rotor due to increasing blade pitch. When the Extreme Coherent Gust arrives the downwind turbine sees a further reduction in the average tower base fore-aft bending moment. However, we see the introduction of a cyclic loading component that persists through the end of the simulation. If we zoom in on these high frequency oscillations we see that the loading has a very similar shape to the cyclic BRM loading seen in Figure \ref{fig6-18}, but has a frequency three times higher. Since the turbine rotor has three blades, this indicates that the higher magnitude BRM oscillations seen near the end of the simulation are causing the high frequency oscillations in tower loading. 
+
+
+
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-19.png}
 
@@ -303,132 +307,37 @@ In Figure \ref{fig6-19} we see that the tower base fore-aft bending moments is i
 	\label{fig6-19}
 \end{figure}
 
-Table \ref{Table6-2} summarizes several important performance metrics for the turbines. We see that both turbines have very similar tower base fore-aft bending moment Damage Equivalent Loads (DEL). This was expected based on Figure \ref{fig6-19}. Cyclic loading is the primary driver of DEL values (as discussed in Appendix \ref{AppendixC}) and both turbines experience similar tower base fore-aft bending moment cycles. We see that the downwind turbine experiences approximately 20\% higher blade root bending moment DEL. Part of this difference is because the cyclic loading a turbine blade experiences during normal operation and the fact that the downwind turbine operates for longer before it experiences an emergency shutdown. A contributing factor may also be the differences in the loading patterns observed near shutdown in Figure \ref{fig6-18}. These differences in loading patterns are caused by the interaction of the loading induced by the extremem coherent gust and the cyclic loading due to the rotation of the turbine rotor. Both turbines experience similar maximum rotor overspeeds. The slight differences observed are likely due to small changes in the shape of the extreme coherent gust as is propagates downstream. Finally, we see that the downwind turbine produces 96.46 KWh more energy than the upwind turbine. This is simply because the extremem coherent gust arrives at the downwind turbine ~70 seconds after it arrives at the upwind turbine. This allows the downwind turbine to generate electricity for an additional 70 seconds before experiencing an emergency overspeed shutdown.
+Table \ref{Table6-2} summarizes several important performance metrics for the turbines. We see in the table that Feed Forward Derating Control improves turbine behaviour in all four performance metrics. The upwind turbine and the downwind turbine without feed forward control have very similar tower base fore-aft bending moment Damage Equivalent Loads (DEL). Feed Forward Derating Control reduces tower base fore-aft bending moment DEL by 44.2 MNm, which is a reduction of 59\%. This is likely because the downwind turbine with feed forward derating control does not experience the very large magnitude loading cycles observed during emergency shutdown. The downwind turbine without feed forward control experiences approximately 20\% higher blade root bending moment (BRM) DEL than the upwind turbine. 
 
-\begin{table}[!htbp]
+Part of this difference is because the downwind turbine operates for longer and experiences more BRM loading cycles before the gust arrives. A contributing factor may also be the differences in the loading patterns observed near shutdown in Figure \ref{fig6-18}. These differences in loading patterns are caused by the interaction of the loading induced by the Extreme Coherent Gust and the cyclic loading due to the rotation of the turbine rotor. Feed Forward Derating Control reduces DEL BRM by 15\% despite the turbine operating for a longer period of time and enduring a larger quantity of BRM loading cycles. The upwind turbine and the downwind turbine without feed forward control experience similar maximum overspeeds, while the downwind turbine with Feed Forward Derating Control has a significantly smaller maximum overspeed. Finally, we see that the downwind turbine without feed forward control produces 96.46 KWh more energy than the upwind turbine. This is simply because the gust arrives at the downwind turbine ~70 seconds after it arrives at the upwind turbine. This allows the downwind turbine without feed forward control to generate electricity for an additional 70 seconds before experiencing an emergency overspeed shutdown. Feed Forward Derating Control further increases energy generation by 201.27 KWh.
+
+
+
+
+\begin{table} [ht]
 \centering
 \begin{tabular}{c|cccccccccc}
 \hline
 \hline
-                                                                &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+                                                                                         &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
 \hline
-\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}      &  & 76.4                                                          & & 7.60                                                          &  & 15.37                                 				      &  &  237.54                                                     \\
+\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}                               &  & 76.4                                                          & & 7.60                                                          &  & 15.37                                 				       &  &  237.54                                                    \\
 \\
-\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \end{tabular}    &  & 75.2                                                          & & 9.15                                                          &  & 15.04                                                       &  &  334.00                                                     \\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \\ Without FF \\ Control\end{tabular}     &  & 75.2                                                          & & 9.15                                                          &  & 15.04                                                       &  &  334.00                                                    \\
 \\
-\hline
-\hline                             
-\end{tabular}
-\caption{Turbine performance metrics for the Offset Turbine test case without feed forward control.}
- \label{Table6-2}
-\end{table}
-
-
-%-----------------------------------
-%	SUBSECTION 6-3
-%-----------------------------------
-\subsection{Performance With Feed Forward Derating Control} \label{section6-6-3}
-
-Figure \ref{fig6-20} shows wind speed in the computational domain at several key moments when feed forward derating control is enabled. The first few images in Figure \ref{fig6-20} look very similar to Figure \ref{fig6-14}. We see both turbines in a steady 12 m/s wind then we see the extreme coherent gust propagating through the computational domain and arriving at the upwind turbine. At t = 540 s we see the gust arriving at the downwind turbine and we see that the upwind turbine is no longer producing a wake, which indicates it has stopped operating. At t = 600 s we see a noteworthy difference between these simulation results and the results discussed in Subsection \ref{section6-6-2}. We see a wake trailing the downwind turbine. This indicates that it has not shut down in response to the extreme coherent gust.
-
- \begin{figure}[!htbp]  
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-20.png}
-
-	\caption{Wind speeds at several moments in the Offset Turbines test case with feed forward derating control.}
-	\label{fig6-20}
-\end{figure}
-
-Figures \ref{fig6-21} through \ref{fig6-25} show the rotor speed, power generation, blade pitch, blade root bending moment, and tower base fore-aft bending moment of the turbines. The Extreme Coherent Gust reaches the upwind turbine at approximately 450 s, causing both the rotor speed (Figure \ref{fig6-21}) and power generation (FIgure \ref{fig6-22}) to increase. At t = 469.7 s the rotor speed exceeds the 15\% overspeed limit and an emergency overspeed shutdown is initiated. At this point the feed forward derating control scheme described in Section \ref{section4-5} is initiated. A signal is sent to the downwind turbine instructing it to derate by 10.37\% beginning at t = 481.7 s and return to full rated operation at t = 627.2 s. Between t = 481.7 s and t = 511.7 s the downwind turbine smoothly reduces it's rotor speed and power generation. When the Extrem Coherent Gust arrives at approximately t = 520 s it does induce a spike in rotor speed, but the maximum overspeed is 6.9\% and it does not cause an emergency overspeed shutdown. Between t = 627.2 s and t = 657.2 s the downwind turbine transitions back to full rated operation.
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-21.png}
-
-	\caption{Rotor speed during the Offset Turbines test case with feed forward derating control.}
-	\label{fig6-21}
-\end{figure}
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-22.png}
-
-	\caption{Power generation during the Offset Turbines test case with feed forward derating control.}
-	\label{fig6-22}
-\end{figure}
-
-Figure \ref{fig6-23} shows the blade pitch of the turbines. Initially, both turbines have a blade pitch of 4.8\degree. The Extremem Coherent Gust causes the blade pitch of the upwind turbine to increase to 90\degree. The initial increase in blade pitch is an attempt by the upwind turbine to maintain a rotor speed of 12.1 RPM. Once the emergency overspeed shutdown is initiated the upwind turbine's blade pitch increases to 90\degree at a rate of 8\degree/s to provide aerodynamic braking for the emergency shutdown. The blade pitch of the downwind turbine increases from 4.8\degree to 6.1\degree when the turbine is derated (starting at t = 481.7 s). The Extreme Coherent Gust causes an increase and some oscillation in downwind turbine blade pitch, with the blade pitch eventually settling to approximately 25.5\degree. The downwind turbine is the returned to full rated operation starting at t = 627.2 s, which decreases the blade pitch to 23.1\degree.
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-23.png}
-
-	\caption{Blade pitch during the Offset Turbines test case with feed forward derating control.}
-	\label{fig6-23}
-\end{figure}
-
-Figures \ref{fig6-24} shows blade root bending moment (BRM). As we saw in the previous subsection, the BRM loading for the upwind turbine is cyclical and very consistent until the Extreme Coherent Gust arrives. The gust and the ensuing emergency shutdown cause a short period where the loading cycles have larger magnitudes and more irregular shapes. BRM loading for the downwind turbine is also cyclical and the cycles are very consistent in shape and magnitude. When the downwind turbine is derated starting at t = 481.7 s, the mean BRM decreases by approximately 12\% and the magnitude of the cyclical fluctuations in BRM increase by aproximately 9\%. These changes are primarily due to the increase in blade pitch caused by derating. When the Extremem Coherent Gust arrives and blade pitch is increased further the mean BRM decreases to approximately 3 MNm (~60\% below the initial mean BRM) and the cyclical fluctuations in BRM have increased to approximately 4 MNm (~140\% above the initial magnitude of fluctuations).
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-24.png}
-
-	\caption{Blade root bending moment (BRM) during the Offset Turbines test case with feed forward derating control.}
-	\label{fig6-24}
-\end{figure}
-
-In Figure \ref{fig6-25} we see that the tower base fore-aft bending moments is approximately 48 MNm with very little cyclical loading before the Extreme Coherent Gust arrives. The upwind turbine experiences a short period of cyclical loading, including one cycle with a very large magnitude, in response to the Extreme Coherent Gust and the ensuing emergency shutdown. The downwind turbine experiences a reduction in tower base fore-aft bending moment when the turbine is derated starting at t = 481.7 s. This is consistent with a reduction in aerodynamic loading on the turbine rotor due to increasing blade pitch. When the Extreme Coherent Gust arrives the downwind turbine sees a further reduction in the average tower base fore-aft bending moment. However, we see the introduction of a cyclic loading component that persists through the end of the simulation. If we zoom in on these high frequency oscillations we see that the loading has a very similar shape to the cyclic BRM loading seen in Figure \ref{fig6-23}, but has a frequency three times higher. Since the turbine rotor has three blades, this indicates that the higher magnitude BRM oscillations seen near the end of the simulation are causing the high frequency oscillations in tower loading. 
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-16.png}
-
-	\caption{Tower base fore-aft bending moment during the Offset Turbines test case with feed forward derating control.}
-	\label{fig6-25}
-\end{figure}
-
-Table \ref{Table6-3} summarizes several important performance metrics for the turbines. As expected, the upwind turbine performance is identical to what was observed in the previous subsection. However, the downwind performance has changed. We see that the downwind turbine significantly out performs the upwind turbine in tower base fore-aft bending moment DEL, maximum overspeed, and energy generation. The downwind turbine performs a little worse that the upwind turbine in blade root bending moment DEL.
-
-\begin{table}[!htbp]
-\centering
-\begin{tabular}{c|cccccccccc}
-\hline
-\hline
-                                                                &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
-\hline
-\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}      &  & 76.4                                                          & & 7.60                                                          &  & 15.37                                 				      &  &  237.54                                                     \\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \\ With FF \\ Control \end{tabular}       &  & 31.0                                                          & & 7.82                                                          &  & 6.90                                                        &  &  535.27                                                    \\
 \\
-\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \end{tabular}    &  & 31.0                                                          & & 7.82                                                          &  &  6.90                                                       &  &  535.27                                                     \\
+\begin{tabular}[c]{@{}c@{}}Change   \\ Due to FF \\ Control          \end{tabular}       &  & \begin{tabular}[c]{@{}c@{}}-44.2 \\ (-58.8\%)  \end{tabular}   & & \begin{tabular}[c]{@{}c@{}} -1.33 \\ (-14.5\%)  \end{tabular}   &  & \begin{tabular}[c]{@{}c@{}} -8.14 \\    \end{tabular}        &  &  \begin{tabular}[c]{@{}c@{}}+201.27\\(+60.2\%)\end{tabular} \\
 \\
 \hline
 \hline                             
 \end{tabular}
-\caption{Turbine performance metrics for the Offset Turbine test case with feed forward derating control.}
- \label{Table6-3}
+\caption{Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Offset Turbine test case.}
+\label{Table6-2}
 \end{table}
 
-We can isolate the effect of feed forward derating control and get more of an "apples to apples" comparison by comparing the performance of the downwind turbine in this simulation to the performance of the downwind turbine in the previous subsection. As Table \ref{Table6-4} shows, feed forward derating control improves turbine behaviour in all four of the performance metrics. Tower base fore-aft bending moment DEL has been reduced by 44.2 MNm, which is a reduction of 59\%. This is likely because the downwind turbine with feed forward derating control does not experience the very large magnitude loading cycles observed durring emergency shutdown. Blade root bending moment DEL has been reduced by 15\% despite the turbine operating for a longer period of time. In the previous subsection, when feed forward derating control was not enabled, the downwind turbine shut down and stopped accruing DEL at t = 539.2 s. Maximum overspeed has been reduced to 6.9\%, which will not induce an emergency shutdown. Energy generation has been increased by 201.27 KWh.
 
-\begin{table}[!htbp]
-\centering
-\begin{tabular}{c|cccccccccc}
-\hline
-\hline
-                                                                 &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
-\hline
-\begin{tabular}[c]{@{}c@{}}Without FF \\ Control \end{tabular}   &  & 75.2                                                          & & 9.15                                                          &  & 15.04                                 				       &  &  334.00                                                     \\
-\\
-\begin{tabular}[c]{@{}c@{}}With FF \\ Control \end{tabular}      &  & 31.0                                                          & & 7.82                                                          &  &  6.90                                                       &  &  535.27                                                     \\
-\\
-\begin{tabular}[c]{@{}c@{}}Change in\\Performance\end{tabular}   &  & -44.2 (-58.8\%)                                               & & -1.33 (-14.5%)                                                &  &  -8.14                                                      &  &  +201.27 (+60.2\%)                                                    \\
-\\
-\hline
-\hline                             
-\end{tabular}
-\caption{Effect of feed forward derating control on downwind turbine performance for the Offset Turbine test case.}
- \label{Table6-4}
-\end{table}
-
- It is important to note that the difference in energy generation could be much larger in real world operation. These simulations end at t = 700 s, but beyond that time the downwind turbine with feed forward derating control would continue to generate 5 MW (or ~1.4 KWH per second). The downwind turbine without feed forward derating control would not generate any power until it was returned to service. That turbine may be shut down for much longer than the 149.5 seconds captured in these simulations.
+It is important to note that the difference in energy generation could be much larger in real world operation. These simulations end at t = 700 s, but beyond that time the downwind turbine with Feed Forward Derating Control would continue to generate 5 MW (or ~1.4 KWH per second). The downwind turbine without feed forward control would not generate any power until it was returned to service. That turbine may be shut down for much longer than the 149.5 seconds captured in these simulations.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 7
@@ -444,7 +353,7 @@ In previous chapters we assumed the downwind turbine would be slightly offset fr
 
 The simulation domain is 5040 m $\times$ 2520 m $\times$ 2520 m (or 80R $\times$ 40R $\times$ 40R). This domain extends 1260 m (20R) in front of the upwind rotor and 2520 m (40R) behind the downwind rotor, as well as 1260 m (20R) both horizontally and vertically from the centers of the rotors. The computational domain is initially composed of approximately 32 m $\times$ 32 m $\times$ 32 m cells, but portions of the domain go through a series of grid refinements to reduce the size of the cells near the turbine rotors. The refinement regions are a series of 4 concentric cylinders with centerlines laying on the rotational axis of the NREL 5-MW rotors and having the dimensions shown in Table \ref{Table6-1}. These refinement regions have the same radial dimensions as refinement regions 1 through 4 used in Chapter \ref{Chapter5} SOWFA simulations (Table \ref{Table5-1}). However, the streamwise dimensions have been increased to accomodate a second turbine. In the streamwise direction refinement regions 1, 2, 3, and 4 begin 8.5R, 4.5R, 2.5R, and 1.5R (respectively) in front of the upwind turbine.
 
-\begin{table}[!htbp]
+\begin{table}[ht]
 \centering
 \begin{tabular}{c c c c c}
 \hline
@@ -465,7 +374,7 @@ Each simulation is 700 seconds long, but the first 300 seconds are disregarded. 
 
 The coherent gust used for the turbine in wake test case is illustrated in Figure \ref{fig6-26} and is described by equation \ref{eq6-4}, where $r_g$ is the radial distance from the centerline of the turbine rotors. As discussed in Section \ref{section6-5}, the coherent gust contains both higher speed regions (up to 26.41 m/s) and lower speed regions (as low as 7.59 m/s) so the average wind speed across the computational domain inlet remains 12 m/s. For the regions directly upwind of the turbine rotors the average wind speed durring the extreme operating gust is 25 m/s, which is the upper limit of the NREL 5MW turbine operating range. 
 
-\begin{figure}[!htbp] 
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-26.png}
 
@@ -487,9 +396,11 @@ The coherent gust used for the turbine in wake test case is illustrated in Figur
 %-----------------------------------
 \subsection{Performance Without Feed Forward Derating Control} \label{section6-7-2}
 
-Figure \ref{fig6-27} shows wind speed in the computational domain at several key moments. Each image in Figure \ref{fig6-14} was generated by taking a horizontal cross section through the center of the computational domain then trimming the cross section to remove regions that were far from the turbines in the downwind or horizontal directions. White lines have been superimposed on the images to show the locations and approximate sizes of the turbine rotors. At t=300 s we see that the upwind turbine is operating in a steady, uniform 12 m/s wind. The downwind turbine is subject to a lower and less consistent wind speed because it is in the wake of the upwind turbine. At t = 400 s the Extreme Coherent Gust enters the computational domain. We see at t = 420 s that the gust has begun to propagate through the domain from left to right. At t = 480 s we see that the gust has recently reached the upwind turbine. At t = 540 s we see the gust arriving at the downwind turbine. In the t = 540 s image we can also see that there is no wake trailing the upwind turbine. This indicates that the upwind turbine has shut down. At t = 660 s we see that the gust has continued to propagate downstream and there is no wake trailing the downwind turbine, which indicates that it has also shut down.
+This section documents the results of the Turbine in Wake test case. This test case was run twice, once without Feed Forward Derating Control enabled and once with Feed forward Derating Control. The following figures and text analyze the behavior of the upwind turbine (which was identical in both runs of the Offset Turbine test case), the behavior of the downwind turbine when Feed Forward Derating Control is not enabled, and the behavior of the downwind turbine when Feed Forward Derating Control is enabled.
 
- \begin{figure}[!htbp] 
+Figure \ref{fig6-27} shows wind speed in the computational domain at several key moments when Feed Forward Derating Control is not enabled. Each image in Figure \ref{fig6-14} was generated by taking a horizontal cross section through the center of the computational domain then trimming the cross section to remove regions that were far from the turbines in the downwind or horizontal directions. White lines have been superimposed on the images to show the locations and approximate sizes of the turbine rotors. At t=300 s we see that the upwind turbine is operating in a steady, uniform 12 m/s wind. The downwind turbine is subject to a lower and less consistent wind speed because it is in the wake of the upwind turbine. At t = 400 s the Extreme Coherent Gust enters the computational domain. We see at t = 420 s that the gust has begun to propagate through the domain from left to right. At t = 480 s we see that the gust has recently reached the upwind turbine. At t = 540 s we see the gust arriving at the downwind turbine. In the t = 540 s image we can also see that there is no wake trailing the upwind turbine. This indicates that the upwind turbine has shut down. At t = 660 s we see that the gust has continued to propagate downstream and there is no wake trailing the downwind turbine, which indicates that it has also shut down. A similar set of images was generated for the Turbine in Wake test case with Feed Forward Derating Control (but is not shown here). Those images look very similar, except at t = 600 s. In the t = 600 s image a wake is visible trailing the downwind turbine, which indicates that Feed Forward Derating Control prevents the downwind turbine from shutting down.
+
+ \begin{figure}[hp] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-27.png}
 
@@ -497,20 +408,19 @@ Figure \ref{fig6-27} shows wind speed in the computational domain at several key
 	\label{fig6-27} 
 \end{figure}
 
- Figures \ref{fig6-28} through \ref{fig6-32} show the rotor speed, power generation, blade pitch, blade root bending moment, and tower base fore-aft bending moment of the turbines. In Figure \ref{fig6-28} we see that the upwind turbine is initially rotating at a constant rate of 12.1 RPM. This is expected for a turbine in 12 m/s wind because it is operating in region 3 control. The downwind turbine, which is in the wake of the upwind turbine,  has a lower rotational speed with some fluctuations. The lower rotational speed indicates that the downwind turbine is operating in region 2 control, which does not track a constant rotational speed. Region 2 control uses generator torque to vary rotational speed in an attempt to maximize power generation. The Extreme Coherent gust reaches the upwind turbine at approximately t = 450 s, triggering an emergency overspeed shutdown at t = 466.7 s. The Extreme Coherent gust reaches the downwind turbine at approximately t = 520 s, triggering an emergency overspeed shutdown at t = 538.6 s. By t = 541.2 s both turbines have been shut down.
+ Figures \ref{fig6-28} through \ref{fig6-32} show the rotor speed, power generation, blade pitch, blade root bending moment, and tower base fore-aft bending moment of the turbines. In Figure \ref{fig6-28} we see that the upwind turbine is initially rotating at a constant rate of 12.1 RPM. This is expected for a turbine in 12 m/s wind because it is operating in region 3 control. The downwind turbine, which is in the wake of the upwind turbine,  has a lower rotational speed with some fluctuations. The lower rotational speed indicates that the downwind turbine is operating in region 2 control, which does not track a constant rotational speed. Region 2 control uses generator torque to vary rotational speed in an attempt to maximize power generation. The Extreme Coherent gust reaches the upwind turbine at approximately t = 450 s, triggering an emergency overspeed shutdown at t = 466.7 s. If Feed Forward Derating Control is enabled, a signal is sent to the downwind turbine instructing it to derate by 11.12\% beginning at t = 478.7 s and return to full rated operation at t = 624.2 s. Between t = 478.7 s and t = 508.7 s the downwind turbine with Feed Forward Derate Control smoothly reduces it's rotor speed and power generation, while the downwind turbine without feed forward control continues to operate according to normal region 2 control. The Extreme Coherent Gust reaches the downwind turbine at approximately t = 520 s. The downwind turbine without feed forward control exceeds the 15\% overspeed limit at t = 538.6 s and an emergency overspeed shutdown is initiated. The downwind turbine with Feed Forward Derate Control experiences a maximum overspeed of 11.12\% , which does not cause an emergency overspeed shutdown. Between t = 624.2 s and t = 654.2 s the downwind turbine transitions back to full rated operation.
 
 
-\begin{figure}[!htbp] 
+ Figures \ref{fig6-28} through \ref{fig6-32} show the rotor speed, power generation, blade pitch, blade root bending moment, and tower base fore-aft bending moment of the turbines. We see in figures \ref{fig6-28} and \ref{fig6-29} that the upwind turbine is initially rotating at a constant rate of 12.1 RPM and producing 5,000 kW of power. This is expected for a turbine in 12 m/s wind because it is operating in region 3 control. The downwind turbine, which is in the wake of the upwind turbine,  has a lower rotational speed and a lower power generation. The downwind turbine also has some fluctuations in rotor speed and power generation. The lower rotational speed indicates that the downwind turbine is operating in region 2 control, which does not track a constant rotational speed. Region 2 control uses generator torque to vary rotational speed in an attempt to maximize power generation. The Extreme Coherent gust reaches the upwind turbine at approximately t = 450 s, triggering an emergency overspeed shutdown at t = 466.7 s. If Feed Forward Derating Control is enabled, a signal is sent to the downwind turbine instructing it to derate by 11.12\% beginning at t = 478.7 s and return to full rated operation at t = 624.2 s. Between t = 478.7 s and t = 508.7 s the downwind turbine with Feed Forward Derate Control smoothly reduces it's rotor speed and power generation, while the downwind turbine without feed forward control continues to operate according to normal region 2 control. The Extreme Coherent Gust reaches the downwind turbine at approximately t = 520 s. The downwind turbine without feed forward control experiences a large spike in rotor speed and power generation (a much larger change than what the upwind turbine experiences) as it is briefly put into region 3 operation. At t = 538.6 s the downwind turbine without feed forward control exceeds the 15\% overspeed limit and an emergency overspeed shutdown is initiated. The downwind turbine with Feed Forward Derate Control experiences a maximum overspeed of 11.12\% , which does not cause an emergency overspeed shutdown. Between t = 624.2 s and t = 654.2 s the downwind turbine transitions back to full rated operation.
+
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-28.png}
-
 	\caption{Rotor speed during the Turbine in Wake test case without feed forward control.}
 	\label{fig6-28}
 \end{figure}
 
-Figure \ref{fig6-29} shows power generation. We see that early in the simulation the upwind turbine is generating a very constant and consistent 5,000 kW of power while The downwind turbine is generating less power and has some fluctuations in power generation. At t = 450 s we see how the Extreme operating gust and the subsequent emergency overspeed shutdown affect power generation of the upwind turbine. The turbine has a small increase then a sharp drop in power production. After t = 469.2 s the upwind turbine is not producing power. At t = 520 s we see how the Extreme operating gust and the subsequent emergency overspeed shutdown affect power generation of the downwind turbine. The downwind turbine experiences a large increase in power generation as it is briefly put into region 3 operation, but is soon experiences an emergency overspeed shutdown and a sharp drop in power production. After t = 541.2 s the downwind turbine is not producing power.
-
-\begin{figure}[!htbp] 
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-29.png}
 
@@ -518,12 +428,14 @@ Figure \ref{fig6-29} shows power generation. We see that early in the simulation
 	\label{fig6-29}
 \end{figure}
 
-On average the downwind turbine is producing approximately 2800 kW of power prior to the arrival of the Extreme Coherent Gust. This is 44\% less power than the upwind turbine, which illustrates that wake effects can have a very large impact on power production.The downwind power generation seen in Figure \ref{fig6-27} is consistent with the rotor speeds seen in Figure \ref{fig6-28}, is consistent with results in Chapter \ref{Chapter4}, and is consistent with results that other researchers have published for wake effects 20R downstream of a turbine in turbulence free conditions. For an NREL 5MW turbine, power production of 2800 kW corresponds to an effective incoming wind speed of 9.4 m/s. This indicates that the upwind turbine wake is causing an average wind velocity deficit of 22\%  at the downwind turbine (20R downstream), which is similar to what we see in Figure \ref{fig5-5}. A 22\% wind velocity deficit is consistent with the findings of Troldborg et al. for RANS (Reynolds Averaged Navier Stokes) simulations of an NREL 5MW turbine \cite{troldborg2015}, and LES (Large Eddy Simulation) based simulations of a 2MW NEG Micon NM80 turbine \cite{troldborg2010,troldborg2010b}. A 22\% wind velocity deficit is also consistent with the dynamic wake meandering model described by Madsen et al. \cite{madsen2010}. These publications looked at a variety of turbine operating conditions and several noteworthy trends were found. Velocity deficit decreases as downstream distance increases. Velocity deficits decrease faster in turbulent conditions than in turbulence free conditions. Velocity deficits are largest when the turbine is in region 2 operation. When in region 3 operation, velocity deficit decreases as wind speed increases.
+On average the downwind turbine is producing approximately 2800 kW of power prior to the Extreme Coherent Gust. This is 44\% less power than the upwind turbine, which illustrates that wake effects can have a very large impact on power production.The downwind power generation seen in Figure \ref{fig6-27} is consistent with the rotor speeds seen in Figure \ref{fig6-28}, is consistent with results in Chapter \ref{Chapter4}, and is consistent with results that other researchers have published for wake effects 20R downstream of a turbine in turbulence free conditions. For an NREL 5MW turbine, power production of 2800 kW corresponds to an effective incoming wind speed of 9.4 m/s. This indicates that the upwind turbine wake is causing an average wind velocity deficit of 22\%  at the downwind turbine (20R downstream).This is similar to the velocity deficit shown in Figure \ref{fig5-5}-b. A 22\% wind velocity deficit is also consistent with the findings of Troldborg et al. for RANS (Reynolds Averaged Navier Stokes) simulations of an NREL 5MW turbine \cite{troldborg2015}, and LES (Large Eddy Simulation) based simulations of a 2MW NEG Micon NM80 turbine \cite{troldborg2010,troldborg2010b}. Furthermore, a 22\% wind velocity deficit is consistent with the dynamic wake meandering model described by Madsen et al. \cite{madsen2010}. These publications looked at a variety of turbine operating conditions and several noteworthy trends were found. Velocity deficit decreases as downstream distance increases. Velocity deficits decrease faster in turbulent conditions than in turbulence free conditions. Velocity deficits are largest when the turbine is in region 2 operation. When in region 3 operation, velocity deficit decreases as wind speed increases.
 
 
-Figure \ref{fig6-30} shows the blade pitch of the turbines. Initially, the upwind turbine has a blade pitch of 4.8\degree and the downwind turbine has a pitch of 0\degree. As the upwind turbine begins to experience increased wind speed (at t = ~450 s) it's blade pitch increases in an effort to maintain a constant rotational speed of 12.1 RPM. The upwind turbine's blade pitch is at 15.3\degree when the emergency shutdown procedure is initiated at t = 466.7 s. After the emergency shutdown is initiated blade pitch increases to 90\degree at a rate of 8\degree /s. As the downwind turbine begins to experience increased wind speed (at t = ~520 s) the turbine maintains a blade pitch of 0\degree until the rotor speed increases to 12.1 RPM. Once the rotor speed reaches 12.1 RPM the turbine transitions from region 2 control to region 3 control and increases blade pitch in an effort to maintain that rotational speed. The upwind turbine's blade pitch is at 10.4\degree when the emergency shutdown procedure is initiated at t = 538.6 s.
+Figure \ref{fig6-30} shows the blade pitch of the turbines. Initially, the upwind turbine has a blade pitch of 4.8\degree and the downwind turbine has a pitch of 0\degree. As the upwind turbine begins to experience increased wind speed (at t = ~450 s) it's blade pitch increases in an effort to maintain a constant rotational speed of 12.1 RPM. The upwind turbine's blade pitch is at 15.3\degree when the emergency shutdown procedure is initiated at t = 466.7 s. After the emergency shutdown is initiated blade pitch increases to 90\degree at a rate of 8\degree /s. The downwind turbine begins to experience increased wind speed at t = ~520 s. The downwind turbine without feed forward control maintains a blade pitch of 0\degree until the rotor speed increases to 12.1 RPM. Once the rotor speed reaches 12.1 RPM the turbine transitions from region 2 control to region 3 control and increases blade pitch in an effort to maintain that rotational speed. The upwind turbine's blade pitch is at 10.4\degree when the emergency shutdown procedure is initiated at t = 538.6 s. The downwind turbine with Feed Forward Derating Control increases blade pitch from 0\degree to 2.6\degree when the turbine is derated (starting at t = 478.7 s). The gust causes an increase and some oscillation in blade pitch, with the blade pitch eventually settling to approximately 25.5\degree. When the turbine is returned to full rated operation, starting at t = 624.2 s, blade pitch decreases to 23.1\degree.
 
-\begin{figure}[!htbp] 
+As the downwind turbine without feed forward control begins to experience increased wind speed (at t = ~520 s) the turbine 
+
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-30.png}
 
@@ -531,9 +443,9 @@ Figure \ref{fig6-30} shows the blade pitch of the turbines. Initially, the upwin
 	\label{fig6-30}
 \end{figure}
 
-Figures \ref{fig6-31} shows blade root bending moment (BRM). The BRM loading behavior for the upwind turbine looks very similar to what we saw in the offset turbine test cases (figures \ref{fig6-18} and \ref{fig6-24}). Before the Extreme Coherent Gust arrives, BRM loading cycles are very consistent in both shape and magnitude. When the upwind turbine begin to experience higher wind speeds and blade pitch begins to increase, the BRM loading cycle maintains it's shape but begins to decrease in magnitude. Durring the emergency shutdown process the shape of the BRM loading cycle changes and the magnitude of the BRM loading cycle increases. When the rotor comes to a halt the BRM settles to a constant value. The BRM loading behavior of the downwind turbine has a few key differences. Early in the simulation, because of wake effects, BRM loading cycles for the downwind turbine are less consistent in shape and BRM has a slightly lower magnitude on average. When the Extreme Coherent gust arrives at the downwind turbine at approximately t = 520 s, BRM loads increase instead of decreasing. This brief period of high loading is because the turbine maintains a 0\degree blade pitch angle until the rotor speed increases to 12.1 RPM. The combination of high wind speed and low blade pitch angle causes very high aerodynamic loading on the turbine blade. Durring the emergency shutdown process the shape of the BRM loading cycle changes and the magnitude of the BRM loading cycle increases. Because the downwind turbine has a higher BRM when emergency shutdown is initiated, the downwind turbine experiences larger loads during the shutdown. Eventually the upwind and downwind turbines settle to different BRM values. This is simply because the turbines are at different points in their rotation when they come to a halt.
+Figures \ref{fig6-31} shows blade root bending moment (BRM). The BRM loading behavior for the upwind turbine looks very similar to what we saw in the Offset Turbine test cases (Figure \ref{fig6-18}). Before the Extreme Coherent Gust arrives, BRM loading cycles are very consistent in both shape and magnitude. When the upwind turbine begin to experience higher wind speeds and blade pitch begins to increase, the BRM loading cycle maintains it's shape but begins to decrease in magnitude. Durring the emergency shutdown process the shape of the BRM loading cycle changes and larger fluctuations in BRM can be seen. When the rotor comes to a halt the BRM settles to a constant value. Early in the simulation, because of wake effects, BRM loading cycles for the downwind turbine are less consistent in shape and BRM has a slightly lower magnitude on average. For the downwind turbine without feed forward control the gust causes an increase in BRM (at t = ~520 s). This brief period of high loading is because the turbine maintains a 0\degree blade pitch angle until the rotor speed increases to 12.1 RPM. The combination of high wind speed and low blade pitch angle causes very high aerodynamic loading on the turbine blade. When emergency shutdown is initiated the shape of the BRM loading cycle then becomes irregular and there are a few large fluctuations before BRM settles to a constant value. Note that the downwind turbine without feed forward control experiences larger BRM loads than the upwind turbine durring the emergency overspeed shutdown. The downwind turbine with Feed Forward Derating Control experiences a small decrease in BRM loads when the turbine is derated at t = 478.7 s. There is a brief increase in BRM loads when the Extreme Coherent Gust reaches the turbine at approximately t = 520 s. This period of high loading occurs while the downwind turbine is transitioning from region 2 derated control to region 3 derated control. By t = 550 s the mean BRM decreases to approximately 3 MNm (~60\% below the initial mean BRM) and the cyclical fluctuations in BRM have increased to approximately 4 MNm (~140\% above the initial magnitude of fluctuations).
 
-\begin{figure}[!htbp] 
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-31.png}
 
@@ -541,9 +453,10 @@ Figures \ref{fig6-31} shows blade root bending moment (BRM). The BRM loading beh
 	\label{fig6-31}
 \end{figure}
 
-In Figure \ref{fig6-32} we see that the tower base fore-aft bending moments for the upwind turbine is initially constant at approximately 48 MNm. The tower base bending moment is highly dependent on the aerodynamic loading, which is highly dependent on blade pitch. As wind speeds begin to increase and blade pitches begin to increase we see a smooth reduction in tower fore-aft bending moment. The emergency shutdown process introduces a lot more oscillation in the tower base fore-aft bending moment, including one very large loading cycle where loading goes from approximately 47 MNm to approximately -41 MNm. Early in the simulation the downwind turbine has slightly lower tower base fore-aft bending moments, but has more fluctuations in loading. This is due to wake effects. When the Extreme Coherent gust arrives at the downwind turbine we see a sharp increase in loading instead of the decrease in loading the upwind turbine exhibited. As discussed in the previous paragraph, this is because the downwind turbine maintains a 0\degree blade pitch angle until the rotor speed increases to 12.1 RPM. The combination of high wind speed and low blade pitch angle causes very high aerodynamic loading. The emergency shutdown process introduces a lot more oscillation in the tower base fore-aft bending moment, including one very large loading cycle where loading goes from approximately 76 MNm to approximately -46 MNm.
+In Figure \ref{fig6-32} we see that the tower base fore-aft bending moments for the upwind turbine is initially constant at approximately 48 MNm. The tower base bending moment is highly dependent on the aerodynamic loading, which is highly dependent on blade pitch. As wind speeds begin to increase and blade pitches begin to increase we see a smooth reduction in tower fore-aft bending moment. The emergency shutdown process causes a short period of cyclical loading, including one large loading cycle where the tower base fore-aft bending moment goes from 47 MNm to -41 MNm. Early in the simulation the downwind turbine has slightly lower tower base fore-aft bending moments, but has more fluctuations in loading. This is due to wake effects. The downwind turbine without feed forward control experiences a sharp increase in loading when the gust arrives at t = ~520 s. As discussed in the previous paragraph, this is because the downwind turbine maintains a 0\degree blade pitch angle until the rotor speed increases to 12.1 RPM. The combination of high wind speed and low blade pitch angle causes very high aerodynamic loading. The emergency shutdown process causes a short period of cyclical loading, including an abrupt change from 76 MNm to -46 MNm. The downwind turbine with Feed Forward Derating Control is derated at t = 478.7 s. This causes a reduction in tower base fore-aft bending moment. This is consistent with a reduction in aerodynamic loading on the turbine rotor due to increasing blade pitch. When the gust arrives loading sharply increases to 63.4 MNm. This brief period of high loading occurs as the turbine transitions from region 2 to region 3 control. By t = 550 s the mean tower fore-aft bending moment has decreased to approximately 2 MNm. However, a cyclic loading component persists through the end of the simulation. If we zoom in on these high frequency oscillations, we see that the loading has a very similar shape to the cyclic BRM loading seen in Figure \ref{fig6-31}, but has a frequency three times higher. Since the turbine rotor has three blades, this indicates that the higher magnitude BRM oscillations seen near the end of the simulation are causing the high frequency oscillations in tower loading. 
 
-\begin{figure}[!htbp] 
+
+\begin{figure}[ht] 
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-32.png}
 
@@ -551,140 +464,36 @@ In Figure \ref{fig6-32} we see that the tower base fore-aft bending moments for 
 	\label{fig6-32}
 \end{figure}
 
-Table \ref{Table6-6} summarizes several important performance metrics for the turbines. We see that the downwind turbine has much higher Damage Equivalent Loads (DEL) than the upwind turbine. If we look at figures \ref{fig6-31} and \ref{fig6-32} it is easy to see where the discrepancy in DEL is coming from. The downwind turbine has much higher loads and more loading fluctuations between the arrival of the extreme coherent gust and when the turbines come to a halt. However, I think it's useful to discuss what this means for the turbines and what the root cause of this discrepancy is. This discrepancy means that an extreme coherent gust is more damaging to a turbine in a wake than to a turbine that is not in a wake. There are two ways to think of the root cause. First, you can focus on the brief period of time where the downwind turbine is in high winds but has low blade pitch. You can note that this combination causes very high aerodynamic loading, which causes large and potentially damaging structural loads. Second, you can focus on the wind speed variation each turbine is experiencing due to the Extreme Coherent Gust. The upwind turbine is initially operating in 12 m/s wind then experiences a suden increase of 13 m/s to a 25 m/s wind speed. The downwind turbine is initially operating in an average wind speed of 9.4 m/s then experiences a suden increase of 15.6 m/s to a 25 m/s wind speed. Part of that increase in wind speed due to the Extreme Coherent Gust increasing wind speed from 12 m/s to 25 m/s. The other part of the increase is because the upwind turbine has shut down and is no longer blocking some of the wind.  
+
+Table \ref{Table6-6} summarizes several important performance metrics for the turbines. The downwind turbine without feed forward control has much higher Damage Equivalent Loads (DEL) than the upwind turbine. If we look at figures \ref{fig6-31} and \ref{fig6-32} it is easy to see where the discrepancy in DEL is coming from. The downwind turbine has much higher loads and more loading fluctuations due to the Extreme Coherent Gust and and the subsequent emergency shutdown. However, I think it's useful to discuss what this means for the turbines and what the root cause of this discrepancy is. This discrepancy means that an Extreme Coherent Gust large enough to cause emergency shutdown is more damaging to a turbine in a wake than to a turbine that is not in a wake. The downwind turbine has to endure the change in wind speed caused by the gust in addition to a change in wind speed due to the upwind turbine shutting down. The upwind turbine is initially operating in 12 m/s wind then experiences a suden increase of 13 m/s to a 25 m/s wind speed. The downwind turbine is initially operating in an average wind speed of 9.4 m/s then experiences a suden increase of 15.6 m/s to a 25 m/s wind speed. The upwind turbine and the downwind turbine without feed forward control experience similar maximum overspeeds. Finally, we see that the upwind turbine produces 38.88 KWh more energy than the downwind turbine without feed forward control. The downwind turbine without feed forward control operates for a longer period of time before it experiences an emergency overspeed shutdown. However, as we see in Figure \ref{fig6-29}, it generates less power than the upwind turbine due to wake effects.
+
+Feed Forward Derating Control improves turbine behaviour in all four performance metrics. Tower base fore-aft bending moment DEL has been reduced by 58.1 MNm, which is a reduction of 56\%. This is likely because the downwind turbine with feed forward derating control does not experience the very large magnitude loading cycles observed immediately prior to and durring emergency shutdown. Blade root bending moment DEL has been reduced by 15\% despite the turbine operating for a longer period of time and enduring a larger quantity of BRM loading cycles. Maximum overspeed has been reduced to 11.7\%, which will not induce an emergency shutdown. Energy generation has been increased by 201.14 KWh.
+
+It is important to note that the difference in energy generation could be much larger in real world operation. These simulations end at t = 700 s, but beyond that time the downwind turbine with feed forward derating control would continue to generate 5 MW (or ~1.4 KWH per second). The downwind turbine without feed forward derating control would not generate any power until it was returned to service. That turbine may be shut down for much longer than the 158.8 seconds captured in these simulations.
 
 
-Table \ref{Table6-6} also shows that both turbines experience similar maximum rotor overspeeds. Finally, we see that the upnwind turbine produces 38.88 KWh more energy than the downwind turbine. The downwind turbine operates for a longer period of time before it experiences an emergency overspeed shutdown. However, as we see in Figure \ref{fig6-29}, the downwind turbine is generating less power than the upwind turbine due to wake effects.
-
-\begin{table}[!htbp]
+\begin{table} [ht]
 \centering
 \begin{tabular}{c|cccccccccc}
 \hline
 \hline
-                                                                &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
+                                                                                         &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
 \hline
-\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}      &  & 76.8                                                          & & 6.92                                                          &  & 16.12                                 				      &  &  233.39                                                     \\
+\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}                               &  & 76.4                                                          & & 6.92                                                          &  & 16.12                                 				       &  &  233.39                                                    \\
 \\
-\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \end{tabular}    &  & 104.0                                                         & & 9.49                                                          &  & 16.03                                                       &  &  194.51                                                     \\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \\ Without FF \\ Control\end{tabular}     &  & 104.0                                                          & & 9.49                                                          &  & 16.03                                                       &  &  194.51                                                    \\
 \\
-\hline
-\hline                             
-\end{tabular}
-\caption{Turbine performance metrics for the Turbine in Wake test case without feed forward control.}
- \label{Table6-6}
-\end{table}
-
-
-
-%-----------------------------------
-%	SUBSECTION 7-3
-%-----------------------------------
-\subsection{Performance With Feed Forward Derating Control} \label{section6-7-3}
-
-Figure \ref{fig6-33} shows wind speed in the computational domain at several key moments when feed forward derating control is enabled. The first few images in Figure \ref{fig6-33} look very similar to the results presented in Section \ref{section6-7-2} (Figure \ref{fig6-27}). However, at t = 600 s we see a noteworthy difference between these simulation results and the results discussed in Subsection \ref{section6-7-2}. We see a wake trailing the downwind turbine. This indicates that it has not shut down in response to the extreme coherent gust.
-
- \begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-33.png}
-
-	\caption{Wind speeds at several moments for the Turbine in Wake test case with feed forward derating control.}
-	\label{fig6-33} 
-\end{figure}
-
-Figures \ref{fig6-34} through \ref{fig6-38} show the rotor speed, power generation, blade pitch, blade root bending moment, and tower base fore-aft bending moment of the turbines.  The Extreme Coherent Gust reaches the upwind turbine at approximately 450 s, causing both the rotor speed (Figure \ref{fig6-34}) and power generation (Figure \ref{fig6-35}) to increase. At t = 469.7 s the rotor speed exceeds the 15\% overspeed limit and an emergency overspeed shutdown is initiated. At this point the feed forward derating control scheme described in Section \ref{section4-5} is initiated. A signal is sent to the downwind turbine instructing it to derate by 11.12\% beginning at t = 478.7 s and return to full rated operation at t = 624.2 s. Between t = 478.7 s and t = 508.7 s the downwind turbine smoothly reduces it's rotor speed and power generation. When the Extreme Coherent Gust arrives at approximately t = 520 s it does induce a spike in rotor speed, but the maximum overspeed is 11.7\% and it does not cause an emergency overspeed shutdown. Between t = 624.2 s and t = 654.2 s the downwind turbine transitions back to full rated operation.
-
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-34.png}
-
-	\caption{Rotor speed during the Turbine in Wake test case with feed forward derating control.}
-	\label{fig6-34}
-\end{figure}
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-35.png}
-
-	\caption{Power generation during the Turbine in Wake test case with feed forward derating control.}
-	\label{fig6-35}
-\end{figure}
-
-Figure \ref{fig6-36} shows the blade pitch of the turbines. As we saw in Section \ref{section6-7-2}, the upwind turbine starts with a blade pitch of 4.8\degree, but the Extreme Coherent Gust and the subsequent emergency overspeed shutdown cause blade pitch to increase to 90\degree. Initially the downwind turbine has a blade pitch of 0\degree, but  blade pitch is increases to 2.6\degree when the turbine is derated (starting at t = 481.7 s). The Extreme Coherent Gust causes an increase and some oscillation in downwind turbine blade pitch, with the blade pitch eventually settling to approximately 25.5\degree. The downwind turbine is the returned to full rated operation starting at t = 624.2 s, which decreases the blade pitch to 23.1\degree.
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-36.png}
-
-	\caption{Blade pitch during the Turbine in Wake test case with feed forward derating control.}
-	\label{fig6-36}
-\end{figure}
-
-Figures \ref{fig6-37} shows blade root bending moment (BRM). As we saw in the previous subsection, the BRM loading for the upwind turbine is cyclical and very consistent until the Extreme Coherent Gust arrives. The gust and the ensuing emergency shutdown cause a short period where the loading cycles have larger magnitudes and more irregular shapes. Early in the simulation, because of wake effects, BRM loading cycles for the downwind turbine are less consistent in shape and BRM has a slightly lower magnitude on average. BRM loads decrease when the downwind turbine is derated at t = 478.7 s. There is a brief increase in BRM loads when the Extreme Coherent Gust reaches the turbine at approximately t = 520 s. This period of high loading occurs while the downwind turbine is transitioning from region 2 derated control to region 3 derated control. By t = 550 s the mean BRM decreases to approximately 3 MNm (~60\% below the initial mean BRM) and the cyclical fluctuations in BRM have increased to approximately 4 MNm (~140\% above the initial magnitude of fluctuations).
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-37.png}
-
-	\caption{Blade root bending moment (BRM) during the Turbine in Wake test case with feed forward derating control.}
-	\label{fig6-37}
-\end{figure}
-
-As in previous simulations, the upwind turbine has a tower base fore-aft bending moment of approximately 48 MNm before the Extreme Coherent Gust arrives. The upwind turbine experiences a short period of cyclical loading, including one cycle with a very large magnitude, in response to the Extreme Coherent Gust and the ensuing emergency shutdown. Early in the simulation the downwind turbine has slightly lower tower base fore-aft bending moments, but has more fluctuations in loading. When the turbine is derated starting at t = 478.7 s tower base fore-aft bending moments are decreased further. This is consistent with a reduction in aerodynamic loading on the turbine rotor due to increasing blade pitch. When the Extreme Coherent gust arrives at the downwind turbine we see a sharp increase in loading to 63.4 MNm. As discussed in the previous paragraph, this brief period of high loading occurs as the turbine transitions from region 2 to region 3 control. By t = 550 s the mean tower fore-aft bending moment has decreased to approximately 2 MNm. However, we see the introduction of a cyclic loading component that persists through the end of the simulation. If we zoom in on these high frequency oscillations we see that the loading has a very similar shape to the cyclic BRM loading seen in Figure \ref{fig6-37}, but has a frequency three times higher. Since the turbine rotor has three blades, this indicates that the higher magnitude BRM oscillations seen near the end of the simulation are causing the high frequency oscillations in tower loading. 
-
-\begin{figure}[!htbp] 
-	\centering
-		\includegraphics[width = \linewidth]{Figures/ch6Figures/fig6-38.png}
-
-	\caption{Tower base fore-aft bending moment during the Turbine in Wake test case with feed forward derating control.}
-	\label{fig6-38}
-\end{figure}
-
-Table \ref{Table6-7} summarizes several important performance metrics for the turbines. As expected, the upwind turbine performance is identical to what was observed in the previous subsection. However, the downwind performance has changed. We see that the downwind turbine significantly out performs the upwind turbine in tower base fore-aft bending moment DEL, maximum overspeed, and energy generation. The downwind turbine performs a little worse that the upwind turbine in blade root bending moment DEL.
-
-\begin{table}[!htbp]
-\centering
-\begin{tabular}{c|cccccccccc}
-\hline
-\hline
-                                                                &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
-\hline
-\begin{tabular}[c]{@{}c@{}}Upwind \\ Turbine \end{tabular}      &  & 76.8                                                          & & 6.92                                                          &  & 16.12                                 				      &  &  233.39                                                     \\
+\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \\ With FF \\ Control \end{tabular}       &  & 45.9                                                          & & 8.03                                                          &  & 11.70                                                         &  &  395.65                                                     \\
 \\
-\begin{tabular}[c]{@{}c@{}}Downwind \\ Turbine \end{tabular}    &  & 45.9                                                          & & 8.03                                                          &  & 11.70                                                       &  &  395.65                                                     \\
+\begin{tabular}[c]{@{}c@{}}Change   \\ Due to FF \\ Control          \end{tabular}       &  & \begin{tabular}[c]{@{}c@{}}-58.1 \\ (-55.8\%)  \end{tabular}   & & \begin{tabular}[c]{@{}c@{}} -1.46 \\ (-15.4\%)  \end{tabular}   &  & \begin{tabular}[c]{@{}c@{}} -4.33 \\    \end{tabular}        &  &  \begin{tabular}[c]{@{}c@{}}+201.14\\(+103.4\%)\end{tabular} \\
 \\
 \hline
 \hline                             
 \end{tabular}
-\caption{Turbine performance metrics for the Turbine in Wake test case with feed forward derating control.}
- \label{Table6-7}
+\caption{Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Turbine in Wake test case.}
+\label{Table6-6}
 \end{table}
 
-Table \ref{Table6-8} illustrates the effect of feed forward derating control by comparing  performance of the downwind turbine in this simulation to the downwind turbine performance in Section \ref{section6-7-2}. As the table shows,  feed forward derating control improves turbine behaviour in all four of the performance metrics.
-
- Tower base fore-aft bending moment DEL has been reduced by 58.1 MNm, which is a reduction of 56\%. This is likely because the downwind turbine with feed forward derating control does not experience the very large magnitude loading cycles observed immediately prior to and durring emergency shutdown. Blade root bending moment DEL has been reduced by 15\% despite the turbine operating for a longer period of time. In Section \ref{section6-7-2}, when feed forward derating control was not enabled, the downwind turbine shut down and stopped accruing DEL at t = 541.2 s. Maximum overspeed has been reduced to 11.7\%, which will not induce an emergency shutdown. Energy generation has been increased by 201.14 KWh.
-
-\begin{table} [!htbp]
-\centering
-\begin{tabular}{c|cccccccccc}
-\hline
-\hline
-                                                                 &  & \begin{tabular}[c]{@{}c@{}}Tower base\\ DEL(MNm)\end{tabular} & & \begin{tabular}[c]{@{}c@{}}Blade root\\ DEL(MNm)\end{tabular} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed(\%)\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.(kWh)\end{tabular}\\ 
-\hline
-\begin{tabular}[c]{@{}c@{}}Without FF \\ Control \end{tabular}   &  & 104.0                                                         & & 9.49                                                          &  & 16.03                                 				       &  &  194.51                                                     \\
-\\
-\begin{tabular}[c]{@{}c@{}}With FF \\ Control \end{tabular}      &  & 45.9                                                          & & 8.03                                                          &  &  11.70                                                      &  &  395.65                                                     \\
-\\
-\begin{tabular}[c]{@{}c@{}}Change in\\Performance\end{tabular}   &  & -58.1 (-55.8\%)                                               & & -1.46 (-15.4%)                                                &  &  -4.33                                                      &  &  +201.14 (+103.4\%)                                          \\
-\\
-\hline
-\hline                             
-\end{tabular}
-\caption{Effect of feed forward derating control on downwind turbine performance for the Turbine in Wake test case.}
-\label{Table6-8}
-\end{table}
-
- It is important to note that the difference in energy generation could be much larger in real world operation. These simulations end at t = 700 s, but beyond that time the downwind turbine with feed forward derating control would continue to generate 5 MW (or ~1.4 KWH per second). The downwind turbine without feed forward derating control would not generate any power until it was returned to service. That turbine may be shut down for much longer than the 158.8 seconds captured in these simulations.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 8

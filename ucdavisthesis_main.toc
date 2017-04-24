@@ -1,6 +1,6 @@
 \contentsline {section}{List of Figures}{vi}
-\contentsline {section}{List of Tables}{xv}
-\contentsline {section}{Abstract}{xvii}
+\contentsline {section}{List of Tables}{xiv}
+\contentsline {section}{Abstract}{xvi}
 \contentsline {chapter}{\numberline {1}Introduction and Background}{1}
 \contentsline {section}{\numberline {1.1}Wind Power}{1}
 \contentsline {section}{\numberline {1.2}Wind Turbine Control}{2}
@@ -63,17 +63,14 @@
 \contentsline {section}{\numberline {6.2}Controller Implementation}{132}
 \contentsline {section}{\numberline {6.3}Computational Domain and Grid Resolution}{134}
 \contentsline {section}{\numberline {6.4}Tuning and Validation of SOWFA Turbine \\ Model}{136}
-\contentsline {section}{\numberline {6.5}Gust Modeling in SOWFA}{139}
-\contentsline {section}{\numberline {6.6}Offset Turbines Test Case}{142}
-\contentsline {subsection}{\numberline {6.6.1}Simulation Setup}{143}
-\contentsline {subsection}{\numberline {6.6.2}Performance Without Feed Forward Derating Control}{144}
-\contentsline {subsection}{\numberline {6.6.3}Performance With Feed Forward Derating Control}{151}
-\contentsline {section}{\numberline {6.7}Turbine in Wake Test Case}{159}
-\contentsline {subsection}{\numberline {6.7.1}Simulation Setup}{159}
-\contentsline {subsection}{\numberline {6.7.2}Performance Without Feed Forward Derating Control}{160}
-\contentsline {subsection}{\numberline {6.7.3}Performance With Feed Forward Derating Control}{168}
-\contentsline {section}{\numberline {6.8}Conclusions}{176}
+\contentsline {section}{\numberline {6.5}Gust Modeling in SOWFA}{138}
+\contentsline {section}{\numberline {6.6}Offset Turbines Test Case}{141}
+\contentsline {subsection}{\numberline {6.6.1}Simulation Setup}{142}
+\contentsline {section}{\numberline {6.7}Turbine in Wake Test Case}{154}
+\contentsline {subsection}{\numberline {6.7.1}Simulation Setup}{154}
+\contentsline {subsection}{\numberline {6.7.2}Performance Without Feed Forward Derating Control}{155}
+\contentsline {section}{\numberline {6.8}Conclusions}{166}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}FAST simulation input files}{179}
-\contentsline {chapter}{\numberline {B}Damage Equivalent Load (DEL) Calculation}{180}
+\contentsline {chapter}{\numberline {A}FAST simulation input files}{170}
+\contentsline {chapter}{\numberline {B}Damage Equivalent Load (DEL) Calculation}{171}
 \vspace {2em}

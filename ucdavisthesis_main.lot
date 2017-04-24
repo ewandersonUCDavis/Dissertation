@@ -21,12 +21,8 @@
 \contentsline {table}{\numberline {5.4}{\ignorespaces Power and thrust predicted by coarse grid SOWFA simulations as well as the percent difference with fine grid simulations.}}{125}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {6.1}{\ignorespaces Dimensions and resolutions of the SOWFA grid refinement regions for the Offset Turbines test case.}}{143}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Turbine performance metrics for the Offset Turbine test case without feed forward control.}}{152}
-\contentsline {table}{\numberline {6.3}{\ignorespaces Turbine performance metrics for the Offset Turbine test case with feed forward derating control.}}{157}
-\contentsline {table}{\numberline {6.4}{\ignorespaces Effect of feed forward derating control on downwind turbine performance for the Offset Turbine test case.}}{158}
-\contentsline {table}{\numberline {6.5}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions for the Turbine in Wake test case.}}{160}
-\contentsline {table}{\numberline {6.6}{\ignorespaces Turbine performance metrics for the Turbine in Wake test case without feed forward control.}}{169}
-\contentsline {table}{\numberline {6.7}{\ignorespaces Turbine performance metrics for the Turbine in Wake test case with feed forward derating control.}}{174}
-\contentsline {table}{\numberline {6.8}{\ignorespaces Effect of feed forward derating control on downwind turbine performance for the Turbine in Wake test case.}}{175}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Offset Turbine test case.}}{153}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions for the Turbine in Wake test case.}}{155}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Turbine in Wake test case.}}{166}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
