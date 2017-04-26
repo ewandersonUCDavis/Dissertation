@@ -1,28 +1,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Extreme operating gust response with perfect wind speed knowledge.}}{52}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Statistical summary of turbine performance in 16m/s wind.}}{57}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Short term damage equivalent loads for 570s simulation of turbine in 16m/s turbulent wind.}}{58}
-\contentsline {table}{\numberline {3.4}{\ignorespaces EOG response with feed forward signal based on wind speed estimate.}}{63}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Statistical summary of turbine performance in 16m/s wind.}}{67}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Short term damage equivalent loads for 570s simulation of turbine in 16m/s turbulent wind.}}{67}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Extreme operating gust response with perfect wind speed knowledge.}}{51}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Statistical summary of turbine performance in 16m/s wind.}}{56}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Short term damage equivalent loads for 570s simulation of turbine in 16m/s turbulent wind.}}{57}
+\contentsline {table}{\numberline {3.4}{\ignorespaces EOG response with feed forward signal based on wind speed estimate.}}{62}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Statistical summary of turbine performance in 16m/s wind.}}{66}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Short term damage equivalent loads for 570s simulation of turbine in 16m/s turbulent wind.}}{66}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Effect of derating methods for test case 1: 16 m/s EOG with 30\% derating.}}{81}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Effect of derating methods for test case 2: 12 m/s EOG with 30\% derating.}}{82}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Effect of FF Control on dynamic response to 16 m/s EOG.}}{100}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 12 m/s mean wind speed.}}{105}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 16 m/s mean wind speed.}}{106}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 20 m/s mean wind speed.}}{106}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Effect of derating methods for test case 1: 16 m/s EOG with 30\% derating.}}{80}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Effect of derating methods for test case 2: 12 m/s EOG with 30\% derating.}}{81}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Effect of FF Control on dynamic response to 16 m/s EOG.}}{99}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 12 m/s mean wind speed.}}{104}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 16 m/s mean wind speed.}}{105}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 20 m/s mean wind speed.}}{105}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}}{112}
-\contentsline {table}{\numberline {5.2}{\ignorespaces NREL 5-MW simulation cases}}{116}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison of power and thrust predicted by three turbine simulation tools.}}{117}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Power and thrust predicted by coarse grid SOWFA simulations as well as the percent difference with fine grid simulations.}}{125}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}}{111}
+\contentsline {table}{\numberline {5.2}{\ignorespaces NREL 5-MW simulation cases}}{115}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison of power and thrust predicted by three turbine simulation tools.}}{116}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Power and thrust predicted by coarse grid SOWFA simulations as well as the percent difference with fine grid simulations.}}{124}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Dimensions and resolutions of the SOWFA grid refinement regions for the Offset Turbines test case.}}{143}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Offset Turbine test case.}}{153}
-\contentsline {table}{\numberline {6.3}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions for the Turbine in Wake test case.}}{155}
-\contentsline {table}{\numberline {6.4}{\ignorespaces Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Turbine in Wake test case.}}{166}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Dimensions and resolutions of the SOWFA grid refinement regions for the Offset Turbines test case.}}{142}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Offset Turbine test case.}}{152}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions for the Turbine in Wake test case.}}{154}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Turbine in Wake test case.}}{165}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
