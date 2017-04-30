@@ -68,7 +68,7 @@ Active flow control is the control of local airflow surrounding the blade.  In t
 
 
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=.75\linewidth]{Figures/ch1Figures/fig1-4.png}
 	\caption{Wind turbine blades with trailing edge flaps for active load control.\cite{berg2012}}
@@ -77,9 +77,9 @@ Active flow control is the control of local airflow surrounding the blade.  In t
 
 In LIDAR assisted control a LIDAR (Light Detection and Ranging) system is mounted on the nacelle of a turbine and used to scan the wind field as it approaches the wind turbine.  As illustrated in Figure \ref{fig1-5}, the LIDAR system is capable of measuring wind speed at several discrete distances upwind of the turbine.  These measurements are used to estimate the wind speed that the turbine will experience in the future.  The turbine controller can use these future wind speed estimates to respond preemptively to changes in wind speed and to counteract changes in aerodynamic loading as they occur. The primary disadvantage to LIDAR control is the prohibitive cost of the LIDAR equipment.  
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
 	\centering
-		\includegraphics[width=.75\linewidth]{Figures/ch1Figures/fig1-5.png}
+		\includegraphics[width=.6\linewidth]{Figures/ch1Figures/fig1-5.png}
 	\caption{Illustration of upwind LIDAR measurement distances.\cite{schlipf2011}}
 	\label{fig1-5}
 \end{figure}
@@ -90,7 +90,7 @@ In LIDAR assisted control a LIDAR (Light Detection and Ranging) system is mounte
 
 \section{Goals of This Research} 
 
-This thesis seeks to improve wind turbine control by using information obtained from upwind turbines.  In particular, pre-existing sensors on upwind turbines will measure wind speed fluctuations and dynamic turbine behavior.  That information will then be used by the control system of a downwind turbine to anticipate wind speed fluctuations before they reach the downwind turbine.  This technique holds the potential to improve power production and/or decrease turbine loads by allowing the downwind turbine to react preemptively to changes in wind speed and track the optimum turbine conditions more closely.
+This dissertation seeks to improve wind turbine control by using information obtained from upwind turbines.  In particular, pre-existing sensors on upwind turbines will measure wind speed fluctuations and dynamic turbine behavior.  That information will then be used by the control system of a downwind turbine to anticipate wind speed fluctuations before they reach the downwind turbine.  This technique holds the potential to improve power production and/or decrease turbine loads by allowing the downwind turbine to react preemptively to changes in wind speed and track the optimum turbine conditions more closely.
 
 Figure \ref{fig1-6} shows the steady state power curve for the NREL 5-MW turbine.  It represents the optimum power production at each wind speed.  If the wind blows at a constant speed for long enough, the control system will bring the turbine$'$s power production to a point on the blue line.  However, since rapid wind speed fluctuations are common, the turbine often deviates from this power curve during normal operation.  If the magnitude and/or time of these deviations can be reduced then the power curve can be tracked more closely and several potential benefits can be achieved.
 
@@ -104,7 +104,7 @@ Figure \ref{fig1-6} shows the steady state power curve for the NREL 5-MW turbine
 
 In region 2, deviations from the steady state power curve result in decreased aerodynamic efficiency and decreased power production.  By tracking the power curve more closely in this region the power production of the turbine can be increased.  In region 3, deviations from the steady state power curve cause higher loads on the mechanical components of the turbine and fluctuations in the power output of the turbine.  By tracking the power curve more closely the peak mechanical loads and fluctuation in power production can be reduced.
 
-Reducing peak mechanical loads has several advantages.  It reduces wear and tear on the turbine$'$s mechanical components, thereby reducing the long-term repair and maintenance costs.  It can also lead to lower turbine-manufacturing costs or increased power production.  Reductions in manufacturing costs are achieved by designing and sizing the turbine components based on the reduced loads.  Alternately, increased power is achieved by “growing the rotor”.  Which means to increase the size of the turbine blades until the loading on the turbine components matches the original design loads.
+Reducing peak mechanical loads has several advantages.  It reduces wear and tear on the turbine$'$s mechanical components, thereby reducing the long-term repair and maintenance costs.  It can also lead to lower turbine-manufacturing costs or increased power production.  Reductions in manufacturing costs are achieved by designing and sizing the turbine components based on the reduced loads.  Alternately, increased power is achieved by ``growing the rotor''.  Which means to increase the size of the turbine blades until the loading on the turbine components matches the original design loads.
 
 Reducing the power fluctuations in region 3 can also be used to increase power production without any physical changes to the turbine.  In part, the rated power of a turbine is set by the limitations of the turbine$'$s power electronics.  If improvements in wind turbine control can reduce deviations from rated power then the turbine can safely operate at a higher rated power without fear of overloading the power electronics.  This technique is currently being used by General Electric with its WindBOOST control system. The WindBOOST control system update allows the GE 1.5 MW wind turbine to operate at a rated power of 1.6 MW without any changes to the turbine hardware. \cite{GE2009}
 
@@ -116,4 +116,14 @@ Reducing the power fluctuations in region 3 can also be used to increase power p
 
 \section{Dissertation Outline}
 
-In the following sections ...
+Chapter \ref{Chapter2} investigates using a wind turbine as a sensor. It discusses the sensors that are present on a typical wind turbine and how sensor data can be used to gather useful information for feed forward control. Much of the chapter focuses on using turbine dynamics to estimate wind speed and convection velocity. Chapter \ref{Chapter2} also discusses the accuracy that can be expected from such estimates and discusses some of the factors that influence accuracy. 
+
+In Chapter \ref{Chapter3}, a feed forward optimum pitch control scheme is introduced and investigated. In this control scheme an upwind is used as a wind speed sensor. Wind speed measurements are passed from the upwind turbine to a feed forward controller on a downwind turbine. The downwind turbine uses the knowledge of incoming wind speed to proactively adjust turbine blade pitch, potentially improving energy capture and reducing damage to the turbine. The control scheme is investigated through three rounds of simulation using the NREL FAST turbine simulation tool. The initial round of simulations uses a simplified idealistic model of the two turbine system, while the subsequent rounds systematically incorporate complicating factors that a real world system would encounter.  
+
+Chapter \ref{Chapter4} investigates the benefits and feasibility of derating a downwind turbine based on a feed forward signal from an upwind turbine. Several derating strategies from literature are investigated to determine which is most feasible for feed forward control. The effects of derating on turbine loading and rotor overspeeds are examined. The transition into and out of derated mode is also investigated, as well as ways to mitigate undesirable turbine behavior during the transition. A feed forward selective derating scheme based on these findings is then developed. The performance of that feed forward control system is tested and evaluated using a series of FAST simulations. The FAST simulation results are promising, but it is determined that testing Feed Forward Derating Control with a different and more sophisticated wind turbine simulation tool would be beneficial.
+  
+Chapter \ref{Chapter5} is a verification and validation study of SOWFA (Simulator fOr Wind Farm Applications), a wind farm simulation tool. FAST must model a single turbine at time, but SOWFA can model a group of wind turbines as well at the atmospheric flow field surrounding those turbines. This gives SOWFA several advantages over FAST when modeling a two turbine system with feed forward control. However, SOWFA is much more computationally expensive than FAST and is less established in the wind turbine community. In Chapter \ref{Chapter5} the NREL 5-MW rotor is simulated using SOWFA, OVERFLOW2 and FAST. The results from these fundamentally different simulation tools are compared to see how well they agree. In addition, the chapter evaluates how near-rotor grid resolution and near-rotor grid length affect SOWFA simulation results. The results shown in Chapter \ref{Chapter5} increase confidence in SOWFA and provide guidance about how to properly tune and use SOWFA.
+
+In Chapter \ref{Chapter6}, Feed Forward Derating Control is simulated and evaluated using SOWFA. The first portion of the chapter documents background work required to simulate the control system in SOWFA. Sections discuss implementing the feed forward controller, tuning SOWFA's actuator line model, choosing an appropriate computational domain, and gust modeling in SOWFA. The second portion of the chapter documents SOWFA simulation results for two test cases. One test case that matches the conditions assumed for Chapter \ref{Chapter4} FAST simulations, and one test case where turbine wake effects are prominent. In each test case a two turbine system is subjected to a large gust. The behavior of the upwind turbine, a downwind turbine without feed forward control, and a downwind turbine with Feed Forward Derating Control are compared and analyzed.
+
+Chapter \ref{Chapter7} summarizes the dissertation and presents areas for future work.

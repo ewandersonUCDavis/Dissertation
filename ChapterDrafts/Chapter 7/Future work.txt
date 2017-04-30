@@ -1,0 +1,4 @@
+There are several issues that come up when there are more than two turbines in a feed forward control system.
+
+In a wind farm each turbine would have many other turbines it could share information with. Wind direction would tell each turbine which other turbines it should send information to and which turbines it should receive information from. In many wind farms, wind direction changes seasonally or over the course of each day. As wind direction changes, wind vane readings would help the wind farm adapt and adjust how turbines share data for feed forward control.
+

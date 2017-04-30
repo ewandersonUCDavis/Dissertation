@@ -1,0 +1,12 @@
+This chapter investigates ways to use a turbine as a sensor. The focus is on gathering data that could be useful for feed forward control. To ensure low cost, we only consider techniques that rely on sensors a modern utility scale turbine would already have.
+
+Section \ref{section2-2} describes a set of 66 turbulent wind fields. Those wind fields are used in subsequent sections to evaluate sensor techniques. 
+
+Section \ref{section2-3} discusses wind speed estimates based on nacelle top anemometer readings. First the limitations of anemometer measurements are discused. Next, wind speed measurements at the rotor center are compared to the average wind speed over the rotor area. The discrepancies between those measurements are analyzed for the 66 turbulent wind fields described in Section \ref{section2-2}.
+ 
+ Section \ref{section2-4} discusses wind speed estimates based on an inverted dynamic model of the turbine. The governing dynamic equations are derived. Those dynamic equations are then combined with WTPerf simulations of the NREL 5-MW turbine to develop a data sets that can be interpolated to estimate wind speed from tip speed ratio and collective blade pitch. Next, wind speed estimates based on turbine dynamics are compared to the average wind speed over the rotor area. The discrepancies between those measurements are analyzed for the 66 turbulent wind fields described in Section \ref{section2-2}. This wind speed estimation technique is found to provide more accurate wind speed measurements than the anemometer. The turbine dynamics based estimator has smaller average discrepancies and smaller maximum discrepancies with the average wind speed over the rotor area. Section \ref{section2-2-4} discusses the effect of yaw misalignment on turbine dynamics based wind speed estimation and how that effect could be compensated for. 
+ 
+ Section \ref{section2-5} Discussed convection velocity and how to estimate it from wind speed estimates at a single location. 
+ 
+ Section \ref{section2-6} discusses other turbine sensors, such as wind vanes or rotor speed sensors, that could be useful for feed forward control.
+ 
