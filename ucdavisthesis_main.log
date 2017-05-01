@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 APR 2017 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 MAY 2017 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -404,7 +404,12 @@ File: ts1qcs.fd 2009/09/25 v1.2 font definition file for TS1/qcs
 ]
 (./ucdavisthesis_main.toc [2
 
-] [3] [4])
+] [3] [4]
+
+LaTeX Warning: Reference `section3-3-2' on page 179 undefined on input line 83.
+
+
+)
 \tf@toc=\write3
 \openout3 = `ucdavisthesis_main.toc'.
 
@@ -416,7 +421,13 @@ Overfull \hbox (5.5708pt too wide) in paragraph at lines 14--14
 
 [6
 
-] [7] [8] [9] [10] [11] [12])
+] [7] [8] [9] [10] [11] [12]
+Overfull \hbox (0.98451pt too wide) in paragraph at lines 146--146
+ [][] []\T1/qcs/m/n/12 Torque Con-troller sub-sys-tem for Simulink model of NRE
+L 5-MW with |
+ []
+
+)
 \tf@lof=\write4
 \openout4 = `ucdavisthesis_main.lof'.
 
@@ -426,8 +437,7 @@ Overfull \hbox (5.5708pt too wide) in paragraph at lines 14--14
 \tf@lot=\write5
 \openout5 = `ucdavisthesis_main.lot'.
 
- [15]
-[16
+ [15] [16
 
 ]
 \openout2 = `Chapters/Chapter1.aux'.
@@ -725,78 +735,75 @@ File: Figures/ch3Figures/fig3-3.png Graphic file (type png)
 <use Figures/ch3Figures/fig3-3.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-3.png used on input line 37.
 (pdftex.def)             Requested size: 455.30121pt x 232.43108pt.
- [39 <./Figures/ch3Figures/fig3-3.png>]
-<Figures/ch3Figures/fig3-4.png, id=243, 1097.09875pt x 559.08875pt>
+
+<Figures/ch3Figures/fig3-4.png, id=240, 1097.09875pt x 559.08875pt>
 File: Figures/ch3Figures/fig3-4.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-4.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-4.png used on input line 47.
 (pdftex.def)             Requested size: 455.30121pt x 232.0175pt.
- [40 <./Figures/ch3Figures/fig3-4.png>]
-[41] <Figures/ch3Figures/fig3-5.png, id=250, 606.5862pt x 178.266pt>
+ [39 <./Figures/ch3Figures/fig3-3.png>]
+[40 <./Figures/ch3Figures/fig3-4.png>] [41]
+<Figures/ch3Figures/fig3-5.png, id=250, 606.5862pt x 178.266pt>
 File: Figures/ch3Figures/fig3-5.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-5.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-5.png used on input line 77.
 (pdftex.def)             Requested size: 455.30121pt x 133.80795pt.
- [42]
-<Figures/ch3Figures/fig3-6.png, id=254, 740.0448pt x 392.1852pt>
+ [42 <./Figures/ch3Figures/fig3-5.png>]
+<Figures/ch3Figures/fig3-6.png, id=255, 740.0448pt x 392.1852pt>
 File: Figures/ch3Figures/fig3-6.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-6.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-6.png used on input line 87.
 (pdftex.def)             Requested size: 455.30121pt x 241.28522pt.
- [43 <./Figures/ch3Figures/fig3-5.png>]
-<Figures/ch3Figures/fig3-7.png, id=259, 495.2904pt x 209.1012pt>
+ [43 <./Figures/ch3Figures/fig3-6.png>]
+<Figures/ch3Figures/fig3-7.png, id=260, 495.2904pt x 209.1012pt>
 File: Figures/ch3Figures/fig3-7.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-7.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-7.png used on input line 107.
 (pdftex.def)             Requested size: 273.1835pt x 115.33145pt.
- [44 <./Figures/ch3Figures/fig3-6.png> <./Figures/ch3Figures/fig3-7.png>]
+ [44 <./Figures/ch3Figures/fig3-7.png>]
 <Figures/ch3Figures/fig3-8.png, id=266, 722.7pt x 198.9834pt>
 File: Figures/ch3Figures/fig3-8.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-8.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-8.png used on input line 117.
 (pdftex.def)             Requested size: 455.30121pt x 125.3602pt.
-
-
-LaTeX Warning: Reference `AppendixB' on page 45 undefined on input line 125.
-
-[45 <./Figures/ch3Figures/fig3-8.png>]
+ [45 <./Figures/ch3Figures/fig3-8.png>]
 <Figures/ch3Figures/fig3-9.png, id=271, 820.0236pt x 418.6842pt>
 File: Figures/ch3Figures/fig3-9.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-9.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-9.png used on input line 133.
 (pdftex.def)             Requested size: 455.30121pt x 232.4683pt.
- [46]
-<Figures/ch3Figures/fig3-10.png, id=275, 820.0236pt x 476.5002pt>
+ [46 <./Figures/ch3Figures/fig3-9.png>]
+<Figures/ch3Figures/fig3-10.png, id=276, 820.0236pt x 476.5002pt>
 File: Figures/ch3Figures/fig3-10.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-10.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-10.png used on input line 154.
 
 (pdftex.def)             Requested size: 455.30121pt x 264.5698pt.
- [47 <./Figures/ch3Figures/fig3-9.png>]
-<Figures/ch3Figures/fig3-11.png, id=280, 754.017pt x 345.9324pt>
+
+<Figures/ch3Figures/fig3-11.png, id=277, 754.017pt x 345.9324pt>
 File: Figures/ch3Figures/fig3-11.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-11.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-11.png used on input line 164.
 
 (pdftex.def)             Requested size: 455.30121pt x 208.88594pt.
- [48 <./Figures/ch3Figures/fig3-10.png>]
-[49 <./Figures/ch3Figures/fig3-11.png>] [50]
-<Figures/ch3Figures/fig3-12.png, id=293, 752.8125pt x 301.125pt>
+ [47] [48 <./Figures/ch3Figures/fig3-10.png> <./Figures/ch3Figures/fig3-11.png>
+] [49]
+<Figures/ch3Figures/fig3-12.png, id=289, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-12.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-12.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-12.png used on input line 202.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
-
+ [50]
 <Figures/ch3Figures/fig3-13.png, id=294, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-13.png Graphic file (type png)
 
@@ -812,17 +819,17 @@ File: Figures/ch3Figures/fig3-14.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch3Figures/fig3-14.png used on input line 225.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [52 <./Figures/ch3Figures/fig3-13.png (PNG copy)>] <Figures/ch3Figures/fig3-15
-.png, id=302, 752.8125pt x 301.125pt>
+ [52 <./Figures/ch3Figures/fig3-13.png (PNG copy)> <./Figures/ch3Figures/fig3-1
+4.png (PNG copy)>]
+<Figures/ch3Figures/fig3-15.png, id=302, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-15.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-15.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-15.png used on input line 236.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [53 <./Figures/ch3Figures/fig3-14.png (PNG copy)> <./Figures/ch3Figures/fig3-1
-5.png (PNG copy)>]
-<Figures/ch3Figures/fig3-16.png, id=306, 752.8125pt x 301.125pt>
+ [53 <./Figures/ch3Figures/fig3-15.png (PNG copy)>] <Figures/ch3Figures/fig3-16
+.png, id=306, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-16.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-16.png>
@@ -837,8 +844,8 @@ File: Figures/ch3Figures/fig3-17.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch3Figures/fig3-17.png used on input line 254.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [54 <./Figures/ch3Figures/fig3-16.png (PNG copy)>] [55 <./Figures/ch3Figures/f
-ig3-17.png (PNG copy)>]
+ [54 <./Figures/ch3Figures/fig3-16.png (PNG copy)> <./Figures/ch3Figures/fig3-1
+7.png (PNG copy)>] [55]
 <Figures/ch3Figures/fig3-18.png, id=314, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-18.png Graphic file (type png)
 
@@ -846,16 +853,16 @@ File: Figures/ch3Figures/fig3-18.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch3Figures/fig3-18.png used on input line 295.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [56 <./Figures/ch3Figures/fig3-18.png (PNG copy)>] <Figures/ch3Figures/fig3-19
-.png, id=319, 752.8125pt x 301.125pt>
+
+<Figures/ch3Figures/fig3-19.png, id=315, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-19.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-19.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-19.png used on input line 305.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
-
-<Figures/ch3Figures/fig3-20.png, id=320, 752.8125pt x 301.125pt>
+ [56 <./Figures/ch3Figures/fig3-18.png (PNG copy)>] <Figures/ch3Figures/fig3-20
+.png, id=320, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-20.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-20.png>
@@ -870,8 +877,9 @@ File: Figures/ch3Figures/fig3-21.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch3Figures/fig3-21.png used on input line 323.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [57 <./Figures/ch3Figures/fig3-19.png (PNG copy)>] <Figures/ch3Figures/fig3-22
-.png, id=325, 752.8125pt x 301.125pt>
+ [57 <./Figures/ch3Figures/fig3-19.png (PNG copy)> <./Figures/ch3Figures/fig3-2
+0.png (PNG copy)>]
+<Figures/ch3Figures/fig3-22.png, id=325, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-22.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-22.png>
@@ -886,27 +894,25 @@ File: Figures/ch3Figures/fig3-23.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch3Figures/fig3-23.png used on input line 344.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [58 <./Figures/ch3Figures/fig3-20.png (PNG copy)> <./Figures/ch3Figures/fig3-2
-1.png (PNG copy)>] [59 <./Figures/ch3Figures/fig3-22.png (PNG copy)> <./Figures
-/ch3Figures/fig3-23.png (PNG copy)>]
-[60] <Figures/ch3Figures/fig3-24.png, id=336, 753.5653pt x 301.125pt>
+ [58 <./Figures/ch3Figures/fig3-21.png (PNG copy)>] [59 <./Figures/ch3Figures/f
+ig3-22.png (PNG copy)> <./Figures/ch3Figures/fig3-23.png (PNG copy)>] [60]
+<Figures/ch3Figures/fig3-24.png, id=336, 753.5653pt x 301.125pt>
 File: Figures/ch3Figures/fig3-24.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-24.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-24.png used on input line 426.
 
 (pdftex.def)             Requested size: 455.30121pt x 181.93535pt.
- [61]
-<Figures/ch3Figures/fig3-25.png, id=340, 752.8125pt x 301.125pt>
+ [61 <./Figures/ch3Figures/fig3-24.png (PNG copy)>] <Figures/ch3Figures/fig3-25
+.png, id=340, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-25.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-25.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-25.png used on input line 436.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [62 <./Figures/ch3Figures/fig3-24.png (PNG copy)> <./Figures/ch3Figures/fig3-2
-5.png (PNG copy)>]
-<Figures/ch3Figures/fig3-26.png, id=345, 752.8125pt x 301.125pt>
+ [62 <./Figures/ch3Figures/fig3-25.png (PNG copy)>] <Figures/ch3Figures/fig3-26
+.png, id=345, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-26.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-26.png>
@@ -921,8 +927,8 @@ File: Figures/ch3Figures/fig3-27.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch3Figures/fig3-27.png used on input line 456.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [63 <./Figures/ch3Figures/fig3-26.png (PNG copy)>] <Figures/ch3Figures/fig3-28
-.png, id=350, 752.8125pt x 301.125pt>
+
+<Figures/ch3Figures/fig3-28.png, id=347, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-28.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-28.png>
@@ -930,15 +936,15 @@ Package pdftex.def Info: Figures/ch3Figures/fig3-28.png used on input line 464.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
 
-<Figures/ch3Figures/fig3-29.png, id=351, 752.8125pt x 301.125pt>
+<Figures/ch3Figures/fig3-29.png, id=348, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-29.png Graphic file (type png)
 
 <use Figures/ch3Figures/fig3-29.png>
 Package pdftex.def Info: Figures/ch3Figures/fig3-29.png used on input line 472.
 
 (pdftex.def)             Requested size: 455.30121pt x 182.12373pt.
- [64 <./Figures/ch3Figures/fig3-27.png (PNG copy)> <./Figures/ch3Figures/fig3-2
-8.png (PNG copy)>]
+ [63 <./Figures/ch3Figures/fig3-26.png (PNG copy)>] [64 <./Figures/ch3Figures/f
+ig3-27.png (PNG copy)> <./Figures/ch3Figures/fig3-28.png (PNG copy)>]
 <Figures/ch3Figures/fig3-30.png, id=355, 752.8125pt x 301.125pt>
 File: Figures/ch3Figures/fig3-30.png Graphic file (type png)
 
@@ -1675,39 +1681,127 @@ File: Figures/AppendixAFigures/AerodynP2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/AppendixAFigures/AerodynP2.pdf used on input l
 ine 27.
 (pdftex.def)             Requested size: 432.53474pt x 100.65909pt.
-) (./Appendices/AppendixC.tex
+) (./Appendices/AppendixB.tex
 [177 <./Figures/AppendixAFigures/AerodynP1.pdf>] [178 <./Figures/AppendixAFigur
 es/AerodynP2.pdf>]
 Appendix B.
+<Figures/AppendixBFigures/baseline1.png, id=963, 701.2599pt x 345.2097pt>
+File: Figures/AppendixBFigures/baseline1.png Graphic file (type png)
 
-LaTeX Warning: Reference `' on page 179 undefined on input line 8.
+<use Figures/AppendixBFigures/baseline1.png>
+Package pdftex.def Info: Figures/AppendixBFigures/baseline1.png used on input l
+ine 15.
+(pdftex.def)             Requested size: 455.30121pt x 224.1308pt.
+ [179
+
+]
+<Figures/AppendixBFigures/baseline2.png, id=967, 708.7278pt x 227.6505pt>
+File: Figures/AppendixBFigures/baseline2.png Graphic file (type png)
+
+<use Figures/AppendixBFigures/baseline2.png>
+Package pdftex.def Info: Figures/AppendixBFigures/baseline2.png used on input l
+ine 25.
+(pdftex.def)             Requested size: 455.30121pt x 146.24812pt.
+
+<Figures/AppendixBFigures/baseline3.png, id=968, 675.0018pt x 283.5393pt>
+File: Figures/AppendixBFigures/baseline3.png Graphic file (type png)
+
+<use Figures/AppendixBFigures/baseline3.png>
+Package pdftex.def Info: Figures/AppendixBFigures/baseline3.png used on input l
+ine 32.
+(pdftex.def)             Requested size: 455.30121pt x 191.25098pt.
+
+<Figures/AppendixBFigures/baseline4.png, id=969, 735.7086pt x 331.4784pt>
+File: Figures/AppendixBFigures/baseline4.png Graphic file (type png)
+
+<use Figures/AppendixBFigures/baseline4.png>
+Package pdftex.def Info: Figures/AppendixBFigures/baseline4.png used on input l
+ine 39.
+(pdftex.def)             Requested size: 455.30121pt x 205.14018pt.
+ [180 <./Figures/AppendixBFigures/baseline1.png>]
+<Figures/AppendixBFigures/baseline5.png, id=974, 726.3135pt x 309.7974pt>
+File: Figures/AppendixBFigures/baseline5.png Graphic file (type png)
+
+<use Figures/AppendixBFigures/baseline5.png>
+Package pdftex.def Info: Figures/AppendixBFigures/baseline5.png used on input l
+ine 48.
+(pdftex.def)             Requested size: 455.30121pt x 194.20905pt.
+
+<Figures/AppendixBFigures/baseline9.png, id=975, 555.2745pt x 314.3745pt>
+File: Figures/AppendixBFigures/baseline9.png Graphic file (type png)
+
+<use Figures/AppendixBFigures/baseline9.png>
+Package pdftex.def Info: Figures/AppendixBFigures/baseline9.png used on input l
+ine 55.
+(pdftex.def)             Requested size: 455.30121pt x 257.78395pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 55--56
+ [][] |
+ []
+
+[181 <./Figures/AppendixBFigures/baseline2.png> <./Figures/AppendixBFigures/bas
+eline3.png>] [182 <./Figures/AppendixBFigures/baseline4.png> <./Figures/Appendi
+xBFigures/baseline5.png>]
+<Figures/AppendixBFigures/FF_Pitch1.png, id=987, 737.3949pt x 433.3791pt>
+File: Figures/AppendixBFigures/FF_Pitch1.png Graphic file (type png)
+
+<use Figures/AppendixBFigures/FF_Pitch1.png>
+Package pdftex.def Info: Figures/AppendixBFigures/FF_Pitch1.png used on input l
+ine 67.
+(pdftex.def)             Requested size: 455.30121pt x 267.59454pt.
 
 
-LaTeX Warning: Reference `' on page 179 undefined on input line 8.
+LaTeX Warning: Reference `Capter3' on page 183 undefined on input line 72.
 
-[179
+[183 <./Figures/AppendixBFigures/baseline9.png>]
+<Figures/AppendixBFigures/FF_Pitch2.png, id=992, 628.2672pt x 167.6664pt>
+File: Figures/AppendixBFigures/FF_Pitch2.png Graphic file (type png)
 
-] [180]) (./ucdavisthesis_main.bbl [181] [182
+<use Figures/AppendixBFigures/FF_Pitch2.png>
+Package pdftex.def Info: Figures/AppendixBFigures/FF_Pitch2.png used on input l
+ine 76.
+(pdftex.def)             Requested size: 455.30121pt x 121.50768pt.
+ [184 <./Figures/AppendixBFigures/FF_Pitch1.png> <./Figures/AppendixBFigures/FF
+_Pitch2.png>]
+<Figures/AppendixBFigures/FF_Pitch3.png, id=998, 729.6861pt x 242.1045pt>
+File: Figures/AppendixBFigures/FF_Pitch3.png Graphic file (type png)
 
-] [183]
+<use Figures/AppendixBFigures/FF_Pitch3.png>
+Package pdftex.def Info: Figures/AppendixBFigures/FF_Pitch3.png used on input l
+ine 85.
+(pdftex.def)             Requested size: 455.30121pt x 151.07112pt.
+) (./Appendices/AppendixC.tex
+[185 <./Figures/AppendixBFigures/FF_Pitch3.png>]
+Appendix C.
+
+LaTeX Warning: Reference `' on page 186 undefined on input line 8.
+
+
+LaTeX Warning: Reference `' on page 186 undefined on input line 8.
+
+[186
+
+] [187]) (./ucdavisthesis_main.bbl [188] [189
+
+] [190]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 215.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [184] [185]
+) [191] [192]
 Underfull \hbox (badness 2809) in paragraph at lines 398--403
 []\T1/qcs/m/n/12 Dennis Jes-persen, Thomas Pul-liam, Pieter Bun-ing, Den-nis Je
 s-persen,
  []
 
-[186] [187]
+[193] [194]
 Underfull \hbox (badness 3168) in paragraph at lines 545--550
 []\T1/qcs/m/n/12 Niels Trold-borg, Fred-erik Zahle, Pierre-Elouan Réthoré, and 
 Niels N
  []
 
-[188]) [189] (./ucdavisthesis_main.aux (./Chapters/Chapter1.aux)
+[195]) [196] (./ucdavisthesis_main.aux (./Chapters/Chapter1.aux)
 (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux)
 (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux))
 
@@ -1715,13 +1809,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5910 strings out of 493089
- 92958 string characters out of 6134842
- 163992 words of memory out of 5000000
- 9090 multiletter control sequences out of 15000+600000
+ 5971 strings out of 493089
+ 94803 string characters out of 6134842
+ 164134 words of memory out of 5000000
+ 9138 multiletter control sequences out of 15000+600000
  54899 words of font info for 50 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 37i,13n,36p,3244b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,13n,36p,3244b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/loc
 al/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texli
@@ -1740,10 +1834,10 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /public/tex-gyre/qcsr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/tex-gyre/qcsri.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
 super/sftt1200.pfb>
-Output written on ucdavisthesis_main.pdf (206 pages, 18695991 bytes).
+Output written on ucdavisthesis_main.pdf (213 pages, 19803164 bytes).
 PDF statistics:
- 1058 PDF objects out of 1200 (max. 8388607)
- 629 compressed objects within 7 object streams
+ 1098 PDF objects out of 1200 (max. 8388607)
+ 644 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 682 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 727 words of extra memory for PDF output out of 10000 (max. 10000000)
 

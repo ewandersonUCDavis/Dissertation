@@ -37,26 +37,26 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces An example of wind speed fluctuations over 24 hours.\cite {NWTC2013}}}{38}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces NREL 5-MW response to wind speed fluctuations in control region 2.}}{39}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces NREL 5-MW response to wind speed fluctuations in control region 3.}}{40}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Illustration of the two turbine system modeled in this chapter.}}{43}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces How FAST can be used to simulate a two turbine system.}}{44}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Simple block diagram of turbine w/o feed forward control.}}{44}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Illustration of the two turbine system modeled in this chapter.}}{42}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The process used to simulate a two turbine system with FAST.}}{43}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Simple block diagram of turbine control w/o feed forward control.}}{44}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Simple block diagram of turbine with feed forward control.}}{45}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Closed loop control system.}}{47}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Controller with feed forward and closed loop control.}}{48}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Steady state pitch ($\theta _{s}$), in \degree , as a function of incoming wind speed, in m/s.}}{49}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Block diagram of the NREL 5-MW closed loop control system, as modeled in this dissertation.}}{46}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Block diagram of the NREL 5-MW controller with feed forward and closed loop control.}}{48}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Steady state pitch ($\theta _{s}$), in \degree , as a function of incoming wind speed, in m/s.}}{48}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Extreme operating gust.}}{51}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Blade pitch response to extreme operating gust. }}{52}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Rotor speed for turbine subjected to extreme operating gust. }}{53}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Rotor speed for turbine subjected to extreme operating gust. }}{52}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Power generation for turbine subjected to extreme operating gust.}}{53}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Tower base fore-aft moment for turbine subjected to extreme operating gust.}}{54}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Blade root bending moment for turbine subjected to extreme operating gust.}}{55}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Blade root bending moment for turbine subjected to extreme operating gust.}}{54}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Rotor average wind speed and feed forward wind speed for 16 m/s turbulent wind.}}{56}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Blade pitch response to 16 m/s turbulent wind.}}{57}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Rotor speed for turbine in 16 m/s turbulent wind.}}{58}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Rotor speed for turbine in 16 m/s turbulent wind.}}{57}
 \contentsline {figure}{\numberline {3.21}{\ignorespaces Power generation for turbine in 16 m/s turbulent wind.}}{58}
 \contentsline {figure}{\numberline {3.22}{\ignorespaces Tower base fore-aft moment for turbine in 16 m/s turbulent wind.}}{59}
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Blade root bending moment for turbine in 16 m/s turbulent wind.}}{59}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Extreme operating gust and feed forward wind speed estimate based on gust.}}{62}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Extreme operating gust and feed forward wind speed estimate based on gust.}}{61}
 \contentsline {figure}{\numberline {3.25}{\ignorespaces Blade pitch response to extreme operating gust. }}{62}
 \contentsline {figure}{\numberline {3.26}{\ignorespaces Rotor speed for turbine subjected to extreme operating gust. }}{63}
 \contentsline {figure}{\numberline {3.27}{\ignorespaces Power generation for turbine subjected to extreme operating gust.}}{64}
@@ -138,4 +138,14 @@
 \contentsline {figure}{\numberline {6.24}{\ignorespaces Tower base fore-aft bending moment during the Turbine in Wake test case without feed forward control.}}{164}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Top level Simulink system for model of NREL 5-MW with baseline (no feed forward) control.}}{180}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{181}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Gain Schedule subsystem for Simulink model of NREL 5-MW with baseline control.}}{181}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with baseline control.}}{182}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{182}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Embedded Matlab function GenTorque.}}{183}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward optimal pitch control.}}{184}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{184}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{185}
 \addvspace {10\p@ }

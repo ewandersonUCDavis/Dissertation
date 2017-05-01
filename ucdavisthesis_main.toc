@@ -21,15 +21,15 @@
 \contentsline {section}{\numberline {2.7}Summary and Conclusions}{35}
 \contentsline {chapter}{\numberline {3}Feed forward optimum pitch control.}{37}
 \contentsline {section}{\numberline {3.1}Introduction}{37}
-\contentsline {section}{\numberline {3.2}Using FAST to Model a Two Turbine System}{42}
+\contentsline {section}{\numberline {3.2}Using FAST to Model a Two Turbine System}{41}
 \contentsline {section}{\numberline {3.3}Controller Design}{43}
 \contentsline {subsection}{\numberline {3.3.1}Implementing Feed Forward Control}{43}
 \contentsline {subsection}{\numberline {3.3.2}Closed Loop Controller}{45}
 \contentsline {subsection}{\numberline {3.3.3}Feed Forward Controller}{47}
-\contentsline {section}{\numberline {3.4}Performance With Perfect Wind Speed \\ Knowledge}{50}
+\contentsline {section}{\numberline {3.4}Performance With Perfect Wind Speed \\ Knowledge}{49}
 \contentsline {subsection}{\numberline {3.4.1}Gust Response}{50}
 \contentsline {subsection}{\numberline {3.4.2}Turbulent Wind Response}{55}
-\contentsline {section}{\numberline {3.5}Performance With Wind Speed Estimate From Upwind Turbine}{61}
+\contentsline {section}{\numberline {3.5}Performance With Wind Speed Estimate From Upwind Turbine}{60}
 \contentsline {subsection}{\numberline {3.5.1}Gust Response}{61}
 \contentsline {subsection}{\numberline {3.5.2}Turbulent Wind Response}{65}
 \contentsline {section}{\numberline {3.6}Sensitivity to Errors in Feed Forward Data \\ Timing}{69}
@@ -79,5 +79,8 @@
 \contentsline {chapter}{\numberline {A}Sample FAST simulation input files}{172}
 \contentsline {section}{\numberline {A.1}primary.fst}{172}
 \contentsline {section}{\numberline {A.2}Aerodyn.ipt}{177}
-\contentsline {chapter}{\numberline {B}Damage Equivalent Load (DEL) Calculation}{179}
+\contentsline {chapter}{\numberline {B}Simulink Controllers}{179}
+\contentsline {section}{\numberline {B.1}Baseline NREL 5-MW Feedback Control.}{179}
+\contentsline {section}{\numberline {B.2}NREL 5-MW Turbine With Feed Forward Optimal Pitch Control.}{182}
+\contentsline {chapter}{\numberline {C}Damage Equivalent Load (DEL) Calculation}{186}
 \vspace {2em}
