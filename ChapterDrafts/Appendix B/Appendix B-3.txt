@@ -1,0 +1,52 @@
+The figures in this section illustrate the Simulink model used to simulate a Downwind Turbine with feed forward optimum pitch control. This is the feed forward controller analyzed in Chapter \ref{Chapter4}. Figure \ref{figB-10} shows the top level Simulink system. Much of the figure looks similar to Figure \ref{figB-1}, which illustrates the baseline (or upwind) turbine. The FAST block and all of the components of the baseline closed loop controller are present in Figure \ref{figB-10}. However,in the lower left corner there is a Feed Forward Controller subsystem that sends FF_pwrFactor and FF_minPit commands to the Pitch Controller and Torque Controller subsystems. FF_pwrFactor stands for Feed Forward Power Factor which is a measure of the turbine's current rated capacity as a fraction of full rated capacity. For example, a turbine in normal operation would have a power factor of 1. A turbine that has been derated by 20\% would have a power factor of 0.8. FF_minPitch stands for Feed Forward Minimum Pitch. The minimum pitch is a function of the power factor, but it was easiest to implement it as a separate signal here. The minimum pitch is used to derate a turbine operating in region 2 control.
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/FF_Derate1.png}
+		
+	\caption{Top level Simulink system for model of NREL 5-MW with feed forward derating control.}
+	\label{figB-10}
+\end{figure}
+
+Figure \ref{figB-11} shows the Feed Forward Controller subsystem. The FF Derate Factor Lookup Table block contains a time history of the derate factor, which has been generated based on the output data from the Upwind Turbine simulation. The derate factor is the amount of derating requested by the feed forward controller (as a fraction of full turbine capacity). Most of the time the derate factor is 0, but it is increased when the turbine is derated. The derate factor signal is fed through the Low Pass Filter block to prevent abrupt changes in turbine rating (as discussed in Section \ref{section4-4}). Subtracting the derate factor from 1 turns it into a power factor signal. The Min Pitch Lookup Table block determines the minimum pitch corresponding to the current power factor. Finaly, the FF_pwrFactor and FF_minPit signals are then passed out of the controller.
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/FF_Derate2.png}
+	\caption{Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}
+	\label{figB-11}
+\end{figure}
+
+The Pitch Controller subsystem is shown in Figure \ref{figB-12}. It has been modified to accept the FF_pwrFactor and FF_minPit commands. The rated generator speed (GenSpRef) is multiplied by the power factor (FF_pwrFactor). When the turbine is derated, and the power factor is less than 1, this reduces the generator speed that the turbine pitch controller is attempting to track. The minimum pitch (FF_minPit) is passed to the Total Pitch Command block. The Gain Schedule block is identical to the PI Control Gain Adjustment block described by Section \ref{sectionB-1} and Figure \ref{figB-3}. It will not be described here. 
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/FF_Derate3.png}
+	\caption{Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}
+	\label{figB-12}
+\end{figure}
+
+The Total Pitch Command subsystem is shown in Figure \ref{figB-13}. This subsystem applies nonlinear PI control, much like it does in the baseline controller (Figure \ref{figB-4}). However, this subsystem uses the minimum pitch signal (minPitch)  as the lower bounds for blade pitch control. The baseline controller uses 0\degree as the lower bounds.
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/FF_Derate5.png}
+	\caption{Total Pitch Command subsystem for Simulink model of NREL 5-MW with feed forward derating control.}
+	\label{figB-13}
+\end{figure}
+
+Figure \ref{figB-14} shows the Torque Controller subsystem. Much of this subsystem remains unchanged from the baseline controller. The power factor (FF_pwrFactor) and minimum blade pitch (FF_minPit) commands are passed to the embedded Matlab function GenTorque along with the filtered generator speed and current pitch command. The full text of GenTorque is shown in Figure \ref{figB-15}. GenTorque uses the derate factor to adjust the shapes of the NREL 5-MW torque-speed curves when the turbine is derated. It then compares the current pitch command to the minimum pitch to determine if the turbine is in region 3 control. Finally, it calculates the appropriate generator torque for the current filtered generator speed, control region, and derate factor.
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/FF_Derate6.png}
+	\caption{Torque Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}
+	\label{figB-14}
+\end{figure}
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/FF_Derate9.png}
+	\caption{Embedded Matlab function GenTorque for feed forward derating control.}
+	\label{figB-15}
+\end{figure}

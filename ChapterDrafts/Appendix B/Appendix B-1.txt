@@ -1,0 +1,48 @@
+The figures in this section illustrate the Simulink model used to simulate the Upwind Turbine in chapters \ref{Chapter3} and \ref{Chapter4}. The Simulink systems shown below model an NREL 5-MW turbine with the control system described in the NREL 5-MW specification\cite{jonkman2009}. Figure \ref{figB-1} shows the top level Simulink system. The green box contains a version of FAST that has been specially compiled to interact with Simulink control systems. At each time step this version of FAST takes generator torque, generator power, yaw position, and blade pitch as inputs. The FAST outputs are defined by the input file \testit{primary.fst}. A typical set of outputs can be seen in Appendix \ref{AppendixA}. All of the yellow boxes shown in the figures below record simulation data and write it to output files at each time step. At each time step, generator speed is extracted from the FAST output and passed through a low pass filter (the small blue box in Figure \ref{figB-1}) to remove high frequency oscillations. This filtered generator speed is then fed to the pitch and torque controllers (the two largest blue boxes), which determine the blade pitch, generator torque, and generator power inputs to FAST. The Yaw position input is specified by the Yaw controller (the grey box), but in this case the yaw controller simply specifies a constant value of 0\degree.
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/baseline1.png}
+		
+	\caption{Top level Simulink system for model of NREL 5-MW with baseline (no feed forward) control.}
+	\label{figB-1}
+\end{figure}
+
+Figure \ref{figB-2} shows the Pitch Controller subsystem. It takes filtred generator speed and current blade pitch angle as inputs. The NREL 5-MW turbine uses a nonlinear Proportional and Integral (PI) controller for pitch control. In this control scheme the control gains are a function of blade pitch. The Gain Schedule subsystem uses the current blade pitch to adjust the proportional (Kp) and Integral (Ki) control gains using the logic shown in Figure \ref{figB-3}. The filtered generator speed is compared to the rated generator speed to determine the generator speed error. The Total Pitch Command subsystem takes the generator speed error and adjusted control gains as inputs then applies PI control using the logic shown in Figure \ref{figB-4} to produce a blade pitch command. That blade pitch command is fed through the Blade Pitch Actuator block, which is a 2nd order model of the blade pitch actuator dynamics with a natural frequency of 1 Hz and a damping ratio of 0.7, to produce the pitch command that will be input to FAST. The Blade Pitch Actuator block is included here because FAST does not model blade pitch actuator dynamics.
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/baseline2.png}
+	\caption{Pitch Controller subsystem for Simulink model of NREL 5-MW with baseline control.}
+	\label{figB-2}
+\end{figure}
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/baseline3.png}
+	\caption{Gain Schedule subsystem for Simulink model of NREL 5-MW with baseline control.}
+	\label{figB-3}
+\end{figure}
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/baseline4.png}
+	\caption{Total Pitch Command subsystem for Simulink model of NREL 5-MW with baseline control.}
+	\label{figB-4}
+\end{figure}
+
+Figure \ref{figB-5} shows the Torque Controller subsystem.  It takes filtred generator speed, current blade pitch angle, and unfiltered generator speed as inputs. The embedded Matlab function GenTorque uses blade pitch angle to determine if the turbine is in region 3 control. It then calculates the appropriate generator torque for the current filtered generator speed and control region. The full text of GenTorque is shown in Figure \ref{figB-6}. The generator torque command is passed through value and rate limiters to produce the generator torque command that will be input to FAST. To calculate generator power, the unfiltered generator speed is multiplied by the generator torque command then adjusted to account for the efficiency of the generator.
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/baseline5.png}
+	\caption{Torque Controller subsystem for Simulink model of NREL 5-MW with baseline control.}
+	\label{figB-5}
+\end{figure}
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/baseline9.png}
+	\caption{Embedded Matlab function GenTorque for baseline control.}
+	\label{figB-6}
+\end{figure}

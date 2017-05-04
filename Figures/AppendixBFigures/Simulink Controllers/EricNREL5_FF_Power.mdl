@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.687"
+    ComputedModelVersion    "1.691"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -27,9 +27,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "oooeee"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Apr 30 20:52:18 2017"
-  RTWModifiedTimeStamp	  415486085
-  ModelVersionFormat	  "1.%<AutoIncrement:687>"
+  LastModifiedDate	  "Mon May  1 20:14:00 2017"
+  RTWModifiedTimeStamp	  415570372
+  ModelVersionFormat	  "1.%<AutoIncrement:691>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -885,7 +885,7 @@ Model {
   }
   System {
     Name		    "EricNREL5_FF_Power"
-    Location		    [140, 82, 1913, 970]
+    Location		    [410, 326, 1531, 840]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    212
@@ -1179,8 +1179,8 @@ Model {
       MaskHideContents	      off
       System {
 	Name			"Feed Forward Controller"
-	Location		[233, 159, 1034, 645]
-	Open			off
+	Location		[132, 207, 1337, 808]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1207,13 +1207,21 @@ Model {
 	}
 	Block {
 	  BlockType		  Lookup
-	  Name			  "FF_pwrFactor \nLookup Table"
+	  Name			  "FF Derate Factor \nLookup Table"
 	  SID			  "820"
 	  Position		  [165, 168, 230, 232]
 	  InputValues		  "FF_Time"
 	  Table			  "FF_pwrFactor"
 	  LookUpMeth		  "Interpolation-Use End Values"
 	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  TransferFcn
+	  Name			  "Low Pass Filter"
+	  SID			  "860"
+	  Position		  [270, 152, 330, 188]
+	  Numerator		  "PF_controller_num"
+	  Denominator		  "PF_controller_den"
 	}
 	Block {
 	  BlockType		  Sum
@@ -1227,14 +1235,6 @@ Model {
 	  InputSameDT		  off
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  TransferFcn
-	  Name			  "Transfer Fcn"
-	  SID			  "860"
-	  Position		  [270, 152, 330, 188]
-	  Numerator		  "PF_controller_num"
-	  Denominator		  "PF_controller_den"
 	}
 	Block {
 	  BlockType		  Lookup
@@ -1264,7 +1264,7 @@ Model {
 	Line {
 	  SrcBlock		  "Clock2"
 	  SrcPort		  1
-	  DstBlock		  "FF_pwrFactor \nLookup Table"
+	  DstBlock		  "FF Derate Factor \nLookup Table"
 	  DstPort		  1
 	}
 	Line {
@@ -1274,14 +1274,14 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  SrcBlock		  "FF_pwrFactor \nLookup Table"
+	  SrcBlock		  "FF Derate Factor \nLookup Table"
 	  SrcPort		  1
 	  Points		  [0, -30]
-	  DstBlock		  "Transfer Fcn"
+	  DstBlock		  "Low Pass Filter"
 	  DstPort		  1
 	}
 	Line {
-	  SrcBlock		  "Transfer Fcn"
+	  SrcBlock		  "Low Pass Filter"
 	  SrcPort		  1
 	  DstBlock		  "Sum"
 	  DstPort		  1
@@ -1348,7 +1348,7 @@ Model {
       MaskHideContents	      off
       System {
 	Name			"Pitch Controller"
-	Location		[118, 110, 1602, 803]
+	Location		[213, 901, 338, 1010]
 	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1744,8 +1744,8 @@ Model {
 	  MaskHideContents	  off
 	  System {
 	    Name		    "Total Pitch Command"
-	    Location		    [104, 155, 1264, 572]
-	    Open		    off
+	    Location		    [0, 122, 125, 231]
+	    Open		    on
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -1761,7 +1761,7 @@ Model {
 	      BlockType		      Inport
 	      Name		      "Generator\nSpeed \nError"
 	      SID		      "687"
-	      Position		      [55, 123, 85, 137]
+	      Position		      [95, 123, 125, 137]
 	      BackgroundColor	      "[1.000000, 0.501961, 0.501961]"
 	      IconDisplay	      "Port number"
 	    }
@@ -1769,7 +1769,7 @@ Model {
 	      BlockType		      Inport
 	      Name		      "KP"
 	      SID		      "688"
-	      Position		      [55, 108, 85, 122]
+	      Position		      [95, 108, 125, 122]
 	      BackgroundColor	      "[1.000000, 0.501961, 0.501961]"
 	      NamePlacement	      "alternate"
 	      Port		      "2"
@@ -1779,7 +1779,7 @@ Model {
 	      BlockType		      Inport
 	      Name		      "KI"
 	      SID		      "689"
-	      Position		      [55, 313, 85, 327]
+	      Position		      [85, 313, 115, 327]
 	      BackgroundColor	      "[1.000000, 0.501961, 0.501961]"
 	      Port		      "3"
 	      IconDisplay	      "Port number"
@@ -1788,7 +1788,7 @@ Model {
 	      BlockType		      Inport
 	      Name		      "minPitch"
 	      SID		      "851"
-	      Position		      [65, 193, 95, 207]
+	      Position		      [85, 193, 115, 207]
 	      BackgroundColor	      "[1.000000, 0.501961, 0.501961]"
 	      Port		      "4"
 	      IconDisplay	      "Port number"
@@ -1798,7 +1798,7 @@ Model {
 	      Name		      "Add2"
 	      SID		      "691"
 	      Ports		      [2, 1]
-	      Position		      [590, 117, 620, 148]
+	      Position		      [535, 117, 565, 148]
 	      ShowName		      off
 	      InputSameDT	      off
 	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
@@ -1808,7 +1808,7 @@ Model {
 	      BlockType		      Derivative
 	      Name		      "Derivative"
 	      SID		      "726"
-	      Position		      [945, 300, 975, 330]
+	      Position		      [760, 300, 790, 330]
 	      ShowName		      off
 	    }
 	    Block {
@@ -1816,7 +1816,7 @@ Model {
 	      Name		      "Divide1"
 	      SID		      "744"
 	      Ports		      [2, 1]
-	      Position		      [170, 194, 200, 221]
+	      Position		      [195, 194, 225, 221]
 	      ShowName		      off
 	      Inputs		      "*/"
 	      InputSameDT	      off
@@ -1829,7 +1829,7 @@ Model {
 	      Name		      "Divide2"
 	      SID		      "692"
 	      Ports		      [2, 1]
-	      Position		      [170, 239, 200, 266]
+	      Position		      [195, 239, 225, 266]
 	      ShowName		      off
 	      Inputs		      "*/"
 	      InputSameDT	      off
@@ -1865,7 +1865,7 @@ Model {
 	      BlockType		      Constant
 	      Name		      "Maximum Pitch"
 	      SID		      "713"
-	      Position		      [50, 230, 95, 260]
+	      Position		      [80, 230, 125, 260]
 	      BackgroundColor	      "gray"
 	      Value		      "MaxPit"
 	    }
@@ -1885,7 +1885,7 @@ Model {
 	      Name		      "Product4"
 	      SID		      "697"
 	      Ports		      [2, 1]
-	      Position		      [530, 202, 560, 233]
+	      Position		      [450, 202, 480, 233]
 	      ShowName		      off
 	      InputSameDT	      off
 	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
@@ -1895,7 +1895,7 @@ Model {
 	      BlockType		      RateLimiter
 	      Name		      "Rate Limiter1"
 	      SID		      "698"
-	      Position		      [870, 120, 900, 150]
+	      Position		      [700, 120, 730, 150]
 	      ShowName		      off
 	      RisingSlewLimit	      "PitDotMax"
 	      FallingSlewLimit	      "-PitDotMax"
@@ -1906,7 +1906,7 @@ Model {
 	      Name		      "Saturation\nDynamic"
 	      SID		      "853"
 	      Ports		      [3, 1]
-	      Position		      [735, 115, 815, 155]
+	      Position		      [605, 116, 665, 154]
 	      LibraryVersion	      "1.236"
 	      SourceBlock	      "simulink/Discontinuities/Saturation\nDynamic"
 	      SourceType	      "Saturation Dynamic"
@@ -1934,7 +1934,7 @@ Model {
 	      Name		      "To Workspace1"
 	      SID		      "721"
 	      Ports		      [1]
-	      Position		      [590, 22, 660, 68]
+	      Position		      [550, 22, 620, 68]
 	      BackgroundColor	      "yellow"
 	      ShowName		      off
 	      VariableName	      "PitComP"
@@ -1947,7 +1947,7 @@ Model {
 	      Name		      "To Workspace2"
 	      SID		      "722"
 	      Ports		      [1]
-	      Position		      [590, 197, 660, 243]
+	      Position		      [505, 272, 575, 318]
 	      BackgroundColor	      "yellow"
 	      ShowName		      off
 	      VariableName	      "PitComI"
@@ -1960,7 +1960,7 @@ Model {
 	      Name		      "To Workspace3"
 	      SID		      "723"
 	      Ports		      [1]
-	      Position		      [885, 22, 955, 68]
+	      Position		      [710, 22, 780, 68]
 	      BackgroundColor	      "yellow"
 	      ShowName		      off
 	      VariableName	      "PitComT"
@@ -1973,7 +1973,7 @@ Model {
 	      Name		      "To Workspace4"
 	      SID		      "724"
 	      Ports		      [1]
-	      Position		      [945, 212, 1015, 258]
+	      Position		      [760, 212, 830, 258]
 	      BackgroundColor	      "yellow"
 	      ShowName		      off
 	      VariableName	      "PitCom1"
@@ -1986,7 +1986,7 @@ Model {
 	      Name		      "To Workspace5"
 	      SID		      "725"
 	      Ports		      [1]
-	      Position		      [995, 292, 1065, 338]
+	      Position		      [810, 292, 880, 338]
 	      BackgroundColor	      "yellow"
 	      ShowName		      off
 	      VariableName	      "PitRate1"
@@ -2011,14 +2011,14 @@ Model {
 	      BlockType		      Outport
 	      Name		      "Blade\nPitch\nCommand"
 	      SID		      "701"
-	      Position		      [945, 128, 975, 142]
+	      Position		      [800, 128, 830, 142]
 	      BackgroundColor	      "[0.501961, 0.501961, 0.752941]"
 	      IconDisplay	      "Port number"
 	    }
 	    Line {
 	      SrcBlock		      "Generator\nSpeed \nError"
 	      SrcPort		      1
-	      Points		      [40, 0]
+	      Points		      [85, 0]
 	      Branch {
 		DstBlock		"Product"
 		DstPort			2
@@ -2032,7 +2032,7 @@ Model {
 	    Line {
 	      SrcBlock		      "Product"
 	      SrcPort		      1
-	      Points		      [165, 0]
+	      Points		      [140, 0]
 	      Branch {
 		DstBlock		"Add2"
 		DstPort			1
@@ -2048,7 +2048,7 @@ Model {
 	      SrcPort		      1
 	      Points		      [5, 0]
 	      Branch {
-		Points			[0, -80]
+		Points			[20, 0; 0, -80]
 		DstBlock		"Add2"
 		DstPort			2
 	      }
@@ -2066,10 +2066,10 @@ Model {
 	    Line {
 	      SrcBlock		      "KI"
 	      SrcPort		      1
-	      Points		      [40, 0]
+	      Points		      [45, 0]
 	      Branch {
 		Labels			[1, 0]
-		Points			[385, 0]
+		Points			[250, 0; 0, -95]
 		DstBlock		"Product4"
 		DstPort			2
 	      }
@@ -2089,7 +2089,7 @@ Model {
 	    Line {
 	      SrcBlock		      "Rate Limiter1"
 	      SrcPort		      1
-	      Points		      [15, 0]
+	      Points		      [5, 0]
 	      Branch {
 		DstBlock		"Blade\nPitch\nCommand"
 		DstPort			1
@@ -2110,13 +2110,13 @@ Model {
 	    Line {
 	      SrcBlock		      "Maximum Pitch"
 	      SrcPort		      1
-	      Points		      [10, 0]
+	      Points		      [15, 0]
 	      Branch {
 		DstBlock		"Divide2"
 		DstPort			1
 	      }
 	      Branch {
-		Points			[0, -155; 570, 0; 0, 30]
+		Points			[0, -155; 440, 0; 0, 35]
 		DstBlock		"Saturation\nDynamic"
 		DstPort			1
 	      }
@@ -2130,13 +2130,13 @@ Model {
 	    Line {
 	      SrcBlock		      "minPitch"
 	      SrcPort		      1
-	      Points		      [20, 0]
+	      Points		      [35, 0]
 	      Branch {
 		DstBlock		"Divide1"
 		DstPort			1
 	      }
 	      Branch {
-		Points			[0, 150; 585, 0; 0, -200]
+		Points			[0, 150; 430, 0; 0, -205]
 		DstBlock		"Saturation\nDynamic"
 		DstPort			3
 	      }
@@ -2170,7 +2170,7 @@ Model {
 	    Line {
 	      SrcBlock		      "Saturation\nDynamic"
 	      SrcPort		      1
-	      Points		      [15, 0]
+	      Points		      [10, 0]
 	      Branch {
 		DstBlock		"Rate Limiter1"
 		DstPort			1
@@ -2371,8 +2371,8 @@ Model {
       MaskHideContents	      off
       System {
 	Name			"Torque Controller"
-	Location		[186, 234, 1081, 677]
-	Open			off
+	Location		[0, 122, 125, 231]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -2388,7 +2388,7 @@ Model {
 	  BlockType		  Inport
 	  Name			  "Filtered Generator\nSpeed"
 	  SID			  "826"
-	  Position		  [70, 23, 100, 37]
+	  Position		  [95, 48, 125, 62]
 	  BackgroundColor	  "[1.000000, 0.501961, 0.501961]"
 	  IconDisplay		  "Port number"
 	}
@@ -2396,7 +2396,7 @@ Model {
 	  BlockType		  Inport
 	  Name			  "Pitch\nCommand"
 	  SID			  "827"
-	  Position		  [20, 63, 50, 77]
+	  Position		  [105, 88, 135, 102]
 	  BackgroundColor	  "[1.000000, 0.501961, 0.501961]"
 	  Port			  "2"
 	  IconDisplay		  "Port number"
@@ -2405,7 +2405,7 @@ Model {
 	  BlockType		  Inport
 	  Name			  "Generator\nSpeed"
 	  SID			  "828"
-	  Position		  [70, 243, 100, 257]
+	  Position		  [100, 228, 130, 242]
 	  BackgroundColor	  "[1.000000, 0.501961, 0.501961]"
 	  Port			  "3"
 	  IconDisplay		  "Port number"
@@ -2414,7 +2414,7 @@ Model {
 	  BlockType		  Inport
 	  Name			  "FF_pwrFactor"
 	  SID			  "843"
-	  Position		  [105, 113, 135, 127]
+	  Position		  [170, 113, 200, 127]
 	  BackgroundColor	  "[1.000000, 0.501961, 0.501961]"
 	  Port			  "4"
 	  IconDisplay		  "Port number"
@@ -2423,7 +2423,7 @@ Model {
 	  BlockType		  Inport
 	  Name			  "FF_minPit"
 	  SID			  "844"
-	  Position		  [30, 138, 60, 152]
+	  Position		  [115, 138, 145, 152]
 	  BackgroundColor	  "[1.000000, 0.501961, 0.501961]"
 	  Port			  "5"
 	  IconDisplay		  "Port number"
@@ -2432,7 +2432,7 @@ Model {
 	  BlockType		  Gain
 	  Name			  "1/GenEff"
 	  SID			  "830"
-	  Position		  [430, 310, 460, 340]
+	  Position		  [415, 295, 445, 325]
 	  Gain			  "1/GenEff"
 	}
 	Block {
@@ -2440,7 +2440,7 @@ Model {
 	  Name			  "Bus\nCreator"
 	  SID			  "831"
 	  Ports			  [2, 1]
-	  Position		  [580, 196, 585, 234]
+	  Position		  [545, 181, 550, 219]
 	  ShowName		  off
 	  Inputs		  "2"
 	  DisplayOption		  "bar"
@@ -2449,7 +2449,7 @@ Model {
 	  BlockType		  DotProduct
 	  Name			  "Dot Product"
 	  SID			  "832"
-	  Position		  [355, 306, 390, 339]
+	  Position		  [355, 291, 390, 324]
 	  NamePlacement		  "alternate"
 	  ShowName		  off
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -2458,7 +2458,7 @@ Model {
 	  BlockType		  DotProduct
 	  Name			  "Dot Product1"
 	  SID			  "833"
-	  Position		  [355, 227, 390, 258]
+	  Position		  [355, 212, 390, 243]
 	  NamePlacement		  "alternate"
 	  ShowName		  off
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -2626,14 +2626,14 @@ Model {
 	  BlockType		  Gain
 	  Name			  "GenEff"
 	  SID			  "835"
-	  Position		  [430, 230, 460, 260]
+	  Position		  [415, 215, 445, 245]
 	  Gain			  "GenEff"
 	}
 	Block {
 	  BlockType		  Gain
 	  Name			  "RPM to rad/s"
 	  SID			  "836"
-	  Position		  [130, 15, 160, 45]
+	  Position		  [160, 40, 190, 70]
 	  NamePlacement		  "alternate"
 	  Gain			  "pi/30"
 	}
@@ -2641,7 +2641,7 @@ Model {
 	  BlockType		  Gain
 	  Name			  "RPM to rad/s1"
 	  SID			  "837"
-	  Position		  [130, 235, 160, 265]
+	  Position		  [160, 220, 190, 250]
 	  NamePlacement		  "alternate"
 	  Gain			  "pi/30"
 	}
@@ -2649,7 +2649,7 @@ Model {
 	  BlockType		  RateLimiter
 	  Name			  "Rate Limiter"
 	  SID			  "838"
-	  Position		  [505, 70, 535, 100]
+	  Position		  [465, 95, 495, 125]
 	  ShowName		  off
 	  RisingSlewLimit	  "TdotMax"
 	  FallingSlewLimit	  "-TdotMax"
@@ -2660,7 +2660,7 @@ Model {
 	  Name			  "Saturation"
 	  SID			  "839"
 	  Ports			  [1, 1]
-	  Position		  [430, 70, 460, 100]
+	  Position		  [415, 95, 445, 125]
 	  ShowName		  off
 	  InputPortMap		  "u0"
 	  UpperLimit		  "Tmax"
@@ -2670,7 +2670,7 @@ Model {
 	  BlockType		  SignalSpecification
 	  Name			  "Signal\nSpecification"
 	  SID			  "840"
-	  Position		  [615, 203, 710, 227]
+	  Position		  [575, 179, 625, 221]
 	  ShowName		  off
 	  OutDataTypeStr	  "double"
 	  Dimensions		  "2"
@@ -2680,7 +2680,7 @@ Model {
 	  BlockType		  Switch
 	  Name			  "Switch1"
 	  SID			  "841"
-	  Position		  [505, 270, 535, 300]
+	  Position		  [490, 255, 520, 285]
 	  ShowName		  off
 	  InputSameDT		  off
 	}
@@ -2688,14 +2688,13 @@ Model {
 	  BlockType		  Outport
 	  Name			  "Gen. Torque, \nGen. Power"
 	  SID			  "842"
-	  Position		  [750, 208, 780, 222]
+	  Position		  [655, 193, 685, 207]
 	  BackgroundColor	  "[0.501961, 0.501961, 0.752941]"
 	  IconDisplay		  "Port number"
 	}
 	Line {
 	  SrcBlock		  "Embedded\nMATLAB Function"
 	  SrcPort		  1
-	  Points		  [0, -30]
 	  DstBlock		  "Saturation"
 	  DstPort		  1
 	}
@@ -2708,9 +2707,9 @@ Model {
 	Line {
 	  SrcBlock		  "Rate Limiter"
 	  SrcPort		  1
-	  Points		  [10, 0; 0, 120]
+	  Points		  [20, 0; 0, 80]
 	  Branch {
-	    Points		    [-250, 0; 0, 30]
+	    Points		    [-220, 0; 0, 30]
 	    Branch {
 	      DstBlock		      "Dot Product1"
 	      DstPort		      1
@@ -2743,14 +2742,14 @@ Model {
 	  Labels		  [1, 0]
 	  SrcBlock		  "1/GenEff"
 	  SrcPort		  1
-	  Points		  [20, 0; 0, -30]
+	  Points		  [15, 0; 0, -30]
 	  DstBlock		  "Switch1"
 	  DstPort		  3
 	}
 	Line {
 	  SrcBlock		  "GenEff"
 	  SrcPort		  1
-	  Points		  [20, 0; 0, 30]
+	  Points		  [15, 0; 0, 30]
 	  DstBlock		  "Switch1"
 	  DstPort		  1
 	}
@@ -2763,14 +2762,13 @@ Model {
 	Line {
 	  SrcBlock		  "Switch1"
 	  SrcPort		  1
-	  Points		  [10, 0; 0, -60]
+	  Points		  [0, -60]
 	  DstBlock		  "Bus\nCreator"
 	  DstPort		  2
 	}
 	Line {
 	  SrcBlock		  "Pitch\nCommand"
 	  SrcPort		  1
-	  Points		  [15, 0; 0, 25]
 	  DstBlock		  "Embedded\nMATLAB Function"
 	  DstPort		  2
 	}
@@ -2789,7 +2787,7 @@ Model {
 	Line {
 	  SrcBlock		  "RPM to rad/s"
 	  SrcPort		  1
-	  Points		  [0, 40]
+	  Points		  [10, 0; 0, 15]
 	  DstBlock		  "Embedded\nMATLAB Function"
 	  DstPort		  1
 	}
