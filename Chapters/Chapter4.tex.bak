@@ -69,7 +69,8 @@ To evaluate the three derating methods, all three derating methods are simulated
 \end{figure}
 
 
-Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/s wind when it experiences an extreme operating gust, shows similar trends to test case 1. Plots of the power generation, tower base fore-aft bending moment, blade root bending moment, and rotor speed for test case two are not shown here. However, the performance observed in both test cases has been quantified and summarized in Table \ref{table4-1} and Table \ref{table4-2}. The table shows that derating method 3 is significantly better than methods 1 and 2 at reducing both the structural loads and the rotor overspeeds caused by an extreme operating gust. Since derating method 3 does the best job of mitigating the negative effects of a large gust of wind it is best suited for our feed forward controller. All further simulations described in this chapter use derating method 3. A more detailed description of derating method 3 and how it is incorporated into the NREL 5-MW controller can be found in Section \ref{section4-5}.
+Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/s wind when it experiences an extreme operating gust, shows similar trends to test case 1. Plots of the power generation, tower base fore-aft bending moment, blade root bending moment, and rotor speed for test case two are not shown here. However, the performance observed in both test cases has been quantified and summarized in Table \ref{table4-1} and Table \ref{table4-2}. The tables show that derating method 3 is significantly better than methods 1 and 2 at reducing both the structural loads and the rotor overspeeds caused by an extreme operating gust. Since derating method 3 does the best job of mitigating the negative effects of a large gust of wind, it is best suited for our feed forward controller.  
+
 
 
 
@@ -80,7 +81,7 @@ Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/
 \hline
 \hline
                                                              &                      & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max Tower Base\\ Bending Moment\end{tabular}} &                      & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max Blade Root\\ Bending Moment\end{tabular}} &                      & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max Rotor\\ Speed\end{tabular}} \\ \cline{3-4} \cline{6-7} \cline{9-10} 
-                                                             &                      & (MNm)                                        & Reduction                                    &                      & (MNm)                                        & Reduction                                    &                      & (RPM)                                 & Reduction                             \\ \hline
+                                                             &                      & (MNm)                                        & Decrease                                    &                      & (MNm)                                        & Decrease                                    &                      & (RPM)                                 & Decrease                             \\ \hline
 \begin{tabular}[c]{@{}c@{}}No \\ Derating\end{tabular}       &                      & 102.2                                        & -                                            &                      & 12.25                                        & -                                            &                      & 14.35                                 & -                                     \\
 \\
 \begin{tabular}[c]{@{}c@{}}Derating \\ Method 1\end{tabular} &                      & 88.40                                        & 13.5\%                                       &                      & 10.11                                        & 17.5\%                                       &                      & 14.18                                 & 1.1\%                                 \\
@@ -102,7 +103,7 @@ Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/
 \hline
 \hline
                                                              &                      & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max Tower Base\\ Bending Moment\end{tabular}} &                      & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max Blade Root\\ Bending Moment\end{tabular}} &                      & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max Rotor\\ Speed\end{tabular}} \\ \cline{3-4} \cline{6-7} \cline{9-10} 
-                                                             &                      & (MNm)                                        & Reduction                                    &                      & (MNm)                                        & Reduction                                    &                      & (RPM)                                 & Reduction                             \\ \hline
+                                                             &                      & (MNm)                                        & Decrease                                    &                      & (MNm)                                        & Decrease                                    &                      & (RPM)                                 & Decrease                             \\ \hline
 \begin{tabular}[c]{@{}c@{}}No \\ Derating\end{tabular}       &                      & 124.7                                        & -                                            &                      & 11.84                                        & -                                            &                      & 14.07                                 & -                                     \\
 \\
 \begin{tabular}[c]{@{}c@{}}Derating \\ Method 1\end{tabular} &                      & 91.36                                        & 26.7\%                                       &                      & 11.84                                        & 26.1\%                                       &                      & 13.77                                 & 2.1\%                                 \\
@@ -115,6 +116,36 @@ Test case 2, where a turbine is derated by 30\% and is operating in steady 12 m/
 \end{tabular}
 \caption{Effect of derating methods for test case 2: 12 m/s EOG with 30\% derating.}
 \end{table}
+
+\FloatBarrier
+
+All further simulations described in this chapter use derating method 3. When using method 3, a request to derate the turbine results in three changes to the turbine's closed loop controller:
+
+\begin{itemize}
+  \item The rated generator speed ($\Omega_{GenR}$) is reduced.
+  \item The generator torque ($T_{Gen}$) vs. speed ($\Omega_{Gen}$) curve is scaled such that the rated torque occurs at the new $\Omega_{GenR}$.
+  \item A minimum blade pitch constraint is imposed.
+\end{itemize}
+
+The first two items are sufficient to derate a turbine in region 3 control. The rated generator speed is scaled according to equation \ref{eq4-0} where $\Omega_{GenR}$ is the rated generator speed under normal operation, and $\eta_{DR}$ is the derate factor. The derate factor indicates the amount of derating as a fraction of 1. For example, $\eta_{DR}$ = 0.25 would derate the turbine by 25\%. The rated generator torque is not affected by derating. However, the curve must be compressed along the $\Omega_{Gen}$ axis such that the rated torque occurs at the new rated speed ($\Omega_{GenR\_Derated}$). This requires a change in rated speed (as shown in Equation \ref{eq4-0}) as well as the change in generator torque constant ($k_{Gen}$) shown in equation \ref{eq4-0A}. Appendix \ref{AppendixB}, Figure \ref{figB-15} contains the Matlab code used for torque control calculations. 
+
+\begin{equation}
+	\Omega_{GenR\_Derated}=(1-\eta_{DR})\Omega_{GenR} \label{eq4-0}
+\end{equation}
+
+\begin{equation}
+	k_{Gen\_Derated}=\dfrac{k_{Gen}}{(1-\eta_{DR})^2} \label{eq4-0A}
+\end{equation}
+
+The adjustments in equations \ref{eq4-0} and \ref{eq4-0A} do not provide sufficient derating when the turbine is operating in region 2 control. In other words, if the turbine is operating in region 2 control and a 20\% derate command ($\eta_{DR}$ = 0.2) is issued, adjusting $\Omega_{GenR}$ and $k_{Gen}$ does not reduce power generation by 20\%. This problem can be fixed by imposing a minimum pitch constraint. Normally in region 2 control the turbine blade pitch would be fixed at 0\degree. Increasing blade pitch reduces energy capture, which further derates the turbine. Figure \ref{fig4-4A} shows the relationship between derating factor and the blade pitch required for a turbine in region 2 control to achieve that derating. This relationship was based on the WTPerf data discussed in Section \ref{section2-4}. Imposing a minimum blade pitch based on the relationship shown in Figure \ref{fig4-4A} ensures that a turbine in region 2 control will properly derate. The minimum pitch constraint also enables the turbine to smoothly transition between region 2 and region 3 control while derated. 
+
+\begin{figure}[htb]
+	\centering
+		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-4A.png}
+	\caption{Effect of sudden rating changes on blade root bending moment.}
+	\label{fig4-4A}
+\end{figure}
+
 
 
 
@@ -153,7 +184,7 @@ Figure \ref{fig4-7} shows the relationship between derating factor and the maxim
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-7.png}
 		
-	\caption{Effect of derating on max blade root moment for EOGs at various wind speeds.}
+	\caption{Effect of derating on max BRM for EOGs at various wind speeds.}
 	\label{fig4-7}
 \end{figure}
 
@@ -171,7 +202,7 @@ Figure \ref{fig4-8} shows the relationship between derating factor and the maxim
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-9.png}
 		
-	\caption{Effect of derating on max rotor overspeed for EOGs at various wind speeds.}
+	\caption{Effect of derating on max overspeed for EOGs at various wind speeds.}
 	\label{fig4-9}
 \end{figure}
 
@@ -292,7 +323,7 @@ A low pass filter, given by equation \ref{eq4-1} with $P_{filter}$ = 0.2, will b
 
 \section{Control System Design} \label{section4-5}
 
-As figure \ref{fig4-20} illustrates, a plant level controller will monitor the behavior of the upwind turbine and derate the downwind turbine when necessary. To determine when derating is necessary, the plant level controller will monitor the rotor speed of the upwind turbine. If the upwind turbine rotor speed exceeds some pre-defined threshold the plant level controller will interpret that as an extreme gust event and derate the downwind turbine. This threshold should be chosen based on the range of rotor speeds a turbine experiences during nominal operation, and how aggressive a plant operator chooses to be with this selective derating strategy. Therefore, in practice this threshold is likely to be site specific. 
+As figure \ref{fig4-20} illustrates, a plant level controller will monitor the behavior of the upwind turbine and derate the downwind turbine when necessary. To determine when derating is necessary, the plant level controller will monitor the rotor speed of the upwind turbine. If the upwind turbine rotor speed exceeds some pre-defined threshold the plant level controller will interpret that as an extreme gust event and derate the downwind turbine. This threshold should be chosen based on the range of rotor speeds a turbine experiences during nominal operation, and how aggressive a plant operator chooses to be with this selective derating strategy. Therefore, in practice this threshold may be site specific. 
 
 \begin{figure}[htb]
 	\centering
@@ -307,22 +338,22 @@ For the simulations carried out in the following sections the threshold to initi
 
 As shown in section \ref{section4-3}, derating the downwind turbine will reduce the structural loads and rotor overspeed caused by the extreme gust event. As a result the downwind turbine will experience reduced structural damage and avoid a possible overspeed shutdown when the extreme gust arrives. Once the extreme gust has passed the downwind turbine the downwind turbine will be returned to full rated operation. Several methods can be used to determine when the downwind turbine should be derated ($T_{startDerate}$) and when it is safe for the downwind turbine to return to full rated operation ($T_{endDerate}$). Two of those methods are examined in the following paragraphs.
 
-One method of determining when to derate the downwind turbine is to use an estimate of the gust's convection speed. The time it takes for a gust of wind to travel from the upwind turbine to the downwind turbine is given by $t = D/U_{conv}$, where $D$ is the downwind distance between the turbines and the convection speed $U_{conv}$ is the rate at which wind speed fluctuations propagate downwind. Section \ref{section2-4} examined a method for estimating wind speed using blade pitch, rotor speed, generator torque, and known dynamics of the turbine. Section \ref{section2-5} examined using that wind speed estimation technique to estimate the convection speed. 
+One method of determining when to derate the downwind turbine is to use an estimate of the gust's convection speed. The time it takes for a gust of wind to travel from the upwind turbine to the downwind turbine is given by $t = D/U_{conv}$, where $D$ is the downwind distance between the turbines and the convection speed $U_{conv}$ is the rate at which wind speed fluctuations propagate downwind. As discussed in Section \ref{section2-5}, the convection speed can be estimated using blade pitch, rotor speed, generator torque, and known dynamics of the turbine.
 
-Large rotor overspeeds occur when the turbine is operating at or above the rated wind speed. For the NREL 5-MW turbine that means that large overspeeds will occur when the wind speed is between 12 and 25 m/s. Section \ref{section2-5} analyzed 7 hours of simulated turbine operation in those wind conditions. With a 60 second averaging time, the mean error in convection speed estimates was approximately 3.2\% and the largest error seen in a convection velocity estimate was approximately 5.6\%. To improve this control scheme's robustness to errors in convection velocity estimation we can base our derate timing on a larger error than was seen in those results. If the plant level controller begins and ends the derate signal based on Equations \ref{eq4-2} and \ref{eq4-3} then the control system will accommodate extreme wind events traveling up to 20\% faster or 20\% slower than the convection velocity estimate. $t_{Event}$ is the time at which the upwind turbine experiences an unacceptably large overspeed. Recall that $t_{conv}$ is the estimated time it will take for the gust of wind to travel from the upwind turbine to the downwind turbine and $t_s$ is the time required for the turbine to smoothly transition into derated operation. This system could experience problems if the upwind turbine experienced an overspeed shutdown, as convection velocity estimates would no longer be available.
+Large rotor overspeeds occur when the turbine is operating at or above the rated wind speed. For the NREL 5-MW turbine that means that large overspeeds will occur when the wind speed is between 12 and 25 m/s. Section \ref{section2-5} analyzed 7 hours of simulated turbine operation in those wind conditions. With a 60 second averaging time, the mean error in convection speed estimates was approximately 3.2\% and the largest error seen in a convection velocity estimate was approximately 5.6\%. To improve this control scheme's robustness to errors in convection velocity estimation, we can base our derate timing on a larger error than was seen in those results. If the plant level controller begins and ends the derate signal based on equations \ref{eq4-2} and \ref{eq4-3} then the control system will accommodate extreme wind events traveling up to 20\% faster or 20\% slower than the convection velocity estimate. In these equations $t_{Event}$ is the time at which the upwind turbine experiences an unacceptably large overspeed, $t_{conv}$ is the estimated time it will take for the gust of wind to travel from the upwind turbine to the downwind turbine, and $t_s$ is the time required for the turbine to smoothly transition into derated operation. This system could experience problems if the upwind turbine experienced an overspeed shutdown, as convection velocity estimates would no longer be available.
 
 
 \begin{equation}
-	t_{DR_start} = t_{Event} + 0.8 \times t_{conv} - t_s \label{eq4-2}
+	t_{DR\_start} = t_{Event} + 0.8 \times t_{conv} - t_s \label{eq4-2}
 \end{equation}
 
 \begin{equation}
-	t_{DR_end} = t_{Event} + 1.2 \times t_{conv} \label{eq4-3}
+	t_{DR\_end} = t_{Event} + 1.2 \times t_{conv} \label{eq4-3}
 \end{equation}
 
 
 
-Another method of determining when to derate the downwind turbine is to develop worst case scenarios based on the operating conditions of the turbine. For the NREL 5-MW turbine we have determined that large rotor overspeeds will occur when in wind speeds between 12 m/s and 25 m/s. If the downwind turbine is 10 rotor diameters (1260 m) behind the upwind turbine and the convection speed is somewhere between 12 and 25 m/s it would take a gust of wind between 105 and 50.4 seconds to travel from the upwind turbine to the downwind turbine. Therefore, if the turbine is derated from 50.4 seconds to 105 seconds after the upwind turbine experiences an unacceptable overspeed the downwind turbine should be in derated operation when the gust arrives no matter what the wind speed is. To add more safety margin we can base our worst case scenario on an even wider range of convection velocities. If the transition to derated operation is based on a 30 m/s convection time and the transition out of derated operation is based on an 8 m/s wind the derate signal will be based on equations \ref{eq4-4} and \ref{eq4-5}, where 42 seconds is the time required for a gust traveling 30 m/s to reach the downwind turbine and 157.5 is the time required for a gust traveling 8 m/s to reach the downwind turbine.  A similar calculation can be done for other turbines and/or other turbine to turbine spacing. Though this method derates the downwind turbine for longer than is strictly necessary it is simple, robust, and does not require an estimate of the convection velocity.
+Another method of determining when to derate the downwind turbine is to develop worst case scenarios based on the operating conditions of the turbine. For the NREL 5-MW turbine we have determined that large rotor overspeeds will occur in wind speeds between 12 m/s and 25 m/s. If the downwind turbine is 10 rotor diameters (1260 m) behind the upwind turbine and the convection speed is somewhere between 12 and 25 m/s it would take a gust of wind between 105 and 50.4 seconds to travel from the upwind turbine to the downwind turbine. If the turbine is derated from 50.4 seconds to 105 seconds after the upwind turbine experiences an unacceptable overspeed, the downwind turbine will be in derated operation when the gust arrives no matter what the wind speed is. To add more safety margin we can base our worst case scenario on an even wider range of convection velocities. If the transition to derated operation is based on a 30 m/s convection time and the transition out of derated operation is based on an 8 m/s wind, the derate signal will be based on equations \ref{eq4-4} and \ref{eq4-5}. In these equations 42 seconds is the time required for a gust traveling 30 m/s to reach the downwind turbine and 157.5 is the time required for a gust traveling 8 m/s to reach the downwind turbine.  A similar calculation can be done for other turbines and/or other turbine to turbine spacing. Though this method derates the downwind turbine for longer than is strictly necessary it is simple, robust, and does not require an estimate of the convection velocity.
 
 \begin{equation}
 	t_{DR_start} = t_{Event} + 42 seconds - t_s \label{eq4-4}
@@ -332,21 +363,13 @@ Another method of determining when to derate the downwind turbine is to develop 
 	t_{DR_end} = t_{Event} + 157.5 seconds \label{eq4-5}
 \end{equation}
 
-
-
-
-
-
-**Maybe explain how derating signal is processed.?????**
-
-
 %----------------------------------------------------------------------------------------
 %	SECTION 4-6
 %----------------------------------------------------------------------------------------
 
 \section{System Performance} \label{section4-6}
 
-The following sections examine the performance of the selective derating feed forward control system. A two turbine system is simulated using FAST using the method described in Section \ref{section3-2}. The upwind turbine, with a conventional closed loop turbine controller,  is simulated first. The dynamic response of that turbine is recorded and post processed to generate feed forward control signals. This post processing simulates the plant level controller. Finally the downwind turbine, with feed forward control, is simulated. By comparing the dynamic behavior of both simulations we determine the effect of the feed forward control system.
+The following sections examine the performance of the selective derating feed forward control system. A two turbine system is simulated in FAST using the method described in Section \ref{section3-2}. The upwind turbine, with a conventional closed loop turbine controller,  is simulated first. The dynamic response of that turbine is recorded and post processed to generate feed forward control signals. This post processing simulates the plant level controller. Finally the downwind turbine, with feed forward control, is simulated. By comparing the dynamic behavior of both simulations we determine the effect of the feed forward control system.
 
 %-----------------------------------
 %	SUBSECTION 4-6-1
@@ -359,19 +382,19 @@ The first simulation case is a uniform wind field with an extreme operating gust
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-22.png}
 		
-	\caption{Extreme operating gust.}
+	\caption{Extreme operating gust (EOG).}
 	\label{fig4-22}
 \end{figure}
 
-Figures \ref{fig4-23} through \ref{fig4-26} show how feed forward selective derating control affects the rotor speed, tower base fore-aft bending moment, blade root moment, and power generation of the downwind turbine. Table \ref{table4-3} quantifies and summarizes several important performance metrics. Two methods were used to time the derating of the downwind turbine. As discussed in Section \ref{section4-5}, the first method uses an estimate of the gust confection speed to determine when to derate the turbine. The second, more conservative,  method derates the downwind turbine over a longer period of time, but does not require an estimate of the convection speed. Both methods have an identical effect on rotor speed and peak structural loads, but they affect power generation differently. 
+Figures \ref{fig4-23} through \ref{fig4-26} show how feed forward selective derating control affects the rotor speed, tower base fore-aft bending moment, blade root moment, and power generation of the downwind turbine. Table \ref{table4-3} quantifies and summarizes several important performance metrics. Two methods were used to time the derating of the downwind turbine. As discussed in Section \ref{section4-5}, the first method uses an estimate of the gust confection speed to determine when to derate the turbine. The second, more conservative,  method derates the downwind turbine over a longer period of time, but does not require an estimate of the convection speed. Both methods have an identical effect on rotor overspeed and peak structural loads, but they affect power generation differently. 
 
-Figure \ref{fig4-23} shows that the upwind turbine experiences an 18.76 \% rotor overspeed due to the EOG, potentially enough to cause an emergency shutdown of the turbine, but the feed forward controller reduces the rotor overspeed in the downwind turbine to 4.96\%. In Figures \ref{fig4-24} and \ref{fig4-25} we see that both the upwind and downwind turbines experience large structural loads due to the EOG, but the loads experienced by the downwind turbine are smaller. The feed forward controller has reduced the maximum tower base fore-aft bending moment by 21.9\% and the maximum blade root bending moment by 14.7\%. 
+Figure \ref{fig4-23} shows that the upwind turbine (or a downwind turbine without feed forward control) experiences an 18.76 \% rotor overspeed due to the EOG, potentially enough to cause an emergency shutdown of the turbine, but the feed forward controller reduces the rotor overspeed in the downwind turbine to 4.96\%. In Figures \ref{fig4-24} and \ref{fig4-25} we see that both the upwind and downwind turbines experience large structural loads due to the EOG, but the loads experienced by the downwind turbine are smaller. The feed forward controller has reduced the maximum tower base fore-aft bending moment by 21.9\% and the maximum blade root bending moment by 14.7\%. 
 
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-23.png}
 		
-	\caption{Rotor speed for turbine subjected to extreme operating gust.}
+	\caption{Effect of feed forward derating control on rotor speed caused by a 16 m/s EOG.}
 	\label{fig4-23}
 \end{figure}
 
@@ -379,7 +402,7 @@ Figure \ref{fig4-23} shows that the upwind turbine experiences an 18.76 \% rotor
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-24.png}
 		
-	\caption{Tower base fore-aft moment for turbine subjected to extreme operating gust.}
+	\caption{Effect of feed forward derating control on tower base fore-aft moment caused by a 16 m/s EOG.}
 	\label{fig4-24}
 \end{figure}
 
@@ -387,21 +410,21 @@ Figure \ref{fig4-23} shows that the upwind turbine experiences an 18.76 \% rotor
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-25.png}
 		
-	\caption{Blade root bending moment for turbine subjected to extreme operating gust.}
+	\caption{Effect of feed forward derating control on BRM caused by a 16 m/s EOG.}
 	\label{fig4-25}
 \end{figure}
 
 
 
-These figures also illustrate that the system is robust to differences in the convection speed or errors in convection speed estimates. As discussed in section \ref{section3-2}, the simulation method used here assumes Taylor's frozen turbulence hypothesis, which implies that the true convection speed is equal to the mean wind speed. This assumption causes the EOG to reach the downwind turbine at exactly 200 seconds. However, if the EOG convects faster or slower than the mean wind speed the arrival time will shift. Similarly, if a convection velocity estimate is used to determine when to derate the downwind turbine then an error in the convection velocity estimate will cause that window of derated operation to shift. As we can see from Figures \ref{fig4-23} through \ref{fig4-25} small shifts will not affect the performance of the feed forward controller because the downwind turbine will still be in derated operation when the EOG arrives.
+These figures also illustrate that the system is robust to differences in the convection speed or errors in convection speed estimates. As discussed in section \ref{section3-2}, the simulation method used here assumes Taylor's frozen turbulence hypothesis, which implies that the true convection speed is equal to the mean wind speed. This assumption causes the EOG to reach the downwind turbine at exactly 200 seconds. However, if the EOG convects faster or slower than the mean wind speed the arrival time will shift. Similarly, if there is an error in the convection velocity estimate the window of derated operation will shift. As we can see from Figures \ref{fig4-23} through \ref{fig4-25} small shifts will not affect the performance of the feed forward controller because the downwind turbine will still be in derated operation when the EOG arrives.
 
-Figure \ref{fig4-25} shows power generation. As expected, derating the downwind turbine results in reduced power generation. When the derate timing is based on a convection velocity estimate it results in a loss of 11.5 KWh. If energy is sold at 10 cents per kWh that results in \$1.16 of lost revenue. When a convection velocity estimate is not used for derate timing the downwind turbine remains derated longer. This results in a loss of 26.48 kWh and lost revenue of approximately \$2.65. These simulations appear to show that turbines with feed forward selective derating control will generate less energy, however in real world operation this derating strategy may result in a significant increase in energy generation. It is important to note that these simulations do not model emergency rotor overspeed shutdowns. The turbine without feed forward control experiences a rotor overspeed of 18.76\%. If this caused a 10 minute emergency shutdown it would result in a loss of approximately 833 kWh and lost revenue of approximately \$83, significantly more than the lost revenue cased by briefly derating the turbine.
+Figure \ref{fig4-25} shows power generation. As expected, derating the downwind turbine results in reduced power generation. When the derate timing is based on a convection velocity estimate it results in a loss of 11.5 KWh. If energy is sold at 8 cents per kWh that results in \$0.92 of lost revenue. When a convection velocity estimate is not used for derate timing the downwind turbine remains derated longer. This results in a loss of 26.48 kWh and lost revenue of approximately \$2.12. These simulations appear to show that turbines with feed forward selective derating control will generate less energy, however in real world operation this derating strategy may result in a significant increase in energy generation. It is important to note that these simulations do not model emergency rotor overspeed shutdowns. The turbine without feed forward control experiences a rotor overspeed of 18.76\%. If this caused a 10 minute emergency shutdown it would result in a loss of approximately 833 kWh and lost revenue of approximately \$67, significantly more than the lost revenue cased by briefly derating the turbine.
 
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-26.png}
 		
-	\caption{Power generation for turbine subjected to extreme operating gust.}
+	\caption{Effect of feed forward derating control on power generation caused by a 16 m/s EOG.}
 	\label{fig4-26}
 \end{figure}
 
@@ -414,7 +437,7 @@ Figure \ref{fig4-25} shows power generation. As expected, derating the downwind 
 \hline
                                                                 &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max Tower\\ Base Moment\end{tabular}} &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Max Blade\\ Root Moment\end{tabular}} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.\end{tabular}\\ 
                                                                      \cline{3-4}                                                                                    \cline{6-7}                                                                                       \cline{9-9}                                                           \cline{11-11} 
-                                                                &  & (MNm)                                        & Reduction                                    &  & (MNm)                                        & Reduction                                    &  & (\%)                                                          &  &    (kWh)                         \\ 
+                                                                &  & (MNm)                                        & Decrease                                    &  & (MNm)                                        & Decrease                                    &  & (\%)                                                          &  &    (kWh)                         \\ 
 \hline
 \begin{tabular}[c]{@{}c@{}}No FF\\ Control\end{tabular}         &  & 102.7                                        & -                                            &  & 10.77                                        & -                                            &  & 18.76                                 						 &  &  831.8                                     \\
 \\
@@ -449,7 +472,7 @@ Figure \ref{fig4-27} shows the wind speed for 200 seconds of the 16 m/s turbulen
 	\label{fig4-27}
 \end{figure}
 
-Figures \ref{fig4-28} through \ref{fig4-31} show how feed forward selective derating control affects the rotor speed, tower base fore-aft bending moment, blade root moment, and power generation of the downwind turbine for 16 m/s turbulent wind with a large gust. As in Section \ref{section4-6-1} two methods were used to time the derating of the downwind turbine.
+Figures \ref{fig4-28} through \ref{fig4-31} show how feed forward derating control affects the rotor speed, tower base fore-aft bending moment, blade root moment, and power generation of the downwind turbine for 16 m/s turbulent wind with a large gust. As in Section \ref{section4-6-1} two methods were used to time the derating of the downwind turbine.
 
 Figure \ref{fig4-28} shows that the upwind turbine experiences many small overspeeds throughout the simulation and experiences a large overspeed of 17.77\% due to the large gust. This large overspeed could potentially cause an emergency overspeed shutdown of the upwind turbine. Selective derating feed forward control reduces the maximum overspeed experienced by the downwind turbine to approximately 5\%, which is in the normal range of operation for this turbine. In Figure \ref{fig4-29} we see that both the upwind and downwind turbines experience large tower base fore-aft bending moments due to the large gust, but the loads experienced by the downwind turbine are smaller. The feed forward controller has reduced the maximum tower base fore-aft bending moment by approximately 11\%. As in the previous section, we see that this system would be robust to changes in the arrival time of the gust. 
 
@@ -457,7 +480,7 @@ Figure \ref{fig4-28} shows that the upwind turbine experiences many small oversp
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-28.png}
 		
-	\caption{Rotor speed for turbine subjected to turbulence w/ large gust.}
+	\caption{Effect of feed forward derating control on rotor speed caused by 16 m/s turbulence with large gust.}
 	\label{fig4-28}
 \end{figure}
 
@@ -465,17 +488,17 @@ Figure \ref{fig4-28} shows that the upwind turbine experiences many small oversp
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-29.png}
 		
-	\caption{Tower base fore-aft moment for turbine subjected to turbulence w/ large gust.}
+	\caption{Effect of feed forward derating control on tower base fore-aft moment caused by 16 m/s turbulence with large gust.}
 	\label{fig4-29}
 \end{figure}
 
-Figure \ref{fig4-30} shows that derating the downwind turbine for the 16 m/s test case has resulted in a higher peak blade root moment (BRM). Though this result is initially surprising, it can be explained when the factors contributing to the peak load are examined more closely. We can see from Figure \ref{fig4-30} that BRM has a large cyclical component. These cyclic changes in BRM have a frequency of 12 RPM, which corresponds to the rotational speed of the rotor, and are caused primarily by gravitational loads on the turbine blade. Section \ref{section4-3} showed that derating reduces BRM, and we see from Figure \ref{fig4-30} that derating reduces BRM prior to the arrival of the gust. However, the effect of a large gust on BRM is determined by both how much BRM the gust causes as well as the timing of the gust and how the gust induced loads interacts with the cyclic gravitational loads. For the upwind turbine, without derating, the gust arrives at an opportune time. A downswing in the cyclic gravitational loading largely cancels out the gust induced BRM and the effect of the gust is almost unnoticeable. For the downwind turbine, the derating process has reduced the rotational speed of the rotor. As a result, the downwind turbine is at a different and less opportune point in it's rotation when the gust arrives. In real world applications the timing of a large gust would be random. Because derating reduces the BRM induced by the gust we would expect derating to reduce peak BRM more often than not. However, as this result illustrates, derating does not always result in reduced peak BRM loads.
+Figure \ref{fig4-30} shows that derating the downwind turbine for the 16 m/s test case has resulted in a higher peak blade root moment (BRM). Though this result is initially surprising, it can be explained when the factors contributing to the peak load are examined more closely. We can see from Figure \ref{fig4-30} that BRM has a large cyclical component. These cyclic changes in BRM have a frequency of 12 RPM, which corresponds to the rotational speed of the rotor, and are caused primarily by gravitational loads on the turbine blade. Section \ref{section4-3} showed that derating reduces BRM, and we see from Figure \ref{fig4-30} that derating reduces BRM prior to the arrival of the gust. However, the gust induced loads interacts with the cyclic gravitational loads. For the upwind turbine (without derating) the gust arrives at an opportune time. A downswing in the cyclic gravitational loading largely cancels out the gust induced BRM and the effect of the gust is almost unnoticeable. For the downwind turbine, the derating process has reduced the rotational speed of the rotor. As a result, the downwind turbine is at a different and less opportune point in it's rotation when the gust arrives. In real world applications the timing of a large gust would be random. Because derating reduces the BRM induced by the gust, we would expect derating to reduce peak BRM more often than not. However, as this result illustrates, derating does not always result in reduced peak BRM loads.
 
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-30.png}
 		
-	\caption{Blade root bending moment for turbine subjected to turbulence w/ large gust.}
+	\caption{Effect of feed forward derating control on BRM caused by 16 m/s turbulence with large gust.}
 	\label{fig4-30}
 \end{figure}
 
@@ -485,11 +508,11 @@ Figure \ref{fig4-31} shows power generation. As expected, derating results in re
 	\centering
 		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-31.png}
 		
-	\caption{Power generation for turbine subjected to turbulence w/ large gust.}
+	\caption{Effect of feed forward derating control on power generation caused by 16 m/s turbulence with large gust.}
 	\label{fig4-31}
 \end{figure}
 
-Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance metrics for all three test cases: 12 m/s, 16 m/s, and 20 m/s. In an attempt to capture the overall wear and tear on the tower base and blade root, Damage Equivalent Loads (DEL) are reported instead of peak loads. Though the DEL, overspeed, and energy generation values vary between the test cases, the trends are the same. Selective feed forward derating reduces maximum overspeeds from more than 15\%, which could cause an emergency overspeed shut down, to approximately 5\%. Tower root bending DELs are significantly reduced for all test cases. Blade root moment DELs are reduced in some test cases, but increased in others. Energy production is reduced by tens of kWh, which is equivalent to a few dollars of production.
+Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance metrics for all three test cases: 12 m/s, 16 m/s, and 20 m/s. In an attempt to capture the overall wear and tear on the tower base and blade root, Damage Equivalent Loads (DEL) are reported instead of peak loads. Though the DEL, overspeed, and energy generation values vary between the test cases, the trends are the same. Selective feed forward derating reduces maximum overspeeds from more than 15\%, which could cause an emergency overspeed shut down, to approximately 5\%. Tower root bending DELs are significantly reduced for all test cases. Blade root moment DELs are reduced in some test cases, but increased in others. Energy production is reduced by tens of kWh, which is equivalent to a few dollars of revenue.
 
 
 \begin{table}[htb]
@@ -500,7 +523,7 @@ Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance 
 \hline
                                                                 &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Tower Base\\ DEL\end{tabular}} &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Blade Root\\ DEL\end{tabular}} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.\end{tabular}\\ 
                                                                      \cline{3-4}                                                                                    \cline{6-7}                                                                                       \cline{9-9}                                                           \cline{11-11} 
-                                                                &  & (MNm)                                        & Reduction                                    &  & (MNm)                                        & Reduction                                    &  & (\%)                                                          &  &    (kWh)                         \\ 
+                                                                &  & (MNm)                                        & Decrease                                    &  & (MNm)                                        & Decrease                                    &  & (\%)                                                          &  &    (kWh)                         \\ 
 \hline
 \begin{tabular}[c]{@{}c@{}}No FF\\ Control\end{tabular}         &  & 78.8                                        & -                                            &  & 6.74                                        & -                                            &  & 15.79                                 						 &  &  812.1                                     \\
 \\
@@ -522,7 +545,7 @@ Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance 
 \hline
                                                                 &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Tower Base\\ DEL\end{tabular}} &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Blade Root\\ DEL\end{tabular}} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.\end{tabular}\\ 
                                                                      \cline{3-4}                                                                                    \cline{6-7}                                                                                       \cline{9-9}                                                           \cline{11-11} 
-                                                                &  & (MNm)                                        & Reduction                                    &  & (MNm)                                        & Reduction                                    &  & (\%)                                                          &  &    (kWh)                         \\ 
+                                                                &  & (MNm)                                        & Decrease                                    &  & (MNm)                                        & Decrease                                    &  & (\%)                                                          &  &    (kWh)                         \\ 
 \hline
 \begin{tabular}[c]{@{}c@{}}No FF\\ Control\end{tabular}         &  & 75.1                                        & -                                            &  & 5.08                                        & -                                            &  & 17.77                                 						 &  &  831.8                                     \\
 \\
@@ -543,7 +566,7 @@ Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance 
 \hline
                                                                 &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Tower Base\\ DEL\end{tabular}} &  & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Blade Root\\ DEL\end{tabular}} &  & \begin{tabular}[c]{@{}c@{}}Max\\ Overspeed\end{tabular} &  &  \begin{tabular}[c]{@{}c@{}}Energy\\ Gen.\end{tabular}\\ 
                                                                      \cline{3-4}                                                                                    \cline{6-7}                                                                                       \cline{9-9}                                                           \cline{11-11} 
-                                                                &  & (MNm)                                        & Reduction                                    &  & (MNm)                                        & Reduction                                    &  & (\%)                                                          &  &    (kWh)                         \\ 
+                                                                &  & (MNm)                                        & Decrease                                    &  & (MNm)                                        & Decrease                                    &  & (\%)                                                          &  &    (kWh)                         \\ 
 \hline
 \begin{tabular}[c]{@{}c@{}}No FF\\ Control\end{tabular}         &  & 91.1                                        & -                                            &  & 5.08                                        & -                                            &  & 22.89                                 						 &  &  831.8                                     \\
 \\
@@ -567,8 +590,8 @@ Tables \ref{table4-4} through \ref{table4-6} quantify and summarize performance 
 
 \section{Conclusions.} \label{section4-8}
 
-This chapter has investigated the benefits and feasibility of derating a downwind turbine based on a feed forward signal from an upwind turbine. A survey of available turbine derating literature was carried out. Three turbine derating strategies from literature were then investigated. It was found that derating a turbine by reducing the rated rotor speed yielded the largest reductions in structural loads and rotor overspeeds. The effect of turbine derating on dynamic turbine response was then investigated by simulating derated NREL 5-MW turbines subjected to extreme operating gusts (EOGs). It was found that rotor speed, power, blade root bending moments, and tower fore-aft bending moments were all significantly reduced by derating and that the reduction were roughly proportional to the amount of derating. The transition into and out of derated mode was also investigated. It was found that abruptly changing the rating of an NREL 5-MW turbine excited undesirable transient behavior in the turbine. However, the undesirable behavior could be avoided by using a low pass filter. A feed forward selective derating scheme based on these findings was developed. The scheme uses two possible methods to determine when to derate the downwind turbine. The first relies on a wind convection velocity estimate from the upwind turbine. The second, more conservative, method uses the range of wind speeds in which rotor overspeeds are likely to occur. 
+This chapter has investigated the benefits and feasibility of derating a downwind turbine based on a feed forward signal from an upwind turbine. A survey of available turbine derating literature was carried out. Three turbine derating strategies from literature were then investigated. It was found that derating a turbine by reducing the rated rotor speed yielded the largest reductions in structural loads and rotor overspeeds. The effect of turbine derating on dynamic turbine response was then investigated by simulating derated NREL 5-MW turbines subjected to extreme operating gusts (EOGs). It was found that rotor speed, power, blade root bending moments, and tower fore-aft bending moments were all significantly reduced by derating and that the reductions were roughly proportional to the amount of derating. The transition into and out of derated mode was also investigated. It was found that abruptly changing the rating of an NREL 5-MW turbine excited undesirable transient behavior in the turbine. However, the undesirable behavior could be avoided by using a low pass filter. A feed forward selective derating scheme based on these findings was developed. The scheme uses two possible methods to determine when to derate the downwind turbine. The first relies on a wind convection velocity estimate from the upwind turbine. The second, more conservative, method uses the range of wind speeds in which rotor overspeeds are likely to occur. 
 
 Once the feed forward selective derating strategy was designed, the performance of that system was tested in a series of FAST simulations. The FAST simulations modeled a two turbine system in several wind conditions, including both  IEC Extreme Operating Gusts and turbulent wind with large gusts. The simulation results were promising. The downwind turbine experienced significant reductions in tower fore-aft moments in all simulation cases, as well as reductions in blade root bending moments in some cases. More importantly, the downwind turbine did not experience any rotor overspeeds large enough to trigger an emergency shut down. The downwind turbine experienced reductions in energy generation, however those reductions were much smaller than the reductions in energy generation that would be caused by an emergency overspeed shut down.
 
-Though the simulations carried out in this chapter show promising system performance, more investigation is needed. A real wold implementation of this system would encounter several phenomena that were not captured in these simulation. Due to the limitations of the simulation tools, neither full field turbulence nor the evolution of the wind field over time could be simulated. In addition simulating the system with a different simulation tool could potentially lend validity to the results shown in this chapter. In the following chapters a more sophisticated, though more computationally intensive, wind farm simulation tool will be investigated and used to study the feed forward selective derating scheme developed in this chapter.
+Though the simulations carried out in this chapter show promising system performance, more investigation is needed. A real wold implementation of this system would encounter several phenomena that were not captured in these simulation. Due to the limitations of the simulation tools, neither full field turbulence nor the evolution of the wind field over time could be simulated. In addition, simulating the system with a different simulation tool could potentially lend validity to the results shown in this chapter. In the following chapters a more sophisticated, though more computationally intensive, wind farm simulation tool will be investigated and used to study the feed forward selective derating scheme developed in this chapter.

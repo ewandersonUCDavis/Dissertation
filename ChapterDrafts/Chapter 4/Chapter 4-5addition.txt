@@ -1,0 +1,31 @@
+The derating method used for feed forward control (referred to as Method 3 in section \ref{section4-2}) is based on the derating method proposed by Petrovic and Bottasso in ``Wind Turbine Envelope Riding.''\cite{petrovic2015} In this method
+
+
+When using method 3, a request to derate the turbine results in three changes to the turbine's closed loop controller:
+
+\begin{itemize}
+  \item The rated generator speed ($\Omega_{GenR}$) is reduced.
+  \item The generator torque $T_{Gen}$ vs. speed ($\Omega_{Gen}$) curve is scaled such that the rated torque occurs at the new $\Omega_{GenR}$.
+  \item A minimum blade pitch constraint is imposed.
+\end{itemize}
+
+The first two items are sufficient to derate a turbine in region 3 control. The rated generator speed is scaled according to equation \ref{eq4-0} where $\Omega_{GenR}$ is the rated generator speed under normal operation, and $\eta_{DR}$ is the derate factor. The derate factor indicates the amount of derating as a fraction of 1. For example, $\eta_{DR}$ = 0.25 would derate the turbine by 25\%. The rated generator torque is not affected by derating. However, the curve must be compressed along the $\Omega_{Gen}$ axis such that the rated torque occurs at the new rated speed ($\Omega_{GenR\_Derated}$). This requires a change in rated speed (as shown in Equation \ref{eq4-0}) as well as the change in generator torque constant ($k_{Gen}$) shown in equation \ref{eq4-0A}. Appendix \ref{AppendixB}, Figure \ref{figB-15} contains the Matlab code used for torque control calculations. 
+
+\begin{equation}
+	\Omega_{GenR\_Derated}=(1-\eta_{DR})\Omega_{GenR} \label{eq4-0}
+\end{equation}
+
+\begin{equation}
+	k_{Gen\_Derated}=\dfrac{k_{Gen}{(1-\eta_{DR})^2} \label{eq4-1}
+\end{equation}
+
+The adjustments in equations \ref{eq4-1A} and \ref{eq4-0A} do not provide sufficient derating when the turbine is operating in region 2 control. In other words, if the turbine is operating in region 2 control and a 20\% derate command ($\eta_{DR}$ = 0.2) is issued, adjusting $\Omega_{GenR}$ and $k_{Gen}$ does not reduce power generation by 20\%. This problem can be fixed by imposing a minimum pitch constraint. Normally in region 2 control the turbine blade pitch would be fixed at 0\degree. Increasing blade pitch reduces energy capture, which further derates the turbine. Figure \ref{fig4-4A} shows the relationship between derating factor and the blade pitch required for a turbine in region 2 control to achieve that derating. This relationship was based on the WTPerf data discussed in Section \ref{section2-4}. Imposing a minimum blade pitch based on the relationship shown in Figure \ref{fig4-4A} ensures that a turbine in region 2 control will properly derate. The minimum pitch constraint also enables the turbine to smoothly transition between region 2 and region 3 control while derated. 
+
+\begin{figure}[htb]
+	\centering
+		\includegraphics[width = \linewidth]{Figures/ch4Figures/fig4-4A.png}
+	\caption{Effect of sudden rating changes on blade root bending moment.}
+	\label{fig4-4A}
+\end{figure}
+
+
