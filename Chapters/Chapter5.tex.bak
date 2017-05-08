@@ -12,6 +12,7 @@
 \section{Introduction}\label{section5-1}
 Utility scale wind power is often installed as wind farms, with several turbines installed in close proximity to each other. Many established simulation tools used in the wind industry simulate single turbines\cite{jonkman2005,chow2012,chow2013,platt2012}. While single turbine simulation tools are valuable, they fail to capture the turbine-to-turbine interactions that are common in a wind farm. The National Renewable Energy Laboratory's (NREL) Simulator fOr Wind Farm Applications (SOWFA) is a wind farm simulation tool.\cite{churchfield2012} SOWFA uses a large eddy simulation (LES) methodology to model a flow field, while using a computationally inexpensive but well established aero-elastic simulation to model turbines in the flow field. By coupling a high fidelity flow field model to a medium fidelity turbine model SOWFA hopes to accurately model wind farm aerodynamics without incurring the high computational cost of modeling a turbine with CFD techniques. SOWFA has the potential to be a valuable tool for studying wind farm phenomena such as turbine-to-turbine wake interactions\cite{lee2012}, plant level controls\cite{fleming2013}, and complex terrain\cite{churchfield2013}. However, SOWFA is still a relatively new simulation tool and more validation of SOWFA's capabilities would be beneficial. This chapter will attempt to directly compare the predicted NREL 5-MW wake structure and behavior using both SOWFA and a Reynolds-averaged Navier-Stokes (RANS) method, OVERFLOW2. The NREL 5-MW rotor is analyzed at several wind speeds and the aerodynamic performance predicted by SOWFA and OVERFLOW2 are compared. This chapter will also examine how SOWFA results are affected by downstream length and grid resolution of the near-wake grid.
 
+The study documented in this chapter was carried out in collaboration with Dr Raymond Chow.  Dr Chow performed the RANS simulations discussed below and provided several of the figures, as noted in the figure captions. Dr Chow also featured these RANS simulations in a pair of publications.\cite{chow2012,chow2013}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -109,7 +110,7 @@ A fully viscous Overset grid system was developed for the NREL 5-MW rotor. The f
 \begin{figure}[htbp]
  \centering
  \includegraphics{Figures/ch5Figures/OVERFLOWGrid}
- \caption{ Near-body overset topology of the NREL 5-MW medium resolution grid system}
+ \caption{ Near-body overset topology of the NREL 5-MW medium resolution grid system. (Source: R. Chow)}
  \label{OFGrid}
 \end{figure}   
 
@@ -182,14 +183,14 @@ Figures \ref{vortMag} and \ref{vortMag_multSpeed} show instantaneous vorticity m
 \begin{figure}[htbp]
 \centering
  \includegraphics[width=\textwidth]{Figures/ch5Figures/isoVorts}
- \caption{ Iso-vorticity surfaces of the NREL 5-MW wake system for OVERFLOW2 and SOWFA simulations (Freestream flows from left to right).}
+ \caption{ Iso-vorticity surfaces of the NREL 5-MW wake system for OVERFLOW2 and SOWFA simulations (Freestream flows from left to right. Images a,b, and c provided by R. Chow).}
  \label{isoVort}
 \end{figure}   
 
 \begin{figure}[htbp]
 \centering
  \includegraphics[width=0.75\textwidth]{Figures/ch5Figures/VortMag}
- \caption{ Instantaneous vorticity magnitude at a center cut plane of the NREL 5-MW rotor at \emph{U$_\infty$} = 11 m/s using OVERFLOW2 (Freestream flows from left to right). }
+ \caption{ Instantaneous vorticity magnitude at a center cut plane of the NREL 5-MW rotor at \emph{U$_\infty$} = 11 m/s using OVERFLOW2 (Freestream flows from left to right. Source: R. Chow). }
  \label{vortMag}
 \end{figure}   
 

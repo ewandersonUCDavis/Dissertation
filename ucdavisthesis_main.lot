@@ -15,15 +15,16 @@
 \contentsline {table}{\numberline {4.5}{\ignorespaces Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 16 m/s mean wind speed.}}{108}
 \contentsline {table}{\numberline {4.6}{\ignorespaces Effect of FF Control on damage equivalent loads for a large gust in turbulent wind with 20 m/s mean wind speed.}}{108}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}}{114}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}}{115}
 \contentsline {table}{\numberline {5.2}{\ignorespaces NREL 5-MW simulation cases}}{118}
 \contentsline {table}{\numberline {5.3}{\ignorespaces Comparison of power and thrust predicted by three turbine simulation tools.}}{119}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Power and thrust predicted by coarse grid SOWFA simulations as well as the percent difference with fine grid simulations.}}{127}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Power and thrust predicted by coarse grid SOWFA simulations as well as the percent difference with fine grid simulations.}}{128}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {6.1}{\ignorespaces Dimensions and resolutions of the SOWFA grid refinement regions for the Offset Turbines test case.}}{146}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Offset Turbine test case.}}{157}
-\contentsline {table}{\numberline {6.3}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions for the Turbine in Wake test case.}}{158}
-\contentsline {table}{\numberline {6.4}{\ignorespaces Summary of turbine performance metrics and the effects of Feed Forward Derating Control for the Turbine in Wake test case.}}{170}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of turbine performance metrics and the effects of feed forward derating control for the Offset Turbine test case.}}{157}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions for the Turbine In Wake test case.}}{158}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Summary of turbine performance metrics and the effects of feed forward derating control for the Turbine In Wake test case.}}{169}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

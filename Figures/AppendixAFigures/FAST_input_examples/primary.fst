@@ -8,12 +8,12 @@ False       Echo        - Echo input data to "echo.out" (flag)
    1        AnalMode    - Analysis mode {1: Run a time-marching simulation, 2: create a periodic linearized model} (switch)
    3        NumBl       - Number of blades (-)
  600.0      TMax        - Total run time (s)
- 0.0125   DT          - Integration time step (s)
----------------------- TURBINE CONTROL -----------------------------------------
+ 0.0125     DT          - Integration time step (s)
+ ---------------------- TURBINE CONTROL -----------------------------------------
    0        YCMode      - Yaw control mode {0: none, 1: user-defined from routine UserYawCont, 2: user-defined from Simulink} (switch)
 9999.9      TYCOn       - Time to enable active yaw control (s) [unused when YCMode=0]
    2        PCMode      - Pitch control mode {0: none, 1: user-defined from routine PitchCntrl, 2: user-defined from Simulink} (switch)
-   0.0      TPCOn       - Time to enable active pitch control (s) [unused when PCMode=0]
+   0.0      TPCOn     - Time to enable active pitch control (s) [unused when PCMode=0]
    3        VSContrl    - Variable-speed control mode {0: none, 1: simple VS, 2: user-defined from routine UserVSCont, 3: user-defined from Simulink} (switch)
 9999.9      VS_RtGnSp   - Rated generator speed for simple variable-speed generator control (HSS side) (rpm) [used only when VSContrl=1]
 9999.9      VS_RtTq     - Rated generator torque/constant generator torque in Region 3 for simple variable-speed generator control (HSS side) (N-m) [used only when VSContrl=1]
@@ -68,7 +68,7 @@ False       CompNoise   - Compute aerodynamic noise (flag)
 ---------------------- INITIAL CONDITIONS --------------------------------------
    0.0      OoPDefl     - Initial out-of-plane blade-tip displacement (meters)
    0.0      IPDefl      - Initial in-plane blade-tip deflection (meters)
-   0.0      TeetDefl    - Initial or fixed teeter angle (degrees) [unused for 3 blades]
+   0.0      TeetDefl  - Initial or fixed teeter angle (degrees) [unused for 3 blades]
    0.0      Azimuth     - Initial azimuth angle for blade 1 (degrees)
   12.1      RotSpeed    - Initial or fixed rotor speed (rpm)
    0.0      NacYaw      - Initial or fixed nacelle-yaw angle (degrees)
@@ -79,20 +79,20 @@ False       CompNoise   - Compute aerodynamic noise (flag)
    1.5      HubRad      - The distance from the rotor apex to the blade root (meters)
    1        PSpnElN     - Number of the innermost blade element which is still part of the pitchable portion of the blade for partial-span pitch control [1 to BldNodes] [CURRENTLY IGNORED] (-)
    0.0      UndSling    - Undersling length [distance from teeter pin to the rotor apex] (meters) [unused for 3 blades]
-   0.0      HubCM       - Distance from rotor apex to hub mass [positive downwind] (meters)
+   0.0      HubCM  - Distance from rotor apex to hub mass [positive downwind] (meters)
   -5.01910  OverHang    - Distance from yaw axis to rotor apex [3 blades] or teeter pin [2 blades] (meters)
-   1.9      NacCMxn     - Downwind distance from the tower-top to the nacelle CM (meters)
-   0.0      NacCMyn     - Lateral  distance from the tower-top to the nacelle CM (meters)
-   1.75     NacCMzn     - Vertical distance from the tower-top to the nacelle CM (meters)
+   1.9      NacCMxn  - Downwind distance from the tower-top to the nacelle CM (meters)
+   0.0      NacCMyn  - Lateral  distance from the tower-top to the nacelle CM (meters)
+  1.75     NacCMzn   - Vertical distance from the tower-top to the nacelle CM (meters)
   87.6      TowerHt     - Height of tower above ground level [onshore] or MSL [offshore] (meters)
-   1.96256  Twr2Shft    - Vertical distance from the tower-top to the rotor shaft (meters)
+1.96256  Twr2Shft - Vertical distance from the tower-top to the rotor shaft (meters)
    0.0      TwrRBHt     - Tower rigid base height (meters)
   -5.0      ShftTilt    - Rotor shaft tilt angle (degrees)
-   0.0      Delta3      - Delta-3 angle for teetering rotors (degrees) [unused for 3 blades]
+   0.0     Delta3 - Delta-3 angle for teetering rotors (degrees) [unused for 3 blades]
   -2.5      PreCone(1)  - Blade 1 cone angle (degrees)
   -2.5      PreCone(2)  - Blade 2 cone angle (degrees)
   -2.5      PreCone(3)  - Blade 3 cone angle (degrees) [unused for 2 blades]
-   0.0      AzimB1Up    - Azimuth value to use for I/O when blade 1 points up (degrees)
+   0.0      AzimB1Up   - Azimuth value to use for I/O when blade 1 points up (degrees)
 ---------------------- MASS AND INERTIA ----------------------------------------
    0.0      YawBrMass   - Yaw bearing mass (kg)
  240.00E3   NacMass     - Nacelle mass (kg)
@@ -136,9 +136,9 @@ False       GBRevers    - Gearbox reversal {T: if rotor and generator rotate in 
 ---------------------- NACELLE-YAW ---------------------------------------------
 9028.32E6   YawSpr      - Nacelle-yaw spring constant (N-m/rad)
   19.16E6   YawDamp     - Nacelle-yaw damping constant (N-m/(rad/s))
-   0.0      YawNeut     - Neutral yaw position--yaw spring force is zero at this yaw (degrees)
+   0.0  YawNeut - Neutral yaw position--yaw spring force is zero at this yaw (degrees)
 ---------------------- FURLING -------------------------------------------------
-False       Furling     - Read in additional model properties for furling turbine (flag)
+False       Furling   - Read in additional model properties for furling turbine (flag)
 "Dummy"     FurlFile    - Name of file containing furling properties (quoted string) [unused when Furling=False]
 ---------------------- ROTOR-TEETER --------------------------------------------
    0        TeetMod     - Rotor-teeter spring/damper model {0: none, 1: standard, 2: user-defined from routine UserTeet} (switch) [unused for 3 blades]
@@ -150,9 +150,9 @@ False       Furling     - Read in additional model properties for furling turbin
    0.0      TeetSSSp    - Rotor-teeter soft-stop linear-spring constant (N-m/rad) [used only for 2 blades and when TeetMod=1]
    0.0      TeetHSSp    - Rotor-teeter hard-stop linear-spring constant (N-m/rad) [used only for 2 blades and when TeetMod=1]
 ---------------------- TIP-BRAKE -----------------------------------------------
-   0.0      TBDrConN    - Tip-brake drag constant during normal operation, Cd*Area (m^2)
-   0.0      TBDrConD    - Tip-brake drag constant during fully-deployed operation, Cd*Area (m^2)
-   0.0      TpBrDT      - Time for tip-brake to reach full deployment once released (sec)
+   0.0      TBDrConN  - Tip-brake drag constant during normal operation, Cd*Area (m^2)
+   0.0      TBDrConD - Tip-brake drag constant during fully-deployed operation, Cd*Area (m^2)
+   0.0      TpBrDT   - Time for tip-brake to reach full deployment once released (sec)
 ---------------------- BLADE ---------------------------------------------------
 "..\..\..\..\NREL5MW_Properties\NRELOffshrBsline5MW_Blade.dat"                  BldFile(1)  - Name of file containing properties for blade 1 (quoted string)
 "..\..\..\..\NREL5MW_Properties\NRELOffshrBsline5MW_Blade.dat"                  BldFile(2)  - Name of file containing properties for blade 2 (quoted string)
@@ -184,7 +184,7 @@ True        TabDelim    - Generate a tab-delimited tabular output file. (flag)
 "WindVxi,WindVyi,WindVzi"          - Wind-speed components (m/s)
 "Azimuth, RotSpeed"                - Rotor azimuth angle (deg) and angular speed (rpm)
 "TSR"                              - Tip speed ratio (-)
-"GenSpeed, GenAccel"               - Generator speed (rpm), and generator acceleration(deg/s^2)
+"GenSpeed, GenAccel"   - Generator speed (rpm), and generator acceleration(deg/s^2)
 "LSShftTq"                         - LSS torque (kNm)
 "GenTq, GenPwr"                    - Generator torque (kNm) and power (kW)
 "TipDxb1, TipDyb1"                 - Blade 1 flapwise and edgewise tip deflection (m)
@@ -196,12 +196,12 @@ True        TabDelim    - Generate a tab-delimited tabular output file. (flag)
 "BldPitch1"                        - Blade 1 pitch angle (deg)
 "BldPitch2"                        - Blade 2 pitch angle (deg)
 "BldPitch3"                        - Blade 3 pitch angle (deg)
-"YawBrTDxp"             	   - Tower-top/yaw bearing fore-aft (translational) deflection (m)
-"YawBrTDyp"             	   - Tower-top/yaw bearing side-to-side (translational) deflection (m)
-"YawBrTDzp"            		   - Tower-top/yaw bearing axial (translational) deflection (m)
+"YawBrTDxp"            - Tower-top/yaw bearing fore-aft (translational) deflection (m)
+"YawBrTDyp"    	   - Tower-top/yaw bearing side-to-side (translational) deflection (m)
+"YawBrTDzp"     	   - Tower-top/yaw bearing axial (translational) deflection (m)
 "RootMxb1, RootMyb1, RootMzb1"     - Blade 1 root moments (kNm)
 "RootMxb2, RootMyb2, RootMzb2"     - Blade 2 root moments (kNm)
 "RootMxb3, RootMyb3, RootMzb3"     - Blade 3 root moments (kNm)
 "TwrBsMyt"						- Tower fore-aft moment.
-END of FAST input file (the word "END" must appear in the first 3 columns of this last line).
+END of FAST input file 
 --------------------------------------------------------------------------------

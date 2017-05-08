@@ -1,0 +1,60 @@
+% Appendix D
+
+\chapter{SOWFA Implementation of Feed Forward Derating Control.} % Main appendix title
+
+\label{AppendixD} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+This appendix documents the controller implementation discussed in Section \ref{section6-2}. The code shown below is a FORTRAN implementation of the Simulink based controller documented in Chapter \ref{Chapter4} and Appendix \ref{sectionB-3} with a few additions.  These subroutines, modules, and code changes are added to the SOWFA/FAST source code, which enables SOWFA to model feed forward derating control. This controller is used for simulations documented in Chapter \ref{Chapter6}.
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+\section{Subroutine PitchCtrl()} \label{sectionD-1}
+The following subroutine is added to UserSubs.f90.
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+\section{Subroutine UserVSCntrl()} \label{sectionD-2}
+The following subroutine is added to UserSubs.f90.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+\section{Subroutine updateControlParameters()} \label{sectionD-3}
+The following subroutine is added to UserSubs.f90.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
+\section{Subroutine UserHSSBr()} \label{sectionD-4}
+The following subroutine is added to UserSubs.f90.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 5
+%----------------------------------------------------------------------------------------
+\section{Module EAControl()} \label{sectionD-5}
+The following module is added to FAST\_Mods.f90.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 6
+%----------------------------------------------------------------------------------------
+\section{Additions to FAST\_IO.f90} \label{sectionD-6}
+
+The following lines are added to the FAST\_IO.f90 immediately after the FAST LINEARIZATION CONTROL PARAMETERS section.
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 7
+%----------------------------------------------------------------------------------------
+\section{Additions to input file primary.fst} \label{sectionD-7}
+
+The following lines were added to the primary.fst input file just after the LINEARIZATION CONTROL section.
+
+\includegraphics[width=.95\linewidth]{Figures/AppendixDFigures/figD-7.pdf}
+
+
