@@ -14,9 +14,9 @@
 \contentsline {subsection}{\numberline {2.3.1}Feasibility}{14}
 \contentsline {section}{\numberline {2.4}Turbine Model Based Wind Speed Estimator}{20}
 \contentsline {subsection}{\numberline {2.4.1}Feasibility}{22}
-\contentsline {subsection}{\numberline {2.4.2}Effect of rotor yaw misalignment}{25}
-\contentsline {section}{\numberline {2.5}Convection speed estimation}{30}
-\contentsline {subsection}{\numberline {2.5.1}A few thoughts on the limitations of Taylor's Frozen Turbulence Hypothesis}{34}
+\contentsline {subsection}{\numberline {2.4.2}Effect of rotor yaw misalignment}{24}
+\contentsline {section}{\numberline {2.5}Convection speed estimation}{29}
+\contentsline {subsection}{\numberline {2.5.1}A few thoughts on the limitations of Taylor's Frozen Turbulence Hypothesis}{33}
 \contentsline {section}{\numberline {2.6}Other Potentially Useful Turbine Sensors}{34}
 \contentsline {section}{\numberline {2.7}Summary and Conclusions}{35}
 \contentsline {chapter}{\numberline {3}Feed forward optimum pitch control.}{37}
@@ -64,27 +64,27 @@
 \contentsline {section}{\numberline {6.1}Introduction}{133}
 \contentsline {section}{\numberline {6.2}Controller Implementation}{135}
 \contentsline {section}{\numberline {6.3}Computational Domain and Grid Resolution}{137}
-\contentsline {section}{\numberline {6.4}Tuning and Validation of SOWFA Turbine \\ Model}{139}
-\contentsline {section}{\numberline {6.5}Gust Modeling in SOWFA}{143}
-\contentsline {section}{\numberline {6.6}Offset Turbines Test Case}{145}
-\contentsline {subsection}{\numberline {6.6.1}Simulation Setup}{146}
-\contentsline {subsection}{\numberline {6.6.2}Simulation Results}{148}
-\contentsline {section}{\numberline {6.7}Turbine In Wake Test Case}{157}
-\contentsline {subsection}{\numberline {6.7.1}Simulation Setup}{158}
-\contentsline {subsection}{\numberline {6.7.2}Simulation Results}{159}
-\contentsline {section}{\numberline {6.8}Conclusions}{169}
-\contentsline {chapter}{\numberline {7}Conclusions}{172}
-\contentsline {section}{\numberline {7.1}Summary and Findings}{172}
-\contentsline {section}{\numberline {7.2}Future Work}{176}
+\contentsline {section}{\numberline {6.4}Tuning and Validation of SOWFA}{139}
+\contentsline {section}{\numberline {6.5}Gust Modeling in SOWFA}{142}
+\contentsline {section}{\numberline {6.6}Offset Turbines Test Case}{144}
+\contentsline {subsection}{\numberline {6.6.1}Simulation Setup}{145}
+\contentsline {subsection}{\numberline {6.6.2}Simulation Results}{147}
+\contentsline {section}{\numberline {6.7}Turbine In Wake Test Case}{156}
+\contentsline {subsection}{\numberline {6.7.1}Simulation Setup}{156}
+\contentsline {subsection}{\numberline {6.7.2}Simulation Results}{158}
+\contentsline {section}{\numberline {6.8}Conclusions}{167}
+\contentsline {chapter}{\numberline {7}Conclusions}{171}
+\contentsline {section}{\numberline {7.1}Summary and Findings}{171}
+\contentsline {section}{\numberline {7.2}Future Work}{175}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Sample FAST Simulation Input Files}{178}
-\contentsline {section}{\numberline {A.1}primary.fst}{179}
-\contentsline {section}{\numberline {A.2}Aerodyn.ipt}{184}
-\contentsline {chapter}{\numberline {B}Simulink Controllers}{185}
-\contentsline {section}{\numberline {B.1}Baseline NREL 5-MW Feedback Control.}{185}
-\contentsline {section}{\numberline {B.2}NREL 5-MW Turbine With Feed Forward Optimal Pitch Control.}{190}
-\contentsline {section}{\numberline {B.3}NREL 5-MW Turbine With Feed Forward Derating Control.}{192}
-\contentsline {chapter}{\numberline {C}Damage Equivalent Load (DEL) Calculation}{197}
+\contentsline {chapter}{\numberline {A}Sample FAST Simulation Input Files}{177}
+\contentsline {section}{\numberline {A.1}primary.fst}{178}
+\contentsline {section}{\numberline {A.2}Aerodyn.ipt}{183}
+\contentsline {chapter}{\numberline {B}Simulink Controllers}{184}
+\contentsline {section}{\numberline {B.1}Baseline NREL 5-MW Feedback Control.}{184}
+\contentsline {section}{\numberline {B.2}NREL 5-MW Turbine With Feed Forward Optimal Pitch Control.}{189}
+\contentsline {section}{\numberline {B.3}NREL 5-MW Turbine With Feed Forward Derating Control.}{191}
+\contentsline {chapter}{\numberline {C}Damage Equivalent Load (DEL) Calculation}{196}
 \contentsline {chapter}{\numberline {D}SOWFA Implementation of Feed Forward Derating Control.}{200}
 \contentsline {section}{\numberline {D.1}Subroutine PitchCtrl()}{200}
 \contentsline {section}{\numberline {D.2}Subroutine UserVSCntrl()}{203}

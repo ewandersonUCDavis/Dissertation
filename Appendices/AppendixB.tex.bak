@@ -54,23 +54,26 @@ Figure \ref{figB-5} shows the Torque Controller subsystem.  It takes filtred gen
 	\label{figB-5}
 \end{figure}
 
- \begin{figure}[ht]
+
+\begin{figure}[!h]
 	\centering
-		\fbox{\includegraphics[width=\linewidth]{Figures/AppendixBFigures/baseline9.png}}
+%\noindent
+		\includegraphics[width=\linewidth]{Figures/AppendixBFigures/baseline9.png}
 	\caption{Embedded Matlab function GenTorque for baseline control.}
 	\label{figB-6}
 \end{figure}
 
 
-\FloatBarrier
+%\FloatBarrier
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
 \section{NREL 5-MW Turbine With Feed Forward Optimal Pitch Control.} \label{sectionB-2}
-	
 The figures in this section illustrate the Simulink model used to simulate A Downwind turbine with feed forward optimum pitch control. This is the feed forward controller analyzed in Chapter \ref{Chapter3}. Figure \ref{figB-7} shows the top level Simulink system. Much of the figure looks similar to Figure \ref{figB-1}, which illustrates the baseline (or upwind) turbine. In fact, the FAST block and all of the components of the baseline closed loop controller are present in Figure \ref{figB-7}. However, there is a new component. In the lower left corner there is a Feed Forward Controller subsystem that sends a FF Pitch Command signal to the Pitch Controller subsystem.
+
+ 
  
 \begin{figure}[ht]
 	\centering

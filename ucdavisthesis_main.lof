@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Vorticity downstream of an NREL 5-MW rotor in uniform 11 m/s wind.}}{15}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Measurement locations for the rotor center wind speed and rotor average wind speed.}}{15}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Anemometer measurement and rotor average wind speed for simulation \#13 (8 m/s average wind speed).}}{16}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Zooming in on Figure 2.5\hbox {} shows high frequency oscillations are present in both anemometer measurements and rotor average wind speed.}}{16}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Zooming in on Figure \G@refundefinedtrue \text {\normalfont \bfseries ??}\GenericWarning { }{LaTeX Warning: Reference `fig2-6' on page 16 undefined} shows high frequency oscillations are present in both anemometer measurements and rotor average wind speed.}}{16}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Filtered anemometer and rotor average wind speed for simulation \#13.}}{17}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Discrepancy between anemometer and rotor average wind speed for simulation \#13.}}{18}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Discrepancy between anemometer and rotor average wind speed for all 8 m/s simulations.}}{18}
@@ -24,13 +24,13 @@
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Discrepancy between wind speed estimate and rotor average wind speed for simulation \#13.}}{24}
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Average magnitude of discrepancy as a function of simulation mean wind speed.}}{25}
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Average magnitude of discrepancy as a function of simulation mean wind speed.}}{25}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Effect of rotor misalignment on wind speed estimate for simulation \#13.}}{27}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Effect of rotor misalignment on wind speed estimate for simulation \#13.}}{26}
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Effect of misalignment on average magnitude of wind speed estimate discrepancy.}}{27}
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Effect of rotor misalignment on apparent wind.}}{28}
 \contentsline {figure}{\numberline {2.22}{\ignorespaces Angle corrected wind speed estimates for simulation \#13.}}{28}
 \contentsline {figure}{\numberline {2.23}{\ignorespaces Average magnitude of discrepancy in angle corrected wind speed estimates.}}{29}
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Estimating $U_{mean}$ using a 60 s average of wind speed estimates for simulation \#13.}}{32}
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Mean discrepency between true $U_{mean}$ and estimated $U_{mean}$ for a variety of averaging times.}}{33}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Estimating $U_{mean}$ using a 60 s average of wind speed estimates for simulation \#13.}}{31}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Mean discrepency between true $U_{mean}$ and estimated $U_{mean}$ for a variety of averaging times.}}{32}
 \contentsline {figure}{\numberline {2.26}{\ignorespaces Max discrepency between true $U_{mean}$ and estimated $U_{mean}$ for a variety of averaging times.}}{33}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Steady state behavior of the NREL 5-MW.\cite {jonkman2009}}}{38}
@@ -56,7 +56,7 @@
 \contentsline {figure}{\numberline {3.21}{\ignorespaces Power generation caused by 16 m/s turbulent wind when when feed forward signal is based on true wind speed.}}{58}
 \contentsline {figure}{\numberline {3.22}{\ignorespaces Tower base fore-aft moment caused by 16 m/s turbulent wind when feed forward signal is based on true wind speed.}}{59}
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Blade root bending moment (BRM) caused by 16 m/s turbulent wind when feed forward signal is based on true wind speed.}}{59}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Extreme operating gust (EOG) and feed forward wind speed estimate based on gust.}}{62}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Extreme operating gust (EOG) and feed forward wind speed estimate based on gust.}}{61}
 \contentsline {figure}{\numberline {3.25}{\ignorespaces Blade pitch caused by 16 m/s EOG when feed forward signal is based on wind speed estimate.}}{62}
 \contentsline {figure}{\numberline {3.26}{\ignorespaces Rotor speed caused by 16 m/s EOG when feed forward signal is based on wind speed estimate.}}{63}
 \contentsline {figure}{\numberline {3.27}{\ignorespaces Power generation caused by 16 m/s EOG when feed forward signal is based on wind speed estimate.}}{64}
@@ -95,7 +95,7 @@
 \contentsline {figure}{\numberline {4.21}{\ignorespaces Control system overview.}}{96}
 \contentsline {figure}{\numberline {4.22}{\ignorespaces Extreme operating gust (EOG).}}{99}
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Effect of feed forward derating control on rotor speed caused by a 16 m/s EOG.}}{100}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Effect of feed forward derating control on tower base fore-aft moment caused by a 16 m/s EOG.}}{101}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Effect of feed forward derating control on tower base fore-aft moment caused by a 16 m/s EOG.}}{100}
 \contentsline {figure}{\numberline {4.25}{\ignorespaces Effect of feed forward derating control on BRM caused by a 16 m/s EOG.}}{101}
 \contentsline {figure}{\numberline {4.26}{\ignorespaces Effect of feed forward derating control on power generation caused by a 16 m/s EOG.}}{102}
 \contentsline {figure}{\numberline {4.27}{\ignorespaces Turbulent wind with 16 m/s mean wind speed and large gust.}}{104}
@@ -116,43 +116,44 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Configurations for SOWFA simulations of feed forward derating control.}}{138}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of rotor speed predicted by FAST and SOWFA for a turbine in 16 m/s winds that is derated by 20\%. }}{140}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of power predicted by FAST and SOWFA for a turbine in 16 m/s winds that is derated by 20\%.}}{141}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of power predicted by FAST and SOWFA for a turbine in 16 m/s winds that is derated by 20\%.}}{140}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of blade blade root bending moment predicted by FAST and SOWFA for a turbine in 16 m/s winds that is derated by 20\%.}}{141}
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of blade pitch predicted by FAST and SOWFA for turbines in 12 m/s, 16 m/s, and 20 m/s winds that are derated by 20\%.}}{141}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of tower base bending moment predicted by FAST and SOWFA for turbines in 12 m/s, 16 m/s, and 20 m/s winds that are derated by 20\%.}}{142}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Velocity profiles for extreme operating gust (EOG) and extreme coherent gust (ECG).}}{145}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Center line velocity as ECG propagates through computational domain.}}{145}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Wind speed near center of inlet during extreme coherent gust (offset turbine test case).}}{147}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Wind speeds at several moments in the Offset Turbines test case without feed forward control.}}{150}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Rotor speed during the Offset Turbines test case without feed forward control.}}{152}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Power generation during the Offset Turbines test case without feed forward control.}}{152}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Blade pitch during the Offset Turbines test case without feed forward control.}}{153}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Blade root bending moment (BRM) during the Offset Turbines test case without feed forward control.}}{154}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Tower base fore-aft bending moment during the Offset Turbines test case without feed forward control.}}{155}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Wind speed near center of inlet during extreme coherent gust (Turbine In Wake test case).}}{159}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Wind speeds at several moments for the Turbine In Wake test case without feed forward control.}}{161}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Rotor speed during the Turbine In Wake test case without feed forward control.}}{162}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Power generation during the Turbine In Wake test case without feed forward control.}}{163}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Blade pitch during the Turbine In Wake test case without feed forward control.}}{164}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Blade root bending moment (BRM) during the Turbine In Wake test case without feed forward control.}}{166}
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Tower base fore-aft bending moment during the Turbine In Wake test case without feed forward control.}}{167}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of tower base bending moment predicted by FAST and SOWFA for turbines in 12 m/s, 16 m/s, and 20 m/s winds that are derated by 20\%.}}{141}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Velocity profiles for extreme operating gust (EOG) and extreme coherent gust (ECG).}}{144}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Center line velocity as ECG propagates through computational domain.}}{144}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Wind speed near center of inlet during extreme coherent gust (offset turbine test case).}}{146}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Wind speeds at several moments in the Offset Turbines test case without feed forward control.}}{149}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Rotor speed during the Offset Turbines test case without feed forward control.}}{150}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Power generation during the Offset Turbines test case without feed forward control.}}{151}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Blade pitch during the Offset Turbines test case without feed forward control.}}{152}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Blade root bending moment (BRM) during the Offset Turbines test case without feed forward control.}}{153}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Tower base fore-aft bending moment during the Offset Turbines test case without feed forward control.}}{154}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Wind speed near center of inlet during extreme coherent gust (Turbine In Wake test case).}}{157}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Wind speeds at several moments for the Turbine In Wake test case without feed forward control.}}{160}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Rotor speed during the Turbine In Wake test case without feed forward control.}}{161}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Power generation during the Turbine In Wake test case without feed forward control.}}{161}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Blade pitch during the Turbine In Wake test case without feed forward control.}}{163}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Blade root bending moment (BRM) during the Turbine In Wake test case without feed forward control.}}{164}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Tower base fore-aft bending moment during the Turbine In Wake test case without feed forward control.}}{165}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Top level Simulink system for model of NREL 5-MW with baseline (no feed forward) control.}}{186}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{187}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Gain Schedule subsystem for Simulink model of NREL 5-MW with baseline control.}}{187}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with baseline control.}}{188}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{188}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Embedded Matlab function GenTorque for baseline control.}}{189}
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward optimal pitch control.}}{190}
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{191}
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{192}
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward derating control.}}{193}
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{194}
-\contentsline {figure}{\numberline {B.12}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{194}
-\contentsline {figure}{\numberline {B.13}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{195}
-\contentsline {figure}{\numberline {B.14}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{196}
-\contentsline {figure}{\numberline {B.15}{\ignorespaces Embedded Matlab function GenTorque for feed forward derating control.}}{196}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Top level Simulink system for model of NREL 5-MW with baseline (no feed forward) control.}}{185}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{186}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Gain Schedule subsystem for Simulink model of NREL 5-MW with baseline control.}}{186}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with baseline control.}}{187}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{187}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Embedded Matlab function GenTorque for baseline control.}}{188}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward optimal pitch control.}}{189}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{190}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{191}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward derating control.}}{192}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{193}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{193}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{194}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{195}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces Embedded Matlab function GenTorque for feed forward derating control.}}{195}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Example of component loading.}}{197}
 \addvspace {10\p@ }
