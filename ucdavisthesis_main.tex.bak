@@ -39,6 +39,9 @@
 
 %%Packages that I added
 \usepackage[section]{placeins} %keeps floats from bein gplaced outside the sections they are placed in.
+\usepackage{fancyhdr}
+\usepackage{glossaries}
+\overfullrule=0pt
 
 \hyphenation{dis-ser-ta-tion blue-print man-u-script pre-par-ing} %add hyphenation rules for words TeX doesn't know
 
@@ -75,7 +78,7 @@
 \degreemonth    {September}
 % Indicate the month in which your degree will be officially conferred. Used for UMI abstract.
 
-\committee{Committee Chair Name}{Committee Member Name}{Committee Member Name}{}{}
+\committee{Professor Case van Dam}{Professor Stephen K. Robinson}{Dr. Jonathan White}{}{}
 % These are your committee members. The command accepts up to five committee members so be sure to have five sets of braces, even if there are empties.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -110,10 +113,23 @@
 \renewcommand{\bibfont}{\singlespacing}
 % need this command to keep single spacing in the bibliography when using natbib
 
-%\bibliographystyle{unsrtnat}
-%many other bibliography styles are available (IEEEtran, mla, etc.). Use one appropriate for your field.
+\bibliographystyle{unsrtnat}
+%many other bibliography styles are available (IEEEtran, mla, unsrtnat, etc.). Use one appropriate for your field.
 
 \makeintropages %Processes/produces the preliminary pages
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+%\title{Abbreviations}
+
+\lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
+
+
+
 
 
 %----------------------------------------------------------------------------------------
@@ -154,9 +170,9 @@
 %----------------------------------------------------------------------------------------
 \label{Bibliography}
 
-%\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
 
-\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+%\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
 
 \bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
 

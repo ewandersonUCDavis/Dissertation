@@ -4,12 +4,22 @@
 
 \label{AppendixC} % For referencing this appendix elsewhere, use \ref{AppendixA}
 
+\lhead{Appendix C. \emph{Damage Equivalent Load (DEL) Calculation}} % Change X to a consecutive letter; this is for the header on each page - perhaps a shortened title
 
-Damage equivalent loads are calculated by MLife, A fatigue analysis tool developed by NREL \cite{hayman2012,hayman2012a}. MLife automates the damage analysis techniques outlined in Annex G of IEC 61400-1 \cite{IEC2005}. The load history of a component, like those shown in Figures \ref{} and \ref{}, can be thought of as a series of load cycles. Each of those load cycles has some mean load and cyclic loading range. If damage accumulates linearly and independently for each cycle, as proposed by Palmgren \cite{palmgren1924} and Miner\cite{miner1945}, then the total damage from all cycles will be given by:
+Damage equivalent loads are calculated by MLife, A fatigue analysis tool developed by NREL \cite{hayman2012,hayman2012a}. MLife automates the damage analysis techniques outlined in Annex G of IEC 61400-1 \cite{IEC2005}. The load history of a component, as shown in Figure \ref{figC-1} , can be thought of as a series of load cycles. Each of those load cycles has some mean load and cyclic loading range. If damage accumulates linearly and independently for each cycle, as proposed by Palmgren \cite{palmgren1924} and Miner\cite{miner1945}, then the total damage from all cycles will be given by:
 
 \begin{equation}
 D_{fatigue} = \sum_{i} \frac{1}{N_{fatigue, i}} \label{eqC-1}
 \end{equation}
+
+ \begin{figure}[ht]
+	\centering
+		\includegraphics[width=\linewidth]{Figures/AppendixCFigures/figC-1.png}
+	\caption{Example of component loading.}
+	\label{figC-1}
+\end{figure}
+
+
 
 where $N_{fatigue, i}$ denotes the number of cycles to failure for the $i^th$ loading cycle. For example, if the $i^th$ loading cycle would have to be repeated 10,000 times to drive a new component ($D_{fatigue} = 0$) to failure ($D_{fatigue} = 1$) then $N_{fatigue, i} = 10,000$ and the damage accumulated due to the $i^th$ loading cycle would be 0.0001. For a given loading cycle $N_{fatigue, i}$ is estimated by:
 

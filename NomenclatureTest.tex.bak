@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{glossaries}
+\makenoidxglossaries
+\newglossary*{abbreviations}{Abbreviations}
+\newglossary*{symbols}{Symbols}
+
+\newglossaryentry{potato}{name={potato},plural={potatoes},
+description={starchy tuber},type=symbols}
+\newglossaryentry{cabbage}{name={cabbage},
+description={vegetable with thick green or purple leaves}}
+\newglossaryentry{carrot}{name={carrot},
+description={orange root},type=abbreviations}
+\begin{document}
+Chop the \gls{cabbage}, \glspl{potato} and \glspl{carrot}.
+\printnoidxglossaries
+\end{document}
