@@ -1,0 +1,87 @@
+%Symbols%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newglossaryentry{a}{name={$U$},		description={incoming wind speed at the turbine rotor},		unit={$m{\cdot}s^{-1}$}}
+\newglossaryentry{b}{name={$R$},		description={rotor radius},		unit={$m$}}
+\newglossaryentry{c}{name={$C_p$},		description={coefficient of power},		unit={$-$}}
+\newglossaryentry{d}{name={$D$},		description={downwind distance between turbines},		unit={$m$}}
+\newglossaryentry{e}{name={$U_{conv}$},		description={convection speed},		unit={$m{\cdot}s^{-1}$}}
+\newglossaryentry{f}{name={$U_{mean}$},		description={local mean wind speed},		unit={$m{\cdot}s^{-1}$}}
+\newglossaryentry{g}{name={$U_{turb}$},	description={wind speed fluctuations due to turbulence},		unit={$m{\cdot}s^{-1}$}}
+\newglossaryentry{h}{name={$U_{ff}$},	description={feed forward wind speed estimate supplied by upwind turbine},		unit={$m{\cdot}s^{-1}$}}
+\newglossaryentry{i}{name={$\theta$},	description={collective blade pitch angle of the turbine},		unit={$deg$}}
+\newglossaryentry{j}{name={$\Omega _{Rotor}$},	description={rotational speed of the rotor},		unit={$rad{\cdot}s^{-1}$}}
+\newglossaryentry{k}{name={$T_{Gen}$},	description={torque supplied by the generator},		unit={$N{\cdot}m$}}
+\newglossaryentry{l}{name={$I_{Drivetrain}$},	description={low speed shaft equivalent inertia},		unit={$kg{\cdot}m^{2}$}}
+\newglossaryentry{m}{name={$T_{Aero}$},	description={aerodynamic torque on the rotor due to the wind},		unit={$N{\cdot}m$}}
+\newglossaryentry{n}{name={$N_{Gear}$},	description={gear box ratio},		unit={$-$}}
+\newglossaryentry{o}{name={$\rho$},	description={air density},		unit={$kg{\cdot}m^{-3}$}}
+\newglossaryentry{p}{name={$R$},	description={rotor radius},		unit={$m$}}
+\newglossaryentry{q}{name={$\lambda$},	description={tip speed ratio},		unit={$-$}}
+\newglossaryentry{r}{name={$t_D$},	description={time required for a gust to pass from the upwind to downwind turbine},		unit={$s$}}
+\newglossaryentry{s}{name={$\theta_{ff}$},	description={pitch command issued by the feed forward controller},		unit={$deg$}}
+\newglossaryentry{t}{name={$\theta_{c}$},	description={pitch command issued by the closed loop controller},		unit={$deg$}}
+\newglossaryentry{u}{name={$T_{ff}$},	description={torque command issued by the feed forward controller},		unit={$N{\cdot}m$}}
+\newglossaryentry{v}{name={$\xi$},	description={damping ratio of the pitch actuator},		unit={$-$}}
+\newglossaryentry{w}{name={$\omega_o$},	description={undamped natural frequency of the pitch actuator},		unit={$Hz$}}
+\newglossaryentry{x}{name={$\theta_{ss}$},	description={steady state pitch function},		unit={$deg$}}
+\newglossaryentry{y}{name={$U_{ffd}$},	description={dynamic feed forward velocity},		unit={$m{\cdot}s^{-1}$}}
+\newglossaryentry{z}{name={$\Omega _{Gen}$},	description={rotational speed of the generator},		unit={$rad{\cdot}s^{-1}$}}
+\newglossaryentry{aa}{name={$\Omega _{GenFilt}$},	description={low pass filtered rotational speed of the generator},		unit={$rad{\cdot}s^{-1}$}}
+\newglossaryentry{ab}{name={$D_{fatigue}$},	description={total damage due to cyclic loading},		unit={$-$}}
+\newglossaryentry{ac}{name={$N_{fatigue, i}$},	description={number of cycles to failure for the $i^th$ loading cycle},		unit={$-$}}
+\newglossaryentry{ad}{name={$L_{ultimate}$},	description={ultimate design load},		unit={$-$}}
+\newglossaryentry{ae}{name={$L_{mean}$},	description={mean load over a components load history},		unit={$-$}}
+\newglossaryentry{af}{name={$L_{range,i}$},	description={range of a cyclic load},		unit={$-$}}
+\newglossaryentry{ag}{name={$N_{equivalent}$},	description={number of cycles to failure for the damage equivalent load},		unit={$-$}}
+\newglossaryentry{ah}{name={$m$},	description={W\"{o}hler exponent},		unit={$-$}}
+\newglossaryentry{ai}{name={$\Omega _{GenR}$},	description={rated rotational speed of the generator},		unit={$rad{\cdot}s^{-1}$}}
+\newglossaryentry{aj}{name={$\Omega _{GenR\_Derated}$},	description={rated rotational speed of the generator when derated},		unit={$rad{\cdot}s^{-1}$}}
+\newglossaryentry{ak}{name={$\eta\_{DR}$},	description={derate factor},		unit={$-$}}
+\newglossaryentry{al}{name={$k_{gen}$},	description={region 2 generator torque constant},		unit={$N{\cdot}m{\cdot}s^2{\cdot}rad^{-2}$}}
+\newglossaryentry{am}{name={$k_{gen\_Derated}$},	description={region 2 generator torque constant when derated},		unit={$N{\cdot}m{\cdot}s^2{\cdot}rad^{-2}$}}
+\newglossaryentry{an}{name={$t_{Event}$},	description={time when upwind turbine detects an extreme wind event},		unit={$s$}}
+\newglossaryentry{ap}{name={$t_{DR\_start}$},	description={time when downwind turbine begins derating},		unit={$s$}}
+\newglossaryentry{aq}{name={$t_{DR\_end}$},	description={time when downwind turbine begins return to full rating},		unit={$s$}}
+\newglossaryentry{ar}{name={$t_{conv}$},	description={estimate time for gust to travel between turbines},		unit={$s$}}
+\newglossaryentry{as}{name={$t_{s}$},	description={time required for turbine to transition into/out of derated opertion},		unit={$s$}}
+
+
+
+
+
+%Abbreviations%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newacronym{BRM}{BRM}{\textbf{B}lade \textbf{R}oot bending \textbf{M}oment}
+\newacronym{CFD}{CFD}{\textbf{C}omputational \textbf{F}luid \textbf{D}ynamics}
+\newacronym{CGT}{CGT}{\textbf{C}himera \textbf{G}rid \textbf{T}ools}
+\newacronym{COE}{COE}{\textbf{C}ost \textbf{O}f \textbf{E}nergy}
+\newacronym{DEL}{DEL}{\textbf{D}amage  \textbf{E}quivalent \textbf{L}oad}
+\newacronym{ECG}{ECG}{\textbf{E}xtreme  \textbf{C}oherent \textbf{G}ust}
+\newacronym{EOG}{EOG}{\textbf{E}xtreme  \textbf{O}perating \textbf{G}ust}
+\newacronym{FAST}{FAST}{\textbf{F}atigue,  \textbf{A}erodynamics, \textbf{S}tructures, and  \textbf{T}urbulence}
+\newacronym{IEC}{IEC}{\textbf{I}nternational  \textbf{E}lectrotechnical \textbf{C}ommission}
+\newacronym{LES}{LES}{\textbf{L}arge  \textbf{E}ddy \textbf{S}imulation}
+\newacronym{NREL}{NREL}{\textbf{N}ational \textbf{R}enewable \textbf{E}nergy  \textbf{L}aboratory}
+\newacronym{NWTC}{NWTC}{\textbf{N}ational \textbf{W}ind \textbf{T}echnology  \textbf{C}enter}
+\newacronym{PI}{PI}{\textbf{P}roportional and  \textbf{I}ntegral (Control)}
+\newacronym{RANS}{RANS}{\textbf{R}eynolds  \textbf{A}veraged \textbf{N}avier \textbf{S}tokes}
+\newacronym{SOWFA      }{SOWFA}{\textbf{S}imulator  f\textbf{O}r \textbf{W}ind  \textbf{F}arm  \textbf{A}pplications}
+\newacronym{SST}{SST}{\textbf{S}hear  \textbf{S}tress \textbf{T}ransport}
+ 
+%GLossary style to use units
+
+\newglossarystyle{symbunitlong}{%
+\setglossarystyle{long3col}% base this style on the list style
+\renewenvironment{theglossary}{% Change the table type --> 3 columns
+  \begin{longtable}{lp{0.8\glsdescwidth}>{\centering\arraybackslash}p{2cm}}}%
+  {\end{longtable}}%
+%
+%\renewcommand*{\glossaryheader}{%  Change the table header
+%  \bfseries Sign & \bfseries Description & \bfseries Unit \\
+%  \hline
+%  \endhead}
+\renewcommand*{\glossentry}[2]{%  Change the displayed items
+\glstarget{##1}{\glossentryname{##1}} %
+& \glossentrydesc{##1}% Description
+& \glsunit{##1}  \tabularnewline
+}
+}
+

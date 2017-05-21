@@ -40,13 +40,20 @@
 %%Packages that I added
 \usepackage[section]{placeins} %keeps floats from bein gplaced outside the sections they are placed in.
 \usepackage{fancyhdr}
-\usepackage{glossaries}
+\usepackage{siunitx} %used by glossary
+\usepackage[acronyms,nogroupskip,nonumberlist]{glossaries}
+\setlength{\glsdescwidth}{0.8\linewidth}
+\glsaddkey{unit}{\glsentrytext{\glslabel}}{\glsentryunit}{\GLsentryunit}{\glsunit}{\Glsunit}{\GLSunit}
+\makeglossaries
+\glsaddall %Include all glossary entries in glossary. This needs to be here for correct page layout during document compiling, but needs to be after \begin{document} to create List of abbreviations input file.
 \overfullrule=0pt
+
+\input{glossaries}
 
 \hyphenation{dis-ser-ta-tion blue-print man-u-script pre-par-ing} %add hyphenation rules for words TeX doesn't know
 
 
-\renewcommand{\rightmark}{\scriptsize A University of California Davis\ldots \hfill Rev.~\#1.0 \quad Compiled: \currenttime, \today}
+\renewcommand{\rightmark}{\scriptsize A University of California Davis\ldots \hfill Rev.~\#2.0 \quad Compiled: \currenttime, \today}
 % a fancier running header that can be used with draftcls options
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,6 +116,7 @@
 
 \begin{document}
 
+%\glsaddall %Include all glossary entries in glossary. This needs to be here to create List of ymbols input file, but need to not be here for correct page layout during document compiling.
 
 \renewcommand{\bibfont}{\singlespacing}
 % need this command to keep single spacing in the bibliography when using natbib
@@ -117,18 +125,6 @@
 %many other bibliography styles are available (IEEEtran, mla, unsrtnat, etc.). Use one appropriate for your field.
 
 \makeintropages %Processes/produces the preliminary pages
-
-%----------------------------------------------------------------------------------------
-%	ABBREVIATIONS
-%----------------------------------------------------------------------------------------
-
-\clearpage % Start a new page
-
-%\title{Abbreviations}
-
-\lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
-
-
 
 
 

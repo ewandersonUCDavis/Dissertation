@@ -1,0 +1,76 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Usage}{1}
+\contentsline {section}{\numberline {3}Class Options}{2}
+\contentsline {section}{\numberline {4}Class Commands}{3}
+\contentsline {subsection}{\numberline {4.1}Preliminary Page Commands}{3}
+\contentsline {subsection}{\numberline {4.2}UMI Abstract Formatting}{5}
+\contentsline {subsection}{\numberline {4.3}Text Formatting Commands}{5}
+\contentsline {section}{\numberline {5}Implementation and Source Code Listing for the Class File}{5}
+\contentsline {subsection}{\numberline {5.1}Title Page Macros}{6}
+\contentsline {subsection}{\numberline {5.2}Option Declarations}{7}
+\contentsline {subsubsection}{\numberline {5.2.1}Line Spacing Definitions}{7}
+\contentsline {subsubsection}{\numberline {5.2.2}Mark Overfull hboxes}{8}
+\contentsline {subsection}{\numberline {5.3}Page Layout}{9}
+\contentsline {subsubsection}{\numberline {5.3.1}Side Margins}{10}
+\contentsline {subsubsection}{\numberline {5.3.2}Vertical Spacing}{10}
+\contentsline {subsubsection}{\numberline {5.3.3}Dimensions of Text}{10}
+\contentsline {subsubsection}{\numberline {5.3.4}Input Font Size Info}{10}
+\contentsline {subsection}{\numberline {5.4}Lists}{10}
+\contentsline {subsubsection}{\numberline {5.4.1}Enumerate}{10}
+\contentsline {subsubsection}{\numberline {5.4.2}Itemize}{11}
+\contentsline {subsubsection}{\numberline {5.4.3}Verse}{11}
+\contentsline {subsubsection}{\numberline {5.4.4}Quotation}{11}
+\contentsline {subsubsection}{\numberline {5.4.5}Quote}{12}
+\contentsline {subsubsection}{\numberline {5.4.6}Labels}{12}
+\contentsline {subsection}{\numberline {5.5}Other Environments}{12}
+\contentsline {subsubsection}{\numberline {5.5.1}Default Title Page}{12}
+\contentsline {subsubsection}{\numberline {5.5.2}Array and Tabular}{12}
+\contentsline {subsubsection}{\numberline {5.5.3}Tabbing}{13}
+\contentsline {subsubsection}{\numberline {5.5.4}Minipage}{13}
+\contentsline {subsubsection}{\numberline {5.5.5}Framebox}{13}
+\contentsline {subsection}{\numberline {5.6}Chapters and Sections}{13}
+\contentsline {subsubsection}{\numberline {5.6.1}Define Counters}{13}
+\contentsline {subsubsection}{\numberline {5.6.2}Chapter Name}{14}
+\contentsline {subsubsection}{\numberline {5.6.3}Part Macro}{14}
+\contentsline {subsubsection}{\numberline {5.6.4}Chapter Macro}{15}
+\contentsline {subsubsection}{\numberline {5.6.5}Sectioning Macros}{16}
+\contentsline {subsubsection}{\numberline {5.6.6}Appendix}{17}
+\contentsline {subsection}{\numberline {5.7}Default List Parameters}{17}
+\contentsline {subsection}{\numberline {5.8}Table of Contents, etc.}{18}
+\contentsline {subsubsection}{\numberline {5.8.1}Table of Contents}{19}
+\contentsline {subsubsection}{\numberline {5.8.2}List of Figures}{20}
+\contentsline {subsubsection}{\numberline {5.8.3}List of Tables}{20}
+\contentsline {subsubsection}{\numberline {5.8.4}Bibliography}{20}
+\contentsline {subsubsection}{\numberline {5.8.5}The Index}{21}
+\contentsline {subsubsection}{\numberline {5.8.6}Footnotes}{22}
+\contentsline {subsection}{\numberline {5.9}Figures and Tables}{22}
+\contentsline {subsubsection}{\numberline {5.9.1}Float Placement Parameters}{22}
+\contentsline {subsubsection}{\numberline {5.9.2}Figure}{23}
+\contentsline {subsubsection}{\numberline {5.9.3}Table}{23}
+\contentsline {subsection}{\numberline {5.10}Page Styles}{24}
+\contentsline {subsubsection}{\numberline {5.10.1}Preliminary Page Style}{24}
+\contentsline {subsubsection}{\numberline {5.10.2}Thesis Body Page Style}{25}
+\contentsline {subsubsection}{\numberline {5.10.3}UMI Abstract Page Style}{26}
+\contentsline {subsubsection}{\numberline {5.10.4}Standard Page Styles}{26}
+\contentsline {subsection}{\numberline {5.11}Miscellaneous}{27}
+\contentsline {subsubsection}{\numberline {5.11.1}\texttt {$\delimiter "026E30F $today} Macro}{27}
+\contentsline {subsubsection}{\numberline {5.11.2}Equation and Eqnarray}{27}
+\contentsline {subsubsection}{\numberline {5.11.3}Element Names (e.g., Contents, Index, Chapter, etc.)}{27}
+\contentsline {subsubsection}{\numberline {5.11.4}Redefine T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{} Text Macros}{28}
+\contentsline {subsubsection}{\numberline {5.11.5}Code Environment}{28}
+\contentsline {subsubsection}{\numberline {5.11.6}Footnotes}{28}
+\contentsline {subsection}{\numberline {5.12}Initialization}{28}
+\contentsline {subsection}{\numberline {5.13}Preliminary Pages}{29}
+\contentsline {subsubsection}{\numberline {5.13.1}Title Page}{29}
+\contentsline {subsubsection}{\numberline {5.13.2}Copyright Page}{31}
+\contentsline {subsubsection}{\numberline {5.13.3}Dedication Page}{31}
+\contentsline {subsubsection}{\numberline {5.13.4}Abstract Page}{32}
+\contentsline {subsubsection}{\numberline {5.13.5}Acknowledgments Page}{32}
+\contentsline {subsubsection}{\numberline {5.13.6}Print All Preliminary Pages}{33}
+\contentsline {subsubsection}{\numberline {5.13.7}UMI Abstract}{34}
+\contentsline {section}{\numberline {6}Implementation and Source Code Listing for the Class Option Files}{35}
+\contentsline {subsection}{\numberline {6.1}Font Sizes}{35}
+\contentsline {subsection}{\numberline {6.2}Footnotes}{38}
+\contentsline {subsection}{\numberline {6.3}Floats}{39}
+\contentsline {subsection}{\numberline {6.4}Paragraphing}{40}
+\contentsline {subsection}{\numberline {6.5}Page Breaking Penalties}{40}
