@@ -55,7 +55,7 @@ year = {2012}}
 
 @TechReport{williams2016,
 author = {Williams, E. and Hensley, J. and Salerno, E.},
-title = {AWEA US wind industry annual market report year ending 2016},
+title = {{AWEA} {U.S.} wind industry annual market report year ending 2016},
 institution = {American Wind Energy Association},
 year = {2016},
 address = {Washington, DC}}
@@ -94,7 +94,7 @@ address = {Washington, DC}}
 @techreport{jonkman2009,
 	Author = {Jonkman, J.M. and Butterfield, S. and Musial, W. and Scott, G.},
 	Institution = {National Renewable Energy Laboratory},
-	Title = {Definition of a 5-MW Reference Wind Turbine for Offshore System Development},
+	Title = {Definition of a 5-{MW} Reference Wind Turbine for Offshore System Development},
 	Type = {Technical Report},
 	Year = {2009},
 	address = {Golden, CO}}
@@ -119,7 +119,7 @@ address = {Washington, DC}}
 	Year = {2004}}
 
 @techreport{vandam2008,
-	Author = {Van Dam, C.P. and Berg, Dale E and Johnson, Scott J},
+	Author = {van Dam, C.P. and Berg, Dale E and Johnson, Scott J},
 	Institution = {Sandia National Laboratories},
 	Title = {Active load control techniques for wind turbines.},
 	Year = {2008}}
@@ -138,7 +138,7 @@ year = {2011}}
 
 
 @Booklet{GE2009,
-title = {GE Energy 1.5 MW Wind Turbine Brochure},
+title = {{GE} Energy 1.5 {MW} Wind Turbine Brochure},
 OPTkey = {•},
 author = {General Electric},
 OPThowpublished = {•},
@@ -172,7 +172,7 @@ OPTannote = {•}
 @techreport{manjock2005,
 	Author = {Manjock, A.},
 	Institution = {Germanischer Lloyd WindEnergie GmbH},
-	Title = {Evaluation Report, Design Codes FAST and ADAMS for Load Calculation of Onshore Wind Turbines},
+	Title = {Evaluation Report, Design Codes {FAST} and {ADAMS} for Load Calculation of Onshore Wind Turbines},
 	Year = {2005}}
 
 @inproceedings{vanderhooft2004,
@@ -253,7 +253,7 @@ OPTannote = {•}
 @misc{NWTC2013,
 	author = {National Renewable Energy Laboratory},
 	howpublished = {Available: http://www.nrel.gov/midc/nwtc\_m2/},
-	title = {National Wind Technology Center, M2 Tower Data, April 25, 2013},
+	title = {National {Wind} {Technology} {Center}, M2 Tower Data, April 25, 2013},
 	address = {Golden, CO},
 	Year = {2013}}
 
@@ -307,7 +307,7 @@ year = {2011}}
 	Author = {Scholbrock, Andrew and Fleming, Paul and Fingersh, Lee and Wright, Alan and Schlipf, David and Haizmann, Florian and Belen, Fred and others},
 	Booktitle = {51th AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition},
 	address = {Grapevine, TX},
-	Title = {Field testing LIDAR based feed-forward controls on the NREL controls advanced research turbine},
+	Title = {Field testing LIDAR based feed-forward controls on the {NREL} controls advanced research turbine},
 	Year = {2013}}
 	
 
@@ -315,7 +315,7 @@ year = {2011}}
 
 
 @Manual{jonkman2005,
-title = {FAST User$'$s Guide},
+title = {{FAST} User$'$s Guide},
 OPTkey = {•},
 author = {Jonkman, Jason M and Buhl Jr, Marshall L},
 organization = {National Renewable Energy Laboratory},
@@ -327,6 +327,13 @@ OPTnote = {•},
 OPTannote = {•}
 }
 
+@Manual{jonkman2013a,
+title = {Addendum to the user’s guides for {FAST}, {A2AD}, and {AeroDyn} released {March} 2010-{February} 2013},
+author = {Jonkman, B.J. and Jonkman, J.M.},
+organization = {National Renewable Energy Laboratory},
+address = {Golden, CO},
+year = {2013}
+}
 
 @conference{grunnet2010,
 	Author = {Grunnet, Jacob Deleuran and Soltani, Mohsen and Knudsen, Torben and Kragelund, Martin and Bak, Thomas},
@@ -338,7 +345,7 @@ OPTannote = {•}
 @misc{jonkman2014,
 	Author = {Jonkman, Jason},
 	Howpublished = {\url{https://wind.nrel.gov/forum/wind/viewtopic.php?f=30I\&t=1048}},
-	Title = {NREL National Wind Technology Center Forum: Blade Pitch Control},
+	Title = {{NREL} {National} {Wind} {Technology} {Center} Forum: Blade Pitch Control},
 	year = {2014}}
 
 @inproceedings{dunne2012,
@@ -455,7 +462,7 @@ year={2009}}
   title={Structural Health and Prognostics Management for Offshore Wind Plants; Final Report of Sandia R\&D Activities.},
   author={Griffith, Daniel Todd},
   year={2015},
-  institution={Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)}
+  institution={Sandia National Laboratories, Albuquerque, NM}
 }
 
 @techreport{carlen2010,
@@ -465,6 +472,15 @@ year={2009}}
   institution={Teknikgruppen AB},
   Address={T\"aby, Sweden}
 }
+
+
+@techreport{buhl2012,
+  title={{NWTC} Design Codes ({WT\_Perf})},
+  author={Buhl, M},
+  year={2012},
+  institution={National Renewable Energy Laboratory, Golden, CO},
+}
+
 
 @article{frost2013,
   title={Integrating Structural Health Management with Contingency Control for Wind Turbines},
@@ -604,8 +620,8 @@ OPTannote = {•}
 
 
 @article{chow2012,
-  title={Verification of computational simulations of the NREL 5 MW rotor with a focus on inboard flow separation},
-  author={Chow, Raymond and Dam, C Pv},
+  title={Verification of computational simulations of the {NREL} 5 {MW} rotor with a focus on inboard flow separation},
+  author={Chow, Raymond and Dam, C.P.},
   journal={Wind Energy},
   volume={15},
   number={8},
@@ -615,8 +631,8 @@ OPTannote = {•}
 }
 
 @article{chow2013,
-  title={Computational investigations of blunt trailing-edge and twist modifications to the inboard region of the NREL 5 MW rotor},
-  author={Chow, Raymond and Dam, van CP},
+  title={Computational investigations of blunt trailing-edge and twist modifications to the inboard region of the {NREL} 5 {MW} rotor},
+  author={Chow, Raymond and van Dam, C.P.},
   journal={Wind Energy},
   volume={16},
   number={3},
@@ -651,7 +667,7 @@ OPTannote = {•}
 
 @InProceedings{jonkman2013,
 author = {Jonkman, J.M.},
-title = {Overview of the FAST Servo-Elastic Module},
+title = {Overview of the {FAST} Servo-Elastic Module},
 booktitle = {NREL Wind Turbine Modeling Workshop},
 OPTcrossref = {•},
 OPTkey = {•},
@@ -868,4 +884,54 @@ OPTannote = {•}
   volume={2},
   year={2014},
   organization={EDP Sciences}
+}
+
+@book{roithmayr2016,
+  title={Dynamics: Theory and Application of {Kane’s} Method},
+  author={Roithmayr, Carlos M and Hodges, Dewey H},
+  year={2016},
+  publisher={Cambridge University Press}
+}
+
+@book{kane1985,
+  title={Dynamics, theory and applications},
+  author={Kane, Thomas R and Levinson, David A},
+  year={1985},
+  publisher={McGraw Hill}
+}
+
+@techreport{kelley2004,
+  title={Lamar low-level jet project interim report},
+  author={Kelley, N and Shirazi, M and Jager, D and Wilde, S and Adams, J and Buhl, M and Sullivan, P and Patton, E},
+  year={2004},
+  institution={National Renewable Energy Laboratory, Golden, CO}
+}
+
+@techreport{simms2001,
+  title={{NREL} unsteady aerodynamics experiment in the {NASA}-{Ames} wind tunnel: a comparison of predictions to measurements},
+  author={Simms, D and Schreck, S and Hand, M and Fingersh, LJ},
+  institution={National Renewable Energy Laboratory, Golden, CO},
+  year={2001}
+}
+
+@techreport{herges2015,
+  title={Overview of the {Sandia} {Wake} {Imaging} {System}.},
+  author={Herges, Thomas},
+  year={2015},
+  institution={Sandia National Laboratories, Albuquerque, NM}
+}
+
+@techreport{naughton2015,
+  title={{Sandia} {Wake} {Imaging} {System} Field Test Report: 2015 Deployment at the {Scaled} {Wind} {Farm} {Technology{ {(SWiFT)} Facility.},
+  author={Naughton, Brian and Herges, Thomas},
+  year={2015},
+  institution={Sandia National Laboratories, Albuquerque, NM}
+}
+
+@inproceedings{herges2015a,
+  title={Preliminary Field Test of the Wind Turbine Wake Imaging System},
+  author={Herges, Thomas and Maniaci, David C and Bossert, David and Schmitt, Randal and Naughton, Brian},
+  booktitle={33rd Wind Energy Symposium},
+  pages={0219},
+  year={2015}
 }
