@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUN 2017 01:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUN 2017 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2152,13 +2152,7 @@ File: Figures/AppendixAFigures/figA-2.png Graphic file (type png)
 Package pdftex.def Info: Figures/AppendixAFigures/figA-2.png used on input line
  34.
 (pdftex.def)             Requested size: 227.6506pt x 176.52362pt.
-
-Overfull \hbox (0.74243pt too wide) in paragraph at lines 40--41
-[]\T1/qcs/m/n/12 FAST mod-els aero-dy-nam-ics us-ing blade-element/momentum the
--ory (BEM). Tur-
- []
-
-[180 <./Figures/AppendixAFigures/figA-2.png>]
+ [180 <./Figures/AppendixAFigures/figA-2.png>]
 <Figures/AppendixAFigures/figA-3.png, id=882, 429.5247pt x 271.0125pt>
 File: Figures/AppendixAFigures/figA-3.png Graphic file (type png)
 
@@ -2579,7 +2573,7 @@ type1/public/tex-gyre/qcsb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 public/tex-gyre/qcsr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /tex-gyre/qcsri.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
 uper/sftt1200.pfb>
-Output written on ucdavisthesis_main.pdf (252 pages, 22442230 bytes).
+Output written on ucdavisthesis_main.pdf (252 pages, 22440794 bytes).
 PDF statistics:
  1554 PDF objects out of 1728 (max. 8388607)
  967 compressed objects within 10 object streams
