@@ -5,8 +5,8 @@
 \contentsline {table}{\numberline {3.2}{\ignorespaces 16 m/s turbulent wind response when feed forward signal is based on true wind speed.}}{60}
 \contentsline {table}{\numberline {3.3}{\ignorespaces Short term damage equivalent loads (DEL) for 570 s simulation of turbine in 16 m/s turbulent wind when feed forward signal is based on true wind speed.}}{60}
 \contentsline {table}{\numberline {3.4}{\ignorespaces EOG response with feed forward signal based on wind speed estimate.}}{65}
-\contentsline {table}{\numberline {3.5}{\ignorespaces 16 m/s turbulent wind response when feed forward signal is based on wind speed estimate.}}{69}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Short term damage equivalent loads for 570 s simulation of turbine in 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{69}
+\contentsline {table}{\numberline {3.5}{\ignorespaces 16 m/s turbulent wind response when feed forward signal is based on wind speed estimate.}}{67}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Short term damage equivalent loads for 570 s simulation of turbine in 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{68}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Effect of derating methods for test case 1: 16 m/s EOG with 30\% derating.}}{83}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Effect of derating methods for test case 2: 12 m/s EOG with 30\% derating.}}{83}
@@ -17,8 +17,9 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Extents and resolutions of the SOWFA grid refinement regions (distances extending from the center of the rotor).}}{115}
 \contentsline {table}{\numberline {5.2}{\ignorespaces NREL 5-MW simulation cases}}{118}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison of power and thrust predicted by three turbine simulation tools.}}{119}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Power and thrust predicted by coarse grid SOWFA simulations as well as the percent difference with fine grid simulations.}}{129}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison of power and thrust predicted by three turbine simulation tools.}}{120}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Percent difference with power and thrust predicted by SOWFA.}}{120}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Power and thrust predicted by coarse grid SOWFA simulations as well as the percent difference with fine grid simulations.}}{129}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {6.1}{\ignorespaces Dimensions and resolutions of the SOWFA grid refinement regions for the Offset Turbines test case. (R = 63 m)}}{146}
 \contentsline {table}{\numberline {6.2}{\ignorespaces Summary of turbine performance metrics and the effects of feed forward derating control for the Offset Turbine test case.}}{157}

@@ -1,4 +1,4 @@
-\documentclass[12pt,draftcls]{ucdavisthesis}
+\documentclass[12pt]{ucdavisthesis}
 
 % PLEASE READ THE MANUAL - ucdavisthesis.pdf (in the package installation directory)
 
@@ -85,7 +85,7 @@
 \degreemonth    {September}
 % Indicate the month in which your degree will be officially conferred. Used for UMI abstract.
 
-\committee{Professor C.P. van Dam}{Professor Stephen K. Robinson}{Dr. Jonathan White}{}{}
+\committee{Professor C.P. van Dam}{Professor Stephen K. Robinson}{Dr. David Maniaci}{}{}
 % These are your committee members. The command accepts up to five committee members so be sure to have five sets of braces, even if there are empties.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

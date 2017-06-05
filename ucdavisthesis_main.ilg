@@ -1,0 +1,24 @@
+This is makeindex, version 2.15 [TeX Live 2015] (kpathsea + Thai support).
+Scanning style file ./ucdavisthesis_main.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file ucdavisthesis_main.alg...
+!! Input index error (file = ucdavisthesis_main.alg, line = 1):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ucdavisthesis_main.alg, line = 2):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ucdavisthesis_main.alg, line = 3):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ucdavisthesis_main.alg, line = 4):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ucdavisthesis_main.alg, line = 5):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ucdavisthesis_main.alg, line = 6):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ucdavisthesis_main.alg, line = 7):
+   -- Missing arguments -- need two (premature LFD).
+done (0 entries accepted, 7 rejected).
+Scanning input file ucdavisthesis_main.acn....done (17 entries accepted, 0 rejected).
+Overall 2 files read (17 entries accepted, 7 rejected).
+Sorting entries....done (71 comparisons).
+Generating output file ucdavisthesis_main.acr....done (49 lines written, 0 warnings).
+Output written in ucdavisthesis_main.acr.
+Transcript written in ucdavisthesis_main.ilg.

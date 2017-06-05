@@ -1,8 +1,8 @@
 \contentsline {section}{List of Figures}{vi}
-\contentsline {section}{List of Tables}{xiv}
-\contentsline {section}{Abstract}{xvi}
-\contentsline {section}{List of Symbols}{xvii}
-\contentsline {section}{List of Abbreviations}{xix}
+\contentsline {section}{List of Tables}{xvi}
+\contentsline {section}{Abstract}{xviii}
+\contentsline {section}{List of Symbols}{xix}
+\contentsline {section}{List of Abbreviations}{xxi}
 \contentsline {chapter}{\numberline {1}Introduction and Background}{1}
 \contentsline {section}{\numberline {1.1}Wind Power}{1}
 \contentsline {section}{\numberline {1.2}Wind Turbine Control}{2}
@@ -48,17 +48,17 @@
 \contentsline {section}{\numberline {4.7}Conclusions.}{108}
 \contentsline {chapter}{\numberline {5}A Comparison of the NREL 5-MW Wake Characteristics Using Both SOWFA and OVERFLOW2}{111}
 \contentsline {section}{\numberline {5.1}Introduction}{111}
-\contentsline {section}{\numberline {5.2}Hybrid LES Method}{112}
-\contentsline {subsection}{\numberline {5.2.1}SOWFA}{112}
-\contentsline {subsection}{\numberline {5.2.2}Actuator Line Model}{112}
-\contentsline {subsection}{\numberline {5.2.3}Aeroelastic Turbine Model}{113}
-\contentsline {subsection}{\numberline {5.2.4}LES Computational Domain}{114}
+\contentsline {section}{\numberline {5.2}Hybrid LES Method}{113}
+\contentsline {subsection}{\numberline {5.2.1}SOWFA}{113}
+\contentsline {subsection}{\numberline {5.2.2}Actuator Line Model}{113}
+\contentsline {subsection}{\numberline {5.2.3}Aeroelastic Turbine Model}{114}
+\contentsline {subsection}{\numberline {5.2.4}LES Computational Domain}{115}
 \contentsline {section}{\numberline {5.3}RANS Computational Method}{115}
 \contentsline {subsection}{\numberline {5.3.1}OVERFLOW2}{115}
-\contentsline {subsection}{\numberline {5.3.2}RANS Computational Meshes}{115}
-\contentsline {subsection}{\numberline {5.3.3}RANS NREL 5-MW Rotor Near-body Grid}{116}
-\contentsline {section}{\numberline {5.4}Comparison of SOWFA and OVERFLOW2 Results}{117}
-\contentsline {section}{\numberline {5.5}Effects of Near-Wake Grid Length}{125}
+\contentsline {subsection}{\numberline {5.3.2}RANS Computational Meshes}{116}
+\contentsline {subsection}{\numberline {5.3.3}RANS NREL 5-MW Rotor Near-body Grid}{117}
+\contentsline {section}{\numberline {5.4}Comparison of SOWFA and OVERFLOW2 Results}{118}
+\contentsline {section}{\numberline {5.5}Effects of Near-Wake Grid Length}{124}
 \contentsline {section}{\numberline {5.6}Effects of Near-Wake Grid Resolution}{128}
 \contentsline {section}{\numberline {5.7}Conclusions}{132}
 \contentsline {chapter}{\numberline {6}Analysis of Feed Forward Derating Control Scheme With SOWFA}{134}
@@ -78,22 +78,22 @@
 \contentsline {section}{\numberline {7.1}Summary and Findings}{172}
 \contentsline {section}{\numberline {7.2}Future Work}{176}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Sample FAST Simulation Input Files}{178}
-\contentsline {section}{\numberline {A.1}primary.fst}{179}
-\contentsline {section}{\numberline {A.2}Aerodyn.ipt}{184}
-\contentsline {chapter}{\numberline {B}WT\_Perf}{185}
-\contentsline {section}{\numberline {B.1}Example WT\_Perf input file.}{187}
-\contentsline {chapter}{\numberline {C}Simulink Controllers}{188}
-\contentsline {section}{\numberline {C.1}Baseline NREL 5-MW Feedback Control.}{188}
-\contentsline {section}{\numberline {C.2}NREL 5-MW Turbine With Feed Forward Optimal Pitch Control.}{193}
-\contentsline {section}{\numberline {C.3}NREL 5-MW Turbine With Feed Forward Derating Control.}{195}
-\contentsline {chapter}{\numberline {D}Damage Equivalent Load (DEL) Calculation}{200}
-\contentsline {chapter}{\numberline {E}SOWFA Implementation of Feed Forward Derating Control}{204}
-\contentsline {section}{\numberline {E.1}Subroutine PitchCtrl()}{204}
-\contentsline {section}{\numberline {E.2}Subroutine UserVSCntrl()}{207}
-\contentsline {section}{\numberline {E.3}Subroutine updateControlParameters()}{211}
-\contentsline {section}{\numberline {E.4}Subroutine UserHSSBr()}{213}
-\contentsline {section}{\numberline {E.5}Module EAControl()}{214}
-\contentsline {section}{\numberline {E.6}Additions to input file primary.fst}{214}
-\contentsline {section}{\numberline {E.7}Additions to FAST\_IO.f90}{214}
+\contentsline {chapter}{\numberline {A}FAST (Fatigue, Aerodynamics, Structures, and Turbulence) }{178}
+\contentsline {section}{\numberline {A.1}primary.fst}{183}
+\contentsline {section}{\numberline {A.2}Aerodyn.ipt}{188}
+\contentsline {chapter}{\numberline {B}WT\_Perf}{189}
+\contentsline {section}{\numberline {B.1}Example WT\_Perf input file.}{192}
+\contentsline {chapter}{\numberline {C}Simulink Controllers}{194}
+\contentsline {section}{\numberline {C.1}Baseline NREL 5-MW Feedback Control.}{194}
+\contentsline {section}{\numberline {C.2}NREL 5-MW Turbine With Feed Forward Optimal Pitch Control.}{199}
+\contentsline {section}{\numberline {C.3}NREL 5-MW Turbine With Feed Forward Derating Control.}{201}
+\contentsline {chapter}{\numberline {D}Damage Equivalent Load (DEL) Calculation}{206}
+\contentsline {chapter}{\numberline {E}SOWFA Implementation of Feed Forward Derating Control}{210}
+\contentsline {section}{\numberline {E.1}Subroutine PitchCtrl()}{210}
+\contentsline {section}{\numberline {E.2}Subroutine UserVSCntrl()}{213}
+\contentsline {section}{\numberline {E.3}Subroutine updateControlParameters()}{217}
+\contentsline {section}{\numberline {E.4}Subroutine UserHSSBr()}{219}
+\contentsline {section}{\numberline {E.5}Module EAControl()}{220}
+\contentsline {section}{\numberline {E.6}Additions to input file primary.fst}{220}
+\contentsline {section}{\numberline {E.7}Additions to FAST\_IO.f90}{220}
 \vspace {2em}

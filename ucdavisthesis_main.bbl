@@ -1,4 +1,4 @@
-\begin{thebibliography}{90}
+\begin{thebibliography}{99}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,7 +13,7 @@ Steve Sawyer and Klaus Rave.
 \bibitem[Jonkman et~al.(2009)Jonkman, Butterfield, Musial, and
   Scott]{jonkman2009}
 J.M. Jonkman, S.~Butterfield, W.~Musial, and G.~Scott.
-\newblock Definition of a 5-mw reference wind turbine for offshore system
+\newblock Definition of a 5-{MW} reference wind turbine for offshore system
   development.
 \newblock Technical report, National Renewable Energy Laboratory, Golden, CO,
   2009.
@@ -38,23 +38,34 @@ B.J. Jonkman and M.~Buhl.
 
 \bibitem[Laboratory(2013)]{NWTC2013}
 National Renewable~Energy Laboratory.
-\newblock National wind technology center, m2 tower data, april 25, 2013.
+\newblock National {Wind} {Technology} {Center}, m2 tower data, april 25, 2013.
 \newblock Available: http://www.nrel.gov/midc/nwtc\_m2/, 2013.
+
+\bibitem[Jonkman(2013)]{jonkman2013}
+J.M. Jonkman.
+\newblock Overview of the {FAST} servo-elastic module.
+\newblock In \emph{NREL Wind Turbine Modeling Workshop}, Golden, CO, 2013.
+  National Renewable Energy Laboratory.
+
+\bibitem[Jonkman and Buhl~Jr(2005)]{jonkman2005}
+Jason~M Jonkman and Marshall~L Buhl~Jr.
+\newblock \emph{{FAST} User$'$s Guide}.
+\newblock National Renewable Energy Laboratory, Golden, CO, 2005.
+
+\bibitem[Burton et~al.(2011)Burton, Jenkins, Sharpe, and Bossanyi]{burton2011}
+T.~Burton, N.~Jenkins, D.~Sharpe, and E.~Bossanyi.
+\newblock \emph{Wind Energy Handbook, Second Edition}.
+\newblock John Wiley and Sons, 2011.
 
 \bibitem[Williams et~al.(2016)Williams, Hensley, and Salerno]{williams2016}
 E.~Williams, J.~Hensley, and E.~Salerno.
-\newblock Awea us wind industry annual market report year ending 2016.
+\newblock {AWEA} {U.S.} wind industry annual market report year ending 2016.
 \newblock Technical report, American Wind Energy Association, Washington, DC,
   2016.
 
 \bibitem[ren(2011)]{ren212011}
 Renewables 2011 global status report.
 \newblock Technical report, REN21, 2011.
-
-\bibitem[Burton et~al.(2011)Burton, Jenkins, Sharpe, and Bossanyi]{burton2011}
-T.~Burton, N.~Jenkins, D.~Sharpe, and E.~Bossanyi.
-\newblock \emph{Wind Energy Handbook, Second Edition}.
-\newblock John Wiley and Sons, 2011.
 
 \bibitem[Larsen et~al.(2005)Larsen, Madsen, and Thomsen]{larsen2005}
 Torben~Juul Larsen, Helge~A Madsen, and Kenneth Thomsen.
@@ -68,20 +79,28 @@ E.A. Bossanyi.
 \newblock In \emph{Proceedings of ``the Science of Making Torque from Wind''
   Conference}, pages 486--497, 2004.
 
-\bibitem[Van~Dam et~al.(2008)Van~Dam, Berg, and Johnson]{vandam2008}
-C.P. Van~Dam, Dale~E Berg, and Scott~J Johnson.
+\bibitem[van Dam et~al.(2008)van Dam, Berg, and Johnson]{vandam2008}
+C.P. van Dam, Dale~E Berg, and Scott~J Johnson.
 \newblock Active load control techniques for wind turbines.
 \newblock Technical report, Sandia National Laboratories, 2008.
 
 \bibitem[Electric(2009)]{GE2009}
 General Electric.
-\newblock Ge energy 1.5 mw wind turbine brochure, 2009.
+\newblock {GE} energy 1.5 {MW} wind turbine brochure, 2009.
 
 \bibitem[Manjock(2005)]{manjock2005}
 A.~Manjock.
-\newblock Evaluation report, design codes fast and adams for load calculation
-  of onshore wind turbines.
+\newblock Evaluation report, design codes {FAST} and {ADAMS} for load
+  calculation of onshore wind turbines.
 \newblock Technical report, Germanischer Lloyd WindEnergie GmbH, 2005.
+
+\bibitem[Kelley et~al.(2004)Kelley, Shirazi, Jager, Wilde, Adams, Buhl,
+  Sullivan, and Patton]{kelley2004}
+N~Kelley, M~Shirazi, D~Jager, S~Wilde, J~Adams, M~Buhl, P~Sullivan, and
+  E~Patton.
+\newblock Lamar low-level jet project interim report.
+\newblock Technical report, National Renewable Energy Laboratory, Golden, CO,
+  2004.
 
 \bibitem[{\O}stergaard et~al.(2007){\O}stergaard, Brath, and
   Stoustrup]{ostergaard2007}
@@ -205,19 +224,15 @@ David Schlipf, Dominik~Johannes Schlipf, and Martin K{\"u}hn.
   Haizmann, Belen, et~al.]{scholbrock2013}
 Andrew Scholbrock, Paul Fleming, Lee Fingersh, Alan Wright, David Schlipf,
   Florian Haizmann, Fred Belen, et~al.
-\newblock Field testing lidar based feed-forward controls on the nrel controls
-  advanced research turbine.
+\newblock Field testing lidar based feed-forward controls on the {NREL}
+  controls advanced research turbine.
 \newblock In \emph{51th AIAA Aerospace Sciences Meeting Including the New
   Horizons Forum and Aerospace Exposition}, Grapevine, TX, 2013.
 
-\bibitem[Jonkman and Buhl~Jr(2005)]{jonkman2005}
-Jason~M Jonkman and Marshall~L Buhl~Jr.
-\newblock \emph{FAST User$'$s Guide}.
-\newblock National Renewable Energy Laboratory, Golden, CO, 2005.
-
 \bibitem[Jonkman(2014)]{jonkman2014}
 Jason Jonkman.
-\newblock Nrel national wind technology center forum: Blade pitch control.
+\newblock {NREL} {National} {Wind} {Technology} {Center} forum: Blade pitch
+  control.
 \newblock \url{https://wind.nrel.gov/forum/wind/viewtopic.php?f=30I\&t=1048},
   2014.
 
@@ -283,8 +298,8 @@ Phillip~W Richards, D~Todd Griffith, and Dewey~H Hodges.
 Daniel~Todd Griffith.
 \newblock Structural health and prognostics management for offshore wind
   plants; final report of sandia r\&d activities.
-\newblock Technical report, Sandia National Laboratories (SNL-NM), Albuquerque,
-  NM (United States), 2015.
+\newblock Technical report, Sandia National Laboratories, Albuquerque, NM,
+  2015.
 
 \bibitem[Jelavi{\'c} et~al.(2013)Jelavi{\'c}, Petrovi{\'c}, Bari{\v{s}}i{\'c},
   and Ivanovi{\'c}]{jelavic2013}
@@ -319,15 +334,15 @@ Susan~A Frost, Kai Goebel, and L{\'e}o Obrecht.
   Special Issue on Wind Turbine PHM}, page~11, 2013.
 
 \bibitem[Chow and Dam(2012)]{chow2012}
-Raymond Chow and C~Pv Dam.
-\newblock Verification of computational simulations of the nrel 5 mw rotor with
-  a focus on inboard flow separation.
+Raymond Chow and C.P. Dam.
+\newblock Verification of computational simulations of the {NREL} 5 {MW} rotor
+  with a focus on inboard flow separation.
 \newblock \emph{Wind Energy}, 15\penalty0 (8):\penalty0 967--981, 2012.
 
-\bibitem[Chow and Dam(2013)]{chow2013}
-Raymond Chow and van~CP Dam.
+\bibitem[Chow and van Dam(2013)]{chow2013}
+Raymond Chow and C.P. van Dam.
 \newblock Computational investigations of blunt trailing-edge and twist
-  modifications to the inboard region of the nrel 5 mw rotor.
+  modifications to the inboard region of the {NREL} 5 {MW} rotor.
 \newblock \emph{Wind Energy}, 16\penalty0 (3):\penalty0 445--458, 2013.
 
 \bibitem[Churchfield et~al.(2012)Churchfield, Lee, and
@@ -363,6 +378,33 @@ Matthew~J Churchfield, S~Lee, and PJ~Moriarty.
 \newblock In \emph{First Symposium on OpenFOAM in Wind Energy}, Oldenburg,
   Germany, 2013.
 
+\bibitem[Simms et~al.(2001)Simms, Schreck, Hand, and Fingersh]{simms2001}
+D~Simms, S~Schreck, M~Hand, and LJ~Fingersh.
+\newblock {NREL} unsteady aerodynamics experiment in the {NASA}-{Ames} wind
+  tunnel: a comparison of predictions to measurements.
+\newblock Technical report, National Renewable Energy Laboratory, Golden, CO,
+  2001.
+
+\bibitem[Herges(2015)]{herges2015}
+Thomas Herges.
+\newblock Overview of the {Sandia} {Wake} {Imaging} {System}.
+\newblock Technical report, Sandia National Laboratories, Albuquerque, NM,
+  2015.
+
+\bibitem[Naughton and Herges(2015)]{naughton2015}
+Brian Naughton and Thomas Herges.
+\newblock {Sandia} {Wake} {Imaging} {System} field test report: 2015 deployment
+  at the {Scaled} {Wind} {Farm} {Technology} {(SWiFT)} facility.
+\newblock Technical report, Sandia National Laboratories, Albuquerque, NM,
+  2015.
+
+\bibitem[Herges et~al.(2015)Herges, Maniaci, Bossert, Schmitt, and
+  Naughton]{herges2015a}
+Thomas Herges, David~C Maniaci, David Bossert, Randal Schmitt, and Brian
+  Naughton.
+\newblock Preliminary field test of the wind turbine wake imaging system.
+\newblock In \emph{33rd Wind Energy Symposium}, page 0219, 2015.
+
 \bibitem[Smagorinsky(1963)]{smagorinsky1963}
 Joseph Smagorinsky.
 \newblock General circulation experiments with the primitive equations: I. the
@@ -384,12 +426,6 @@ JD~Mirocha, B~Kosovic, ML~Aitken, and JK~Lundquist.
   applications.
 \newblock \emph{Journal of Renewable and Sustainable Energy}, 6\penalty0
   (1):\penalty0 013104, 2014.
-
-\bibitem[Jonkman(2013)]{jonkman2013}
-J.M. Jonkman.
-\newblock Overview of the fast servo-elastic module.
-\newblock In \emph{NREL Wind Turbine Modeling Workshop}, Golden, CO, 2013.
-  National Renewable Energy Laboratory.
 
 \bibitem[Buning et~al.(2003)Buning, Jespersen, Pulliam, Chan, Slotnick, Krist,
   and Renze]{buning2003}
@@ -573,6 +609,28 @@ H~Aa Madsen, Gunner~Chr Larsen, Torben~J Larsen, Niels Troldborg, and
 \newblock Calibration and validation of the dynamic wake meandering model for
   implementation in an aeroelastic code.
 \newblock \emph{Journal of Solar Energy Engineering}, 132\penalty0 (4), 2010.
+
+\bibitem[Jonkman and Jonkman(2013)]{jonkman2013a}
+B.J. Jonkman and J.M. Jonkman.
+\newblock \emph{Addendum to the user’s guides for {FAST}, {A2AD}, and
+  {AeroDyn} released {March} 2010-{February} 2013}.
+\newblock National Renewable Energy Laboratory, Golden, CO, 2013.
+
+\bibitem[Kane and Levinson(1985)]{kane1985}
+Thomas~R Kane and David~A Levinson.
+\newblock \emph{Dynamics, theory and applications}.
+\newblock McGraw Hill, 1985.
+
+\bibitem[Roithmayr and Hodges(2016)]{roithmayr2016}
+Carlos~M Roithmayr and Dewey~H Hodges.
+\newblock \emph{Dynamics: Theory and Application of {Kane’s} Method}.
+\newblock Cambridge University Press, 2016.
+
+\bibitem[Buhl(2012)]{buhl2012}
+M~Buhl.
+\newblock {NWTC} design codes ({WT\_Perf}).
+\newblock Technical report, National Renewable Energy Laboratory, Golden, CO,
+  2012.
 
 \bibitem[Hayman(2012)]{hayman2012}
 G.J. Hayman.

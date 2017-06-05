@@ -46,7 +46,7 @@ The rest of this chapter discusses several wind turbine sensor scheme$'$s that c
 	\label{fig2-2}
 \end{figure}
 
-A variety of mean wind speeds were simulated to capture performance over the turbine$'$s whole operating range. Eleven (11) mean wind speeds were simulated ranging from 4 m/s to 24 m/s in 2 m/s increments. At each wind speed 6 unique turbulent wind fields were generated using TurbSim. Each of these wind fields were used to drive a FAST simulation of the NREL 5-MW turbine. Each simulation was 10 minutes long. In total 66 10-minute simulations of an NREL 5-MW turbine in GPLLJ winds were performed.  Sample FAST input files for the simulations can be found in Appendix \ref{AppendixA}.
+A variety of mean wind speeds were simulated to capture performance over the turbine$'$s whole operating range. Eleven (11) mean wind speeds were simulated ranging from 4 m/s to 24 m/s in 2 m/s increments. At each wind speed 6 unique turbulent wind fields were generated using TurbSim. Each of these wind fields were used to drive a FAST simulation of the NREL 5-MW turbine. Each simulation was 10 minutes long. In total 66 10-minute simulations of an NREL 5-MW turbine in GPLLJ winds were performed.  A more detailed description of FAST, as well as sample input files for the simulations can be found in Appendix \ref{AppendixA}.
 
 
 
@@ -204,7 +204,7 @@ Which can be re-arranged to yield equation \ref{eq2-5}. All the terms on the rig
 \end{equation}
 
 
-The coefficient of power $C_p$ is a non-linear function of both tip speed ratio and collective blade pitch angle. It isn$'$t possible to calculate $C_p$ exactly, but for a given tip speed ratio and collective blade pitch it is possible to estimate the $C_p$ of a turbine through simulation.  Figure \ref{fig2-13} illustrates how $C_p$ of the NREL 5-MW turbine varies with $\lambda$ and collective blade pitch angle (in \degree). This plot was generated from a large number of simulations carried out with WT\_Perf.\cite{platt2012} Note that the maximum $C_p$ corresponds to a 0\degree{} collective pitch angle and a tip speed ratio of 7.55. The turbine operates near this point when using variable speed control in region 2. 
+The coefficient of power $C_p$ is a non-linear function of both tip speed ratio and collective blade pitch angle. It isn$'$t possible to calculate $C_p$ exactly, but for a given tip speed ratio and collective blade pitch it is possible to estimate the $C_p$ of a turbine through simulation.  Figure \ref{fig2-13} illustrates how $C_p$ of the NREL 5-MW turbine varies with $\lambda$ and collective blade pitch angle (in \degree). Note that the maximum $C_p$ corresponds to a 0\degree{} collective pitch angle and a tip speed ratio of 7.55. The turbine operates near this point when using variable speed control in region 2. This plot was generated from a large number of simulations carried out with WT\_Perf.\cite{platt2012} A description of WT\_Perf, as well as a sample input file can be found in Appendix \ref{AppendixE}
 
 \begin{figure}[ht]
 	\centering

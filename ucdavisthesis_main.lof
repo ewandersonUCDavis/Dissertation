@@ -65,9 +65,9 @@
 \contentsline {figure}{\numberline {3.30}{\ignorespaces Rotor average wind speed and feed forward wind speed estimate of turbulent 16 m/s wind.}}{66}
 \contentsline {figure}{\numberline {3.31}{\ignorespaces Blade pitch caused by 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{66}
 \contentsline {figure}{\numberline {3.32}{\ignorespaces Rotor speed caused by 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{67}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Power generation caused by 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{67}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Power generation caused by 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{68}
 \contentsline {figure}{\numberline {3.34}{\ignorespaces Tower base fore-aft moment caused by 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{68}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Blade root bending moment (BRM) caused by 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{68}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Blade root bending moment (BRM) caused by 16 m/s turbulent wind when feed forward signal is based on wind speed estimate.}}{69}
 \contentsline {figure}{\numberline {3.36}{\ignorespaces Tower base DEL for various timing errors in feed forward wind speed estimates.}}{72}
 \contentsline {figure}{\numberline {3.37}{\ignorespaces Blade root DEL for various timing errors in feed forward wind speed estimates.}}{73}
 \contentsline {figure}{\numberline {3.38}{\ignorespaces Standard deviation of power production for various timing errors in feed forward wind speed estimates.}}{73}
@@ -104,10 +104,10 @@
 \contentsline {figure}{\numberline {4.30}{\ignorespaces Effect of feed forward derating control on BRM caused by 16 m/s turbulence with large gust.}}{106}
 \contentsline {figure}{\numberline {4.31}{\ignorespaces Effect of feed forward derating control on power generation caused by 16 m/s turbulence with large gust.}}{107}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Near-body overset topology of the NREL 5-MW medium resolution grid system. (Source: R. Chow)}}{117}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Iso-vorticity surfaces of the NREL 5-MW wake system for OVERFLOW2 and SOWFA simulations (Freestream flows from left to right. Images a,b, and c provided by R. Chow).}}{120}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Instantaneous vorticity magnitude at a center cut plane of the NREL 5-MW rotor at \emph {U$_\infty $} = 11 m/s using OVERFLOW2 (Freestream flows from left to right. Source: R. Chow). }}{121}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Instantaneous vorticity magnitude at a center cut plane of the NREL 5-MW rotor for SOWFA simulations at \emph {U$_\infty $}=8, 11, and 15 m/s, as well as the SOWFA near-wake grid used in the simulations (Freestream flows from left to right).}}{122}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Near-body overset topology of the NREL 5-MW medium resolution grid system. (Source: R. Chow)}}{118}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Iso-vorticity surfaces of the NREL 5-MW wake system for OVERFLOW2 and SOWFA simulations (Freestream flows from left to right. Images a,b, and c provided by R. Chow).}}{121}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Instantaneous vorticity magnitude at a center cut plane of the NREL 5-MW rotor at \emph {U$_\infty $} = 11 m/s using OVERFLOW2 (Freestream flows from left to right. Source: R. Chow). }}{122}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Instantaneous vorticity magnitude at a center cut plane of the NREL 5-MW rotor for SOWFA simulations at \emph {U$_\infty $}=8, 11, and 15 m/s, as well as the SOWFA near-wake grid used in the simulations (Freestream flows from left to right).}}{123}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Axial momentum deficit predicted by SOWFA and OVERFLOW2 for the NREL 5-MW rotor at \emph {U$_\infty $} = 8, 11, and 15 m/s.}}{124}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Instantaneous vorticity magnitude at a center cut plane of the NREL 5-MW rotor for SOWFA simulations at \emph {U$_\infty $} = 11 m/s using near-wake grids of various lengths (Freestream flows from left to right). }}{127}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Axial momentum deficit predicted by SOWFA for NREL 5-MW rotor at \emph {U$_\infty $} = 11 m/s using near-wake grids of various lengths. }}{128}
@@ -138,24 +138,28 @@
 \contentsline {figure}{\numberline {6.22}{\ignorespaces Tower base fore-aft bending moment during the Turbine In Wake test case without feed forward control.}}{167}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces structural degrees of freedom of a FAST turbine model.\cite {jonkman2013}}}{179}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces First and second tower bending mode shapes.\cite {jonkman2005}}}{179}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces A double pendulum and a set of generalized coordinates that could be used to derive the equations of motion via Kane's method.}}{180}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces BEM models each turbine blade as a collection of spanwise blade segments.\cite {burton2011}}}{181}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Blade element of width δr at radius r.\cite {burton2011} }}{186}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces BEM models each turbine blade as a collection of spanwise blade segments.\cite {burton2011}}}{190}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Top level Simulink system for model of NREL 5-MW with baseline (no feed forward) control.}}{189}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{190}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Gain Schedule subsystem for Simulink model of NREL 5-MW with baseline control.}}{190}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with baseline control.}}{191}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{191}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Embedded Matlab function GenTorque for baseline control.}}{192}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward optimal pitch control.}}{193}
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{194}
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{195}
-\contentsline {figure}{\numberline {C.10}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward derating control.}}{196}
-\contentsline {figure}{\numberline {C.11}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{197}
-\contentsline {figure}{\numberline {C.12}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{197}
-\contentsline {figure}{\numberline {C.13}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{198}
-\contentsline {figure}{\numberline {C.14}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{199}
-\contentsline {figure}{\numberline {C.15}{\ignorespaces Embedded Matlab function GenTorque for feed forward derating control.}}{199}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Top level Simulink system for model of NREL 5-MW with baseline (no feed forward) control.}}{195}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{196}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Gain Schedule subsystem for Simulink model of NREL 5-MW with baseline control.}}{196}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with baseline control.}}{197}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with baseline control.}}{197}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Embedded Matlab function GenTorque for baseline control.}}{198}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward optimal pitch control.}}{199}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{200}
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward optimal pitch control.}}{201}
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Top level Simulink system for model of NREL 5-MW with feed forward derating control.}}{202}
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Feed Forward Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{203}
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Pitch Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{203}
+\contentsline {figure}{\numberline {C.13}{\ignorespaces Total Pitch Command subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{204}
+\contentsline {figure}{\numberline {C.14}{\ignorespaces Torque Controller subsystem for Simulink model of NREL 5-MW with feed forward derating control.}}{205}
+\contentsline {figure}{\numberline {C.15}{\ignorespaces Embedded Matlab function GenTorque for feed forward derating control.}}{205}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Example of component loading.}}{201}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Example of component loading.}}{207}
 \addvspace {10\p@ }

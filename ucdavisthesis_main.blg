@@ -11,45 +11,45 @@ A level-1 auxiliary file: Chapters/Chapter6.aux
 A level-1 auxiliary file: Chapters/Chapter7.aux
 Database file #1: Bibliography.bib
 Warning--empty author in ren212011
-You've used 90 entries,
+You've used 99 entries,
             2481 wiz_defined-function locations,
-            1030 strings with 21329 characters,
-and the built_in function-call counts, 33919 in all, are:
-= -- 2803
-> -- 1938
-< -- 62
-+ -- 756
-- -- 572
-* -- 2492
-:= -- 5480
-add.period$ -- 273
-call.type$ -- 90
-change.case$ -- 183
-chr.to.int$ -- 86
-cite$ -- 92
-duplicate$ -- 1853
-empty$ -- 2998
-format.name$ -- 698
-if$ -- 7270
+            1061 strings with 22527 characters,
+and the built_in function-call counts, 36800 in all, are:
+= -- 3034
+> -- 2123
+< -- 69
++ -- 828
+- -- 626
+* -- 2683
+:= -- 5983
+add.period$ -- 300
+call.type$ -- 99
+change.case$ -- 203
+chr.to.int$ -- 95
+cite$ -- 101
+duplicate$ -- 2008
+empty$ -- 3229
+format.name$ -- 769
+if$ -- 7868
 int.to.chr$ -- 5
-int.to.str$ -- 91
-missing$ -- 64
-newline$ -- 455
-num.names$ -- 264
-pop$ -- 825
+int.to.str$ -- 100
+missing$ -- 69
+newline$ -- 500
+num.names$ -- 291
+pop$ -- 899
 preamble$ -- 1
-purify$ -- 90
+purify$ -- 99
 quote$ -- 0
-skip$ -- 1069
+skip$ -- 1167
 stack$ -- 0
-substring$ -- 965
-swap$ -- 356
-text.length$ -- 22
+substring$ -- 991
+swap$ -- 380
+text.length$ -- 23
 text.prefix$ -- 1
 top$ -- 0
-type$ -- 627
+type$ -- 684
 warning$ -- 1
-while$ -- 246
+while$ -- 265
 width$ -- 0
-write$ -- 1191
+write$ -- 1306
 (There was 1 warning)

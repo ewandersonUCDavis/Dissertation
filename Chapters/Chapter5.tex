@@ -63,7 +63,7 @@ Accurately modeling a wind turbine with an aeroelastic code is far less computat
 %	SUBSECTION 2-4
 %-----------------------------------
 \subsection{LES Computational Domain}\label{section5-2-4}
-The computational domain extends 20\emph{R} upstream, where the NREL 5-MW rotor radius \emph{R} is equal to 63 m, and 40\emph{R} downstream of the rotor. In the rotor plane the computational domain extends 20\emph{R} from the center of the rotor in both the vertical and horizontal directions. Initially this rectangular domain is composed of 32 m $\times$ 32 m $\times$ 32 m cells, but portions of the domain go through a series of grid refinements to reduce the size of the cells near the NREL 5-MW rotor and wake. The refinement regions are a series of 5 concentric cylinders with centerlines laying on the rotational axis of the NREL 5-MW rotor and having the dimensions shown in Table \ref{Table5-1}. Table \ref{Table5-1} describes the refinement regions in both meters and in terms of the NREL 5-MW rotor radius \emph{R}. This grid refinement scheme is modified for some of the simulations in Sections \ref{section5-4-2} and \ref{section5-4-2}. The modifications are described in those sections.  SOWFA has the capability to model ground effects, as well as the effects of neutral and unstable atmospheric conditions. However, in order to match the OVERFLOW2 simulations, those capabilities are not used and this study is limited to a rotor in a uniform and unbounded freestream.
+The computational domain extends 20\emph{R} upstream, where the NREL 5-MW rotor radius \emph{R} is equal to 63 m, and 40\emph{R} downstream of the rotor. In the rotor plane the computational domain extends 20\emph{R} from the center of the rotor in both the vertical and horizontal directions. Initially this rectangular domain is composed of 32 m $\times$ 32 m $\times$ 32 m cells, but portions of the domain go through a series of grid refinements to reduce the size of the cells near the NREL 5-MW rotor and wake. The refinement regions are a series of 5 concentric cylinders with centerlines laying on the rotational axis of the NREL 5-MW rotor and having the dimensions shown in Table \ref{Table5-1}. Table \ref{Table5-1} describes the refinement regions in both meters and in terms of the NREL 5-MW rotor radius \emph{R}. This grid refinement scheme is modified for some of the simulations in Sections \ref{section5-4-2} and \ref{section5-4-2}. The modifications are described in those sections.  SOWFA has the capability to model ground effects, as well as the effects of neutral and unstable atmospheric conditions. However, in order to match the OVERFLOW2 simulations, those capabilities are not used and this study is limited to a rotor in a uniform and unbounded freestream with neutral stability.
 
 \begin{table}
 \centering
@@ -174,6 +174,23 @@ Table \ref{Table3} shows the rotor power and thrust predicted by SOWFA, OVERFLOW
 \end{tabular}
 \caption{ Comparison of power and thrust predicted by three turbine simulation tools.}
 \label{Table3}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c c c c c c c c c c}
+\hline
+\emph{U$_{\infty}$} & & \multicolumn{2}{c}{SOWFA} & & \multicolumn{2}{c}{OVERFLOW2} & & \multicolumn{2}{c}{FAST}\\
+\cline{3-4} \cline{6-7} \cline{9-10} 
+ {(m/s)} & & $\Delta$Power & $\Delta$Thrust & & $\Delta$Power & $\Delta$Thrust & & $\Delta$Power & $\Delta$Thrust \\
+\hline
+8   & & - & - & & -12.7\% & +4.5\%  & & -5.5\% & +24.9\%\\
+11  & & - & - & & -8.1\%  & +5.8\%  & & -4.6\% & +13.9\%\\
+15  & & - & - & & +8.0\%  & +12.3\% & & +4.0\% & +28.4\%\\
+\hline
+\end{tabular}
+\caption{ Percent difference with power and thrust predicted by SOWFA.}
+\label{Table4}
 \end{table}
 
 Figure \ref{isoVort} shows iso-vorticity plots of the OVERFLOW2 and SOWFA results for all three wind conditions. The OVERFLOW2 and SOWFA results show similar wake behavior, especially for the first 2\emph{R} downstream of the rotor. For the \emph{U$_{\infty}$}  = 8 m/s and \emph{U$_{\infty}$}  = 11 m/s cases the rotor generates strong blade tip vortices that merge approximately 1\emph{R} downstream. Both OVERFLOW2 and SOWFA show the merged blade tip vortices breaking down into larger vortical structures and dissipating, however this process happens further upstream in the OVERFLOW2 results. OVERFLOW2 shows the merged blade tip vortices breaking apart approximately 2\emph{R} downstream and dissipating by the time they reach 10-12\emph{R} downstream. The SOWFA results show the merged blade tip vortices breaking apart approximately 6-8\emph{R} downstream and dissipating more than 12\emph{R} downstream. For the \emph{U$_{\infty}$}  = 15 m/s case both OVERFLOW2 and SOWFA show strong blade tip vortices that do not merge and persist far downstream of the rotor.
