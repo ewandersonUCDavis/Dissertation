@@ -116,7 +116,7 @@ Figure \ref{fig2-6} shows wind speed at the anemometer as well as the average wi
 
 The magnitude of these high frequency fluctuations is not very important from a wind turbine control point of view. Because utility scale wind turbines are such large machines, it isn$'$t practical for the blade pitch and generator torque to track high frequency fluctuations in wind speed. In a typical utility scale turbine controller feedback signals are passed through a low pass filter before they are used for turbine control. To get a more meaningful comparison between anemometer wind speed and rotor average wind speed we should filter out the high frequency fluctuations.
 
-Figure \ref{fig2-8} shows anemometer wind speed and rotor average wind speed from simulation \#13 after they have been passed through a low pass filter. I chose to use a 4th order zero-phase filter with a 0.25 Hz cutoff frequency. A zero phase filter was chosen because it does not result in a delay of the filtered signal. A 0.25 Hz cutoff frequency was chosen because it is the corner frequency of the low pass filter used by the NREL 5-MW control system. 
+Figure \ref{fig2-8} shows anemometer wind speed and rotor average wind speed from simulation \#13 after they have been passed through a low pass filter. A 4th order zero-phase filter with a 0.25 Hz cutoff frequency was used. A zero phase filter was chosen because it does not result in a delay of the filtered signal. A 0.25 Hz cutoff frequency was chosen because it is the corner frequency of the low pass filter used by the NREL 5-MW control system. 
 
 \begin{figure}[htbp]
 	\centering
@@ -185,7 +185,7 @@ Essentially, equation  \ref{eq2-1} says the rotational acceleration of the rotor
 	T_{Aero}=\frac{1}{2}\rho R^{3}\frac{C_{p}(\lambda,\theta)}{\lambda}U^{2} \label{eq2-2}
 \end{equation}
 
-The tip speed ratio $\lambda$ is the ratio between the speed of the turbine blade tips and the speed of the incoming wind. It can be calculated using equation \ref{eq2-3}. The coefficient of power $C_p$ is a non-linear function of both tip speed ratio and collective blade pitch angle. A method for determining $C_p$ will be discussed below
+The tip speed ratio $\lambda$ is the ratio between the speed of the turbine blade tips and the speed of the incoming wind. It can be calculated using equation \ref{eq2-3}. The coefficient of power $C_p$ is a non-linear function of both tip speed ratio and collective blade pitch angle. A method for determining $C_p$ will be discussed below.
 
 \begin{equation}
 	\lambda=\frac{\Omega_{Rotor} R}{U} \label{eq2-3}
@@ -204,7 +204,7 @@ Which can be re-arranged to yield equation \ref{eq2-5}. All the terms on the rig
 \end{equation}
 
 
-The coefficient of power $C_p$ is a non-linear function of both tip speed ratio and collective blade pitch angle. It isn$'$t possible to calculate $C_p$ exactly, but for a given tip speed ratio and collective blade pitch it is possible to estimate the $C_p$ of a turbine through simulation.  Figure \ref{fig2-13} illustrates how $C_p$ of the NREL 5-MW turbine varies with $\lambda$ and collective blade pitch angle (in \degree). Note that the maximum $C_p$ corresponds to a 0\degree{} collective pitch angle and a tip speed ratio of 7.55. The turbine operates near this point when using variable speed control in region 2. This plot was generated from a large number of simulations carried out with WT\_Perf.\cite{platt2012} A description of WT\_Perf, as well as a sample input file can be found in Appendix \ref{AppendixE}
+The coefficient of power $C_p$ is a non-linear function of both tip speed ratio and collective blade pitch angle. It isn$'$t possible to calculate $C_p$ exactly, but for a given tip speed ratio and collective blade pitch it is possible to estimate the $C_p$ of a turbine through simulation.  Figure \ref{fig2-13} illustrates how $C_p$ of the NREL 5-MW turbine varies with $\lambda$ and collective blade pitch angle (in \degree). Note that the maximum $C_p$ corresponds to a 0\degree{} collective pitch angle and a tip speed ratio of 7.55. The turbine operates near this point when using variable speed control in region 2. This plot was generated from a large number of simulations carried out with WT\_Perf.\cite{platt2012} A description of WT\_Perf, as well as a sample input file can be found in Appendix \ref{AppendixE}.
 
 \begin{figure}[ht]
 	\centering
@@ -214,7 +214,7 @@ The coefficient of power $C_p$ is a non-linear function of both tip speed ratio 
 	\label{fig2-13}
 \end{figure}
 
-The collective pitch angle is measured by turbine sensors, but both $C_p$ and $\lambda$ are unknown quantities that can not be directly measured or easily calculated. However, this problem can be fixed. If each $C_p$ value estimated by WT\_Perf is divided by the corresponding $\lambda$ cubed we get a relationship between $C_p\lambda^3, \lambda$, and collective pitch angle. Figure \ref{fig2-14}  illustrates how $C_p / \lambda^3$ of the NREL 5-MW turbine varies with $\lambda$ and collective blade pitch angle (in \degree). 
+The collective pitch angle is measured by turbine sensors, but both $C_p$ and $\lambda$ are unknown quantities that can not be directly measured or easily calculated. However, this problem can be fixed. If each $C_p$ value estimated by WT\_Perf is divided by the corresponding $\lambda$ cubed we get a relationship between $C_p / \lambda^3$, $\lambda$, and collective pitch angle. Figure \ref{fig2-14}  illustrates how $C_p / \lambda^3$ of the NREL 5-MW turbine varies with $\lambda$ and collective blade pitch angle (in \degree). 
 
 \begin{figure}[ht]
 	\centering
@@ -372,7 +372,7 @@ The previous sections have discussed instantaneous wind speed estimation. These 
 
 If we assume Taylor's frozen turbulence hypothesis we can estimate the convection speed based on wind speed measurements taken at a single location. In this secion the convection speed will be estimated using the turbine model based wind speed estimates discussed in Section \ref{section2-4}. Taylor said ``If the speed of the air stream which carries the eddies is very much greater than the turbulence speed, one may assume that the sequence of changes in u at a fixed point are simply due to the passage of an unchanging pattern of turbulent motion over the point.''\cite{taylor1938} In other words, the wind experienced by a point down wind of our sensor will be the same as the wind experienced by the sensor but it will be delayed by a time $t_D = (distance)/(U_{conv})$. It follows from Taylor's hypothesis that the convection speed of the turbulent fluctuations is equal to the local mean speed ($U_{mean}$). 
 
-There is much research into the validity and limitations of Taylr's frozen turbulence hypothesis for estimating the convection speed.\cite{dennis2008,goldschmidt1981,delalamo2009,atkinson2015} Though research shows that the convection speed is not always equal to the mean speed they are frequently assumed to be equal in turbulent flow research. $U_{conv} = U_{mean}$ will be assumed for the remainder of this section. A more accurate estimate of the convection speed could be generated using more than one wind speed measurement location. For example, we could measure the time it took a gust of wind to travel between two turbines. However, this technique can not be used with the data set described in Section \ref{section2-2} because FAST only simulates a single turbine.
+There is much research into the validity and limitations of Taylor's frozen turbulence hypothesis for estimating the convection speed.\cite{dennis2008,goldschmidt1981,delalamo2009,atkinson2015} Though research shows that the convection speed is not always equal to the mean speed they are frequently assumed to be equal in turbulent flow research. $U_{conv} = U_{mean}$ will be assumed for the remainder of this section. A more accurate estimate of the convection speed could be generated using more than one wind speed measurement location. For example, we could measure the time it took a gust of wind to travel between two turbines. However, this technique can not be used with the data set described in Section \ref{section2-2} because FAST only simulates a single turbine.
 
 For the data set described in Section \ref{section2-2} the mean speed ($U_{mean}$) is known. $U_{mean}$ is one of the TurbSim input parameters used to generate the data set. As shown in equation \ref{eq2-6} we can consider the wind passing through the turbine rotor to be a combination of the underlying mean wind sped ($U_{mean}$) and the wind speed fluctuations due to turbulence ($U_{turb}$). If we average the hub height wind speed over a long enough time the wind speed fluctuations due to turbulence will cancel out and we'll be left with the mean wind speed. 
 
@@ -393,7 +393,7 @@ Figure \ref{fig2-25} shows the wind speed estimate, the sixty second average win
 
 By analyzing all of the test cases in our data set with a variety of averaging times we can create Figures \ref{fig2-26} and \ref{fig2-27}. These figures show the maximum and average discrepancies between the various averaged wind speed estimates and the known true mean wind speeds. In Figure \ref{fig2-26} we see that longer average times result in smaller mean discrepancies between the average wind speed estimate and the true mean wind speed. This is expected. Longer averaging times would likely perform even better, but 570 seconds was the longest averaging time we could use with the current data set. The highest mean discrepancies (as a \% of the true mean wind speed) are at low wind speeds. For some wind speeds (16 m/s - 22 m/s) Figure \ref{fig2-26} seems to show diminishing improvement for averaging times over 240 s. However, for the rest of the wind speeds Figure \ref{fig2-26} does not seem to show a clear point of diminishing returns.
 
-Figure \ref{fig2-27} largely shows the same trends that we see in Figure \ref{fig2-26}, but the trends are a little less clear. Figure \ref{fig2-27} shows a few unexpected results. For example, in 18 m/s wind Figure \ref{fig2-27} an averaging time of 240 s gives a larger maximum discrepancy than any of the shorter or longer averaging times. I suspect that if we analyzed a lot more data some of these unexpected results would no longer be present.
+Figure \ref{fig2-27} largely shows the same trends that we see in Figure \ref{fig2-26}, but the trends are a little less clear. Figure \ref{fig2-27} shows a few unexpected results. For example, in 18 m/s wind Figure \ref{fig2-27} an averaging time of 240 s gives a larger maximum discrepancy than any of the shorter or longer averaging times. If a much larger data set were analyzed, some of these unexpected results may no longer be present.
 
 
 

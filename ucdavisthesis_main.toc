@@ -66,34 +66,34 @@
 \contentsline {section}{\numberline {6.2}Controller Implementation}{136}
 \contentsline {section}{\numberline {6.3}Computational Domain and Grid Resolution}{138}
 \contentsline {section}{\numberline {6.4}Tuning and Validation of SOWFA}{140}
-\contentsline {section}{\numberline {6.5}Gust Modeling in SOWFA}{143}
-\contentsline {section}{\numberline {6.6}Offset Turbines Test Case}{145}
-\contentsline {subsection}{\numberline {6.6.1}Simulation Setup}{146}
-\contentsline {subsection}{\numberline {6.6.2}Simulation Results}{148}
-\contentsline {section}{\numberline {6.7}Turbine In Wake Test Case}{157}
-\contentsline {subsection}{\numberline {6.7.1}Simulation Setup}{158}
-\contentsline {subsection}{\numberline {6.7.2}Simulation Results}{159}
-\contentsline {section}{\numberline {6.8}Conclusions}{169}
-\contentsline {chapter}{\numberline {7}Conclusions}{172}
-\contentsline {section}{\numberline {7.1}Summary and Findings}{172}
-\contentsline {section}{\numberline {7.2}Future Work}{176}
+\contentsline {section}{\numberline {6.5}Gust Modeling in SOWFA}{144}
+\contentsline {section}{\numberline {6.6}Offset Turbines Test Case}{146}
+\contentsline {subsection}{\numberline {6.6.1}Simulation Setup}{147}
+\contentsline {subsection}{\numberline {6.6.2}Simulation Results}{149}
+\contentsline {section}{\numberline {6.7}Turbine In Wake Test Case}{159}
+\contentsline {subsection}{\numberline {6.7.1}Simulation Setup}{159}
+\contentsline {subsection}{\numberline {6.7.2}Simulation Results}{161}
+\contentsline {section}{\numberline {6.8}Conclusions}{171}
+\contentsline {chapter}{\numberline {7}Conclusions}{174}
+\contentsline {section}{\numberline {7.1}Summary and Findings}{174}
+\contentsline {section}{\numberline {7.2}Future Work}{178}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}FAST (Fatigue, Aerodynamics, Structures, and Turbulence) }{178}
-\contentsline {section}{\numberline {A.1}primary.fst}{183}
-\contentsline {section}{\numberline {A.2}Aerodyn.ipt}{188}
-\contentsline {chapter}{\numberline {B}WT\_Perf}{189}
-\contentsline {section}{\numberline {B.1}Example WT\_Perf input file.}{192}
-\contentsline {chapter}{\numberline {C}Simulink Controllers}{194}
-\contentsline {section}{\numberline {C.1}Baseline NREL 5-MW Feedback Control.}{194}
-\contentsline {section}{\numberline {C.2}NREL 5-MW Turbine With Feed Forward Optimal Pitch Control.}{199}
-\contentsline {section}{\numberline {C.3}NREL 5-MW Turbine With Feed Forward Derating Control.}{201}
-\contentsline {chapter}{\numberline {D}Damage Equivalent Load (DEL) Calculation}{206}
-\contentsline {chapter}{\numberline {E}SOWFA Implementation of Feed Forward Derating Control}{210}
-\contentsline {section}{\numberline {E.1}Subroutine PitchCtrl()}{210}
-\contentsline {section}{\numberline {E.2}Subroutine UserVSCntrl()}{213}
-\contentsline {section}{\numberline {E.3}Subroutine updateControlParameters()}{217}
-\contentsline {section}{\numberline {E.4}Subroutine UserHSSBr()}{219}
-\contentsline {section}{\numberline {E.5}Module EAControl()}{220}
-\contentsline {section}{\numberline {E.6}Additions to input file primary.fst}{220}
-\contentsline {section}{\numberline {E.7}Additions to FAST\_IO.f90}{220}
+\contentsline {chapter}{\numberline {A}FAST (Fatigue, Aerodynamics, Structures, and Turbulence) }{180}
+\contentsline {section}{\numberline {A.1}primary.fst}{185}
+\contentsline {section}{\numberline {A.2}Aerodyn.ipt}{190}
+\contentsline {chapter}{\numberline {B}WT\_Perf}{191}
+\contentsline {section}{\numberline {B.1}Example WT\_Perf input file.}{194}
+\contentsline {chapter}{\numberline {C}Simulink Controllers}{196}
+\contentsline {section}{\numberline {C.1}Baseline NREL 5-MW Feedback Control.}{196}
+\contentsline {section}{\numberline {C.2}NREL 5-MW Turbine With Feed Forward Optimal Pitch Control.}{201}
+\contentsline {section}{\numberline {C.3}NREL 5-MW Turbine With Feed Forward Derating Control.}{203}
+\contentsline {chapter}{\numberline {D}Damage Equivalent Load (DEL) Calculation}{208}
+\contentsline {chapter}{\numberline {E}SOWFA Implementation of Feed Forward Derating Control}{212}
+\contentsline {section}{\numberline {E.1}Subroutine PitchCtrl()}{212}
+\contentsline {section}{\numberline {E.2}Subroutine UserVSCntrl()}{215}
+\contentsline {section}{\numberline {E.3}Subroutine updateControlParameters()}{219}
+\contentsline {section}{\numberline {E.4}Subroutine UserHSSBr()}{221}
+\contentsline {section}{\numberline {E.5}Module EAControl()}{222}
+\contentsline {section}{\numberline {E.6}Additions to input file primary.fst}{222}
+\contentsline {section}{\numberline {E.7}Additions to FAST\_IO.f90}{222}
 \vspace {2em}
